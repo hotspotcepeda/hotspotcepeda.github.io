@@ -25,9 +25,9 @@ header:
     paddingY: 0
     align: center
     title:
-      - HUGO
+      - Cepeda la Mora
     subtitle:
-      - The world’s fastest framework for building websites
+      - Red comunitaria
     titleColor: 
     titleShadow: true
     titleFontSize: 44

@@ -1,5 +1,5 @@
-baseURL = "http://example.org"
-title = "Hugo Zzo Theme"
+baseURL = "https://hotspotcepeda.github.io/"
+title = "Red comunitaria Cepeda la Mora"
 theme = "zzo"
 
 defaultContentLanguage = "en"
@@ -9,7 +9,7 @@ hasCJKLanguage = true
 summaryLength = 70
 buildFuture = true
 
-copyright = "&copy;{year}, All Rights Reserved"
+copyright = "&copy;{year}, Creative Commons Zero v1.0 Universal"
 timeout = 10000
 enableEmoji = true
 paginate = 13
