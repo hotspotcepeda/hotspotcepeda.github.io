@@ -1,6 +1,6 @@
 logoText = "HotspotCepeda"
 logoType = "short" # long, short
-description = "Seguimiento red comunitaria Cepeda la Mora."
+description = "Red comunitaria Cepeda la Mora."
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
@@ -37,7 +37,7 @@ enableSearch = true
 enableSearchHighlight = true
 enableGoToTop = true
 enableWhoami = true
-summaryShape = "classic" # card, classic, compact
+summaryShape = "compact" # card, classic, compact
 searchResultPosition = "main" # side, main
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 archivePaginate = 13
@@ -56,14 +56,14 @@ publicationIcon = "📚"
 typeIcon = "🎯"
 
 # whoami
-myname = "HotspotCepeda"
+myname = ""
 email = "hotspotcepeda@gmail.com"
-whoami = "Web Developer"
+whoami = ""
 bioImageUrl = ""
 useGravatar = false
 location = "Cepeda la Mora, Ávila. Spain."
 organization = "HotspotCepeda"
-link = "https://hotspotcepeda.github.io/"
+link = "https://github.com/hotspotcepeda"
 
 # sidebar
 enableBio = true
@@ -88,7 +88,7 @@ enableSidebarPostsByOrder = false
 showPoweredBy = false
 showFeedLinks = true
 showSocialLinks = true
-enableLangChange = false
+enableLangChange = true
 enableThemeChange = true
 
 # service

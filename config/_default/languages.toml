@@ -1,13 +1,13 @@
+[es]
+  title = "HotspotCepeda"
+  languageName = "Español"
+  weight = 1
+  languagedir = "ltr"
+  contentdir = "content/es"
+
 [en]
   title = "HotspotCepeda"
   languageName = "English"
-  weight = 1
-  languagedir = "ltr"
-  contentdir = "content/en"
-
-[ko]
-  title = "HotspotCepeda"
-  languageName = "한국어"
   weight = 2
   languagedir = "ltr"
-  contentdir = "content/ko"
+  contentdir = "content/en"
