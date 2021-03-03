@@ -11,9 +11,9 @@
     <description>Recent content in index on HotspotCepeda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
-    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
-    <copyright>&amp;copy;{year}, Creative Commons Zero v1.0 Universal</copyright>
+    <managingEditor>hotspotcepeda@gmail.com</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     
         <atom:link href="https://hotspotcepeda.github.io/en/tags/index/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,7 @@
         <title>Posts</title>
         <link>https://hotspotcepeda.github.io/en/posts/</link>
         <pubDate>Sat, 25 Jan 2020 06:40:51 +0900</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <author>hotspotcepeda@gmail.com</author>
         
         <guid>https://hotspotcepeda.github.io/en/posts/</guid>
         <description></description>

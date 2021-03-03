@@ -11,9 +11,9 @@
     <description>Recent content in syntax on HotspotCepeda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
-    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
-    <copyright>&amp;copy;{year}, Creative Commons Zero v1.0 Universal</copyright>
+    <managingEditor>hotspotcepeda@gmail.com</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Fri, 20 Dec 2019 12:00:06 +0900</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/en/categories/syntax/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>Markdown Syntax Guide</title>
         <link>https://hotspotcepeda.github.io/en/posts/markdown-syntax/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <author>hotspotcepeda@gmail.com</author>
         <atom:modified>Fri, 20 Dec 2019 12:00:06 +0900</atom:modified>
         <guid>https://hotspotcepeda.github.io/en/posts/markdown-syntax/</guid>
         <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>

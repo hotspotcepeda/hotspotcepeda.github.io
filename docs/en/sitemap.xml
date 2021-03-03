@@ -17,8 +17,8 @@
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="https://hotspotcepeda.github.io/ko/"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -50,16 +50,6 @@
   <url>
     <loc>https://hotspotcepeda.github.io/en/posts/</loc>
     <lastmod>2020-01-25T06:40:51+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hotspotcepeda.github.io/ko/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/posts/"
-                />
   </url>
   
   <url>
@@ -77,8 +67,8 @@
     <lastmod>2020-01-25T06:40:51+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="https://hotspotcepeda.github.io/ko/tags/"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -102,8 +92,8 @@
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="https://hotspotcepeda.github.io/ko/categories/"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -137,8 +127,8 @@
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="ko"
-                href="https://hotspotcepeda.github.io/ko/series/"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/series/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -290,46 +280,16 @@
   <url>
     <loc>https://hotspotcepeda.github.io/en/gallery/cartoon/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hotspotcepeda.github.io/ko/gallery/cartoon/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/gallery/cartoon/"
-                />
   </url>
   
   <url>
     <loc>https://hotspotcepeda.github.io/en/gallery/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hotspotcepeda.github.io/ko/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/gallery/"
-                />
   </url>
   
   <url>
     <loc>https://hotspotcepeda.github.io/en/gallery/photo/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hotspotcepeda.github.io/ko/gallery/photo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/gallery/photo/"
-                />
   </url>
   
   <url>
@@ -360,31 +320,11 @@
   <url>
     <loc>https://hotspotcepeda.github.io/en/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hotspotcepeda.github.io/ko/archive/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/archive/"
-                />
   </url>
   
   <url>
     <loc>https://hotspotcepeda.github.io/en/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hotspotcepeda.github.io/ko/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/about/"
-                />
   </url>
   
   <url>
@@ -404,16 +344,6 @@
   
   <url>
     <loc>https://hotspotcepeda.github.io/en/tags/index/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://hotspotcepeda.github.io/ko/tags/index/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/tags/index/"
-                />
   </url>
   
 </urlset>
