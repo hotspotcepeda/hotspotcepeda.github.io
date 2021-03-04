@@ -57,16 +57,16 @@ typeIcon = "🎯"
 
 # whoami
 myname = ""
-email = "hotspotcepeda@gmail.com"
+email = ""
 whoami = ""
 bioImageUrl = ""
 useGravatar = false
 location = "Cepeda la Mora, Ávila. Spain."
 organization = "HotspotCepeda"
-link = "https://github.com/hotspotcepeda"
+link = ""
 
 # sidebar
-enableBio = true
+enableBio = false
 enableBioImage = true
 enableSidebar = true
 enableSidebarTags = true
@@ -157,7 +157,7 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "hotspotcepeda@gmail.com"
+  email = ""
   phone = ""
   facebook = ""
   twitter = ""
@@ -182,7 +182,7 @@ commento = false
   zhihu = ""
   signal = ""
   whatsapp = ""
-  matrix = ""
+  matrix = "https://matrix.to/#/#hotspotcepeda:matrix.org"
   xmpp = ""
   dev-to = ""
   gitea = ""

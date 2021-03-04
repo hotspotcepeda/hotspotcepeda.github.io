@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: hotspotcepeda.github.io
+Token: 6cd3b111eda4afe1ded296c6bb55f2e0721128e8aee526ab0d86ce1e7e624b88
