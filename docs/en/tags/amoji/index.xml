@@ -11,8 +11,6 @@
     <description>Recent content in amoji on HotspotCepeda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hotspotcepeda@gmail.com</managingEditor>
-    <webMaster>hotspotcepeda@gmail.com</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Mon, 16 Dec 2019 12:00:06 +0900</lastBuildDate>
     
@@ -24,7 +22,7 @@
         <title>Emoji Support</title>
         <link>https://hotspotcepeda.github.io/en/posts/emoji-support/</link>
         <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>hotspotcepeda@gmail.com</author>
+        
         <atom:modified>Mon, 16 Dec 2019 12:00:06 +0900</atom:modified>
         <guid>https://hotspotcepeda.github.io/en/posts/emoji-support/</guid>
         <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>

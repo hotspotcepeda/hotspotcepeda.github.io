@@ -11,8 +11,6 @@
     <description>Recent content in math on HotspotCepeda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hotspotcepeda@gmail.com</managingEditor>
-    <webMaster>hotspotcepeda@gmail.com</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sat, 16 Nov 2019 12:00:06 +0900</lastBuildDate>
     
@@ -24,7 +22,7 @@
         <title>MathJax support</title>
         <link>https://hotspotcepeda.github.io/en/posts/test-mathjax/</link>
         <pubDate>Sat, 16 Nov 2019 12:00:06 +0900</pubDate>
-        <author>hotspotcepeda@gmail.com</author>
+        
         <atom:modified>Sat, 16 Nov 2019 12:00:06 +0900</atom:modified>
         <guid>https://hotspotcepeda.github.io/en/posts/test-mathjax/</guid>
         <description>When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
@@ -57,7 +55,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</description>
         <title>Katex support</title>
         <link>https://hotspotcepeda.github.io/en/posts/test-katex/</link>
         <pubDate>Fri, 15 Nov 2019 12:00:06 +0900</pubDate>
-        <author>hotspotcepeda@gmail.com</author>
+        
         <atom:modified>Fri, 15 Nov 2019 12:00:06 +0900</atom:modified>
         <guid>https://hotspotcepeda.github.io/en/posts/test-katex/</guid>
         <description>The following

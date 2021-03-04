@@ -11,8 +11,6 @@
     <description>Recent content in Presentations on HotspotCepeda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hotspotcepeda@gmail.com</managingEditor>
-    <webMaster>hotspotcepeda@gmail.com</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Wed, 30 Oct 2019 20:48:10 +0900</lastBuildDate>
     
@@ -24,7 +22,7 @@
         <title>Fourth</title>
         <link>https://hotspotcepeda.github.io/en/presentation/dir/fourth/</link>
         <pubDate>Wed, 30 Oct 2019 20:48:10 +0900</pubDate>
-        <author>hotspotcepeda@gmail.com</author>
+        
         <atom:modified>Wed, 30 Oct 2019 20:48:10 +0900</atom:modified>
         <guid>https://hotspotcepeda.github.io/en/presentation/dir/fourth/</guid>
         <description></description>
@@ -54,7 +52,7 @@
         <title>Third</title>
         <link>https://hotspotcepeda.github.io/en/presentation/third/</link>
         <pubDate>Wed, 30 Oct 2019 20:46:30 +0900</pubDate>
-        <author>hotspotcepeda@gmail.com</author>
+        
         <atom:modified>Wed, 30 Oct 2019 20:46:30 +0900</atom:modified>
         <guid>https://hotspotcepeda.github.io/en/presentation/third/</guid>
         <description></description>
@@ -84,7 +82,7 @@
         <title>Second</title>
         <link>https://hotspotcepeda.github.io/en/presentation/second/</link>
         <pubDate>Wed, 30 Oct 2019 20:45:24 +0900</pubDate>
-        <author>hotspotcepeda@gmail.com</author>
+        
         <atom:modified>Wed, 30 Oct 2019 20:45:24 +0900</atom:modified>
         <guid>https://hotspotcepeda.github.io/en/presentation/second/</guid>
         <description></description>
@@ -114,7 +112,7 @@
         <title>First</title>
         <link>https://hotspotcepeda.github.io/en/presentation/first/</link>
         <pubDate>Wed, 30 Oct 2019 19:45:20 +0900</pubDate>
-        <author>hotspotcepeda@gmail.com</author>
+        
         <atom:modified>Wed, 30 Oct 2019 19:45:20 +0900</atom:modified>
         <guid>https://hotspotcepeda.github.io/en/presentation/first/</guid>
         <description></description>
