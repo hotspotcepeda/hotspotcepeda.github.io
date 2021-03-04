@@ -66,10 +66,10 @@ organization = "HotspotCepeda"
 link = ""
 
 # sidebar
-enableBio = false
+enableBio = true
 enableBioImage = true
 enableSidebar = true
-enableSidebarTags = true
+enableSidebarTags = false
 enableSidebarSeries = true
 enableSidebarCategories = true
 enableHomeSidebarTitles = true
