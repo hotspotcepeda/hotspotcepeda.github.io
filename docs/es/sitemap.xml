@@ -3,20 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hotspotcepeda.github.io/es/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/categories/"
-                />
-  </url>
-  
-  <url>
     <loc>https://hotspotcepeda.github.io/es/</loc>
     <xhtml:link
                 rel="alternate"
@@ -27,6 +13,20 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://hotspotcepeda.github.io/es/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/categories/"
                 />
   </url>
   

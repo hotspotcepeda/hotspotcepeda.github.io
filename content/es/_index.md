@@ -27,7 +27,7 @@ header:
     title:
       - Cepeda la Mora
     subtitle:
-      - The community network.
+      - La red comunitaria.
     titleColor: 
     titleShadow: true
     titleFontSize: 44
