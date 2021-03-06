@@ -1,12 +1,12 @@
 [es]
-  title = "HotspotCepeda"
+  title = "HotspotCepeda, La red comunitaria."
   languageName = "Spanish"
   weight = 1
   languagedir = "ltr"
   contentdir = "content/es"
 
 [en]
-  title = "HotspotCepeda"
+  title = "HotspotCepeda. The community network."
   languageName = "English"
   weight = 2
   languagedir = "ltr"

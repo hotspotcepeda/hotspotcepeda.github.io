@@ -49,3 +49,9 @@
   name = "Pub"
   url = "publication"
   weight = 7
+
+[[main]]
+  identifier = "weather"
+  name = "Weather"
+  url = "http://cepeda.qui.guifi.net/weewx/index.html"
+  weight = 8
