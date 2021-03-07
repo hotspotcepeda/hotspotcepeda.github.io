@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://hotspotcepeda.github.io/es/</loc>
-    <lastmod>2021-03-07T00:46:37+01:00</lastmod>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,6 +15,26 @@
                 hreflang="es"
                 href="https://hotspotcepeda.github.io/es/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/gallery/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/gallery/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/gallery/paisaje/</loc>
+    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -68,17 +88,87 @@
   </url>
   
   <url>
-    <loc>https://hotspotcepeda.github.io/es/about/</loc>
+    <loc>https://hotspotcepeda.github.io/es/sitio/</loc>
     <lastmod>2021-03-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/gallery/red/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/presentation/dir/fourth/</loc>
+    <lastmod>2019-10-30T20:48:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hotspotcepeda.github.io/en/about/"
+                href="https://hotspotcepeda.github.io/en/presentation/dir/fourth/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://hotspotcepeda.github.io/es/about/"
+                href="https://hotspotcepeda.github.io/es/presentation/dir/fourth/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/presentation/</loc>
+    <lastmod>2019-10-30T20:48:10+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/presentation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/presentation/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/presentation/third/</loc>
+    <lastmod>2019-10-30T20:46:30+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/presentation/third/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/presentation/third/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/presentation/second/</loc>
+    <lastmod>2019-10-30T20:45:24+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/presentation/second/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/presentation/second/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/presentation/first/</loc>
+    <lastmod>2019-10-30T19:45:20+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/presentation/first/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/presentation/first/"
                 />
   </url>
   

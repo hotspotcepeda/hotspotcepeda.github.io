@@ -1,7 +1,7 @@
 [[main]]
-  identifier = "about"
-  name = "About"
-  url = "about"
+  identifier = "sitio"
+  name = "Sitio"
+  url = "sitio"
   weight = 1
 
 [[main]]
@@ -17,20 +17,20 @@
   weight = 3
 
 [[main]]
-  identifier = "gallery"
-  name = "Galeria"
+  identifier = "fotos"
+  name = "Fotos"
   url = "gallery"
   weight = 4
     
 [[main]]
-  parent = "gallery"
-  name = "Galeria cartoon"
-  url = "gallery/cartoon"
+  parent = "fotos"
+  name = "Red"
+  url = "gallery/red"
 
 [[main]]
-  parent = "gallery"
-  name = "Galeria fotos"
-  url = "gallery/photo"
+  parent = "fotos"
+  name = "Paisaje"
+  url = "gallery/paisaje"
 
 [[main]]
   identifier = "posts"
