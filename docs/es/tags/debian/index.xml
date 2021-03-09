@@ -52,6 +52,44 @@
         
       </item>
       
+      <item>
+        <title>NEXTCLOUD DEBIAN SERVER AND CLIENT</title>
+        <link>https://hotspotcepeda.github.io/es/posts/nextcloud_debian_debian_server_and_client/</link>
+        <pubDate>Sun, 07 Mar 2021 00:46:37 +0100</pubDate>
+        
+        <atom:modified>Sun, 07 Mar 2021 00:46:37 +0100</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/nextcloud_debian_debian_server_and_client/</guid>
+        <description>ADD NEXTCLOUD REPOSITORY
+Add the Nextcloud repository in the /etc/apt/sources.d/nextcloud.list
+1  echo &amp;#39;deb http://apt.jurisic.org/debian/ jessie main contrib non-free&amp;#39; &amp;gt;&amp;gt; /etc/apt/sources.list.d/nextcloud.list   Install release key of Nextcloud repository:
+1  wget -q http://apt.jurisic.org/Release.key -O- | apt-key add -   And run apt-get update to download the list of packages.
+1  apt-get update   INSTALL NEXTCLOUD CLIENT
+Install Nextcloud server with:
+1  apt-get install nextcloud-client   INSTALL NEXTCLOUD SERVER</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>docker</category>
+            
+          
+            
+              <category>nextcloud</category>
+            
+          
+            
+              <category>debian</category>
+            
+          
+        
+        
+        
+      </item>
+      
 
     
   </channel>
