@@ -4,7 +4,7 @@ date: 2021-03-07T00:46:37+01:00
 draft: false
 description: "NEXTCLOUD DEBIAN SERVER AND CLIENT"
 hideToc: false
-enableToc: true
+enableToc: false
 enableTocContent: false
 author: HotspotCepeda 
 authorEmoji: "🗻"
