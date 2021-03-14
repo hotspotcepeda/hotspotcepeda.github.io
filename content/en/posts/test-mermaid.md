@@ -16,13 +16,8 @@ libraries:
 image: images/feature2/workflow.png
 ---
 
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```
+
+
 
 ```mermaid
 sequenceDiagram

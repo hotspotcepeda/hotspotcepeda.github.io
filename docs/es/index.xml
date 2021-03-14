@@ -73,6 +73,118 @@
         
       </item>
       
+      <item>
+        <title>La propuesta</title>
+        <link>https://hotspotcepeda.github.io/es/posts/la_propuesta/</link>
+        <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Thu, 16 Apr 2015 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/la_propuesta/</guid>
+        <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/content.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Arrancando</title>
+        <link>https://hotspotcepeda.github.io/es/posts/arrancando/</link>
+        <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 03 Jan 2014 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/arrancando/</guid>
+        <description>&lt;p&gt;En este artículo se comenta como intenté buscar el apoyo en asociaciones locales para que promovieran la iniciativa de una red de telecomunicaciones comunitaria, de alguna manera, para conseguir tener una wifi púbica, un acceso público a internet en un área rural desfavorecida. Por aquel entonces las conexiones a internet en Cepeda se hacían mediante el ISP Iberbanda (que daba conexiones de 1 2 y 3 Mb simétricos), y el 3G era un lujo.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>asociaciones</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Themes Guide</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Hotspot</title>
+        <link>https://hotspotcepeda.github.io/es/posts/hotspot/</link>
+        <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 03 Jan 2014 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/hotspot/</guid>
+        <description>&lt;p&gt;Y se puso en producción el hotspot, un hotspot en wifi es un punto caliente, un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>Mikrotik</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Themes Guide</category>
+            
+          
+        
+      </item>
+      
 
     
   </channel>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>asociaciones on HotspotCepeda, La red comunitaria.</title>
+    <link>https://hotspotcepeda.github.io/es/tags/asociaciones/</link>
+    <description>Recent content in asociaciones on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Fri, 03 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/asociaciones/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Arrancando</title>
+        <link>https://hotspotcepeda.github.io/es/posts/arrancando/</link>
+        <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 03 Jan 2014 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/arrancando/</guid>
+        <description>&lt;p&gt;En este artículo se comenta como intenté buscar el apoyo en asociaciones locales para que promovieran la iniciativa de una red de telecomunicaciones comunitaria, de alguna manera, para conseguir tener una wifi púbica, un acceso público a internet en un área rural desfavorecida. Por aquel entonces las conexiones a internet en Cepeda se hacían mediante el ISP Iberbanda (que daba conexiones de 1 2 y 3 Mb simétricos), y el 3G era un lujo.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>asociaciones</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Themes Guide</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
