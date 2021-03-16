@@ -102,6 +102,37 @@
       </item>
       
       <item>
+        <title>ralph</title>
+        <link>https://hotspotcepeda.github.io/es/posts/ralph/</link>
+        <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Thu, 16 Apr 2015 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/ralph/</guid>
+        <description>https://ralph-ng.readthedocs.io/
+Ralph es un sistema de gestión de activos, DCIM y CMDB simple pero potente para centros de datos y back office.
+Características:
+ realizar un seguimiento de las compras de activos y su ciclo de vida sistema de flujo flexible para el ciclo de vida de los activos centro de datos y soporte de back office Visualización dc incorporada  Ralph en Docker 1 2 3  docker run -i -t --name=&amp;#34;mysql_ralph&amp;#34; -v /var/lib/mysql -v /home/ralph/.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/content.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>ralph</category>
+            
+          
+            
+              <category>docker</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Arrancando</title>
         <link>https://hotspotcepeda.github.io/es/posts/arrancando/</link>
         <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>

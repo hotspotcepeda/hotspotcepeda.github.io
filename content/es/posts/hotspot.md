@@ -23,9 +23,9 @@ image: images/feature1/markdown.png
 Y se puso en producción el hotspot, un hotspot en wifi es un punto caliente, un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.
 <!--more-->
 ## Mikrotik
-Para hacer la gestión de los dispositivos que se conectan a pie de calle se usa una ROUTERBOARD MIKROTIK RB750GL (En la actualidad descatalogado), este router está dedicado solo para esta tarea, lleva funcionando 24x7 desde año 2014 de la era pre-covid.
+Para hacer la gestión de los dispositivos que se conectan a pie de calle se usa una ROUTERBOARD MIKROTIK RB750GL, este router está dedicado solo para esta tarea, lleva funcionando 24x7 desde año 2014 de la era pre-covid.
 ![ROUTERBOARD MIKROTIK RB750GL](/gallery/red/rb750gl.png)
-La red de captación del hotspot va toda en 2.4 Ghz:
+La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b:
 ```mermaid
 graph TD;
   RB750GL-->WAN_ether1;
