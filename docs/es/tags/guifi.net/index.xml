@@ -47,6 +47,51 @@
       </item>
       
       <item>
+        <title>Hotspot</title>
+        <link>https://hotspotcepeda.github.io/es/posts/hotspot/</link>
+        <pubDate>Sun, 05 Jan 2014 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sun, 05 Jan 2014 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/hotspot/</guid>
+        <description>&lt;p&gt;Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.&lt;br /&gt;
+La salida a internet la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>mikrotik</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Arrancando</title>
         <link>https://hotspotcepeda.github.io/es/posts/arrancando/</link>
         <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
@@ -67,50 +112,6 @@
           
             
               <category>asociaciones</category>
-            
-          
-        
-        
-          
-            
-              <category>red</category>
-            
-          
-        
-        
-          
-            
-              <category>Themes Guide</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Hotspot</title>
-        <link>https://hotspotcepeda.github.io/es/posts/hotspot/</link>
-        <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
-        
-        <atom:modified>Fri, 03 Jan 2014 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/hotspot/</guid>
-        <description>&lt;p&gt;Y se puso en producción el hotspot, un hotspot en wifi es un punto caliente, un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.&lt;/p&gt;</description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>guifi.net</category>
-            
-          
-            
-              <category>hotspot</category>
-            
-          
-            
-              <category>Mikrotik</category>
             
           
         

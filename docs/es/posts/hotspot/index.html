@@ -1326,11 +1326,11 @@
 <meta name="description" content="hotspot" />
 
 
-<meta name="keywords" content="guifi.net,hotspot,Mikrotik">
+<meta name="keywords" content="guifi.net,hotspot,mikrotik">
 
-<meta name="created" content="2014-01-03T00:00:00&#43;0000">
-<meta name="modified" content="2014-01-03T00:00:00&#43;0000">
-<meta property="article:published_time" content="2014-01-03T00:00:00&#43;0000">
+<meta name="created" content="2014-01-05T00:00:00&#43;0000">
+<meta name="modified" content="2014-01-05T00:00:00&#43;0000">
+<meta property="article:published_time" content="2014-01-05T00:00:00&#43;0000">
 
 <meta name="author" content="HotspotCepeda">
 <meta property="article:author" content="https://hotspotcepeda.github.io/es/posts/hotspot/@HotspotCepeda">
@@ -1387,11 +1387,11 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "headline": "Hotspot",
-    "datePublished": "2014-01-03T00:00:00Z",
-    "dateModified": "2014-01-03T00:00:00Z",
+    "datePublished": "2014-01-05T00:00:00Z",
+    "dateModified": "2014-01-05T00:00:00Z",
     "url" : "https://hotspotcepeda.github.io/es/posts/hotspot/",
     "description": "hotspot",
-    "keywords": ["guifi.net","hotspot","Mikrotik"],
+    "keywords": ["guifi.net","hotspot","mikrotik"],
     "image" : "https://hotspotcepeda.github.io/images/feature1/markdown.png",
     "author": {
       "@type": "Person",
@@ -1774,9 +1774,9 @@ if (!doNotTrack) {
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Escrito en">📅&nbsp;2014-01-03 </time>
+  <time class="single__info" title="Escrito en">📅&nbsp;2014-01-05 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Tiempo de lectura"> ☕&nbsp;1&nbsp;minutos lectura </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Tiempo de lectura"> ☕&nbsp;19&nbsp;minutos lectura </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="Escrito por">🗻&nbsp;HotspotCepeda</span>
   
@@ -1795,18 +1795,19 @@ if (!doNotTrack) {
 
   <li><a href="https://hotspotcepeda.github.io/es/tags/hotspot/" class="single__tag" title="hotspot">#hotspot</a></li>
 
-  <li><a href="https://hotspotcepeda.github.io/es/tags/mikrotik/" class="single__tag" title="Mikrotik">#Mikrotik</a></li>
+  <li><a href="https://hotspotcepeda.github.io/es/tags/mikrotik/" class="single__tag" title="mikrotik">#mikrotik</a></li>
 
 </ul>
 
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <p>Y se puso en producción el hotspot, un hotspot en wifi es un punto caliente, un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.</p>
+      <p>Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.<br />
+La salida a internet la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.</p>
 <h2 id="mikrotik">Mikrotik</h2>
 <p>Para hacer la gestión de los dispositivos que se conectan a pie de calle se usa una ROUTERBOARD MIKROTIK RB750GL, este router está dedicado solo para esta tarea, lleva funcionando 24x7 desde año 2014 de la era pre-covid.<br />
 <img src="/gallery/red/rb750gl.png" alt="ROUTERBOARD MIKROTIK RB750GL" /><br />
-La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b:</p>
+La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b para que se puedan conectar dispositivos antiguos:</p>
 <pre><code class="language-mermaid" data-lang="mermaid">graph TD;
   RB750GL--&gt;WAN_ether1;
   RB750GL--&gt;Libre_ether2;
@@ -1817,7 +1818,985 @@ La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b:</p>
   bridge1_ether5--&gt;enl_NSM2_a;
   enl_NSM2_a--&gt;enl_NSM2_b;
   enl_NSM2_b--&gt;AP_OpenWrt_Bar_Municipal;
-</code></pre><div class="alert alert-info" role="alert" data-dir="ltr">Tener el respaldo de una asociación consolidada dará fuerza al proyecto. Si no hay nada, es muy interesante contemplar la posibilidad de crear una fundación, asociación, cooperativa, grupo o colectivo de usuarios para fomentar la implicación del grupo y para repartir la carga de trabajo. Tomar de decisiones es más fácil cuando no estás solo. Pero también ten en cuenta que si viajas solo, podrás volar a donde quieras y estar el tiempo que te dé la gana.</div>
+</code></pre><h2 id="configuración">Configuración</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span><span class="lnt">120
+</span><span class="lnt">121
+</span><span class="lnt">122
+</span><span class="lnt">123
+</span><span class="lnt">124
+</span><span class="lnt">125
+</span><span class="lnt">126
+</span><span class="lnt">127
+</span><span class="lnt">128
+</span><span class="lnt">129
+</span><span class="lnt">130
+</span><span class="lnt">131
+</span><span class="lnt">132
+</span><span class="lnt">133
+</span><span class="lnt">134
+</span><span class="lnt">135
+</span><span class="lnt">136
+</span><span class="lnt">137
+</span><span class="lnt">138
+</span><span class="lnt">139
+</span><span class="lnt">140
+</span><span class="lnt">141
+</span><span class="lnt">142
+</span><span class="lnt">143
+</span><span class="lnt">144
+</span><span class="lnt">145
+</span><span class="lnt">146
+</span><span class="lnt">147
+</span><span class="lnt">148
+</span><span class="lnt">149
+</span><span class="lnt">150
+</span><span class="lnt">151
+</span><span class="lnt">152
+</span><span class="lnt">153
+</span><span class="lnt">154
+</span><span class="lnt">155
+</span><span class="lnt">156
+</span><span class="lnt">157
+</span><span class="lnt">158
+</span><span class="lnt">159
+</span><span class="lnt">160
+</span><span class="lnt">161
+</span><span class="lnt">162
+</span><span class="lnt">163
+</span><span class="lnt">164
+</span><span class="lnt">165
+</span><span class="lnt">166
+</span><span class="lnt">167
+</span><span class="lnt">168
+</span><span class="lnt">169
+</span><span class="lnt">170
+</span><span class="lnt">171
+</span><span class="lnt">172
+</span><span class="lnt">173
+</span><span class="lnt">174
+</span><span class="lnt">175
+</span><span class="lnt">176
+</span><span class="lnt">177
+</span><span class="lnt">178
+</span><span class="lnt">179
+</span><span class="lnt">180
+</span><span class="lnt">181
+</span><span class="lnt">182
+</span><span class="lnt">183
+</span><span class="lnt">184
+</span><span class="lnt">185
+</span><span class="lnt">186
+</span><span class="lnt">187
+</span><span class="lnt">188
+</span><span class="lnt">189
+</span><span class="lnt">190
+</span><span class="lnt">191
+</span><span class="lnt">192
+</span><span class="lnt">193
+</span><span class="lnt">194
+</span><span class="lnt">195
+</span><span class="lnt">196
+</span><span class="lnt">197
+</span><span class="lnt">198
+</span><span class="lnt">199
+</span><span class="lnt">200
+</span><span class="lnt">201
+</span><span class="lnt">202
+</span><span class="lnt">203
+</span><span class="lnt">204
+</span><span class="lnt">205
+</span><span class="lnt">206
+</span><span class="lnt">207
+</span><span class="lnt">208
+</span><span class="lnt">209
+</span><span class="lnt">210
+</span><span class="lnt">211
+</span><span class="lnt">212
+</span><span class="lnt">213
+</span><span class="lnt">214
+</span><span class="lnt">215
+</span><span class="lnt">216
+</span><span class="lnt">217
+</span><span class="lnt">218
+</span><span class="lnt">219
+</span><span class="lnt">220
+</span><span class="lnt">221
+</span><span class="lnt">222
+</span><span class="lnt">223
+</span><span class="lnt">224
+</span><span class="lnt">225
+</span><span class="lnt">226
+</span><span class="lnt">227
+</span><span class="lnt">228
+</span><span class="lnt">229
+</span><span class="lnt">230
+</span><span class="lnt">231
+</span><span class="lnt">232
+</span><span class="lnt">233
+</span><span class="lnt">234
+</span><span class="lnt">235
+</span><span class="lnt">236
+</span><span class="lnt">237
+</span><span class="lnt">238
+</span><span class="lnt">239
+</span><span class="lnt">240
+</span><span class="lnt">241
+</span><span class="lnt">242
+</span><span class="lnt">243
+</span><span class="lnt">244
+</span><span class="lnt">245
+</span><span class="lnt">246
+</span><span class="lnt">247
+</span><span class="lnt">248
+</span><span class="lnt">249
+</span><span class="lnt">250
+</span><span class="lnt">251
+</span><span class="lnt">252
+</span><span class="lnt">253
+</span><span class="lnt">254
+</span><span class="lnt">255
+</span><span class="lnt">256
+</span><span class="lnt">257
+</span><span class="lnt">258
+</span><span class="lnt">259
+</span><span class="lnt">260
+</span><span class="lnt">261
+</span><span class="lnt">262
+</span><span class="lnt">263
+</span><span class="lnt">264
+</span><span class="lnt">265
+</span><span class="lnt">266
+</span><span class="lnt">267
+</span><span class="lnt">268
+</span><span class="lnt">269
+</span><span class="lnt">270
+</span><span class="lnt">271
+</span><span class="lnt">272
+</span><span class="lnt">273
+</span><span class="lnt">274
+</span><span class="lnt">275
+</span><span class="lnt">276
+</span><span class="lnt">277
+</span><span class="lnt">278
+</span><span class="lnt">279
+</span><span class="lnt">280
+</span><span class="lnt">281
+</span><span class="lnt">282
+</span><span class="lnt">283
+</span><span class="lnt">284
+</span><span class="lnt">285
+</span><span class="lnt">286
+</span><span class="lnt">287
+</span><span class="lnt">288
+</span><span class="lnt">289
+</span><span class="lnt">290
+</span><span class="lnt">291
+</span><span class="lnt">292
+</span><span class="lnt">293
+</span><span class="lnt">294
+</span><span class="lnt">295
+</span><span class="lnt">296
+</span><span class="lnt">297
+</span><span class="lnt">298
+</span><span class="lnt">299
+</span><span class="lnt">300
+</span><span class="lnt">301
+</span><span class="lnt">302
+</span><span class="lnt">303
+</span><span class="lnt">304
+</span><span class="lnt">305
+</span><span class="lnt">306
+</span><span class="lnt">307
+</span><span class="lnt">308
+</span><span class="lnt">309
+</span><span class="lnt">310
+</span><span class="lnt">311
+</span><span class="lnt">312
+</span><span class="lnt">313
+</span><span class="lnt">314
+</span><span class="lnt">315
+</span><span class="lnt">316
+</span><span class="lnt">317
+</span><span class="lnt">318
+</span><span class="lnt">319
+</span><span class="lnt">320
+</span><span class="lnt">321
+</span><span class="lnt">322
+</span><span class="lnt">323
+</span><span class="lnt">324
+</span><span class="lnt">325
+</span><span class="lnt">326
+</span><span class="lnt">327
+</span><span class="lnt">328
+</span><span class="lnt">329
+</span><span class="lnt">330
+</span><span class="lnt">331
+</span><span class="lnt">332
+</span><span class="lnt">333
+</span><span class="lnt">334
+</span><span class="lnt">335
+</span><span class="lnt">336
+</span><span class="lnt">337
+</span><span class="lnt">338
+</span><span class="lnt">339
+</span><span class="lnt">340
+</span><span class="lnt">341
+</span><span class="lnt">342
+</span><span class="lnt">343
+</span><span class="lnt">344
+</span><span class="lnt">345
+</span><span class="lnt">346
+</span><span class="lnt">347
+</span><span class="lnt">348
+</span><span class="lnt">349
+</span><span class="lnt">350
+</span><span class="lnt">351
+</span><span class="lnt">352
+</span><span class="lnt">353
+</span><span class="lnt">354
+</span><span class="lnt">355
+</span><span class="lnt">356
+</span><span class="lnt">357
+</span><span class="lnt">358
+</span><span class="lnt">359
+</span><span class="lnt">360
+</span><span class="lnt">361
+</span><span class="lnt">362
+</span><span class="lnt">363
+</span><span class="lnt">364
+</span><span class="lnt">365
+</span><span class="lnt">366
+</span><span class="lnt">367
+</span><span class="lnt">368
+</span><span class="lnt">369
+</span><span class="lnt">370
+</span><span class="lnt">371
+</span><span class="lnt">372
+</span><span class="lnt">373
+</span><span class="lnt">374
+</span><span class="lnt">375
+</span><span class="lnt">376
+</span><span class="lnt">377
+</span><span class="lnt">378
+</span><span class="lnt">379
+</span><span class="lnt">380
+</span><span class="lnt">381
+</span><span class="lnt">382
+</span><span class="lnt">383
+</span><span class="lnt">384
+</span><span class="lnt">385
+</span><span class="lnt">386
+</span><span class="lnt">387
+</span><span class="lnt">388
+</span><span class="lnt">389
+</span><span class="lnt">390
+</span><span class="lnt">391
+</span><span class="lnt">392
+</span><span class="lnt">393
+</span><span class="lnt">394
+</span><span class="lnt">395
+</span><span class="lnt">396
+</span><span class="lnt">397
+</span><span class="lnt">398
+</span><span class="lnt">399
+</span><span class="lnt">400
+</span><span class="lnt">401
+</span><span class="lnt">402
+</span><span class="lnt">403
+</span><span class="lnt">404
+</span><span class="lnt">405
+</span><span class="lnt">406
+</span><span class="lnt">407
+</span><span class="lnt">408
+</span><span class="lnt">409
+</span><span class="lnt">410
+</span><span class="lnt">411
+</span><span class="lnt">412
+</span><span class="lnt">413
+</span><span class="lnt">414
+</span><span class="lnt">415
+</span><span class="lnt">416
+</span><span class="lnt">417
+</span><span class="lnt">418
+</span><span class="lnt">419
+</span><span class="lnt">420
+</span><span class="lnt">421
+</span><span class="lnt">422
+</span><span class="lnt">423
+</span><span class="lnt">424
+</span><span class="lnt">425
+</span><span class="lnt">426
+</span><span class="lnt">427
+</span><span class="lnt">428
+</span><span class="lnt">429
+</span><span class="lnt">430
+</span><span class="lnt">431
+</span><span class="lnt">432
+</span><span class="lnt">433
+</span><span class="lnt">434
+</span><span class="lnt">435
+</span><span class="lnt">436
+</span><span class="lnt">437
+</span><span class="lnt">438
+</span><span class="lnt">439
+</span><span class="lnt">440
+</span><span class="lnt">441
+</span><span class="lnt">442
+</span><span class="lnt">443
+</span><span class="lnt">444
+</span><span class="lnt">445
+</span><span class="lnt">446
+</span><span class="lnt">447
+</span><span class="lnt">448
+</span><span class="lnt">449
+</span><span class="lnt">450
+</span><span class="lnt">451
+</span><span class="lnt">452
+</span><span class="lnt">453
+</span><span class="lnt">454
+</span><span class="lnt">455
+</span><span class="lnt">456
+</span><span class="lnt">457
+</span><span class="lnt">458
+</span><span class="lnt">459
+</span><span class="lnt">460
+</span><span class="lnt">461
+</span><span class="lnt">462
+</span><span class="lnt">463
+</span><span class="lnt">464
+</span><span class="lnt">465
+</span><span class="lnt">466
+</span><span class="lnt">467
+</span><span class="lnt">468
+</span><span class="lnt">469
+</span><span class="lnt">470
+</span><span class="lnt">471
+</span><span class="lnt">472
+</span><span class="lnt">473
+</span><span class="lnt">474
+</span><span class="lnt">475
+</span><span class="lnt">476
+</span><span class="lnt">477
+</span><span class="lnt">478
+</span><span class="lnt">479
+</span><span class="lnt">480
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>admin@hostname<span class="o">]</span> &gt; <span class="nb">export</span> 
+<span class="c1"># mar/14/2021 01:23:15 by RouterOS 6.43.2</span>
+<span class="c1"># software id = LVV0-IUW2</span>
+<span class="c1">#</span>
+<span class="c1"># model = 750GL</span>
+<span class="c1"># serial number = 467A025857A0</span>
+/interface bridge
+add <span class="nv">comment</span><span class="o">=</span>LAN fast-forward<span class="o">=</span>no <span class="nv">mtu</span><span class="o">=</span><span class="m">1500</span> <span class="nv">name</span><span class="o">=</span>bridge1 protocol-mode<span class="o">=</span>none
+/interface ethernet
+<span class="nb">set</span> <span class="o">[</span> find default-name<span class="o">=</span>ether1 <span class="o">]</span> <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;WAN ether1&#34;</span> <span class="nv">name</span><span class="o">=</span>Lan <span class="nv">speed</span><span class="o">=</span>100Mbps
+<span class="nb">set</span> <span class="o">[</span> find default-name<span class="o">=</span>ether2 <span class="o">]</span> <span class="nv">speed</span><span class="o">=</span>100Mbps
+<span class="nb">set</span> <span class="o">[</span> find default-name<span class="o">=</span>ether3 <span class="o">]</span> <span class="nv">comment</span><span class="o">=</span>GESTION <span class="nv">speed</span><span class="o">=</span>100Mbps
+<span class="nb">set</span> <span class="o">[</span> find default-name<span class="o">=</span>ether4 <span class="o">]</span> <span class="nv">comment</span><span class="o">=</span>-AP-HOSTSPOT <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">speed</span><span class="o">=</span>100Mbps
+<span class="nb">set</span> <span class="o">[</span> find default-name<span class="o">=</span>ether5 <span class="o">]</span> <span class="nv">comment</span><span class="o">=</span>-HS_NANO_ENL <span class="nv">speed</span><span class="o">=</span>100Mbps
+/interface list
+add <span class="nv">name</span><span class="o">=</span>mactel
+add <span class="nv">name</span><span class="o">=</span>mac-winbox
+/interface wireless security-profiles
+<span class="nb">set</span> <span class="o">[</span> find <span class="nv">default</span><span class="o">=</span>yes <span class="o">]</span> supplicant-identity<span class="o">=</span>hostname
+/ip firewall layer7-protocol
+add <span class="nv">name</span><span class="o">=</span>youtube <span class="nv">regexp</span><span class="o">=</span><span class="s2">&#34;(GET \\/videoplayback\\\?|GET \\/crossdomain\\.xml)&#34;</span>
+add <span class="nv">name</span><span class="o">=</span>torrentsites <span class="nv">regexp</span><span class="o">=</span><span class="s2">&#34;^.*(get|GET).+(torrent|thepiratebay|isohunt|entertane|demonoid|btjunkie|mininova|flixflux|torrentz|vertor|h33t|btscene|bitunity|bittoxic|thunderbytes|entertane|zoozle|vcdq|bitnova|bitsoup|meganova|fulldls|btbot|flixflux|\
+</span><span class="s2">    seedpeer|fenopy|gpirate|commonbits).*\$&#34;</span>
+add <span class="nv">name</span><span class="o">=</span>p2p_www <span class="nv">regexp</span><span class="o">=</span><span class="s2">&#34;^.*(get|GET).+(torrent|thepiratebay|isohunt|entertane|demonoid|btjunkie|mininova|flixflux|vertor|h33t|zoozle|bitnova|bitsoup|meganova|fulldls|btbot|fenopy|gpirate|commonbits).*\$&#34;</span>
+add <span class="nv">name</span><span class="o">=</span>p2p_dns <span class="nv">regexp</span><span class="o">=</span><span class="s2">&#34;^.+(torrent|thepiratebay|isohunt|entertane|demonoid|btjunkie|mininova|flixflux|vertor|h33t|zoozle|bitnova|bitsoup|meganova|fulldls|btbot|fenopy|gpirate|commonbits).*\$&#34;</span>
+/ip hotspot profile
+add dns-name<span class="o">=</span>guifi.net_Acceso_Abierto hotspot-address<span class="o">=</span>192.168.100.1 login-by<span class="o">=</span>http-chap,trial <span class="nv">name</span><span class="o">=</span>hsprof2 trial-uptime-limit<span class="o">=</span>2d trial-uptime-reset<span class="o">=</span>23h59m
+/ip hotspot
+add <span class="nv">interface</span><span class="o">=</span>bridge1 <span class="nv">name</span><span class="o">=</span>hotspot1 <span class="nv">profile</span><span class="o">=</span>hsprof2
+/ip hotspot user profile
+<span class="nb">set</span> <span class="o">[</span> find <span class="nv">default</span><span class="o">=</span>yes <span class="o">]</span> add-mac-cookie<span class="o">=</span>no keepalive-timeout<span class="o">=</span>none <span class="nv">name</span><span class="o">=</span>usuarios on-login<span class="o">=</span><span class="s2">&#34;#Keep alive para limitar la sesion diaria a un tiempo&#34;</span> open-status-page<span class="o">=</span>http-login rate-limit<span class="o">=</span><span class="s2">&#34;1M/1M 2M/2M 320k/320k 8/8 1 320/320&#34;</span> shared-users<span class="o">=</span><span class="m">1000</span> <span class="se">\
+</span><span class="se"></span>    transparent-proxy<span class="o">=</span>yes
+/ip ipsec proposal
+<span class="nb">set</span> <span class="o">[</span> find <span class="nv">default</span><span class="o">=</span>yes <span class="o">]</span> enc-algorithms<span class="o">=</span>3des
+/ip pool
+add <span class="nv">name</span><span class="o">=</span>hs-pool-4 <span class="nv">ranges</span><span class="o">=</span>192.168.100.10-192.168.100.254
+add <span class="nv">name</span><span class="o">=</span>pool_gestion <span class="nv">ranges</span><span class="o">=</span>192.168.88.100-192.168.88.200
+/ip dhcp-server
+add add-arp<span class="o">=</span>yes address-pool<span class="o">=</span>hs-pool-4 <span class="nv">authoritative</span><span class="o">=</span>after-2sec-delay <span class="nv">disabled</span><span class="o">=</span>no <span class="nv">interface</span><span class="o">=</span>bridge1 lease-time<span class="o">=</span>1d <span class="nv">name</span><span class="o">=</span>dhcp_HS
+add add-arp<span class="o">=</span>yes address-pool<span class="o">=</span>pool_gestion <span class="nv">disabled</span><span class="o">=</span>no <span class="nv">interface</span><span class="o">=</span>ether3 <span class="nv">name</span><span class="o">=</span>dhcp_gestion
+/ip hotspot user profile
+add address-pool<span class="o">=</span>hs-pool-4 <span class="nv">name</span><span class="o">=</span>sincontrol transparent-proxy<span class="o">=</span>yes
+/queue simple
+add burst-limit<span class="o">=</span>3M/3M burst-threshold<span class="o">=</span>256k/256k burst-time<span class="o">=</span>8s/8s <span class="nv">disabled</span><span class="o">=</span>yes max-limit<span class="o">=</span>2M/2M <span class="nv">name</span><span class="o">=</span>queue1 packet-marks<span class="o">=</span>clientes_2M <span class="nv">target</span><span class="o">=</span>ether4
+/queue tree
+add <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">name</span><span class="o">=</span>cliente_2M_up packet-mark<span class="o">=</span>clientes_2M <span class="nv">parent</span><span class="o">=</span>ether4 <span class="nv">priority</span><span class="o">=</span><span class="m">1</span>
+add <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">name</span><span class="o">=</span>cliente_2M_down packet-mark<span class="o">=</span>clientes_2M <span class="nv">parent</span><span class="o">=</span>ether4 <span class="nv">priority</span><span class="o">=</span><span class="m">1</span>
+add max-limit<span class="o">=</span>5M <span class="nv">name</span><span class="o">=</span>Download <span class="nv">parent</span><span class="o">=</span>bridge1 <span class="nv">priority</span><span class="o">=</span><span class="m">1</span>
+add max-limit<span class="o">=</span>300k <span class="nv">name</span><span class="o">=</span>Upload <span class="nv">parent</span><span class="o">=</span>Lan <span class="nv">priority</span><span class="o">=</span><span class="m">1</span>
+/queue <span class="nb">type</span>
+add <span class="nv">kind</span><span class="o">=</span>pcq <span class="nv">name</span><span class="o">=</span>PCQ_download_2mb pcq-classifier<span class="o">=</span>dst-address pcq-rate<span class="o">=</span>2M
+add <span class="nv">kind</span><span class="o">=</span>pcq <span class="nv">name</span><span class="o">=</span>PCQ_upload_300k pcq-classifier<span class="o">=</span>src-address pcq-rate<span class="o">=</span>300k
+add <span class="nv">kind</span><span class="o">=</span>sfq <span class="nv">name</span><span class="o">=</span>BAJADA
+add <span class="nv">kind</span><span class="o">=</span>sfq <span class="nv">name</span><span class="o">=</span>SUBIDA
+/queue simple
+add <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;# l\EDmite global (compartido por todos los usuarios):\r\
+</span><span class="s2">    \n# 5M subida\r\
+</span><span class="s2">    \n# 35M bajada\r\
+</span><span class="s2">    \n# \r\
+</span><span class="s2">    \n# segmento de red de los clientes con este paquete de datos,\r\
+</span><span class="s2">    \n# puede usarse una interfaz de ser necesario:\r\
+</span><span class="s2">    \n# 10.10.12.0/24&#34;</span> limit-at<span class="o">=</span>384k/5M max-limit<span class="o">=</span>384k/5M <span class="nv">name</span><span class="o">=</span>2MB_down_384MB_up <span class="nv">queue</span><span class="o">=</span>PCQ_upload_300k/PCQ_download_2mb <span class="nv">target</span><span class="o">=</span>bridge1 total-queue<span class="o">=</span>default
+/queue tree
+add <span class="nv">disabled</span><span class="o">=</span>yes max-limit<span class="o">=</span>32k <span class="nv">name</span><span class="o">=</span>P2P packet-mark<span class="o">=</span>p2p-qos <span class="nv">parent</span><span class="o">=</span>bridge1 <span class="nv">queue</span><span class="o">=</span>default
+add <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;una cola para el total del tr\E1fico de bajada, aqu\ED se especifica\r\
+</span><span class="s2">    \n# la interfaz desde la que se reparte el tr\E1fico a los clientes&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes limit-at<span class="o">=</span>8M max-limit<span class="o">=</span>8M <span class="nv">name</span><span class="o">=</span><span class="s2">&#34;Total download&#34;</span> <span class="nv">parent</span><span class="o">=</span>bridge1 <span class="nv">priority</span><span class="o">=</span><span class="m">1</span> <span class="nv">queue</span><span class="o">=</span>default
+add <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;una cola para el total del tr\E1fico de subida, aqu\ED se especifica\r\
+</span><span class="s2">    \n# la interfaz desde la que se env\EDa el tr\E1fico al gateway &#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes limit-at<span class="o">=</span>300k max-limit<span class="o">=</span>300k <span class="nv">name</span><span class="o">=</span><span class="s2">&#34;Total upload&#34;</span> <span class="nv">parent</span><span class="o">=</span>Lan <span class="nv">priority</span><span class="o">=</span><span class="m">1</span> <span class="nv">queue</span><span class="o">=</span>default
+add <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;hoja (cola hija) de bajada para el tr\E1fico web (HTTP), utiliza\r\
+</span><span class="s2">    \n# la marca establecida en la tabla mangle del firewall&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes limit-at<span class="o">=</span>1M max-limit<span class="o">=</span>6M <span class="nv">name</span><span class="o">=</span>HTTP_D packet-mark<span class="o">=</span>priority_packet <span class="nv">parent</span><span class="o">=</span><span class="s2">&#34;Total download&#34;</span> <span class="nv">priority</span><span class="o">=</span><span class="m">3</span> <span class="nv">queue</span><span class="o">=</span>default
+add <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;hoja de subida para el tr\E1fico web (HTTP), utiliza la misma marca\r\
+</span><span class="s2">    \n# de la cola anterior&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes limit-at<span class="o">=</span>100k max-limit<span class="o">=</span>200k <span class="nv">name</span><span class="o">=</span>HTTP_U packet-mark<span class="o">=</span>priority_packet <span class="nv">parent</span><span class="o">=</span><span class="s2">&#34;Total upload&#34;</span> <span class="nv">priority</span><span class="o">=</span><span class="m">3</span> <span class="nv">queue</span><span class="o">=</span>default
+add <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;los paquetes con marca \&#34;other-internet\&#34; tienen una menor prioridad\r\
+</span><span class="s2">    \n# que los paquetes web, es necesario especificar estas colas, de lo\r\
+</span><span class="s2">    \n# contrario el tr\E1fico no gestionado pasar\E1 con la mayor prioridad&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes limit-at<span class="o">=</span>500k max-limit<span class="o">=</span>1M <span class="nv">name</span><span class="o">=</span>OTHER_D packet-mark<span class="o">=</span>no_priority_packet <span class="nv">parent</span><span class="o">=</span><span class="s2">&#34;Total download&#34;</span> <span class="nv">priority</span><span class="o">=</span><span class="m">4</span> <span class="nv">queue</span><span class="o">=</span>default
+add <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;los paquetes con marca \&#34;other-internet\&#34; tienen una menor prioridad\r\
+</span><span class="s2">    \n# que los paquetes web, es necesario especificar estas colas, de lo\r\
+</span><span class="s2">    \n# contrario el tr\E1fico no gestionado pasar\E1 con la mayor prioridad&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes limit-at<span class="o">=</span>50k max-limit<span class="o">=</span>100k <span class="nv">name</span><span class="o">=</span>OTHER_U packet-mark<span class="o">=</span>no_priority_packet <span class="nv">parent</span><span class="o">=</span><span class="s2">&#34;Total upload&#34;</span> <span class="nv">priority</span><span class="o">=</span><span class="m">4</span> <span class="nv">queue</span><span class="o">=</span>default
+add <span class="nv">name</span><span class="o">=</span>PRIO1 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 1&#34;</span> <span class="nv">parent</span><span class="o">=</span>Download <span class="nv">priority</span><span class="o">=</span><span class="m">1</span> <span class="nv">queue</span><span class="o">=</span>BAJADA
+add <span class="nv">name</span><span class="o">=</span>PRIO2 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 2&#34;</span> <span class="nv">parent</span><span class="o">=</span>Download <span class="nv">priority</span><span class="o">=</span><span class="m">2</span> <span class="nv">queue</span><span class="o">=</span>BAJADA
+add <span class="nv">name</span><span class="o">=</span>PRIO3 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 3&#34;</span> <span class="nv">parent</span><span class="o">=</span>Download <span class="nv">priority</span><span class="o">=</span><span class="m">3</span> <span class="nv">queue</span><span class="o">=</span>BAJADA
+add <span class="nv">name</span><span class="o">=</span>PRIO4 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 4&#34;</span> <span class="nv">parent</span><span class="o">=</span>Download <span class="nv">priority</span><span class="o">=</span><span class="m">4</span> <span class="nv">queue</span><span class="o">=</span>BAJADA
+add <span class="nv">name</span><span class="o">=</span>PRIO5 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 5&#34;</span> <span class="nv">parent</span><span class="o">=</span>Download <span class="nv">priority</span><span class="o">=</span><span class="m">5</span> <span class="nv">queue</span><span class="o">=</span>BAJADA
+add <span class="nv">name</span><span class="o">=</span>PRIO7 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 7&#34;</span> <span class="nv">parent</span><span class="o">=</span>Download <span class="nv">priority</span><span class="o">=</span><span class="m">7</span> <span class="nv">queue</span><span class="o">=</span>BAJADA
+add <span class="nv">name</span><span class="o">=</span>PRIO8 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 8&#34;</span> <span class="nv">parent</span><span class="o">=</span>Download <span class="nv">queue</span><span class="o">=</span>BAJADA
+add <span class="nv">name</span><span class="o">=</span>PRIO.1 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 1&#34;</span> <span class="nv">parent</span><span class="o">=</span>Upload <span class="nv">priority</span><span class="o">=</span><span class="m">1</span> <span class="nv">queue</span><span class="o">=</span>SUBIDA
+add <span class="nv">name</span><span class="o">=</span>PRIO.2 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 2&#34;</span> <span class="nv">parent</span><span class="o">=</span>Upload <span class="nv">priority</span><span class="o">=</span><span class="m">2</span> <span class="nv">queue</span><span class="o">=</span>SUBIDA
+add <span class="nv">name</span><span class="o">=</span>PRIO.3 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 3&#34;</span> <span class="nv">parent</span><span class="o">=</span>Upload <span class="nv">priority</span><span class="o">=</span><span class="m">3</span> <span class="nv">queue</span><span class="o">=</span>SUBIDA
+add <span class="nv">name</span><span class="o">=</span>PRIO.4 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 4&#34;</span> <span class="nv">parent</span><span class="o">=</span>Upload <span class="nv">priority</span><span class="o">=</span><span class="m">4</span> <span class="nv">queue</span><span class="o">=</span>SUBIDA
+add <span class="nv">name</span><span class="o">=</span>PRIO.5 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 5&#34;</span> <span class="nv">parent</span><span class="o">=</span>Upload <span class="nv">priority</span><span class="o">=</span><span class="m">5</span> <span class="nv">queue</span><span class="o">=</span>SUBIDA
+add <span class="nv">name</span><span class="o">=</span>PRIO.7 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 7&#34;</span> <span class="nv">parent</span><span class="o">=</span>Upload <span class="nv">priority</span><span class="o">=</span><span class="m">7</span> <span class="nv">queue</span><span class="o">=</span>SUBIDA
+add <span class="nv">name</span><span class="o">=</span>PRIO.8 packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 8&#34;</span> <span class="nv">parent</span><span class="o">=</span>Upload <span class="nv">queue</span><span class="o">=</span>SUBIDA
+/snmp community
+<span class="nb">set</span> <span class="o">[</span> find <span class="nv">default</span><span class="o">=</span>yes <span class="o">]</span> <span class="nv">addresses</span><span class="o">=</span>0.0.0.0/0
+/system logging action
+<span class="nb">set</span> <span class="m">0</span> memory-lines<span class="o">=</span><span class="m">100</span>
+<span class="nb">set</span> <span class="m">1</span> disk-lines-per-file<span class="o">=</span><span class="m">100</span>
+<span class="nb">set</span> <span class="m">3</span> <span class="nv">remote</span><span class="o">=</span>192.168.1.213
+/interface bridge port
+add <span class="nv">bridge</span><span class="o">=</span>bridge1 <span class="nv">hw</span><span class="o">=</span>no <span class="nv">interface</span><span class="o">=</span>ether4
+add <span class="nv">bridge</span><span class="o">=</span>bridge1 <span class="nv">hw</span><span class="o">=</span>no <span class="nv">interface</span><span class="o">=</span>ether5
+/interface bridge settings
+<span class="nb">set</span> use-ip-firewall<span class="o">=</span>yes
+/interface list member
+add <span class="nv">interface</span><span class="o">=</span>ether2 <span class="nv">list</span><span class="o">=</span>mactel
+add <span class="nv">interface</span><span class="o">=</span>ether3 <span class="nv">list</span><span class="o">=</span>mactel
+add <span class="nv">interface</span><span class="o">=</span>ether2 <span class="nv">list</span><span class="o">=</span>mac-winbox
+add <span class="nv">interface</span><span class="o">=</span>ether4 <span class="nv">list</span><span class="o">=</span>mactel
+add <span class="nv">interface</span><span class="o">=</span>ether3 <span class="nv">list</span><span class="o">=</span>mac-winbox
+add <span class="nv">interface</span><span class="o">=</span>ether5 <span class="nv">list</span><span class="o">=</span>mactel
+add <span class="nv">interface</span><span class="o">=</span>ether4 <span class="nv">list</span><span class="o">=</span>mac-winbox
+add <span class="nv">interface</span><span class="o">=</span>ether5 <span class="nv">list</span><span class="o">=</span>mac-winbox
+/ip address
+add <span class="nv">address</span><span class="o">=</span>10.228.150.3/28 <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;GW Ayto&#34;</span> <span class="nv">interface</span><span class="o">=</span>Lan <span class="nv">network</span><span class="o">=</span>10.228.150.0
+add <span class="nv">address</span><span class="o">=</span>192.168.100.1/24 <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;GW hotspot&#34;</span> <span class="nv">interface</span><span class="o">=</span>bridge1 <span class="nv">network</span><span class="o">=</span>192.168.100.0
+add <span class="nv">address</span><span class="o">=</span>192.168.88.1/24 <span class="nv">interface</span><span class="o">=</span>ether3 <span class="nv">network</span><span class="o">=</span>192.168.88.0
+/ip dhcp-server network
+add <span class="nv">address</span><span class="o">=</span>192.168.88.0/24 <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;default configuration&#34;</span> <span class="nv">gateway</span><span class="o">=</span>192.168.88.1
+add <span class="nv">address</span><span class="o">=</span>192.168.100.0/24 <span class="nv">gateway</span><span class="o">=</span>192.168.100.1
+/ip dns
+<span class="nb">set</span> allow-remote-requests<span class="o">=</span>yes cache-size<span class="o">=</span>10096KiB max-udp-packet-size<span class="o">=</span><span class="m">512</span> <span class="nv">servers</span><span class="o">=</span>10.228.150.6,8.8.4.4
+/ip firewall address-list
+add <span class="nv">list</span><span class="o">=</span>Syn_Flooder
+add <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">list</span><span class="o">=</span>spammers
+add <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">list</span><span class="o">=</span>support
+add <span class="nv">address</span><span class="o">=</span>192.168.100.0/24 <span class="nv">list</span><span class="o">=</span>Cliente_2M
+add <span class="nv">address</span><span class="o">=</span>10.228.150.0/28 <span class="nv">list</span><span class="o">=</span>guifi.net
+/ip firewall filter
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Accept to established connections&#34;</span> connection-state<span class="o">=</span>established
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Accept to related connections&#34;</span> connection-state<span class="o">=</span>related
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Filtra paquetes chungos&#34;</span> connection-state<span class="o">=</span>invalid
+add <span class="nv">action</span><span class="o">=</span>passthrough <span class="nv">chain</span><span class="o">=</span>unused-hs-chain <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;place hotspot rules here ----------- place hotspot rules here ----------- place hotspot rules here ----------- place hotspot rules here ----------- place hotspot rules here ----------- place hotsp\
+</span><span class="s2">    ot rules here ----------- place hotspot rules here ----------- &#34;</span>
+add <span class="nv">action</span><span class="o">=</span>jump <span class="nv">chain</span><span class="o">=</span>output <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Jump for icmp output&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes jump-target<span class="o">=</span>ICMP <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span>Syn_Flooder address-list-timeout<span class="o">=</span>30m <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Add Syn Flood IP to the list&#34;</span> connection-limit<span class="o">=</span>30,32 <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>syn
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Drop to syn flood list&#34;</span> src-address-list<span class="o">=</span>Syn_Flooder
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Drop to syn flood list&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes src-address-list<span class="o">=</span>Syn_Flooder
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Port scanners to list &#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp <span class="nv">psd</span><span class="o">=</span>21,3s,3,1
+add <span class="nv">action</span><span class="o">=</span>log <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Port Scanner Detect LOG&#34;</span> log-prefix<span class="o">=</span><span class="s2">&#34;PORT SCAN&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp <span class="nv">psd</span><span class="o">=</span>21,3s,3,1
+add <span class="nv">action</span><span class="o">=</span>log <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Port Scanner Detect LOG&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes log-prefix<span class="o">=</span><span class="s2">&#34;PORT SCAN&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp <span class="nv">psd</span><span class="o">=</span>21,3s,3,1
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;NMAP FIN Stealth scan&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>fin,!syn,!rst,!psh,!ack,!urg
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;SYN/FIN scan&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>fin,syn
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;SYN/RST scan&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>syn,rst
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;SYN/FIN scan&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>fin,syn
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;SYN/RST scan&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>syn,rst
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;FIN/PSH/URG scan&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>fin,psh,urg,!syn,!rst,!ack
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;FIN/PSH/URG scan&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>fin,psh,urg,!syn,!rst,!ack
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;ALL/ALL scan&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>fin,syn,rst,psh,ack,urg
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;NMAP NULL scan&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>!fin,!syn,!rst,!psh,!ack,!urg
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;NMAP FIN Stealth scan&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>fin,!syn,!rst,!psh,!ack,!urg
+add <span class="nv">action</span><span class="o">=</span>log <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Port Scanner Detect LOG&#34;</span> log-prefix<span class="o">=</span><span class="s2">&#34;PORT SCAN&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>fin,syn,rst,psh,ack,urg
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span>Port_Scanner address-list-timeout<span class="o">=</span>1w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Port Scanner Detect&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp <span class="nv">psd</span><span class="o">=</span>21,3s,3,1
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;dropping port scanners&#34;</span> src-address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span>
+add <span class="nv">action</span><span class="o">=</span>jump <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Jump for icmp input flow&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes jump-target<span class="o">=</span>ICMP <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>jump <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Jump for icmp forward flow&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes jump-target<span class="o">=</span>ICMP <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;drop ftp brute forcers&#34;</span> dst-port<span class="o">=</span><span class="m">21</span> <span class="nv">protocol</span><span class="o">=</span>tcp src-address-list<span class="o">=</span>ftp_blacklist
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;drop ssh brute forcers&#34;</span> dst-port<span class="o">=</span><span class="m">22</span> <span class="nv">protocol</span><span class="o">=</span>tcp src-address-list<span class="o">=</span>ssh_blacklist
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span>ssh_blacklist address-list-timeout<span class="o">=</span>1w3d <span class="nv">chain</span><span class="o">=</span>input connection-state<span class="o">=</span>new dst-port<span class="o">=</span><span class="m">22</span> <span class="nv">protocol</span><span class="o">=</span>tcp src-address-list<span class="o">=</span>ssh_stage3
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span>ssh_stage3 address-list-timeout<span class="o">=</span>1m <span class="nv">chain</span><span class="o">=</span>input connection-state<span class="o">=</span>new dst-port<span class="o">=</span><span class="m">22</span> <span class="nv">protocol</span><span class="o">=</span>tcp src-address-list<span class="o">=</span>ssh_stage2
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span>ssh_stage2 address-list-timeout<span class="o">=</span>1m <span class="nv">chain</span><span class="o">=</span>input connection-state<span class="o">=</span>new dst-port<span class="o">=</span><span class="m">22</span> <span class="nv">protocol</span><span class="o">=</span>tcp src-address-list<span class="o">=</span>ssh_stage1
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span>ssh_stage1 address-list-timeout<span class="o">=</span>1m <span class="nv">chain</span><span class="o">=</span>input connection-state<span class="o">=</span>new dst-port<span class="o">=</span><span class="m">22</span> <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;drop ssh brute downstream&#34;</span> dst-port<span class="o">=</span><span class="m">22</span> <span class="nv">protocol</span><span class="o">=</span>tcp src-address-list<span class="o">=</span>ssh_blacklist
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>ICMP <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Drop to the other ICMPs&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Drop to bogon list&#34;</span> dst-address-list<span class="o">=</span>bogons
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span>spammers address-list-timeout<span class="o">=</span>3h <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Add Spammers to the list for 3 hours&#34;</span> connection-limit<span class="o">=</span>30,32 dst-port<span class="o">=</span>25,587 <span class="nv">limit</span><span class="o">=</span>30/1m,0 <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;ALL/ALL scan&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>fin,syn,rst,psh,ack,urg
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;NMAP NULL scan&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>!fin,!syn,!rst,!psh,!ack,!urg
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span>Syn_Flooder address-list-timeout<span class="o">=</span>30m <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Add Syn Flood IP to the list&#34;</span> connection-limit<span class="o">=</span>30,32 <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>syn
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;port scanners&#34;</span> address-list-timeout<span class="o">=</span>2w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Port scanners to list &#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp <span class="nv">psd</span><span class="o">=</span>21,3s,3,1
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;DENIEGO ICMP&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Accept DNS - UDP&#34;</span> <span class="nv">port</span><span class="o">=</span><span class="m">53</span> <span class="nv">protocol</span><span class="o">=</span>udp
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Accept DNS - TCP&#34;</span> <span class="nv">port</span><span class="o">=</span><span class="m">53</span> <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;ACEPTAR FTP &#34;</span> connection-state<span class="o">=</span>established connection-type<span class="o">=</span>ftp <span class="nv">protocol</span><span class="o">=</span><span class="m">0</span>
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Full access to SUPPORT address list&#34;</span> src-address-list<span class="o">=</span>support
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>ICMP <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Echo request - Avoiding Ping Flood&#34;</span> icmp-options<span class="o">=</span>8:0 <span class="nv">limit</span><span class="o">=</span>1,5 <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>ICMP <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Echo reply&#34;</span> icmp-options<span class="o">=</span>0:0 <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>ICMP <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Time Exceeded&#34;</span> icmp-options<span class="o">=</span>11:0 <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>ICMP <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Destination unreachable&#34;</span> icmp-options<span class="o">=</span>3:0-1 <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>ICMP <span class="nv">comment</span><span class="o">=</span>PMTUD icmp-options<span class="o">=</span>3:4 <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>ICMP <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Drop to the other ICMPs&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>log <span class="nv">chain</span><span class="o">=</span>input log-prefix<span class="o">=</span><span class="s2">&#34;PING DENEGADO&#34;</span> <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>virus <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;VIRUS DE WINDOWS&#34;</span> dst-port<span class="o">=</span>135-139,445 <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>log <span class="nv">chain</span><span class="o">=</span>virus <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;LOG VIRUS DE WINDOWS&#34;</span> dst-port<span class="o">=</span>135-139,445 log-prefix<span class="o">=</span><span class="s2">&#34;VIRUS WINDOWS&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>jump <span class="nv">chain</span><span class="o">=</span>input jump-target<span class="o">=</span>virus
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Bloqueo DNS cache externo&#34;</span> dst-port<span class="o">=</span><span class="m">53</span> <span class="nv">protocol</span><span class="o">=</span>udp
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Todo P2P&#34;</span> connection-mark<span class="o">=</span>p2p-conn <span class="nv">disabled</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;DROP INPUT P2P&#34;</span> connection-mark<span class="o">=</span>p2p-conn <span class="nv">disabled</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;DROP OUTPUT P2P&#34;</span> connection-mark<span class="o">=</span>p2p-conn <span class="nv">disabled</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;corta ping packetes de 99 bytes a m\E1s.&#34;</span> packet-size<span class="o">=</span>128-65535 <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>log <span class="nv">chain</span><span class="o">=</span>input log-prefix<span class="o">=</span><span class="s2">&#34;PING DENEGADO&#34;</span> <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;corta ping&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>icmp src-address-list<span class="o">=</span>!guifi.net
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span><span class="s2">&#34;IP&#39;s totales&#34;</span> address-list-timeout<span class="o">=</span>none-dynamic <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">disabled</span><span class="o">=</span>yes src-address<span class="o">=</span>192.168.0.0/16
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span>acceso-winbox address-list-timeout<span class="o">=</span>none-dynamic <span class="nv">chain</span><span class="o">=</span>input dst-port<span class="o">=</span><span class="m">8291</span> <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span>Port_Scanner address-list-timeout<span class="o">=</span>1w <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Port Scanner Detect PUEDE LLEGAR A CERRAR EL PUERTO FPT SI HAY MUCHA ACTIVIDAD, LO PONE EN LA LISTA COMO SCANER DE PUERTOS &#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp <span class="nv">psd</span><span class="o">=</span><span class="se">\
+</span><span class="se"></span>    21,3s,3,1
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Drop to bogon list&#34;</span> dst-address-list<span class="o">=</span>bogons
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span>spammers address-list-timeout<span class="o">=</span>3h <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Add Spammers to the list for 3 hours&#34;</span> connection-limit<span class="o">=</span>30,32 dst-port<span class="o">=</span>25,587 <span class="nv">limit</span><span class="o">=</span>30/1m,0 <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Avoid spammers action&#34;</span> dst-port<span class="o">=</span>25,587 <span class="nv">protocol</span><span class="o">=</span>tcp src-address-list<span class="o">=</span>spammers
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Limitar Numero de conexiones UDP por cliente&#34;</span> connection-state<span class="o">=</span>new <span class="nv">disabled</span><span class="o">=</span>yes dst-port<span class="o">=</span>!53,67,123 <span class="nv">limit</span><span class="o">=</span>30,40:packet <span class="nv">protocol</span><span class="o">=</span>udp
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;default configuration&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;default configuration&#34;</span> connection-state<span class="o">=</span>related <span class="nv">disabled</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;default configuration&#34;</span> connection-state<span class="o">=</span>established <span class="nv">disabled</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;default configuration&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes in-interface<span class="o">=</span>Lan
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;DENIEGO ICMP&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Reglas Firewall Basicas&#34;</span> connection-state<span class="o">=</span>related
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>forward connection-state<span class="o">=</span>established
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;FIltra ICMP Redirect&#34;</span> icmp-options<span class="o">=</span>5:0-255 <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>log <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Port Scanner Detect LOG&#34;</span> log-prefix<span class="o">=</span><span class="s2">&#34;PORT SCAN&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>fin,!syn,!rst,!psh,!ack,!urg
+add <span class="nv">action</span><span class="o">=</span>log <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Port Scanner Detect LOG&#34;</span> log-prefix<span class="o">=</span><span class="s2">&#34;PORT SCAN&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp tcp-flags<span class="o">=</span>fin,syn,rst,psh,ack,urg,!syn,!rst,!ack,!urg
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span>output <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;530 Login incorrect&#34;</span> dst-limit<span class="o">=</span>1/1m,9,dst-address/1m <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>add-dst-to-address-list address-list<span class="o">=</span>ftp_blacklist address-list-timeout<span class="o">=</span>3h <span class="nv">chain</span><span class="o">=</span>output <span class="nv">content</span><span class="o">=</span><span class="s2">&#34;530 Login incorrect&#34;</span> <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>jump <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Jump for icmp input flow&#34;</span> jump-target<span class="o">=</span>ICMP <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>jump <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Jump for icmp forward flow&#34;</span> jump-target<span class="o">=</span>ICMP <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Block all access to the winbox - except to support list # DO NOT ENABLE THIS RULE BEFORE ADD YOUR SUBNET IN THE SUPPORT ADDRESS LIST&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes dst-port<span class="o">=</span><span class="m">8291</span> <span class="nv">protocol</span><span class="o">=</span>tcp src-address-list<span class="o">=</span>!support
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Drop anything else! # DO NOT ENABLE THIS RULE BEFORE YOU MAKE SURE ABOUT ALL ACCEPT RULES YOU NEED&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;ultimo lugar todo lo que viene de fuera se descarta&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes in-interface<span class="o">=</span>Lan
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>input <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;Block all access to the winbox - except to support list # DO NOT ENABLE THIS RULE BEFORE ADD YOUR SUBNET IN THE SUPPORT ADDRESS LIST&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes dst-port<span class="o">=</span><span class="m">8291</span> <span class="nv">protocol</span><span class="o">=</span>tcp src-address-list<span class="o">=</span>!support
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">p2p</span><span class="o">=</span>all-p2p
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;block p2p_www&#34;</span> layer7-protocol<span class="o">=</span>p2p_www
+add <span class="nv">action</span><span class="o">=</span>drop <span class="nv">chain</span><span class="o">=</span>forward <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;block p2p_dns&#34;</span> dst-port<span class="o">=</span><span class="m">53</span> layer7-protocol<span class="o">=</span>p2p_dns <span class="nv">protocol</span><span class="o">=</span>udp
+add <span class="nv">action</span><span class="o">=</span>add-src-to-address-list address-list<span class="o">=</span>acceso-winbox address-list-timeout<span class="o">=</span>none-dynamic <span class="nv">chain</span><span class="o">=</span>input dst-port<span class="o">=</span><span class="m">8292</span> <span class="nv">protocol</span><span class="o">=</span>tcp
+/ip firewall mangle
+add <span class="nv">action</span><span class="o">=</span>mark-connection <span class="nv">chain</span><span class="o">=</span>prerouting <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;PRIO - 7 MULTIDESCARGAS&#34;</span> connection-bytes<span class="o">=</span>50000000-0 new-connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 7&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>mark-packet <span class="nv">chain</span><span class="o">=</span>prerouting connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 7&#34;</span> new-packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 7&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>jump <span class="nv">chain</span><span class="o">=</span>prerouting jump-target<span class="o">=</span><span class="s2">&#34;TERMINO DE PROCESAR&#34;</span> packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 7&#34;</span>
+add <span class="nv">action</span><span class="o">=</span>mark-connection <span class="nv">chain</span><span class="o">=</span>prerouting <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;MARCO PRIO 1&#34;</span> new-connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 1&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>icmp
+add <span class="nv">action</span><span class="o">=</span>mark-connection <span class="nv">chain</span><span class="o">=</span>output dst-port<span class="o">=</span><span class="m">53</span> new-connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 1&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>udp
+add <span class="nv">action</span><span class="o">=</span>mark-connection <span class="nv">chain</span><span class="o">=</span>prerouting dst-port<span class="o">=</span><span class="m">53</span> new-connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 1&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>udp
+add <span class="nv">action</span><span class="o">=</span>mark-packet <span class="nv">chain</span><span class="o">=</span>prerouting connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 1&#34;</span> new-packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 1&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>jump <span class="nv">chain</span><span class="o">=</span>prerouting jump-target<span class="o">=</span><span class="s2">&#34;TERMINO DE PROCESAR&#34;</span> packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 1&#34;</span>
+add <span class="nv">action</span><span class="o">=</span>mark-connection <span class="nv">chain</span><span class="o">=</span>prerouting <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;MARCO PRIO 2 , STREAMING - JUEGOS,VOIP&#34;</span> dst-port<span class="o">=</span>5060-5061 new-connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 2&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>udp
+add <span class="nv">action</span><span class="o">=</span>mark-connection <span class="nv">chain</span><span class="o">=</span>prerouting dst-port<span class="o">=</span>1863,5190,777 new-connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 2&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>mark-packet <span class="nv">chain</span><span class="o">=</span>prerouting connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 2&#34;</span> new-packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 2&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>jump <span class="nv">chain</span><span class="o">=</span>prerouting jump-target<span class="o">=</span><span class="s2">&#34;TERMINO DE PROCESAR&#34;</span> packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 2&#34;</span>
+add <span class="nv">action</span><span class="o">=</span>mark-connection <span class="nv">chain</span><span class="o">=</span>prerouting <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;marco prio 3 navegacion&#34;</span> dst-port<span class="o">=</span>80,443,8000-9000 new-connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 3&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>mark-packet <span class="nv">chain</span><span class="o">=</span>prerouting connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 3&#34;</span> new-packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 3&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>jump <span class="nv">chain</span><span class="o">=</span>prerouting jump-target<span class="o">=</span><span class="s2">&#34;TERMINO DE PROCESAR&#34;</span> packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 3&#34;</span>
+add <span class="nv">action</span><span class="o">=</span>mark-connection <span class="nv">chain</span><span class="o">=</span>prerouting <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;PRIO 4 - PUERTOS LABORALES&#34;</span> dst-port<span class="o">=</span>25,110,143,3389,1723,21-23 new-connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 4&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes <span class="nv">protocol</span><span class="o">=</span>tcp
+add <span class="nv">action</span><span class="o">=</span>mark-packet <span class="nv">chain</span><span class="o">=</span>prerouting connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 4&#34;</span> new-packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 4&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>jump <span class="nv">chain</span><span class="o">=</span>prerouting jump-target<span class="o">=</span><span class="s2">&#34;TERMINO DE PROCESAR&#34;</span> packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 4&#34;</span>
+add <span class="nv">action</span><span class="o">=</span>mark-connection <span class="nv">chain</span><span class="o">=</span>prerouting <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;MARCO PRIO 5&#34;</span> new-connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 5&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>mark-packet <span class="nv">chain</span><span class="o">=</span>prerouting connection-mark<span class="o">=</span><span class="s2">&#34;PRIO 5&#34;</span> new-packet-mark<span class="o">=</span><span class="s2">&#34;PRIO 5&#34;</span> <span class="nv">passthrough</span><span class="o">=</span>yes
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">chain</span><span class="o">=</span><span class="s2">&#34;TERMINO DE PROCESAR&#34;</span>
+/ip firewall nat
+add <span class="nv">action</span><span class="o">=</span>masquerade <span class="nv">chain</span><span class="o">=</span>srcnat <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;default configuration&#34;</span> out-interface<span class="o">=</span>Lan to-addresses<span class="o">=</span>0.0.0.0
+/ip firewall service-port
+<span class="nb">set</span> ftp <span class="nv">disabled</span><span class="o">=</span>yes
+<span class="nb">set</span> tftp <span class="nv">disabled</span><span class="o">=</span>yes
+<span class="nb">set</span> irc <span class="nv">disabled</span><span class="o">=</span>yes
+<span class="nb">set</span> h323 <span class="nv">disabled</span><span class="o">=</span>yes
+<span class="nb">set</span> sip <span class="nv">disabled</span><span class="o">=</span>yes
+<span class="nb">set</span> pptp <span class="nv">disabled</span><span class="o">=</span>yes
+/ip hotspot ip-binding
+...
+...
+/ip hotspot service-port
+<span class="nb">set</span> ftp <span class="nv">disabled</span><span class="o">=</span>yes
+/ip hotspot user
+add <span class="nv">name</span><span class="o">=</span>admin <span class="nv">password</span><span class="o">=</span>password <span class="nv">profile</span><span class="o">=</span>admins <span class="nv">server</span><span class="o">=</span>hotspot1
+add <span class="nv">name</span><span class="o">=</span>usuario <span class="nv">password</span><span class="o">=</span>usuario <span class="nv">server</span><span class="o">=</span>hotspot1
+add <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">name</span><span class="o">=</span>usuario@correo.com <span class="nv">password</span><span class="o">=</span>password123 <span class="nv">server</span><span class="o">=</span>hotspot1
+/ip hotspot walled-garden
+add <span class="nv">disabled</span><span class="o">=</span>yes dst-host<span class="o">=</span>www.google.es <span class="nv">server</span><span class="o">=</span>hotspot1 src-address<span class="o">=</span>0.0.0.0
+add <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;place hotspot rules here&#34;</span> <span class="nv">disabled</span><span class="o">=</span>yes
+add dst-host<span class="o">=</span>guifi.net
+add dst-host<span class="o">=</span>*.guifi.net*/*
+add dst-host<span class="o">=</span>gg.google.com
+add dst-host<span class="o">=</span>maps.google.com
+add dst-host<span class="o">=</span>khm0.google.com
+add dst-host<span class="o">=</span>khm1.google.com
+add dst-host<span class="o">=</span>khm2.google.com
+add dst-host<span class="o">=</span>khm3.google.com
+add dst-host<span class="o">=</span>mt0.google.com
+add dst-host<span class="o">=</span>mt1.google.com
+add dst-host<span class="o">=</span>mt2.google.com
+add dst-host<span class="o">=</span>mt3.google.com
+add dst-host<span class="o">=</span>maps.gstatic.com
+add dst-host<span class="o">=</span>gg.google.com
+add dst-host<span class="o">=</span>id.google.com
+add dst-host<span class="o">=</span>www.google-analytics.com
+add dst-host<span class="o">=</span>www.heywhatsthat.com
+add dst-host<span class="o">=</span>ocsp.thawte.com
+add dst-host<span class="o">=</span>https://securityinabox.org/es*/*
+add dst-host<span class="o">=</span>http://www.eltiempo.es/*
+add dst-host<span class="o">=</span>http://elrollodecepeda.wordpress.com/*
+add dst-host<span class="o">=</span>http://cepedadelamora.blogspot.com/*
+add dst-host<span class="o">=</span>https://llistes.guifi.net/sympa/info/guifi-gredos
+add dst-host<span class="o">=</span>https://llistes.guifi.net/*
+add dst-host<span class="o">=</span>http*://securityinabox.org/es*/*
+add dst-host<span class="o">=</span>https://*llistes.guifi.net*/*
+add dst-host<span class="o">=</span>https://llistes.guifi.net/sympa/subscribe/guifi-gredos
+add dst-host<span class="o">=</span>https://llistes.guifi.net/sympa*/*
+add dst-host<span class="o">=</span>https://llistes.guifi.net/sympa/*
+add dst-host<span class="o">=</span>http://bin-short.whatsapp.net/
+add dst-host<span class="o">=</span>http://cepedadelamora.blogspot.com.es/
+add dst-host<span class="o">=</span>*.qui.guifi.net*/*
+/ip hotspot walled-garden ip
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">comment</span><span class="o">=</span>10.0.0.0/8 <span class="nv">disabled</span><span class="o">=</span>no dst-address<span class="o">=</span>10.0.0.0/8 !dst-port !protocol !src-address
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">comment</span><span class="o">=</span>llistes.guifi.net <span class="nv">disabled</span><span class="o">=</span>no dst-address<span class="o">=</span>109.69.12.15 !dst-port !protocol !src-address
+add <span class="nv">action</span><span class="o">=</span>accept <span class="nv">comment</span><span class="o">=</span>securityinabox.org <span class="nv">disabled</span><span class="o">=</span>no dst-address<span class="o">=</span>88.198.62.144 !dst-port !protocol !src-address
+/ip ipsec policy
+<span class="nb">set</span> <span class="m">0</span> dst-address<span class="o">=</span>0.0.0.0/0 src-address<span class="o">=</span>0.0.0.0/0
+/ip proxy
+<span class="nb">set</span> cache-administrator<span class="o">=</span>xxx@gmail.com cache-path<span class="o">=</span>web-proxy1 parent-proxy<span class="o">=</span>0.0.0.0
+/ip route
+add <span class="nv">distance</span><span class="o">=</span><span class="m">1</span> <span class="nv">gateway</span><span class="o">=</span>10.228.150.1
+/ip service
+<span class="nb">set</span> telnet <span class="nv">disabled</span><span class="o">=</span>yes
+<span class="nb">set</span> ftp <span class="nv">address</span><span class="o">=</span>0.0.0.0/0 <span class="nv">disabled</span><span class="o">=</span>yes
+<span class="nb">set</span> www <span class="nv">address</span><span class="o">=</span>192.168.1.0/24
+<span class="nb">set</span> ssh <span class="nv">address</span><span class="o">=</span>0.0.0.0/0 <span class="nv">disabled</span><span class="o">=</span>yes
+<span class="nb">set</span> www-ssl <span class="nv">address</span><span class="o">=</span>0.0.0.0/0 <span class="nv">certificate</span><span class="o">=</span>cert1 <span class="nv">disabled</span><span class="o">=</span>no
+<span class="nb">set</span> api <span class="nv">disabled</span><span class="o">=</span>yes
+<span class="nb">set</span> winbox <span class="nv">address</span><span class="o">=</span>0.0.0.0/0 <span class="nv">port</span><span class="o">=</span><span class="m">8291</span>
+<span class="nb">set</span> api-ssl <span class="nv">disabled</span><span class="o">=</span>yes
+/ip traffic-flow
+<span class="nb">set</span> active-flow-timeout<span class="o">=</span>10m cache-entries<span class="o">=</span>64k <span class="nv">enabled</span><span class="o">=</span>yes
+/ip traffic-flow target
+add dst-address<span class="o">=</span>10.228.150.2 <span class="nv">port</span><span class="o">=</span><span class="m">5556</span>
+/snmp
+<span class="nb">set</span> <span class="nv">contact</span><span class="o">=</span>guifi@guifi.net <span class="nv">enabled</span><span class="o">=</span>yes <span class="nv">location</span><span class="o">=</span>hostname
+/system clock
+<span class="nb">set</span> time-zone-autodetect<span class="o">=</span>no time-zone-name<span class="o">=</span>Europe/Madrid
+/system clock manual
+<span class="nb">set</span> dst-end<span class="o">=</span><span class="s2">&#34;feb/01/1970 00:00:00&#34;</span> dst-start<span class="o">=</span><span class="s2">&#34;feb/01/1970 00:00:00&#34;</span>
+/system identity
+<span class="nb">set</span> <span class="nv">name</span><span class="o">=</span>hostname
+/system logging
+add <span class="nv">action</span><span class="o">=</span>remote <span class="nv">topics</span><span class="o">=</span>critical
+add <span class="nv">action</span><span class="o">=</span>remote <span class="nv">topics</span><span class="o">=</span>error
+add <span class="nv">action</span><span class="o">=</span>remote <span class="nv">topics</span><span class="o">=</span>info
+add <span class="nv">action</span><span class="o">=</span>remote <span class="nv">topics</span><span class="o">=</span>warning
+add <span class="nv">topics</span><span class="o">=</span>e-mail
+add <span class="nv">action</span><span class="o">=</span>remote <span class="nv">topics</span><span class="o">=</span>e-mail
+add <span class="nv">action</span><span class="o">=</span>disk <span class="nv">topics</span><span class="o">=</span>critical
+add <span class="nv">action</span><span class="o">=</span>remote <span class="nv">topics</span><span class="o">=</span>firewall
+add <span class="nv">action</span><span class="o">=</span>disk <span class="nv">topics</span><span class="o">=</span>system
+add <span class="nv">action</span><span class="o">=</span><span class="nb">echo</span> <span class="nv">topics</span><span class="o">=</span>warning
+/system note
+<span class="nb">set</span> <span class="nv">note</span><span class="o">=</span><span class="s2">&#34;MMMMMMMMMMMMMMMMMMMMMXo,;:::;,;dXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\
+</span><span class="s2">    \nMMMMMMMMMMMMMMMMMMMWO;;OWMMWXo. :KMMMMMWKxoldkXWMMMMMMMMMMMMMMMMMMMMMM\
+</span><span class="s2">    \nMMMMMMMMMMMMMMMMMMKc&#39;lXMMMMMMX:  ;KMMMXo;dk&#39;  .cx0KNWMMMMMMMMMMMMMMMMM\
+</span><span class="s2">    \nMMMMMMMMMMMMMMMMMO,,OWMMMMMMMWo   ,oxxcc0WWx..&#39;. .,.,dXMMMMMMMMMMMMMMM\
+</span><span class="s2">    \nMMMMMMMMMMMMMMMMK;:XMMMMMMMMMMXc..;cokKWMMXkl:clcc,   :XMMMMMMMMMMMMMM\
+</span><span class="s2">    \nMMMMMMMMMMMMMMMK:lXMMMMMMMMMMMM0&#39; .:cod0NWd..;,..&#39;;,.  oNMMMMMMMMMMMMM\
+</span><span class="s2">    \nMMMMMMMMMMMMMXx;oNMMMMMMMMMMMMNOl:;:::cooddl:;,,&#39;  .cl;.;oOKNWMMMMMMMM\
+</span><span class="s2">    \nMMMMMMMMMW0olcl0WMMMMMMMMMMMMMWK0NX0OdoooolccloOKkl:dklcc,..,oddKMMMMM\
+</span><span class="s2">    \nMMMMMMMMKc&#39;:kXWMMMMMMMMMMMMMMMMMMMMMWx;&#39;..:cclllodxolo,.&#39;:.  .,..oKWMM\
+</span><span class="s2">    \nMMMMMMNd,:0WMMMMMMMMMMMMMMMMMMMMMMNXo.     .cooll;..,codc,. .,&#39;,;,&#39;:ON\
+</span><span class="s2">    \nMMMWXd::kWMMMMMMMMMMMMMMMMMMMMMMMM0l&#39;       &#39;;;:oollc,,dOdl;&#39;;clodoolk\
+</span><span class="s2">    \nN0kdooONMMMMMMMMMMMMMMMMMMMMMMMMMWd,&#39;..       &#39;loldXNkolllokxookKKXWNK\
+</span><span class="s2">    \nXK0XWMMMMMMMMMMMMMMMMMMMMMMMMMMWKOdccoxc.     &#39;dOkOXN0x0XK0NMMMMMMMMMM\
+</span><span class="s2">    \nMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMKx0MXxdkxl:,::dKWMMWMMMWWMMMMMMMMMMMMM\
+</span><span class="s2">    \n&#34;</span>
+/system ntp client
+<span class="nb">set</span> <span class="nv">enabled</span><span class="o">=</span>yes primary-ntp<span class="o">=</span>158.227.98.15 secondary-ntp<span class="o">=</span>193.136.164.1
+/system ntp server
+<span class="nb">set</span> <span class="nv">enabled</span><span class="o">=</span>yes <span class="nv">multicast</span><span class="o">=</span>yes
+/system routerboard settings
+<span class="nb">set</span> silent-boot<span class="o">=</span>no
+/system scheduler
+add <span class="nv">comment</span><span class="o">=</span>23:42:26 <span class="nv">interval</span><span class="o">=</span>23h54m <span class="nv">name</span><span class="o">=</span>LOG_MAIL on-event<span class="o">=</span><span class="s2">&#34;:local scheduleName \&#34;LOG_MAIL\&#34;\r\
+</span><span class="s2">    \n:local emailAddress \&#34;mail@gmail.com\&#34;\r\
+</span><span class="s2">    \n:local startBuf [:toarray [/log find message~\&#34;logged in\&#34; || message~\&#34;login failure\&#34;]]\r\
+</span><span class="s2">    \n:local removeThese (\&#34;\&#34;)\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n:local lastTime [/system scheduler get [find name=\&#34;\$scheduleName\&#34;] comment]\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n:local currentBuf \&#34;\&#34;; :set currentBuf [:toarray \$currentBuf]\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n:foreach i in=\$startBuf do={\r\
+</span><span class="s2">    \n  :local toggle 1\r\
+</span><span class="s2">    \n  :foreach j in=[:toarray \$removeThese] do={\r\
+</span><span class="s2">    \n    :if ([:typeof [:find [/log get \$i message] \&#34;\$j\&#34;]] = \&#34;num\&#34;) do={\r\
+</span><span class="s2">    \n      :set toggle 0\r\
+</span><span class="s2">    \n    }\r\
+</span><span class="s2">    \n  }\r\
+</span><span class="s2">    \n  :if (\$toggle = 1) do={\r\
+</span><span class="s2">    \n    :set currentBuf (\$currentBuf , \$i)\r\
+</span><span class="s2">    \n  }\r\
+</span><span class="s2">    \n}\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n:local currentLineCount [ :len \$currentBuf ]\r\
+</span><span class="s2">    \n  \r\
+</span><span class="s2">    \nif (\$currentLineCount &gt; 0) do={\r\
+</span><span class="s2">    \n   :local currentTime \&#34;\$[ /log get [ :pick \$currentBuf (\$currentLineCount -1) ] time ]\&#34;\r\
+</span><span class="s2">    \n  \r\
+</span><span class="s2">    \n   :if ([:len \$currentTime] = 15 ) do={\r\
+</span><span class="s2">    \n      :set currentTime [ :pick \$currentTime 7 15 ]\r\
+</span><span class="s2">    \n   }\r\
+</span><span class="s2">    \n     \r\
+</span><span class="s2">    \n   :local output \&#34;\$currentTime \$[/log get [ :pick \$currentBuf (\$currentLineCount-1) ] message ]\&#34;\r\
+</span><span class="s2">    \n     \r\
+</span><span class="s2">    \n   :if (([:len \$lastTime] &lt; 1) || (([:len \$lastTime] &gt; 0) &amp;&amp; (\$lastTime != \$currentTime))) do={\r\
+</span><span class="s2">    \n      /system scheduler set [find name=\&#34;\$scheduleName\&#34;] comment=\$currentTime\r\
+</span><span class="s2">    \n      /tool e-mail send to=\&#34;mail@gmail.com\&#34; port=25 server=74.125.133.108 user=mail@gmail.com password=password from=hostname start-tls=yes subject=\&#34;hostname_LOG \$currentTime\&#34; body=\&#34;\$output\&#34;\r\
+</span><span class="s2">    \n   }\r\
+</span><span class="s2">    \n}&#34;</span> <span class="nv">policy</span><span class="o">=</span>ftp,reboot,read,write,policy,test,password,sniff,sensitive start-time<span class="o">=</span>startup
+add <span class="nv">interval</span><span class="o">=</span>23h53m <span class="nv">name</span><span class="o">=</span>SEND_BACKUP on-event<span class="o">=</span><span class="s2">&#34;/system script run SEND_BACKUP&#34;</span> <span class="nv">policy</span><span class="o">=</span>ftp,reboot,read,write,policy,test,password,sniff,sensitive start-time<span class="o">=</span>startup
+add <span class="nv">comment</span><span class="o">=</span><span class="s2">&#34;REINICIO CADA DIA&#34;</span> <span class="nv">interval</span><span class="o">=</span>1d <span class="nv">name</span><span class="o">=</span>schedule1 on-event<span class="o">=</span><span class="s2">&#34;/system script run reiniciar&#34;</span> <span class="nv">policy</span><span class="o">=</span>ftp,reboot,read,write,policy,test,password,sniff,sensitive start-date<span class="o">=</span>jun/03/2016 start-time<span class="o">=</span>06:00:00
+/system script
+add dont-require-permissions<span class="o">=</span>no <span class="nv">name</span><span class="o">=</span>console_detail <span class="nv">owner</span><span class="o">=</span>admin <span class="nv">policy</span><span class="o">=</span>ftp,reboot,read,write,policy,test,password,sniff,sensitive <span class="nv">source</span><span class="o">=</span><span class="s2">&#34;:local content\r\
+</span><span class="s2">    \n:local logcontenttemp \&#34;\&#34;\r\
+</span><span class="s2">    \n:local logcontent \&#34;\&#34;\r\
+</span><span class="s2">    \n:local counter\r\
+</span><span class="s2">    \n:local v 0\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n:set logcontenttemp \&#34;You are logged into: \$[/system identity get name]\&#34;\r\
+</span><span class="s2">    \n:set logcontent (\&#34;\$logcontent\&#34; .\&#34;\$logcontenttemp\&#34; .\&#34;\\n\&#34;)\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n:set logcontenttemp \&#34;############### system health ###############\&#34;\r\
+</span><span class="s2">    \n:set logcontent (\&#34;\$logcontent\&#34; .\&#34;\$logcontenttemp\&#34; .\&#34;\\n\&#34;)\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n:set logcontenttemp \&#34;Uptime:  \$[/system resource get uptime] d:h:m:s\&#34;\r\
+</span><span class="s2">    \n:set logcontent (\&#34;\$logcontent\&#34; .\&#34;\$logcontenttemp\&#34; .\&#34; | \&#34;)\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n:set logcontenttemp \&#34;CPU: \$[/system resource get cpu-load]%\&#34;\r\
+</span><span class="s2">    \n:set logcontent (\&#34;\$logcontent\&#34; .\&#34;\$logcontenttemp\&#34; .\&#34;\\n\&#34;)\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n:set logcontenttemp \&#34;RAM: \$(([/system resource get total-memory]-[/system resource get free-memory])/1024)/\$([/system resource get total-memory]/1024)M\&#34;\r\
+</span><span class="s2">    \n:set logcontent (\&#34;\$logcontent\&#34; .\&#34;\$logcontenttemp\&#34; .\&#34; | \&#34;)\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n##\r\
+</span><span class="s2">    \n#voltage and temp readout not available on x86, check for this before trying\r\
+</span><span class="s2">    \n#to record otherwise script will halt unexpectedly\r\
+</span><span class="s2">    \n##\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n:if ([/system resource get architecture-name]=\&#34;x86\&#34;) do={\r\
+</span><span class="s2">    \n  :set logcontenttemp \&#34;Voltage: NIL\&#34;\r\
+</span><span class="s2">    \n  :set logcontent (\&#34;\$logcontent\&#34; .\&#34;\$logcontenttemp\&#34; .\&#34; | \&#34;)\r\
+</span><span class="s2">    \n  :set logcontenttemp \&#34;Temp: NIL\&#34;\r\
+</span><span class="s2">    \n  :set logcontent (\&#34;\$logcontent\&#34; .\&#34;\$logcontenttemp\&#34; .\&#34;\\n\&#34;)\r\
+</span><span class="s2">    \n} else={\r\
+</span><span class="s2">    \n  :set logcontenttemp \&#34;Voltage: \$[:pick [/system health get voltage] 0 2] v\&#34;\r\
+</span><span class="s2">    \n  :set logcontent (\&#34;\$logcontent\&#34; .\&#34;\$logcontenttemp\&#34; .\&#34; | \&#34;)\r\
+</span><span class="s2">    \n  :set logcontenttemp \&#34;Temp: \$[ /system health get temperature]c\&#34;\r\
+</span><span class="s2">    \n  :set logcontent (\&#34;\$logcontent\&#34; .\&#34;\$logcontenttemp\&#34; .\&#34;\\n\&#34;)\r\
+</span><span class="s2">    \n}\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n:set logcontenttemp \&#34;############# user auth details #############\&#34;\r\
+</span><span class="s2">    \n:set logcontent (\&#34;\$logcontent\&#34; .\&#34;\$logcontenttemp\&#34; .\&#34;\\n\&#34;)\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n:foreach counter in=[/ip hotspot active find ] do={:set v (\$v + 1)}\r\
+</span><span class="s2">    \n:set logcontenttemp \&#34;Hotspot online: \$v |\&#34;\r\
+</span><span class="s2">    \n:set v 0\r\
+</span><span class="s2">    \n:foreach counter in=[/ppp active find ] do={:set v (\$v + 1)}\r\
+</span><span class="s2">    \n:set logcontenttemp (\&#34;\$logcontenttemp\&#34; . \&#34; PPP online: \$v\&#34;)\r\
+</span><span class="s2">    \n:set logcontent (\&#34;\$logcontent\&#34; .\&#34;\$logcontenttemp\&#34; .\&#34;\\n\&#34;)\r\
+</span><span class="s2">    \n \r\
+</span><span class="s2">    \n/system note set note=\&#34;\$logcontent\&#34;&#34;</span>
+add dont-require-permissions<span class="o">=</span>no <span class="nv">name</span><span class="o">=</span>reiniciar <span class="nv">owner</span><span class="o">=</span>admin <span class="nv">policy</span><span class="o">=</span>ftp,reboot,read,write,policy,test,password <span class="nv">source</span><span class="o">=</span><span class="s2">&#34;/system reboot&#34;</span>
+add dont-require-permissions<span class="o">=</span>no <span class="nv">name</span><span class="o">=</span>SEND_BACKUP <span class="nv">owner</span><span class="o">=</span>admin <span class="nv">policy</span><span class="o">=</span>ftp,reboot,read,write,policy,test,password,sniff,sensitive <span class="nv">source</span><span class="o">=</span><span class="s2">&#34;/system backup save name=hostname_email_backup dont-encrypt=no\r\
+</span><span class="s2">    \n/log print file=hostname_logmail.txt\r\
+</span><span class="s2">    \n\r\
+</span><span class="s2">    \n/tool e-mail send file=hostname_email_backup.backup to=mail@gmail.com port=25 server=74.125.133.108 user=mail@gmail.com password=password from=hostname start-tls=yes subject=hostname_backup_diario body=hostname_backup_diario\r\
+</span><span class="s2">    \n/tool e-mail send file=hostname_logmail.txt to=mail@gmail.com port=25 server=74.125.133.108 user=mail@gmail.com password=password from=hostname start-tls=yes subject=hostname_log_diario body=hostname_log_diario&#34;</span>
+add dont-require-permissions<span class="o">=</span>no <span class="nv">name</span><span class="o">=</span>address_list_winbox-acces <span class="nv">owner</span><span class="o">=</span>admin <span class="nv">policy</span><span class="o">=</span>ftp,reboot,read,write,policy,test,password,sniff,sensitive <span class="nv">source</span><span class="o">=</span><span class="s2">&#34;ip firewall address-list print&#34;</span>
+/tool e-mail
+<span class="nb">set</span> <span class="nv">address</span><span class="o">=</span>74.125.133.108 <span class="nv">from</span><span class="o">=</span>hostname <span class="nv">password</span><span class="o">=</span>password start-tls<span class="o">=</span>yes <span class="nv">user</span><span class="o">=</span>mail@gmail.com
+/tool graphing interface
+add
+add <span class="nv">interface</span><span class="o">=</span>bridge1
+add
+add <span class="nv">interface</span><span class="o">=</span>ether1
+add <span class="nv">interface</span><span class="o">=</span>ether3
+add <span class="nv">interface</span><span class="o">=</span>ether4
+add <span class="nv">interface</span><span class="o">=</span>ether5
+add
+/tool graphing queue
+add simple-queue<span class="o">=</span>2MB_down_384MB_up
+add simple-queue<span class="o">=</span>queue1
+/tool graphing resource
+add
+/tool mac-server
+<span class="nb">set</span> allowed-interface-list<span class="o">=</span>mactel
+/tool mac-server mac-winbox
+<span class="nb">set</span> allowed-interface-list<span class="o">=</span>mac-winbox
+/tool romon port
+add
+*&gt;
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="conclusión">Conclusión</h2>
+<p>Como conclusión os digo, que en este momento se intentan poner todas las facilidades posibles para que a pie de calle se pueda conectar al acceso abierto con cualquier dispositivo que cuente al menos con 802.11b.<br />
+Al principio estaba el portal cautivo del hotspot con acceso limitado en tiempo y caudal (creo que eran 320k simétricos para cada dispositivo por un tiempo de 2 horas al día por dispositivo), en esta gestión por MAC, el &ldquo;cliente&rdquo; se tenia que abrir una página cualquiera en el navegador del dispositivo y esta le redireccionaba a la página del hotspot, después validarse en el hotspot con un link de pincha aquí para tener acceso, en fin, un lío para cualquiera que quisiera conectarse a la wifi donde me cansé de dar instrucciones.<br />
+Hubo un día que me toco las narices y se deshabilitó el hotspot. Ahora para tener conexión a internet basta con conectar a la wifi. Hay un caudal límite para toadas las conexiones de acceso abierto, y el &ldquo;cliente&rdquo; cuando se quiere conectar solo tiene que conectar con el SSID del AP, se conecta a una wifi que no tiene contraseña, se asigna una IP y ya le funciona el WhatsApp y cualquier servicio de su dispositivo, antes para que funcionara el WhatsApp primero había que conectase al portal cautivo con el navegador, y no valía la barra de búsqueda de Google que usan muchos usuarios.</p>
+<p>La gestión del tráfico en el acceso abierto se hace por QoS se asignan prioridades dependiendo del servicio.<br />
+Si tuviéramos 100 o 200 Mb de salida a internet no tendríamos estos problemas y a pié de calle el grifo estaría abierto a demanda, pero la salida a internet es limitada y requiere de gestión por QoS para evitar la congestión.<br />
+Lo que tenemos actualmente, en 2021, es un una salida global a internet por telefonía móvil que falla cuando quiere y que hay que repartir entre muchas conexiones. Hay un caudal limitado para el total de conexiones a pie de calle y el resto es para las conexiones residenciales.</p>
+<p>El invento funciona más o menos 335 días al año, hay 30 días cuando llegan las temporadas de máxima concurrencia de conexiones que da igual lo que tengas configurado porque la salida a internet es la misma todo el año y no da para más.<br />
+Por ejemplo, en verano que son las temporadas de pico máximo, con 30 nodos residenciales a 4 dispositivos de media por nodo son 120 dispositivos residenciales + de 20 a 40 dispositivos del hotspot son 150 dispositivos que tienen que salir a internet por una conexión que está dimensionada para tener de 1 a 4 dispositivos.<br />
+<div class="alert alert-warning" role="alert" data-dir="ltr"><p>Que quede claro que yo no soy partidario hacer gestión del tráfico en ningún sitio y mucho menos en una red comunitaria, pero la salida a internet es la que es y hay momentos en los que hay muchas bocas que alimentar. Son los usuarios los que se tienen que responsabilizar de su uso.</p>
+<p>Una posible solución a este problema de concurrencia seria aplicar QoS dinámicas en las que se hiciera la gestión del tráfico por prioridad, tiempo y caudal, basándose en el número de conexiones y demanda de cada momento. Esto no sé hacerlo, se admiten sugerencias.</p>
+</div></p>
     </article>
     
     
@@ -2139,10 +3118,17 @@ La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b:</p>
 <nav class="pagination-single">
   
     
+      <a href="https://hotspotcepeda.github.io/es/posts/arrancando/" class="pagination-single__left">
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
+        </div>
+        <div class="pagination-single__left-title">Arrancando</div>      
+      </a>
+    
     <div class="grow"></div>
     
-      <a href="https://hotspotcepeda.github.io/es/posts/arrancando/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">Arrancando</div>
+      <a href="https://hotspotcepeda.github.io/es/posts/ralph/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">ralph</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
@@ -2505,6 +3491,8 @@ document.addEventListener('DOMContentLoaded', function () {
     <nav id="TableOfContents">
   <ul>
     <li><a href="#mikrotik">Mikrotik</a></li>
+    <li><a href="#configuración">Configuración</a></li>
+    <li><a href="#conclusión">Conclusión</a></li>
   </ul>
 </nav>
   </div>

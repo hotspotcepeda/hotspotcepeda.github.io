@@ -49,6 +49,4 @@ Hay un libro publicado bajo licencia Creative Commons que a mí me gustó mucho,
 Es gratis y está traducido al español y a muchos más idiomas, se puede descargar en http://wndw.net/book.html
 Tampoco es necesario que te conviertas en un experto en telecomunicaciones, para desplegar y mantener la red puedes contratar a un profesional de tu zona, qué para eso están.
 Igualmente hay que valorar el tipo de despliegue que se quiere hacer y las necesidades que se quieren cubrir, por ejemplo, cada vez es más barato desplegar con fibra óptica.
-{{< /alert >}}
-
- 
+{{< /alert >}} 
