@@ -541,8 +541,9 @@ Lo que tenemos actualmente, en 2021, es un una salida global a internet por tele
 
 El invento funciona más o menos 335 días al año, hay 30 días cuando llegan las temporadas de máxima concurrencia de conexiones que da igual lo que tengas configurado porque la salida a internet es la misma todo el año y no da para más.
 Por ejemplo, en verano que son las temporadas de pico máximo, con 30 nodos residenciales a 4 dispositivos de media por nodo son 120 dispositivos residenciales + de 20 a 40 dispositivos del hotspot son 150 dispositivos que tienen que salir a internet por una conexión que está dimensionada para tener de 1 a 4 dispositivos.
-{{< alert theme="warning" >}}
+
+{{< notice info >}}
 Que quede claro que yo no soy partidario hacer gestión del tráfico en ningún sitio y mucho menos en una red comunitaria, pero la salida a internet es la que es y hay momentos en los que hay muchas bocas que alimentar. Son los usuarios los que se tienen que responsabilizar de su uso.
 
 Una posible solución a este problema de concurrencia seria aplicar QoS dinámicas en las que se hiciera la gestión del tráfico por prioridad, tiempo y caudal, basándose en el número de conexiones y demanda de cada momento. Esto no sé hacerlo, se admiten sugerencias.
-{{< /alert >}}
+{{< /notice >}}
