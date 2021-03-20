@@ -14,7 +14,7 @@ tags:
 categories:
 - red
 series:
-- Themes Guide
+- Red comunitaria
 image: images/feature1/markdown.png
 ---
 En este artículo se comenta como intenté buscar el apoyo en asociaciones locales para que promovieran la iniciativa de una red de telecomunicaciones comunitaria, de alguna manera, para conseguir tener una wifi púbica, un acceso público a internet en un área rural desfavorecida. Por aquel entonces las conexiones a internet en Cepeda se hacían mediante el ISP Iberbanda (que daba conexiones de 1 2 y 3 Mb simétricos), y el 3G era un lujo.

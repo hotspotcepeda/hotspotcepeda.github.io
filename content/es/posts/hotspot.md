@@ -15,38 +15,46 @@ tags:
 categories:
 - red
 series:
-- guifi.net
+- Red comunitaria
 libraries:
 - mermaid
 image: images/feature1/markdown.png
 ---
 Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.
-La salida a internet la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.
+La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.
 <!--more-->
-## Mikrotik
-Para hacer la gestión de los dispositivos que se conectan a pie de calle se usa una ROUTERBOARD MIKROTIK RB750GL, este router está dedicado solo para esta tarea, lleva funcionando 24x7 desde año 2014 de la era pre-covid.
-![ROUTERBOARD MIKROTIK RB750GL](/gallery/red/rb750gl.png)
-La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b para que se puedan conectar dispositivos antiguos:
+## Hardware
+Para hacer la gestión de los dispositivos que se conectan a pie de calle se usa una ROUTERBOARD MIKROTIK RB750GL, este router está dedicado solo para esta tarea, lleva funcionando 24x7 desde el año 2014 de la era pre-covid.
+![ROUTERBOARD MIKROTIK RB750GL](/gallery/red/rb-750gl.png)
+La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b para que se puedan conectar dispositivos antiguos.
+El AP de la plaza Ubiquiti NanoStation 2 está en modo AP bridge, debe de tener mas de 10 años, es de cuando venían con un latiguillo de 3 metros de color azul, que tiempos aquellos.
+![Ubiquiti NanoStation 2](/gallery/red/NS2.png)
+Para extender la red del hotspot hay en enlace en 2.4 del Ayto al Bar municipal "El Traite" con Ubiquiti NanoStation Loco M2.
+![Ubiquiti NanoStation Loco M2](/gallery/red/2NSlocoM2.png)
+Para la captación en el Bar se usa de AP un router Comtrend AR-5387un https://openwrt.org/toh/comtrend/ar5387un liberado con OpenWRT, ni un problema, 24x7 desde 2014 más lo que llevara funcionando 
+antes.
+
+![Ubiquiti NanoStation Loco M2](/gallery/red/ar-5387un.png)
 ```mermaid
 graph TD;
-  RB750GL-->WAN_ether1;
-  RB750GL-->Libre_ether2;
-  RB750GL-->Gestión_ether3;
-  RB750GL-->bridge1_ether4;
+  ROUTERBOARD_MIKROTIK_RB750GL-->WAN_ether1;
+  ROUTERBOARD_MIKROTIK_RB750GL-->Libre_ether2;
+  ROUTERBOARD_MIKROTIK_RB750GL-->Gestión_ether3;
+  ROUTERBOARD_MIKROTIK_RB750GL-->bridge1_ether4;
   bridge1_ether4-->AP_NS2_plaza_Ayto;
-  RB750GL-->bridge1_ether5;
-  bridge1_ether5-->enl_NSM2_a;
-  enl_NSM2_a-->enl_NSM2_b;
-  enl_NSM2_b-->AP_OpenWrt_Bar_Municipal;
+  ROUTERBOARD_MIKROTIK_RB750GL-->bridge1_ether5;
+  bridge1_ether5-->enl_NSlocoM2_a;
+  enl_NSlocoM2_a-->enl_NSlocoM2_b;
+  enl_NSlocoM2_b-->AP_OpenWRT_Bar_Municipal;
 ```
-## Configuración
+## Configuración MikroTik
 ``` bash
 [admin@hostname] > export 
 # mar/14/2021 01:23:15 by RouterOS 6.43.2
 # software id = LVV0-IUW2
 #
 # model = 750GL
-# serial number = 467A025857A0
+# serial number = 888A02585888
 /interface bridge
 add comment=LAN fast-forward=no mtu=1500 name=bridge1 protocol-mode=none
 /interface ethernet
@@ -299,7 +307,7 @@ set pptp disabled=yes
 /ip hotspot service-port
 set ftp disabled=yes
 /ip hotspot user
-add name=admin password=password profile=admins server=hotspot1
+add name=admin password=password profile=admin server=hotspot1
 add name=usuario password=usuario server=hotspot1
 add disabled=yes name=usuario@correo.com password=password123 server=hotspot1
 /ip hotspot walled-garden
@@ -344,7 +352,7 @@ add action=accept comment=securityinabox.org disabled=no dst-address=88.198.62.1
 /ip ipsec policy
 set 0 dst-address=0.0.0.0/0 src-address=0.0.0.0/0
 /ip proxy
-set cache-administrator=xxx@gmail.com cache-path=web-proxy1 parent-proxy=0.0.0.0
+set cache-administrator=mail@gmail.com cache-path=web-proxy1 parent-proxy=0.0.0.0
 /ip route
 add distance=1 gateway=10.228.150.1
 /ip service
@@ -535,6 +543,6 @@ El invento funciona más o menos 335 días al año, hay 30 días cuando llegan l
 Por ejemplo, en verano que son las temporadas de pico máximo, con 30 nodos residenciales a 4 dispositivos de media por nodo son 120 dispositivos residenciales + de 20 a 40 dispositivos del hotspot son 150 dispositivos que tienen que salir a internet por una conexión que está dimensionada para tener de 1 a 4 dispositivos.
 {{< alert theme="warning" >}}
 Que quede claro que yo no soy partidario hacer gestión del tráfico en ningún sitio y mucho menos en una red comunitaria, pero la salida a internet es la que es y hay momentos en los que hay muchas bocas que alimentar. Son los usuarios los que se tienen que responsabilizar de su uso.
- 
+
 Una posible solución a este problema de concurrencia seria aplicar QoS dinámicas en las que se hiciera la gestión del tráfico por prioridad, tiempo y caudal, basándose en el número de conexiones y demanda de cada momento. Esto no sé hacerlo, se admiten sugerencias.
 {{< /alert >}}

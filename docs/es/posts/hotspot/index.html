@@ -1776,7 +1776,7 @@ if (!doNotTrack) {
 <div class="single__infos">
   <time class="single__info" title="Escrito en">📅&nbsp;2014-01-05 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Tiempo de lectura"> ☕&nbsp;19&nbsp;minutos lectura </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Tiempo de lectura"> ☕&nbsp;20&nbsp;minutos lectura </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="Escrito por">🗻&nbsp;HotspotCepeda</span>
   
@@ -1803,22 +1803,29 @@ if (!doNotTrack) {
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
       <p>Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.<br />
-La salida a internet la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.</p>
-<h2 id="mikrotik">Mikrotik</h2>
-<p>Para hacer la gestión de los dispositivos que se conectan a pie de calle se usa una ROUTERBOARD MIKROTIK RB750GL, este router está dedicado solo para esta tarea, lleva funcionando 24x7 desde año 2014 de la era pre-covid.<br />
-<img src="/gallery/red/rb750gl.png" alt="ROUTERBOARD MIKROTIK RB750GL" /><br />
-La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b para que se puedan conectar dispositivos antiguos:</p>
+La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.</p>
+<h2 id="hardware">Hardware</h2>
+<p>Para hacer la gestión de los dispositivos que se conectan a pie de calle se usa una ROUTERBOARD MIKROTIK RB750GL, este router está dedicado solo para esta tarea, lleva funcionando 24x7 desde el año 2014 de la era pre-covid.<br />
+<img src="/gallery/red/rb-750gl.png" alt="ROUTERBOARD MIKROTIK RB750GL" /><br />
+La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b para que se puedan conectar dispositivos antiguos.<br />
+El AP de la plaza Ubiquiti NanoStation 2 está en modo AP bridge, debe de tener mas de 10 años, es de cuando venían con un latiguillo de 3 metros de color azul, que tiempos aquellos.<br />
+<img src="/gallery/red/NS2.png" alt="Ubiquiti NanoStation 2" /><br />
+Para extender la red del hotspot hay en enlace en 2.4 del Ayto al Bar municipal &ldquo;El Traite&rdquo; con Ubiquiti NanoStation Loco M2.<br />
+<img src="/gallery/red/2NSlocoM2.png" alt="Ubiquiti NanoStation Loco M2" /><br />
+Para la captación en el Bar se usa de AP un router Comtrend AR-5387un <a href="https://openwrt.org/toh/comtrend/ar5387un">https://openwrt.org/toh/comtrend/ar5387un</a> liberado con OpenWRT, ni un problema, 24x7 desde 2014 más lo que llevara funcionando <br />
+antes.</p>
+<p><img src="/gallery/red/ar-5387un.png" alt="Ubiquiti NanoStation Loco M2" /></p>
 <pre><code class="language-mermaid" data-lang="mermaid">graph TD;
-  RB750GL--&gt;WAN_ether1;
-  RB750GL--&gt;Libre_ether2;
-  RB750GL--&gt;Gestión_ether3;
-  RB750GL--&gt;bridge1_ether4;
+  ROUTERBOARD_MIKROTIK_RB750GL--&gt;WAN_ether1;
+  ROUTERBOARD_MIKROTIK_RB750GL--&gt;Libre_ether2;
+  ROUTERBOARD_MIKROTIK_RB750GL--&gt;Gestión_ether3;
+  ROUTERBOARD_MIKROTIK_RB750GL--&gt;bridge1_ether4;
   bridge1_ether4--&gt;AP_NS2_plaza_Ayto;
-  RB750GL--&gt;bridge1_ether5;
-  bridge1_ether5--&gt;enl_NSM2_a;
-  enl_NSM2_a--&gt;enl_NSM2_b;
-  enl_NSM2_b--&gt;AP_OpenWrt_Bar_Municipal;
-</code></pre><h2 id="configuración">Configuración</h2>
+  ROUTERBOARD_MIKROTIK_RB750GL--&gt;bridge1_ether5;
+  bridge1_ether5--&gt;enl_NSlocoM2_a;
+  enl_NSlocoM2_a--&gt;enl_NSlocoM2_b;
+  enl_NSlocoM2_b--&gt;AP_OpenWRT_Bar_Municipal;
+</code></pre><h2 id="configuración-mikrotik">Configuración MikroTik</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">  1
@@ -2308,7 +2315,7 @@ La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b para que se 
 <span class="c1"># software id = LVV0-IUW2</span>
 <span class="c1">#</span>
 <span class="c1"># model = 750GL</span>
-<span class="c1"># serial number = 467A025857A0</span>
+<span class="c1"># serial number = 888A02585888</span>
 /interface bridge
 add <span class="nv">comment</span><span class="o">=</span>LAN fast-forward<span class="o">=</span>no <span class="nv">mtu</span><span class="o">=</span><span class="m">1500</span> <span class="nv">name</span><span class="o">=</span>bridge1 protocol-mode<span class="o">=</span>none
 /interface ethernet
@@ -2561,7 +2568,7 @@ add <span class="nv">action</span><span class="o">=</span>masquerade <span class
 /ip hotspot service-port
 <span class="nb">set</span> ftp <span class="nv">disabled</span><span class="o">=</span>yes
 /ip hotspot user
-add <span class="nv">name</span><span class="o">=</span>admin <span class="nv">password</span><span class="o">=</span>password <span class="nv">profile</span><span class="o">=</span>admins <span class="nv">server</span><span class="o">=</span>hotspot1
+add <span class="nv">name</span><span class="o">=</span>admin <span class="nv">password</span><span class="o">=</span>password <span class="nv">profile</span><span class="o">=</span>admin <span class="nv">server</span><span class="o">=</span>hotspot1
 add <span class="nv">name</span><span class="o">=</span>usuario <span class="nv">password</span><span class="o">=</span>usuario <span class="nv">server</span><span class="o">=</span>hotspot1
 add <span class="nv">disabled</span><span class="o">=</span>yes <span class="nv">name</span><span class="o">=</span>usuario@correo.com <span class="nv">password</span><span class="o">=</span>password123 <span class="nv">server</span><span class="o">=</span>hotspot1
 /ip hotspot walled-garden
@@ -2606,7 +2613,7 @@ add <span class="nv">action</span><span class="o">=</span>accept <span class="nv
 /ip ipsec policy
 <span class="nb">set</span> <span class="m">0</span> dst-address<span class="o">=</span>0.0.0.0/0 src-address<span class="o">=</span>0.0.0.0/0
 /ip proxy
-<span class="nb">set</span> cache-administrator<span class="o">=</span>xxx@gmail.com cache-path<span class="o">=</span>web-proxy1 parent-proxy<span class="o">=</span>0.0.0.0
+<span class="nb">set</span> cache-administrator<span class="o">=</span>mail@gmail.com cache-path<span class="o">=</span>web-proxy1 parent-proxy<span class="o">=</span>0.0.0.0
 /ip route
 add <span class="nv">distance</span><span class="o">=</span><span class="m">1</span> <span class="nv">gateway</span><span class="o">=</span>10.228.150.1
 /ip service
@@ -3490,8 +3497,8 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#mikrotik">Mikrotik</a></li>
-    <li><a href="#configuración">Configuración</a></li>
+    <li><a href="#hardware">Hardware</a></li>
+    <li><a href="#configuración-mikrotik">Configuración MikroTik</a></li>
     <li><a href="#conclusión">Conclusión</a></li>
   </ul>
 </nav>

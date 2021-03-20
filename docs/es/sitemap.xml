@@ -413,11 +413,6 @@
   </url>
   
   <url>
-    <loc>https://hotspotcepeda.github.io/es/series/guifi.net/</loc>
-    <lastmod>2014-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hotspotcepeda.github.io/es/posts/hotspot/</loc>
     <lastmod>2014-01-05T00:00:00+00:00</lastmod>
   </url>
@@ -434,6 +429,11 @@
   
   <url>
     <loc>https://hotspotcepeda.github.io/es/categories/red/</loc>
+    <lastmod>2014-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/series/red-comunitaria/</loc>
     <lastmod>2014-01-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -460,21 +460,6 @@
   <url>
     <loc>https://hotspotcepeda.github.io/es/tags/asociaciones/</loc>
     <lastmod>2014-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/series/themes-guide/</loc>
-    <lastmod>2014-01-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/series/themes-guide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/series/themes-guide/"
-                />
   </url>
   
   <url>
