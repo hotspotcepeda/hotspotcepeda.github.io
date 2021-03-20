@@ -117,7 +117,7 @@ Guardar y reiniciar la configuración de los interfaces, esto tarda:
 ## 4 Comprobaciones
 Olvídate de la rotulación de interfaces que traía el router de origen, ahora se quedan así:
 ![Nueva routulación de bocas](/gallery/red/bocas.PNG)
-Conectar la WAN al 0 y pc a LAN 1 2 ó 3
+Conectar internet a la WAN 0 y pc a LAN 1 2 ó 3
 ``` bash
 dhclient eth0
 ssh 192.168.1.1
@@ -127,7 +127,7 @@ Ahora desde el router y desde nuestra maquina se alcanza internet ya se pueden a
 ping 8.8.8.8
 opkg update
 ```
-Para configurar la wifi y resto de opciones se puede hacer por el navegador con lUCI.
+Para configurar la wifi y resto de opciones ya se puede hacer por lUCI.
 
 
 
