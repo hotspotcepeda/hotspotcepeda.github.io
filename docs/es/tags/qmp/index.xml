@@ -11,8 +11,10 @@
     <description>Recent content in qMp on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Thu, 16 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jun 2014 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/qmp/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,14 +23,14 @@
       <item>
         <title>La propuesta</title>
         <link>https://hotspotcepeda.github.io/es/posts/la_propuesta/</link>
-        <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
-        
-        <atom:modified>Thu, 16 Apr 2015 00:00:00 +0000</atom:modified>
+        <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Fri, 06 Jun 2014 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/la_propuesta/</guid>
-        <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+        <description>&lt;p&gt;Me decidí a formular una propuesta para el despliegue de la red en Cepeda, como no tenia ni idea le presenté al alcalde un pdf con al idea que tenía, a lo que el alcalde respondó, &amp;ldquo;Mira a mi no me vengas con cosas técnicas, si quieres hacerlo. adelante. Te voy a ayudar en lo que pueda&amp;rdquo;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/content.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -43,6 +45,18 @@
           
         
         
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
         
       </item>
       

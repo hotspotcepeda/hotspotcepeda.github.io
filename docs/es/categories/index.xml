@@ -11,6 +11,8 @@
     <description>Recent content in Categories on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sat, 10 Jan 2015 00:00:00 +0000</lastBuildDate>
     
@@ -22,12 +24,12 @@
         <title>red</title>
         <link>https://hotspotcepeda.github.io/es/categories/red/</link>
         <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/categories/red/</guid>
         <description></description>
         
-        
+        <dc:creator>HotspotCepeda</dc:creator>
         
         
         

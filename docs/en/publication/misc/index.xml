@@ -11,6 +11,8 @@
     <description>Recent content in misc on HotspotCepeda. The community network.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Thu, 05 Mar 2020 14:08:48 +0000</lastBuildDate>
     
@@ -22,12 +24,12 @@
         <title>Book Review: Duis vulputate</title>
         <link>https://hotspotcepeda.github.io/en/publication/misc/misc_any_folder_name_1/</link>
         <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 01 Nov 2016 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/en/publication/misc/misc_any_folder_name_1/</guid>
         <description></description>
         
-        
+        <dc:creator>HotspotCepeda</dc:creator>
         
         
         

@@ -1,9 +1,9 @@
 ---
 title: "Paisaje"
-date: 2021-03-07
+date: 2015-03-07
 type: "gallery"
 mode: "at-once" # at-once is a default value
-description: "paisaje gallery"
-image: images/feature2/bam.png
+description: "Fotos de Cepeda"
+image: images/feature2/gallery.png
 ---
 Cepeda la Mora

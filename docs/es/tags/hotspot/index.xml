@@ -11,6 +11,8 @@
     <description>Recent content in hotspot on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 05 Jan 2014 00:00:00 +0000</lastBuildDate>
     
@@ -22,14 +24,14 @@
         <title>Hotspot</title>
         <link>https://hotspotcepeda.github.io/es/posts/hotspot/</link>
         <pubDate>Sun, 05 Jan 2014 00:00:00 +0000</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 05 Jan 2014 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/hotspot/</guid>
         <description>&lt;p&gt;Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.&lt;br /&gt;
 La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

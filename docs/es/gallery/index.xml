@@ -11,24 +11,26 @@
     <description>Recent content in Galleries on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/gallery/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>Paisaje</title>
-        <link>https://hotspotcepeda.github.io/es/gallery/paisaje/</link>
-        <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+        <title>Red</title>
+        <link>https://hotspotcepeda.github.io/es/gallery/red/</link>
+        <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 07 Mar 2020 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/gallery/red/</guid>
+        <description>Fotos de la Red</description>
         
-        <atom:modified>Sun, 07 Mar 2021 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/gallery/paisaje/</guid>
-        <description>Cepeda la Mora</description>
-        
-        
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/bam.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -37,16 +39,16 @@
       </item>
       
       <item>
-        <title>Red</title>
-        <link>https://hotspotcepeda.github.io/es/gallery/red/</link>
-        <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+        <title>Paisaje</title>
+        <link>https://hotspotcepeda.github.io/es/gallery/paisaje/</link>
+        <pubDate>Sat, 07 Mar 2015 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 07 Mar 2015 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/gallery/paisaje/</guid>
+        <description>Cepeda la Mora</description>
         
-        <atom:modified>Sat, 07 Mar 2020 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/gallery/red/</guid>
-        <description>Fotos de la Red</description>
-        
-        
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/bam.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/gallery.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

@@ -34,7 +34,7 @@
   
   <url>
     <loc>https://hotspotcepeda.github.io/es/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-07T00:46:37+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -45,26 +45,6 @@
                 hreflang="es"
                 href="https://hotspotcepeda.github.io/es/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/gallery/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/gallery/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/gallery/paisaje/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -140,6 +120,21 @@
   <url>
     <loc>https://hotspotcepeda.github.io/es/sitio/</loc>
     <lastmod>2021-03-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/gallery/</loc>
+    <lastmod>2020-03-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/gallery/"
+                />
   </url>
   
   <url>
@@ -373,21 +368,6 @@
   </url>
   
   <url>
-    <loc>https://hotspotcepeda.github.io/es/tags/guifi.net/</loc>
-    <lastmod>2015-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/posts/la_propuesta/</loc>
-    <lastmod>2015-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/tags/qmp/</loc>
-    <lastmod>2015-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hotspotcepeda.github.io/es/tags/ralph/</loc>
     <lastmod>2015-04-16T00:00:00+00:00</lastmod>
   </url>
@@ -395,6 +375,11 @@
   <url>
     <loc>https://hotspotcepeda.github.io/es/posts/ralph/</loc>
     <lastmod>2015-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/gallery/paisaje/</loc>
+    <lastmod>2015-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -450,6 +435,21 @@
                 hreflang="es"
                 href="https://hotspotcepeda.github.io/es/series/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/guifi.net/</loc>
+    <lastmod>2014-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/posts/la_propuesta/</loc>
+    <lastmod>2014-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/qmp/</loc>
+    <lastmod>2014-06-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>

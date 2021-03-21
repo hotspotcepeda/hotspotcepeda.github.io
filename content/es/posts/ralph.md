@@ -1,8 +1,8 @@
 ---
-title: "ralph"
+title: "Ralph en Docker"
 date: 2015-04-16
 draft: false
-description: "ralph docker install"
+description: "Ralph Docker install"
 hideToc: false
 enableToc: true
 enableTocContent: false
@@ -11,7 +11,7 @@ authorEmoji: "🗻"
 tags: 
 - ralph
 - docker
-image: images/feature2/content.png
+image: images/feature1/ralph.png
 ---
 https://ralph-ng.readthedocs.io/
 Ralph es un sistema de gestión de activos, DCIM y CMDB simple pero potente para centros de datos y back office.

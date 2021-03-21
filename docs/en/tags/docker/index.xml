@@ -11,6 +11,8 @@
     <description>Recent content in docker on HotspotCepeda. The community network.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 07 Mar 2021 00:46:37 +0100</lastBuildDate>
     
@@ -22,7 +24,7 @@
         <title>NEXTCLOUD DEBIAN SERVER AND CLIENT</title>
         <link>https://hotspotcepeda.github.io/en/posts/nextcloud_debian_debian_server_and_client/</link>
         <pubDate>Sun, 07 Mar 2021 00:46:37 +0100</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 07 Mar 2021 00:46:37 +0100</atom:modified>
         <guid>https://hotspotcepeda.github.io/en/posts/nextcloud_debian_debian_server_and_client/</guid>
         <description>ADD NEXTCLOUD REPOSITORY

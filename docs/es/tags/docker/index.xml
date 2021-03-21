@@ -11,6 +11,8 @@
     <description>Recent content in docker on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 07 Mar 2021 00:46:37 +0100</lastBuildDate>
     
@@ -22,7 +24,7 @@
         <title>Librenms Docker install</title>
         <link>https://hotspotcepeda.github.io/es/posts/librenms_docker_install/</link>
         <pubDate>Sun, 07 Mar 2021 00:46:37 +0100</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 07 Mar 2021 00:46:37 +0100</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/librenms_docker_install/</guid>
         <description>BBDD
@@ -30,7 +32,7 @@
 1 2 3 4 5 6 7 8 9 10 11 12 13  docker run -d \ -v `pwd`/data:/data \ -p 888:80 \ -e TZ=»Europe/Madrid» \ –link 0bd3a3993581(id container BBDD):mysql \ -e POLLER=24 \ -e DB_TYPE=mysql \ -e DB_HOST=mysql \ -e DB_NAME=librenms \ -e DB_USER=root \ -e DB_PASS=mysqlPASWORD \ –name librenms \ seti/librenms   Al navegador http://ipserver:888/install.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -53,10 +55,10 @@
       </item>
       
       <item>
-        <title>ralph</title>
+        <title>Ralph en Docker</title>
         <link>https://hotspotcepeda.github.io/es/posts/ralph/</link>
         <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 16 Apr 2015 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/ralph/</guid>
         <description>https://ralph-ng.readthedocs.io/
@@ -65,7 +67,7 @@ Características:
  realizar un seguimiento de las compras de activos y su ciclo de vida sistema de flujo flexible para el ciclo de vida de los activos centro de datos y soporte de back office Visualización dc incorporada  Ralph en Docker 1 2 3  docker run -i -t --name=&amp;#34;mysql_ralph&amp;#34; -v /var/lib/mysql -v /home/ralph/.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/content.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/ralph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

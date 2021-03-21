@@ -8,6 +8,7 @@ enableToc: true
 enableTocContent: false
 author: HotspotCepeda 
 authorEmoji: "🗻"
+image: images/feature1/librenms.png
 tags: 
 - docker
 - librenms

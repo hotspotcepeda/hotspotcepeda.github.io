@@ -11,6 +11,8 @@
     <description>Recent content in Tags on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 07 Mar 2021 00:46:37 +0100</lastBuildDate>
     
@@ -22,12 +24,12 @@
         <title>debian</title>
         <link>https://hotspotcepeda.github.io/es/tags/debian/</link>
         <pubDate>Sun, 07 Mar 2021 00:46:37 +0100</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/debian/</guid>
         <description></description>
         
-        
+        <dc:creator>HotspotCepeda</dc:creator>
         
         
         
@@ -40,12 +42,12 @@
         <title>docker</title>
         <link>https://hotspotcepeda.github.io/es/tags/docker/</link>
         <pubDate>Sun, 07 Mar 2021 00:46:37 +0100</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/docker/</guid>
         <description></description>
         
-        
+        <dc:creator>HotspotCepeda</dc:creator>
         
         
         
@@ -58,48 +60,12 @@
         <title>librenms</title>
         <link>https://hotspotcepeda.github.io/es/tags/librenms/</link>
         <pubDate>Sun, 07 Mar 2021 00:46:37 +0100</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/librenms/</guid>
         <description></description>
         
-        
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>guifi.net</title>
-        <link>https://hotspotcepeda.github.io/es/tags/guifi.net/</link>
-        <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/guifi.net/</guid>
-        <description></description>
-        
-        
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>qMp</title>
-        <link>https://hotspotcepeda.github.io/es/tags/qmp/</link>
-        <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/qmp/</guid>
-        <description></description>
-        
-        
+        <dc:creator>HotspotCepeda</dc:creator>
         
         
         
@@ -112,12 +78,12 @@
         <title>ralph</title>
         <link>https://hotspotcepeda.github.io/es/tags/ralph/</link>
         <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/ralph/</guid>
         <description></description>
         
-        
+        <dc:creator>HotspotCepeda</dc:creator>
         
         
         
@@ -130,12 +96,12 @@
         <title>OpenWRT</title>
         <link>https://hotspotcepeda.github.io/es/tags/openwrt/</link>
         <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/openwrt/</guid>
         <description></description>
         
-        
+        <dc:creator>HotspotCepeda</dc:creator>
         
         
         
@@ -148,12 +114,48 @@
         <title>Router neutro</title>
         <link>https://hotspotcepeda.github.io/es/tags/router-neutro/</link>
         <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/router-neutro/</guid>
         <description></description>
         
+        <dc:creator>HotspotCepeda</dc:creator>
         
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>guifi.net</title>
+        <link>https://hotspotcepeda.github.io/es/tags/guifi.net/</link>
+        <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/guifi.net/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>qMp</title>
+        <link>https://hotspotcepeda.github.io/es/tags/qmp/</link>
+        <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/qmp/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
         
         
         
@@ -166,12 +168,12 @@
         <title>hotspot</title>
         <link>https://hotspotcepeda.github.io/es/tags/hotspot/</link>
         <pubDate>Sun, 05 Jan 2014 00:00:00 +0000</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/hotspot/</guid>
         <description></description>
         
-        
+        <dc:creator>HotspotCepeda</dc:creator>
         
         
         
@@ -184,12 +186,12 @@
         <title>mikrotik</title>
         <link>https://hotspotcepeda.github.io/es/tags/mikrotik/</link>
         <pubDate>Sun, 05 Jan 2014 00:00:00 +0000</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/mikrotik/</guid>
         <description></description>
         
-        
+        <dc:creator>HotspotCepeda</dc:creator>
         
         
         
@@ -202,12 +204,12 @@
         <title>asociaciones</title>
         <link>https://hotspotcepeda.github.io/es/tags/asociaciones/</link>
         <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/asociaciones/</guid>
         <description></description>
         
-        
+        <dc:creator>HotspotCepeda</dc:creator>
         
         
         
@@ -220,12 +222,12 @@
         <title>index</title>
         <link>https://hotspotcepeda.github.io/es/tags/index/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/index/</guid>
         <description></description>
         
-        
+        <dc:creator>HotspotCepeda</dc:creator>
         
         
         

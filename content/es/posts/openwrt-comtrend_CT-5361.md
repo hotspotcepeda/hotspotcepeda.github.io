@@ -2,7 +2,7 @@
 title: "OpenWRT COMTREND CT-5361"
 date: 2015-01-10
 draft: false
-description: "openwrt-comtrend_CT-5361"
+description: "OpenWRT en Comtrend CT-5361"
 hideToc: false
 enableToc: true
 enableTocContent: false
@@ -15,7 +15,7 @@ categories:
 - red
 series:
 - Red comunitaria
-image: images/feature1/markdown.png
+image: images/feature1/openwrt.png
 ---
 Como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones. 
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible https://openwrt.org/toh/start porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router no es fácil y va corto de memoria pero se puede.
