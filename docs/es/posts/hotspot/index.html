@@ -1776,7 +1776,7 @@ if (!doNotTrack) {
 <div class="single__infos">
   <time class="single__info" title="Escrito en">📅&nbsp;2014-01-05 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Tiempo de lectura"> ☕&nbsp;20&nbsp;minutos lectura </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Tiempo de lectura"> ☕&nbsp;21&nbsp;minutos lectura </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="Escrito por">🗻&nbsp;HotspotCepeda</span>
   
@@ -2795,10 +2795,268 @@ add
 </div><h2 id="conclusión">Conclusión</h2>
 <p>Como conclusión os digo, que en este momento se intentan poner todas las facilidades posibles para que a pie de calle se pueda conectar al acceso abierto con cualquier dispositivo que cuente al menos con 802.11b.<br />
 Al principio estaba el portal cautivo del hotspot con acceso limitado en tiempo y caudal (creo que eran 320k simétricos para cada dispositivo por un tiempo de 2 horas al día por dispositivo), en esta gestión por MAC, el &ldquo;cliente&rdquo; se tenia que abrir una página cualquiera en el navegador del dispositivo y esta le redireccionaba a la página del hotspot, después validarse en el hotspot con un link de pincha aquí para tener acceso, en fin, un lío para cualquiera que quisiera conectarse a la wifi donde me cansé de dar instrucciones.</p>
-<p>Hubo un día que me toco las narices y se deshabilitó el hotspot. Ahora para tener conexión a internet basta con conectar a la wifi. Hay un caudal límite para toadas las conexiones de acceso abierto, y el &ldquo;cliente&rdquo; cuando se quiere conectar solo tiene que conectar con el SSID del AP, se conecta a una wifi que no tiene contraseña, se asigna una IP y ya le funciona el WhatsApp y cualquier servicio de su dispositivo, antes para que funcionara el WhatsApp primero había que conectase al portal cautivo con el navegador, y no valía la barra de búsqueda de Google que usan muchos usuarios.</p>
+<script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
+<style>
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+</style>
+
+<div id="paginator">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+</div>
+<div id="embed-pdf-container">
+    <canvas id="the-canvas"></canvas>
+</div>
+
+<script type="text/javascript">
+window.onload = function() {
+
+
+var url = "https:\/\/hotspotcepeda.github.io\/" + '\/pdfs\/hotspot_conectar.pdf';
+var hidePaginator = "false";
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/hotspotcepeda.github.io\/" + '/js/pdf-js/build/pdf.worker.js';
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById('the-canvas'),
+    ctx = canvas.getContext('2d');
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num').textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+if (hidePaginator) {
+  document.getElementById("paginator").style.display = 'none';
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById('page_count').textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+</script>
+
+<script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
+<style>
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+</style>
+
+<div id="paginator">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+</div>
+<div id="embed-pdf-container">
+    <canvas id="the-canvas"></canvas>
+</div>
+
+<script type="text/javascript">
+window.onload = function() {
+
+
+var url = "https:\/\/hotspotcepeda.github.io\/" + '.\/path\/to\/pdf\/file\/example.pdf';
+var hidePaginator = "";
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/hotspotcepeda.github.io\/" + '/js/pdf-js/build/pdf.worker.js';
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById('the-canvas'),
+    ctx = canvas.getContext('2d');
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num').textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+if (hidePaginator) {
+  document.getElementById("paginator").style.display = 'none';
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById('page_count').textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+</script>
+
+<p>Hubo un día que me toco las narices y se deshabilitó el hotspot. Ahora para tener conexión a internet basta con conectar a la wifi. Hay un caudal límite para toadas las conexiones de acceso abierto, y el &ldquo;cliente&rdquo; cuando se quiere conectar solo tiene que conectar con el SSID del AP, se conecta a una wifi que no tiene contraseña, se asigna una IP y ya le funciona el WhatsApp y cualquier servicio de su dispositivo, antes para que funcionara el WhatsApp primero había que conectase al portal cautivo con el navegador, y no valía la barra de búsqueda de Google que usan muchos usuarios. Además que tener las conexiones limitadas en tiempo y caudal no tiene sentido hacerlo cuando hay poca demanda y es un caudal que se está desaprobechando.</p>
 <p>La gestión del tráfico en el acceso abierto se hace por QoS se asignan prioridades dependiendo del servicio.<br />
-Si tuviéramos 100 o 200 Mb de salida a internet no tendríamos estos problemas y a pié de calle el grifo estaría abierto a demanda, pero la salida a internet es limitada y requiere de gestión por QoS para evitar la congestión.<br />
-Lo que tenemos actualmente, en 2021, es un una salida global a internet por telefonía móvil que falla cuando quiere y que hay que repartir entre muchas conexiones. Hay un caudal limitado para el total de conexiones a pie de calle y el resto es para las conexiones residenciales.</p>
+Si tuviéramos 100 o 200 Mb de salida a internet no tendríamos estos problemas y a pié de calle el grifo estaría abierto a demanda, pero la salida a internet es limitada y requiere de gestión por QoS para evitar la congestión, llega un momento que se satura y deja de funcionar.<br />
+Lo que tenemos actualmente, en 2021, es un una salida global a internet por telefonía móvil que falla cuando quiere y que hay que repartir entre muchas conexiones. Hay un caudal limitado para el total de conexiones a pie de calle del hotspot y el resto es para las conexiones residenciales.</p>
 <p>El invento funciona más o menos 335 días al año, hay 30 días cuando llegan las temporadas de máxima concurrencia de conexiones que da igual lo que tengas configurado porque la salida a internet es la misma todo el año y no da para más.<br />
 Por ejemplo, en verano que son las temporadas de pico máximo, con 30 nodos residenciales a 4 dispositivos de media por nodo son 120 dispositivos residenciales + de 20 a 40 dispositivos del hotspot son 150 dispositivos que tienen que salir a internet por una conexión que está dimensionada para tener de 1 a 4 dispositivos.</p>
 <div class="notices info" data-title="Info">
