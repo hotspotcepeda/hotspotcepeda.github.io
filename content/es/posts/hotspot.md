@@ -531,14 +531,22 @@ add
 *>
 ```
 ## Conclusión
-Como conclusión os digo, que en este momento se intentan poner todas las facilidades posibles para que a pie de calle se pueda conectar al acceso abierto con cualquier dispositivo que cuente al menos con 802.11b.
-Al principio estaba el portal cautivo del hotspot con acceso limitado en tiempo y caudal (creo que eran 320k simétricos para cada dispositivo por un tiempo de 2 horas al día por dispositivo), en esta gestión por MAC, el "cliente" se tenia que abrir una página cualquiera en el navegador del dispositivo y esta le redireccionaba a la página del hotspot, después validarse en el hotspot con un link de pincha aquí para tener acceso, en fin, un lío para cualquiera que quisiera conectarse a la wifi donde me cansé de dar instrucciones.
+Como conclusión, en este momento se intentan poner todas las facilidades posibles para que a pie de calle se pueda conectar al acceso abierto de la manera más sencilla con cualquier dispositivo que cuente al menos con 802.11b.
+Al principio estaba el portal cautivo del hotspot con acceso limitado en tiempo y caudal (creo que eran 320k simétricos para cada dispositivo por un tiempo de 2 horas al día por dispositivo), en esta gestión por MAC, el "cliente" se tenia que abrir una página cualquiera en el navegador del dispositivo y esta le redireccionaba a la página del hotspot, después validarse en el hotspot con un link de pincha aquí para tener acceso, en fin, un lío para cualquiera que quisiera conectarse a la wifi.
 
-{{< embed-pdf url="/pdfs/hotspot_conectar.pdf" hidePaginator=false >}}
+## pdf
 
-{{< embed-pdf url="./path/to/pdf/file/example.pdf" >}}
+{{< embed-pdf url="./static/pdfs/hotspot_conectar.pdf" >}}
+{{< embed-pdf url="./pdfs/hotspot_conectar.pdf" >}}
+{{< embed-pdf url="/pdfs/hotspot_conectar.pdf" >}}
+{{< embed-pdf url="pdfs/hotspot_conectar.pdf" >}}
+{{< embed-pdf url="" >}}
 
-Hubo un día que me toco las narices y se deshabilitó el hotspot. Ahora para tener conexión a internet basta con conectar a la wifi. Hay un caudal límite para toadas las conexiones de acceso abierto, y el "cliente" cuando se quiere conectar solo tiene que conectar con el SSID del AP, se conecta a una wifi que no tiene contraseña, se asigna una IP y ya le funciona el WhatsApp y cualquier servicio de su dispositivo, antes para que funcionara el WhatsApp primero había que conectase al portal cautivo con el navegador, y no valía la barra de búsqueda de Google que usan muchos usuarios. Además que tener las conexiones limitadas en tiempo y caudal no tiene sentido hacerlo cuando hay poca demanda y es un caudal que se está desaprobechando. 
+static\pdfs\hotspot_conectar.pdf
+
+
+
+Y se deshabilitó el hotspot. Ahora para tener conexión a internet basta con conectar a la wifi. Hay un caudal límite para el global de todas las conexiones de acceso abierto, y el "cliente" cuando se quiere conectar solo tiene que conectar con el SSID del AP, se conecta a una wifi que no tiene contraseña, se asigna una IP y ya le funciona el WhatsApp y cualquier servicio de su dispositivo, antes para que funcionara el WhatsApp primero había que conectase al portal cautivo con el navegador, y no valía la barra de búsqueda de Google que usan muchos usuarios. Además que tener las conexiones limitadas en tiempo y caudal no tiene sentido hacerlo cuando hay poca demanda y es un caudal que se está desaprobechando. 
 
 La gestión del tráfico en el acceso abierto se hace por QoS se asignan prioridades dependiendo del servicio.
 Si tuviéramos 100 o 200 Mb de salida a internet no tendríamos estos problemas y a pié de calle el grifo estaría abierto a demanda, pero la salida a internet es limitada y requiere de gestión por QoS para evitar la congestión, llega un momento que se satura y deja de funcionar.
