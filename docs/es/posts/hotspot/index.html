@@ -1776,7 +1776,7 @@ if (!doNotTrack) {
 <div class="single__infos">
   <time class="single__info" title="Escrito en">📅&nbsp;2014-01-05 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Tiempo de lectura"> ☕&nbsp;24&nbsp;minutos lectura </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Tiempo de lectura"> ☕&nbsp;25&nbsp;minutos lectura </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="Escrito por">🗻&nbsp;HotspotCepeda</span>
   
@@ -1805,16 +1805,19 @@ if (!doNotTrack) {
       <p>Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.<br />
 La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.</p>
 <h2 id="hardware">Hardware</h2>
+<h3 id="mikrotik">MikroTik</h3>
 <p>Para hacer la gestión de los dispositivos que se conectan a pie de calle se usa una ROUTERBOARD MIKROTIK RB750GL, este router está dedicado solo para esta tarea, lleva funcionando 24x7 desde el año 2014 de la era pre-covid.<br />
-<img src="/gallery/red/rb-750gl.png" alt="ROUTERBOARD MIKROTIK RB750GL" /><br />
-La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b para que se puedan conectar dispositivos antiguos.<br />
-El AP de la plaza Ubiquiti NanoStation 2 está en modo AP bridge, debe de tener mas de 10 años, es de cuando venían con un latiguillo de 3 metros de color azul, que tiempos aquellos.<br />
+<img src="/gallery/red/rb-750gl.png" alt="ROUTERBOARD MIKROTIK RB750GL" /></p>
+<h3 id="ubiquiti">Ubiquiti</h3>
+<p>La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b para que se puedan conectar dispositivos antiguos.<br />
+El AP de la plaza Ubiquiti NanoStation 2 está en modo AP bridge, debe de tener mas de 10 años, es de cuando venían con un latiguillo de 3 metros de color azul, &hellip; que tiempos aquellos.<br />
 <img src="/gallery/red/NS2.png" alt="Ubiquiti NanoStation 2" /><br />
 Para extender la red del hotspot hay en enlace en 2.4 del Ayto al Bar municipal &ldquo;El Traite&rdquo; con Ubiquiti NanoStation Loco M2.<br />
-<img src="/gallery/red/2NSlocoM2.png" alt="Ubiquiti NanoStation Loco M2" /><br />
-Para la captación en el Bar se usa de AP un router Comtrend AR-5387un <a href="https://openwrt.org/toh/comtrend/ar5387un">https://openwrt.org/toh/comtrend/ar5387un</a> liberado con OpenWRT, ni un problema, 24x7 desde 2014 más lo que llevara funcionando <br />
-antes.</p>
-<p><img src="/gallery/red/ar-5387un.png" alt="Ubiquiti NanoStation Loco M2" /></p>
+<img src="/gallery/red/2NSlocoM2.png" alt="Ubiquiti NanoStation Loco M2" /></p>
+<h3 id="openwrt">OpenWRT</h3>
+<p>Para la captación en el Bar se usa de AP un router Comtrend AR-5387un <a href="https://openwrt.org/toh/comtrend/ar5387un">https://openwrt.org/toh/comtrend/ar5387un</a> liberado con OpenWRT, ni un problema, 24x7 desde 2014 más lo que llevara funcionando de antes.<br />
+<img src="/gallery/red/ar-5387un.png" alt="Comtrend AR-5387un" /></p>
+<h3 id="conexiones-mikrotik">Conexiones MikroTik</h3>
 <pre><code class="language-mermaid" data-lang="mermaid">graph TD;
   ROUTERBOARD_MIKROTIK_RB750GL--&gt;WAN_ether1;
   ROUTERBOARD_MIKROTIK_RB750GL--&gt;Libre_ether2;
@@ -2793,267 +2796,27 @@ add
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="conclusión">Conclusión</h2>
-<p>Como conclusión, en este momento se intentan poner todas las facilidades posibles para que a pie de calle se pueda conectar al acceso abierto de la manera más sencilla con cualquier dispositivo que cuente al menos con 802.11b.<br />
+<p>En este momento se intentan poner todas las facilidades posibles para que a pie de calle se pueda conectar al acceso abierto de la manera más sencilla con cualquier dispositivo que cuente al menos con 802.11b.<br />
 Al principio estaba el portal cautivo del hotspot con acceso limitado en tiempo y caudal (creo que eran 320k simétricos para cada dispositivo por un tiempo de 2 horas al día por dispositivo), en esta gestión por MAC, el &ldquo;cliente&rdquo; se tenia que abrir una página cualquiera en el navegador del dispositivo y esta le redireccionaba a la página del hotspot, después validarse en el hotspot con un link de pincha aquí para tener acceso, en fin, un lío para cualquiera que quisiera conectarse a la wifi.</p>
+<p>Y se deshabilitó el hotspot. Ahora para tener conexión a internet basta con conectar a la wifi. Hay un caudal límite para el global de todas las conexiones de acceso abierto, y el &ldquo;cliente&rdquo; cuando se quiere conectar solo tiene que conectar con el SSID del AP, se conecta a una wifi que no tiene contraseña, se asigna una IP y ya le funciona el WhatsApp y cualquier servicio de su dispositivo, antes para que funcionara el WhatsApp primero había que conectase al portal cautivo con el navegador, y no valía la barra de búsqueda de Google que usan muchos usuarios. Además que tener las conexiones limitadas en tiempo y caudal no tiene sentido hacerlo cuando hay poca demanda y es un caudal que se está desaprobechando.</p>
+<p>La gestión del tráfico en el acceso abierto se hace por QoS se asignan prioridades dependiendo del servicio.<br />
+Si tuviéramos 100 o 200 Mb de salida a internet no tendríamos estos problemas y a pié de calle el grifo estaría abierto a demanda, pero la salida a internet es limitada y requiere de gestión por QoS para evitar la congestión, llega un momento que se satura y deja de funcionar.<br />
+Lo que tenemos actualmente, en 2021, es un una salida global a internet por telefonía móvil que falla cuando quiere y que hay que repartir entre muchas conexiones. Hay un caudal limitado para el total de conexiones a pie de calle del hotspot y el resto es para las conexiones residenciales.</p>
+<p>El invento funciona más o menos 335 días al año, hay 30 días cuando llegan las temporadas de máxima concurrencia de conexiones que da igual lo que tengas configurado porque la salida a internet es la misma todo el año y no da para más.<br />
+Por ejemplo, en verano que son las temporadas de pico máximo, con 30 nodos residenciales a 4 dispositivos de media por nodo son 120 dispositivos residenciales + de 20 a 40 dispositivos del hotspot son 150 dispositivos que tienen que salir a internet por una conexión que está dimensionada para tener de 1 a 4 dispositivos.</p>
 <h2 id="pdf">pdf</h2>
-<p><script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
-<style>
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-}
-#paginator{
-    text-align: center;
-    margin-bottom: 10px;
-}
-</style>
-
-<div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-</div>
-<div id="embed-pdf-container">
-    <canvas id="the-canvas"></canvas>
-</div>
-
-<script type="text/javascript">
-window.onload = function() {
-
-
-var url = "https:\/\/hotspotcepeda.github.io\/" + '.\/static\/pdfs\/hotspot_conectar.pdf';
-var hidePaginator = "";
-
-
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/hotspotcepeda.github.io\/" + '/js/pdf-js/build/pdf.worker.js';
-
-
-var pdfDoc = null,
-    pageNum = 1,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d');
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById('page_num').textContent = num;
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-if (hidePaginator) {
-  document.getElementById("paginator").style.display = 'none';
-}
-
-
-
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  document.getElementById('page_count').textContent = pdfDoc.numPages;
-
-  
-  renderPage(pageNum);
-});
-}
-
-</script>
-<br />
-<script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
-<style>
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-}
-#paginator{
-    text-align: center;
-    margin-bottom: 10px;
-}
-</style>
-
-<div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-</div>
-<div id="embed-pdf-container">
-    <canvas id="the-canvas"></canvas>
-</div>
-
-<script type="text/javascript">
-window.onload = function() {
-
-
-var url = "https:\/\/hotspotcepeda.github.io\/" + '.\/pdfs\/hotspot_conectar.pdf';
-var hidePaginator = "";
-
-
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/hotspotcepeda.github.io\/" + '/js/pdf-js/build/pdf.worker.js';
-
-
-var pdfDoc = null,
-    pageNum = 1,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d');
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById('page_num').textContent = num;
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-if (hidePaginator) {
-  document.getElementById("paginator").style.display = 'none';
-}
-
-
-
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  document.getElementById('page_count').textContent = pdfDoc.numPages;
-
-  
-  renderPage(pageNum);
-});
-}
-
-</script>
-<br />
+<h3 id="image-png">image png</h3>
+<p><img src="/pdfs/hotspot_instrucciones.PNG" alt="instrucciones conexion a hotspot pdf" /></p>
+<h3 id="link-local-file">link local file</h3>
+<p><a href="/pdfs/hotspot_conectar.pdf">instrucciones conexion a hotspot pdf</a></p>
+<h3 id="image-png-link-local-file">image png link local file</h3>
+<p><a href="/pdfs/hotspot_conectar.pdf"><img src="/pdfs/hotspot_instrucciones.PNG"></a></p>
+<h3 id="no-script-embed">no script embed</h3>
+<embed src="/pdfs/hotspot_conectar.pdf#page=1" type="application/pdf" width="100%" height="100%">
+<h3 id="embed-pdf">embed-pdf</h3>
+<embed-pdf src="/pdfs/hotspot_conectar.pdf">
+<embed-pdf src="/pdfs/hotspot_conectar.pdf">
+<embed-pdf url="/pdfs/hotspot_conectar.pdf">
 <script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
 <style>
 #the-canvas {
@@ -3182,7 +2945,265 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 }
 
 </script>
-<br />
+
+<script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
+<style>
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+</style>
+
+<div id="paginator">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+</div>
+<div id="embed-pdf-container">
+    <canvas id="the-canvas"></canvas>
+</div>
+
+<script type="text/javascript">
+window.onload = function() {
+
+
+var url = "https:\/\/hotspotcepeda.github.io\/" + '\/pdfs\/hotspot_conectar.pdf';
+var hidePaginator = "";
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/hotspotcepeda.github.io\/" + '/js/pdf-js/build/pdf.worker.js';
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById('the-canvas'),
+    ctx = canvas.getContext('2d');
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num').textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+if (hidePaginator) {
+  document.getElementById("paginator").style.display = 'none';
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById('page_count').textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+</script>
+
+<script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
+<style>
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+</style>
+
+<div id="paginator">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+</div>
+<div id="embed-pdf-container">
+    <canvas id="the-canvas"></canvas>
+</div>
+
+<script type="text/javascript">
+window.onload = function() {
+
+
+var url = "https:\/\/hotspotcepeda.github.io\/" + '.\/pdfs\/hotspot_conectar.pdf';
+var hidePaginator = "";
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/hotspotcepeda.github.io\/" + '/js/pdf-js/build/pdf.worker.js';
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById('the-canvas'),
+    ctx = canvas.getContext('2d');
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num').textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+if (hidePaginator) {
+  document.getElementById("paginator").style.display = 'none';
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById('page_count').textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+</script>
+
 <script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
 <style>
 #the-canvas {
@@ -3311,7 +3332,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 }
 
 </script>
-<br />
+
 <script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
 <style>
 #the-canvas {
@@ -3340,7 +3361,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 window.onload = function() {
 
 
-var url = "https:\/\/hotspotcepeda.github.io\/" + '';
+var url = "https:\/\/hotspotcepeda.github.io\/" + '\/hotspot_conectar.pdf';
 var hidePaginator = "";
 
 
@@ -3440,17 +3461,12 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 }
 
 </script>
-</p>
-<p>static\pdfs\hotspot_conectar.pdf</p>
-<p>Y se deshabilitó el hotspot. Ahora para tener conexión a internet basta con conectar a la wifi. Hay un caudal límite para el global de todas las conexiones de acceso abierto, y el &ldquo;cliente&rdquo; cuando se quiere conectar solo tiene que conectar con el SSID del AP, se conecta a una wifi que no tiene contraseña, se asigna una IP y ya le funciona el WhatsApp y cualquier servicio de su dispositivo, antes para que funcionara el WhatsApp primero había que conectase al portal cautivo con el navegador, y no valía la barra de búsqueda de Google que usan muchos usuarios. Además que tener las conexiones limitadas en tiempo y caudal no tiene sentido hacerlo cuando hay poca demanda y es un caudal que se está desaprobechando.</p>
-<p>La gestión del tráfico en el acceso abierto se hace por QoS se asignan prioridades dependiendo del servicio.<br />
-Si tuviéramos 100 o 200 Mb de salida a internet no tendríamos estos problemas y a pié de calle el grifo estaría abierto a demanda, pero la salida a internet es limitada y requiere de gestión por QoS para evitar la congestión, llega un momento que se satura y deja de funcionar.<br />
-Lo que tenemos actualmente, en 2021, es un una salida global a internet por telefonía móvil que falla cuando quiere y que hay que repartir entre muchas conexiones. Hay un caudal limitado para el total de conexiones a pie de calle del hotspot y el resto es para las conexiones residenciales.</p>
-<p>El invento funciona más o menos 335 días al año, hay 30 días cuando llegan las temporadas de máxima concurrencia de conexiones que da igual lo que tengas configurado porque la salida a internet es la misma todo el año y no da para más.<br />
-Por ejemplo, en verano que son las temporadas de pico máximo, con 30 nodos residenciales a 4 dispositivos de media por nodo son 120 dispositivos residenciales + de 20 a 40 dispositivos del hotspot son 150 dispositivos que tienen que salir a internet por una conexión que está dimensionada para tener de 1 a 4 dispositivos.</p>
+
 <div class="notices info" data-title="Info">
-  <p>Que quede claro que yo no soy partidario hacer gestión del tráfico en ningún sitio y mucho menos en una red comunitaria, pero la salida a internet es la que es y hay momentos en los que hay muchas bocas que alimentar. Son los usuarios los que se tienen que responsabilizar de su uso.</p>
-<p>Una posible solución a este problema de concurrencia seria aplicar QoS dinámicas en las que se hiciera la gestión del tráfico por prioridad, tiempo y caudal, basándose en el número de conexiones y demanda de cada momento. Esto no sé hacerlo, se admiten sugerencias.</p>
+  <p>Que quede claro que yo no soy partidario hacer gestión del tráfico en ningún sitio y mucho menos en una red comunitaria, pero la salida a internet es la que es y hay momentos en los que hay muchas bocas que alimentar.<br />
+<strong>Son los usuarios los que se tienen que responsabilizar de su uso</strong>.<br />
+Ahora en 2021, lo siguente voy a hacer es quitar el limite de caudal global de las conexiones del hotspot, porque quien soy yo, para decidir que límite de datos tiene que haber en una conexion que está pagando el excelentisimo Ayto de Cepeda de la Mora para uso y disfrute de todos sus vecinos, el mismo derecho tienen los que están en el cuarto de baño de su casa que los que están en la plaza del pueblo (Bueno ahora por orden de la diputacion se quitó el AP de la plaza, dicen que es para evitar aglomeraciones de adolescentes), porque a lo mejor no quieren o no se pueden permitir tener un nodo propio en su casa.</p>
+<p>Una posible solución a este problema de concurrencia seria aplicar QoS dinámicas en las que se hiciera la gestión del tráfico por prioridad, tiempo y caudal, basándose en el número de conexiones y demanda de cada momento, pero volvemos a lo mismo. <strong>En una red comunitaria ni yo ni nadie tiene que decidir sí un tipo de tráfico tiene más o menos prioridad que otro.</strong></p>
 
 </div>
     </article>
@@ -4150,10 +4166,25 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#hardware">Hardware</a></li>
+    <li><a href="#hardware">Hardware</a>
+      <ul>
+        <li><a href="#mikrotik">MikroTik</a></li>
+        <li><a href="#ubiquiti">Ubiquiti</a></li>
+        <li><a href="#openwrt">OpenWRT</a></li>
+        <li><a href="#conexiones-mikrotik">Conexiones MikroTik</a></li>
+      </ul>
+    </li>
     <li><a href="#configuración-mikrotik">Configuración MikroTik</a></li>
     <li><a href="#conclusión">Conclusión</a></li>
-    <li><a href="#pdf">pdf</a></li>
+    <li><a href="#pdf">pdf</a>
+      <ul>
+        <li><a href="#image-png">image png</a></li>
+        <li><a href="#link-local-file">link local file</a></li>
+        <li><a href="#image-png-link-local-file">image png link local file</a></li>
+        <li><a href="#no-script-embed">no script embed</a></li>
+        <li><a href="#embed-pdf">embed-pdf</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>

@@ -24,17 +24,19 @@ Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con ca
 La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.
 <!--more-->
 ## Hardware
+### MikroTik
 Para hacer la gestión de los dispositivos que se conectan a pie de calle se usa una ROUTERBOARD MIKROTIK RB750GL, este router está dedicado solo para esta tarea, lleva funcionando 24x7 desde el año 2014 de la era pre-covid.
 ![ROUTERBOARD MIKROTIK RB750GL](/gallery/red/rb-750gl.png)
+### Ubiquiti 
 La red de captación del hotspot va toda en 2.4 Ghz, APs en 802.11b para que se puedan conectar dispositivos antiguos.
-El AP de la plaza Ubiquiti NanoStation 2 está en modo AP bridge, debe de tener mas de 10 años, es de cuando venían con un latiguillo de 3 metros de color azul, que tiempos aquellos.
+El AP de la plaza Ubiquiti NanoStation 2 está en modo AP bridge, debe de tener mas de 10 años, es de cuando venían con un latiguillo de 3 metros de color azul, ... que tiempos aquellos.
 ![Ubiquiti NanoStation 2](/gallery/red/NS2.png)
 Para extender la red del hotspot hay en enlace en 2.4 del Ayto al Bar municipal "El Traite" con Ubiquiti NanoStation Loco M2.
 ![Ubiquiti NanoStation Loco M2](/gallery/red/2NSlocoM2.png)
-Para la captación en el Bar se usa de AP un router Comtrend AR-5387un https://openwrt.org/toh/comtrend/ar5387un liberado con OpenWRT, ni un problema, 24x7 desde 2014 más lo que llevara funcionando 
-antes.
-
-![Ubiquiti NanoStation Loco M2](/gallery/red/ar-5387un.png)
+### OpenWRT
+Para la captación en el Bar se usa de AP un router Comtrend AR-5387un https://openwrt.org/toh/comtrend/ar5387un liberado con OpenWRT, ni un problema, 24x7 desde 2014 más lo que llevara funcionando de antes.
+![Comtrend AR-5387un](/gallery/red/ar-5387un.png)
+### Conexiones MikroTik
 ```mermaid
 graph TD;
   ROUTERBOARD_MIKROTIK_RB750GL-->WAN_ether1;
@@ -530,21 +532,10 @@ set allowed-interface-list=mac-winbox
 add
 *>
 ```
+
 ## Conclusión
-Como conclusión, en este momento se intentan poner todas las facilidades posibles para que a pie de calle se pueda conectar al acceso abierto de la manera más sencilla con cualquier dispositivo que cuente al menos con 802.11b.
+En este momento se intentan poner todas las facilidades posibles para que a pie de calle se pueda conectar al acceso abierto de la manera más sencilla con cualquier dispositivo que cuente al menos con 802.11b.
 Al principio estaba el portal cautivo del hotspot con acceso limitado en tiempo y caudal (creo que eran 320k simétricos para cada dispositivo por un tiempo de 2 horas al día por dispositivo), en esta gestión por MAC, el "cliente" se tenia que abrir una página cualquiera en el navegador del dispositivo y esta le redireccionaba a la página del hotspot, después validarse en el hotspot con un link de pincha aquí para tener acceso, en fin, un lío para cualquiera que quisiera conectarse a la wifi.
-
-## pdf
-
-{{< embed-pdf url="./static/pdfs/hotspot_conectar.pdf" >}}
-{{< embed-pdf url="./pdfs/hotspot_conectar.pdf" >}}
-{{< embed-pdf url="/pdfs/hotspot_conectar.pdf" >}}
-{{< embed-pdf url="pdfs/hotspot_conectar.pdf" >}}
-{{< embed-pdf url="" >}}
-
-static\pdfs\hotspot_conectar.pdf
-
-
 
 Y se deshabilitó el hotspot. Ahora para tener conexión a internet basta con conectar a la wifi. Hay un caudal límite para el global de todas las conexiones de acceso abierto, y el "cliente" cuando se quiere conectar solo tiene que conectar con el SSID del AP, se conecta a una wifi que no tiene contraseña, se asigna una IP y ya le funciona el WhatsApp y cualquier servicio de su dispositivo, antes para que funcionara el WhatsApp primero había que conectase al portal cautivo con el navegador, y no valía la barra de búsqueda de Google que usan muchos usuarios. Además que tener las conexiones limitadas en tiempo y caudal no tiene sentido hacerlo cuando hay poca demanda y es un caudal que se está desaprobechando. 
 
@@ -555,8 +546,44 @@ Lo que tenemos actualmente, en 2021, es un una salida global a internet por tele
 El invento funciona más o menos 335 días al año, hay 30 días cuando llegan las temporadas de máxima concurrencia de conexiones que da igual lo que tengas configurado porque la salida a internet es la misma todo el año y no da para más.
 Por ejemplo, en verano que son las temporadas de pico máximo, con 30 nodos residenciales a 4 dispositivos de media por nodo son 120 dispositivos residenciales + de 20 a 40 dispositivos del hotspot son 150 dispositivos que tienen que salir a internet por una conexión que está dimensionada para tener de 1 a 4 dispositivos.
 
-{{< notice info >}}
-Que quede claro que yo no soy partidario hacer gestión del tráfico en ningún sitio y mucho menos en una red comunitaria, pero la salida a internet es la que es y hay momentos en los que hay muchas bocas que alimentar. Son los usuarios los que se tienen que responsabilizar de su uso.
+## pdf
 
-Una posible solución a este problema de concurrencia seria aplicar QoS dinámicas en las que se hiciera la gestión del tráfico por prioridad, tiempo y caudal, basándose en el número de conexiones y demanda de cada momento. Esto no sé hacerlo, se admiten sugerencias.
+### image png
+![instrucciones conexion a hotspot pdf](/pdfs/hotspot_instrucciones.PNG)
+### link local file
+[instrucciones conexion a hotspot pdf](/pdfs/hotspot_conectar.pdf)
+
+### image png link local file
+
+[<img src="/pdfs/hotspot_instrucciones.PNG">](/pdfs/hotspot_conectar.pdf)
+
+### no script embed 
+
+<embed src="/pdfs/hotspot_conectar.pdf#page=1" type="application/pdf" width="100%" height="100%">
+
+### embed-pdf
+
+<embed-pdf src="/pdfs/hotspot_conectar.pdf">
+
+<embed-pdf src="/pdfs/hotspot_conectar.pdf">
+
+<embed-pdf url="/pdfs/hotspot_conectar.pdf">
+
+{{<embed-pdf url="/pdfs/hotspot_conectar.pdf">}}
+
+{{< embed-pdf url="/pdfs/hotspot_conectar.pdf" >}}
+
+{{< embed-pdf url="./pdfs/hotspot_conectar.pdf" >}}
+
+{{< embed-pdf url="pdfs/hotspot_conectar.pdf" >}}
+
+{{< embed-pdf url="/hotspot_conectar.pdf" >}}
+
+
+{{< notice info >}}
+Que quede claro que yo no soy partidario hacer gestión del tráfico en ningún sitio y mucho menos en una red comunitaria, pero la salida a internet es la que es y hay momentos en los que hay muchas bocas que alimentar.
+ **Son los usuarios los que se tienen que responsabilizar de su uso**.
+Ahora en 2021, lo siguente voy a hacer es quitar el limite de caudal global de las conexiones del hotspot, porque quien soy yo, para decidir que límite de datos tiene que haber en una conexion que está pagando el excelentisimo Ayto de Cepeda de la Mora para uso y disfrute de todos sus vecinos, el mismo derecho tienen los que están en el cuarto de baño de su casa que los que están en la plaza del pueblo (Bueno ahora por orden de la diputacion se quitó el AP de la plaza, dicen que es para evitar aglomeraciones de adolescentes), porque a lo mejor no quieren o no se pueden permitir tener un nodo propio en su casa. 
+
+Una posible solución a este problema de concurrencia seria aplicar QoS dinámicas en las que se hiciera la gestión del tráfico por prioridad, tiempo y caudal, basándose en el número de conexiones y demanda de cada momento, pero volvemos a lo mismo. **En una red comunitaria ni yo ni nadie tiene que decidir sí un tipo de tráfico tiene más o menos prioridad que otro.**
 {{< /notice >}}
