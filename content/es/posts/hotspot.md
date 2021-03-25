@@ -536,7 +536,7 @@ add
 En este momento se intentan poner todas las facilidades posibles para que a pie de calle se pueda conectar al acceso abierto de la manera más sencilla con cualquier dispositivo que cuente al menos con 802.11b.
 Al principio estaba el portal cautivo del hotspot con acceso limitado en tiempo y caudal (creo que eran 320k simétricos para cada dispositivo por un tiempo de 2 horas al día por dispositivo), en esta gestión por MAC, el "cliente" tenía que abrir una página cualquiera con el navegador del dispositivo y se le redireccionaba a la página del hotspot, después validarse en el hotspot con un link de pincha aquí para tener acceso, en fin, un lío para cualquiera que quisiera conectarse a la wifi.
 Tuve que poner un cartel en el bar con las indicaciones para conectarse: 
-<object data="/pdfs/hotspot_conectar.pdf#page=1" type="application/pdf" width="100%" height="850px"> 
+<object data="/pdfs/hotspot_conectar.pdf#page=1" type="application/pdf" width="100%" height="500px"> 
   <p>Parece que no tienes plugin para visualizar PDF en tu navegador.
    Puedes descargargar el archivo <a href="/pdfs/hotspot_conectar.pdf">aquí</a></p>  
 </object>
