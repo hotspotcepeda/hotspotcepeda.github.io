@@ -14,20 +14,189 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Sat, 10 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Mar 2016 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/categories/red/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Programar reinicio en OpenWRT</title>
+        <link>https://hotspotcepeda.github.io/es/posts/programar_reinicio_openwrt/</link>
+        <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Thu, 03 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/programar_reinicio_openwrt/</guid>
+        <description>https://wiki.openwrt.org/doc/howto/cron
+Me están dando guerra una serie de router. El usuario se queja de que de vez en cuando el router pierde la salida a internet, una de las veces que estaba teniendo el problema me conecté y era como que perdía la ip WAN del cliente dhcp, la red local seguía funcionando y la wifi también,la parte lan estaba ok y he pensado que programando un reinicio diario de madrugada se podía arreglar el problema.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>Router neutro</category>
+            
+          
+            
+              <category>Reinicio</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Modos de trabajo qMp</title>
+        <link>https://hotspotcepeda.github.io/es/posts/modos_de_trabajo_qmp/</link>
+        <pubDate>Tue, 27 Oct 2015 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 27 Oct 2015 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/modos_de_trabajo_qmp/</guid>
+        <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌 Modos de trabajo de la radio con qMp 3.2.1 Estos son los modos de trabajo en modo community, opciones de Wireless interface wlan0.
+Ad_hoc_(mesh)_+_access_point_(Lan) Ad_hoc_(mesh) Access_point_(mesh) Access_point_(Lan) Client_(WAN) EXPERIMENTAL_802.11s_(mesh) EXPERIMENTAL_802.11s_(mesh)+Access_point_(Lan) Disabled la opción desaparece </description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>UCI qMp archivo de configuración</title>
+        <link>https://hotspotcepeda.github.io/es/posts/uci_qmp_configuration_file/</link>
+        <pubDate>Mon, 26 Oct 2015 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 26 Oct 2015 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/uci_qmp_configuration_file/</guid>
+        <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌 Este es el archivo de configuración qMp 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89  /etc/config/qmp Node configuration: config &amp;#39;qmp &amp;#39; &amp;#39;node &amp;#39; option &amp;#39;community_node_id &amp;#39;	&amp;#39;901 &amp;#39; # An number identifying the node.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>OpenWRT COMTREND CT-5365</title>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5365/</link>
+        <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 25 Oct 2015 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5365/</guid>
+        <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones. &lt;br /&gt;
+Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router no es fácil y va corto de memoria pero se puede.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hotspotcepeda.github.io/gallery/red/CT-5365.png&#34; alt=&#34;Comtrend_CT-5365&#34; /&gt;&lt;br /&gt;
+&lt;a href=&#34;https://openwrt.org/toh/comtrend/ct5365&#34;&gt;https://openwrt.org/toh/comtrend/ct5365&lt;/a&gt;&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>Router neutro</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>OpenWRT COMTREND CT-5361</title>
         <link>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5361/</link>
-        <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        <atom:modified>Sat, 10 Jan 2015 00:00:00 +0000</atom:modified>
+        <atom:modified>Sat, 24 Oct 2015 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5361/</guid>
-        <description>&lt;p&gt;Como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones. &lt;br /&gt;
+        <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones. &lt;br /&gt;
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router no es fácil y va corto de memoria pero se puede.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://hotspotcepeda.github.io/gallery/red/CT-5361.png&#34; alt=&#34;Comtrend_CT-5361&#34; /&gt;&lt;br /&gt;
 &lt;a href=&#34;https://openwrt.org/toh/comtrend/ct5361&#34;&gt;https://openwrt.org/toh/comtrend/ct5361&lt;/a&gt;&lt;/p&gt;</description>

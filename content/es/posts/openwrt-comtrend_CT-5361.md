@@ -1,6 +1,6 @@
 ---
 title: "OpenWRT COMTREND CT-5361"
-date: 2015-01-10
+date: 2015-10-24
 draft: false
 description: "OpenWRT en Comtrend CT-5361"
 hideToc: false
@@ -17,7 +17,7 @@ series:
 - Red comunitaria
 image: images/feature1/openwrt.png
 ---
-Como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones. 
+De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones. 
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible https://openwrt.org/toh/start porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router no es fácil y va corto de memoria pero se puede.
 
 ![Comtrend_CT-5361](/gallery/red/CT-5361.png)
@@ -42,7 +42,14 @@ White Russian 0.9	Download images	2007 January	r6257
 
 Al final se han seguido los pasos de la wiki openWRT para este modelo y lo tengo funcionando con Backfire (10.03.1, r29592) el lUCI no es tan chulo como el Barrier Breaker pero sirve para trabajar igual de bien.
 ## 2. Instalar el firmware
-Encender el router con el botón de reset pulsado unos 10 segundos para entrar al modo boot loader.
+{{< notice warning >}}
+Si en algún momento del proceso al acceder por web al router para cambiar el firmware nos aparece la pagina rosa con el texto:
+404 Not Found
+File not found.
+micro_httpd
+Vamos a las preferencias de nuestro navegador, privacidad y limpiamos la cache, esto pasa por que le hacemos un lio al navegador y ya no sabe que página entregarnos, la cache no coincide con la realidad.
+{{< /notice >}}
+Encender el router con el botón de reset pulsado unos 10 segundos para entrar al modo bootloader.
 Fijar una IP del rango del router 
 ``` bash
 ifconfig eth0 192.168.1.222

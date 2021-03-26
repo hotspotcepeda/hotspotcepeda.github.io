@@ -9,7 +9,7 @@ El proposito de este sitio es:
 
 - Compartir la experiencia del proyecto de red comunitaria en Cepeda.
 - Archivar y mantener disponible la documentación técnica.
-- Dar las graciaspor la ayuda recibida e intentar ayudar al que lo necesite para replicar este proyecto de red comunitaria en otros lugares.
+- Dar las gracias por la ayuda recibida e intentar ayudar al que lo necesite para replicar este proyecto de red comunitaria en otros lugares.
 
 Si desea colaborar en el proyecto de Cepeda, en este sitio para aportar contenido, como redactor, traductor o simplemente para expresar su opinión, le invito a contactar mediante el canal de [matrix](https://matrix.to/#/#hotspotcepeda:matrix.org) creado para esto y contribuir en [github](https://github.com/hotspotcepeda).
 
