@@ -369,7 +369,7 @@
   
   <url>
     <loc>https://hotspotcepeda.github.io/es/categories/</loc>
-    <lastmod>2016-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2016-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -383,22 +383,57 @@
   </url>
   
   <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/hotspot/</loc>
+    <lastmod>2016-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/mikrotik/</loc>
+    <lastmod>2016-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</loc>
+    <lastmod>2016-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/categories/red/</loc>
+    <lastmod>2016-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/series/red-comunitaria/</loc>
+    <lastmod>2016-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/series/</loc>
+    <lastmod>2016-03-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/posts/banner_ssh/</loc>
+    <lastmod>2016-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hotspotcepeda.github.io/es/tags/openwrt/</loc>
     <lastmod>2016-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hotspotcepeda.github.io/es/posts/programar_reinicio_openwrt/</loc>
-    <lastmod>2016-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/categories/red/</loc>
-    <lastmod>2016-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/series/red-comunitaria/</loc>
     <lastmod>2016-03-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -413,18 +448,8 @@
   </url>
   
   <url>
-    <loc>https://hotspotcepeda.github.io/es/series/</loc>
+    <loc>https://hotspotcepeda.github.io/es/tags/ssh/</loc>
     <lastmod>2016-03-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/series/"
-                />
   </url>
   
   <url>
@@ -468,27 +493,27 @@
   </url>
   
   <url>
+    <loc>https://hotspotcepeda.github.io/es/categories/ayto/</loc>
+    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/posts/ayuntamientos_y_guifi_net/</loc>
+    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hotspotcepeda.github.io/es/tags/guifi.net/</loc>
-    <lastmod>2014-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hotspotcepeda.github.io/es/posts/la_propuesta/</loc>
-    <lastmod>2014-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hotspotcepeda.github.io/es/posts/hotspot/</loc>
-    <lastmod>2014-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/tags/hotspot/</loc>
-    <lastmod>2014-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/tags/mikrotik/</loc>
     <lastmod>2014-01-05T00:00:00+00:00</lastmod>
   </url>
   

@@ -1,7 +1,7 @@
-# cepeda
-WWW Seguimiento de despliegue en red comunitaria Cepeda la Mora, Ávila.
+## La red comunitaria de Cepeda la Mora.
+Documentación de despliegue y seguimiento de la red comunitaria de Cepeda la Mora, Ávila.
 
-El proposito de este sitio es:
+El propósito de este sitio es:
 
 - Compartir la experiencia del proyecto de red comunitaria en Cepeda.
 - Archivar y mantener disponible la documentación técnica.

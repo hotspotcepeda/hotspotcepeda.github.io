@@ -12,7 +12,7 @@ tags:
 - guifi.net
 - asociaciones
 categories:
-- red
+- Ayto
 series:
 - Red comunitaria
 image: images/feature2/workflow.png

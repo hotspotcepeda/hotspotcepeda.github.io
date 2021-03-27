@@ -76,6 +76,87 @@
       </item>
       
       <item>
+        <title>Portal cautivo hotspot mikrotik</title>
+        <link>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</link>
+        <pubDate>Wed, 09 Mar 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Wed, 09 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</guid>
+        <description>Vista la experiencia no soy partidario de usar hotspot con portal cautivo, entiendo que en algunos escenarios puede ser de utilidad. Intro La cosa es que cuando hacemos un hotspot con MikroTik una de los problemas que nos encontramos tras hacer el wizard es que el usuario que se conecta obtiene ip de manera correcta pero a la hora de ser redireccionado al portal cautivo si va a una dirección https no se le muestra la página y le sale un error 404.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Banner ssh</title>
+        <link>https://hotspotcepeda.github.io/es/posts/banner_ssh/</link>
+        <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Thu, 03 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/banner_ssh/</guid>
+        <description>Este banner bash requiere de:
+# apt-get install uprecords hddtemp lm-sensors #!/bin/bash$&amp;gt;&amp;gt; _txtblk=&#39;\e[0;30m&#39; # Black - Regulartxtred=&#39;\e[0;31m&#39; # Redtxtgrn=&#39;\e[0;32m&#39; # Greentxtylw=&#39;\e[0;33m&#39; # Yellowtxtblu=&#39;\e[0;34m&#39; # Bluetxtpur=&#39;\e[0;35m&#39; # Purpletxtcyn=&#39;\e[0;36m&#39; # Cyantxtwht=&#39;\e[0;37m&#39; # Whitebldblk=&#39;\e[1;30m&#39; # Black - Boldbldred=&#39;\e[1;31m&#39; # Redbldgrn=&#39;\e[1;32m&#39; # Greenbldylw=&#39;\e[1;33m&#39; # Yellowbldblu=&#39;\e[1;34m&#39; # Bluebldpur=&#39;\e[1;35m&#39; # Purplebldcyn=&#39;\e[1;36m&#39; # Cyanbldwht=&#39;\e[1;37m&#39; # Whiteunkblk=&#39;\e[4;30m&#39; # Black - Underlineundred=&#39;\e[4;31m&#39; # Redundgrn=&#39;\e[4;32m&#39; # Greenundylw=&#39;\e[4;33m&#39; # Yellowundblu=&#39;\e[4;34m&#39; # Blueundpur=&#39;\e[4;35m&#39; # Purpleundcyn=&#39;\e[4;36m&#39; # Cyanundwht=&#39;\e[4;37m&#39; # Whitebakblk=&#39;\e[40m&#39; # Black - Backgroundbakred=&#39;\e[41m&#39; # Redbakgrn=&#39;\e[42m&#39; # Greenbakylw=&#39;\e[43m&#39; # Yellowbakblu=&#39;\e[44m&#39; # Bluebakpur=&#39;\e[45m&#39; # Purplebakcyn=&#39;\e[46m&#39; # Cyanbakwht=&#39;\e[47m&#39; # Whitetxtrst=&#39;\e[0m&#39; # Text Resetclearecho &amp;quot;&amp;quot;echo -e &amp;quot;\033[44m Welcome server Ayto Cepeda guifi.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>ssh</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Programar reinicio en OpenWRT</title>
         <link>https://hotspotcepeda.github.io/es/posts/programar_reinicio_openwrt/</link>
         <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
@@ -319,13 +400,84 @@ Características:
       </item>
       
       <item>
+        <title>FAQ de ayuntamientos</title>
+        <link>https://hotspotcepeda.github.io/es/posts/ayuntamientos_y_guifi_net/</link>
+        <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 03 Jun 2014 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/ayuntamientos_y_guifi_net/</guid>
+        <description>¿Qué es guifi.net?  guifi.net es una red libre. Los usuarios que quieren conectarse instalan dispositivos de red, normalmente inalámbricos, usando bandas de frecuencia de libre uso. Estos dispositivos de red se organizan para encaminar tráfico de otros usuarios. La organización es similar a la estructura que hace funcionar Internet. Para las direcciones IP por el momento se usan direcciones no válidas para Internet, llamadas rangos de direcciones para redes privadas.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/guifi_net.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>La propuesta</title>
         <link>https://hotspotcepeda.github.io/es/posts/la_propuesta/</link>
-        <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        <atom:modified>Fri, 06 Jun 2014 00:00:00 +0000</atom:modified>
+        <atom:modified>Tue, 03 Jun 2014 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/la_propuesta/</guid>
-        <description>&lt;p&gt;Me decidí a formular una propuesta para el despliegue de la red en Cepeda, como no tenia ni idea le presenté al alcalde un pdf con al idea que tenía, a lo que el alcalde respondó, &amp;ldquo;Mira a mi no me vengas con cosas técnicas, si quieres hacerlo. adelante. Te voy a ayudar en lo que pueda&amp;rdquo;&lt;/p&gt;</description>
+        <description>&lt;p&gt;Me decidí a formular una propuesta para el despliegue de la red en Cepeda, como no tenia ni idea, le presenté al alcalde de aquella época, &lt;a href=&#34;https://www.google.com&#34; title=&#34;Google&#39;s Homepage&#34;&gt;Javier Garcias&lt;/a&gt; un pdf, a lo que el alcalde respondó:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Mira, a mi no me vengas con cosas técnicas, si quieres hacerlo&amp;hellip; adelante. Te voy a ayudar en lo que pueda&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;idea-inicial&#34;&gt;Idea inicial&lt;/h2&gt;
+&lt;p&gt;Está era la ida que tenía para el despliegue en 2014:&lt;br /&gt;
+Una salida balanceada a internet con una RB-750 con un superservidor proxy para cachear a todo el que se asomara por allí y otra RB-750 para gestionar las conexiones del hotspot, ahí lo pone, 30 minutos al día con un caudal de 256 Kb en bajada y 64 Kb en subida. AP Unifi&lt;br /&gt;
+Para conectar las viviendas un modelo en Infraestructura AP cliente con una antena central a la que se conectan las estaciones de las casas.&lt;br /&gt;
+&lt;object data=&#34;/pdfs/ESQUEMA DE RED1.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;br /&gt;
+Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/ESQUEMA DE RED1.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;
+&lt;/object&gt;&lt;/p&gt;
+&lt;h2 id=&#34;propuesta&#34;&gt;Propuesta&lt;/h2&gt;
+&lt;p&gt;Este es el documento que se presentó al Ayto, en nombre de la AC RASPUTIN. No me extraña que el alcalde me dijera que hiciera lo que quisiera. &lt;br /&gt;
+El logo de la cabra es lo que más me gusta, está a punto de embestir a los ISP tradicionales.&lt;br /&gt;
+&lt;object data=&#34;/pdfs/CEPEDA_guifi.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;/p&gt;
+  &lt;p&gt;Parece que no tienes plugin para visualizar PDF en tu navegador.
+   Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/CEPEDA_guifi.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
+&lt;/object&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Lo que nos tenemos que tatuar es el procomún de la Red Abierta Libre y Neutral:&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
+El Procomún de la RALN se fundamenta en las siguientes bases:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Eres libre de utilizar la red para cualquier propósito mientras no perjudiques el&lt;br /&gt;
+funcionamiento de la propia red, la libertad de otros usuarios, y respetes las&lt;br /&gt;
+condiciones de los contenidos y servicios que circulan libremente.&lt;/li&gt;
+&lt;li&gt;Eres libre de conocer como es la red, sus componentes y su funcionamiento,&lt;br /&gt;
+también puedes difundir su espíritu y funcionamiento libremente.&lt;/li&gt;
+&lt;li&gt;Eres libre para incorporar servicios y contenidos a la red con las condiciones&lt;br /&gt;
+que quieras.&lt;/li&gt;
+&lt;li&gt;Eres libre de Incorporarte a la red y ayudar a extender estas libertades y&lt;br /&gt;
+condiciones.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Es este documento está detallada la autoprovisión para el modelo infraestructura guifi.net&lt;br /&gt;
+&lt;object data=&#34;/pdfs/paso_a_paso.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;/p&gt;
+  &lt;p&gt;Parece que no tienes plugin para visualizar PDF en tu navegador.
+   Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/paso_a_paso.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
+&lt;/object&gt;
+&lt;h2 id=&#34;presupuesto&#34;&gt;Presupuesto&lt;/h2&gt;
+&lt;p&gt;Se presentó un presupuesto en base a la propuesta.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -345,7 +497,7 @@ Características:
         
           
             
-              <category>red</category>
+              <category>Ayto</category>
             
           
         
@@ -390,7 +542,7 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
         
           
             
-              <category>red</category>
+              <category>Ayto</category>
             
           
         
@@ -430,7 +582,7 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
         
           
             
-              <category>red</category>
+              <category>Ayto</category>
             
           
         

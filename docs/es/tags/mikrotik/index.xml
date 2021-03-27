@@ -14,11 +14,51 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Sun, 05 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Mar 2016 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/mikrotik/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Portal cautivo hotspot mikrotik</title>
+        <link>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</link>
+        <pubDate>Wed, 09 Mar 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Wed, 09 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</guid>
+        <description>Vista la experiencia no soy partidario de usar hotspot con portal cautivo, entiendo que en algunos escenarios puede ser de utilidad. Intro La cosa es que cuando hacemos un hotspot con MikroTik una de los problemas que nos encontramos tras hacer el wizard es que el usuario que se conecta obtiene ip de manera correcta pero a la hora de ser redireccionado al portal cautivo si va a una dirección https no se le muestra la página y le sale un error 404.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Hotspot</title>
@@ -52,7 +92,7 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
         
           
             
-              <category>red</category>
+              <category>Ayto</category>
             
           
         
