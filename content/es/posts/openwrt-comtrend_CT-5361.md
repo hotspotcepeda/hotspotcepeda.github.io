@@ -1,8 +1,8 @@
 ---
-title: "OpenWRT"
+title: "OpenWRT en Comtrend CT-5361"
 date: 2015-10-24
 draft: false
-description: "OpenWRT en Comtrend CT-5361"
+description: "Instalar OpenWRT en Comtrend CT-5361"
 hideToc: false
 enableToc: true
 enableTocContent: false
@@ -10,7 +10,7 @@ author: HotspotCepeda
 authorEmoji: "🗻"
 tags:
 - OpenWRT
-- Router neutro
+- Router neutroS
 categories:
 - red
 series:
