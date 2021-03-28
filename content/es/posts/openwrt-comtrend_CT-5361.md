@@ -1,5 +1,5 @@
 ---
-title: "OpenWRT COMTREND CT-5361"
+title: "OpenWRT"
 date: 2015-10-24
 draft: false
 description: "OpenWRT en Comtrend CT-5361"

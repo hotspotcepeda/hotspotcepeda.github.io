@@ -14,11 +14,54 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Thu, 03 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Apr 2016 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/router-neutro/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>OPENWRT EN HUAWEI ECHOLIFE HG556A</title>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-huawei_echolife_hg556a/</link>
+        <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Fri, 08 Apr 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-huawei_echolife_hg556a/</guid>
+        <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones. &lt;br /&gt;
+Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router que tiene USB es fácil y va genial.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hotspotcepeda.github.io/gallery/red/hg556a.png&#34; alt=&#34;HUAWEI ECHOLIFE HG556A&#34; /&gt;&lt;br /&gt;
+&lt;a href=&#34;https://wiki.openwrt.org/toh/huawei/hg556a&#34;&gt;https://wiki.openwrt.org/toh/huawei/hg556a&lt;/a&gt;&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>Router neutro</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Programar reinicio en OpenWRT</title>
@@ -109,7 +152,7 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
       </item>
       
       <item>
-        <title>OpenWRT COMTREND CT-5361</title>
+        <title>OpenWRT</title>
         <link>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5361/</link>
         <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>

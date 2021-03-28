@@ -14,11 +14,140 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Thu, 03 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 May 2016 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>NanoStation M5 qMp</title>
+        <link>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</link>
+        <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 03 May 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</guid>
+        <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌
+27/03/2021 Ojo con las nuevas remesas de de equipamiento Ubiquiti, las nuevas revisiones 2000K y superiores de NanoStation Loco M5 no funcionan ni con OpenWRT ar71xx ni con OpenWRT ath79, ni tan siquiera probando OpenWRT ath79 para Bullet M XW que sí funciona en las Rocket M XW. Al parecer hay dos arquitecturas distintas que sirven para distintas revisiones de hardware de Ubiquiti .</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>ubiquiti</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>OpenVNP en OpenWRT server</title>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt_openvpn/</link>
+        <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 02 May 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt_openvpn/</guid>
+        <description>Modos de trabajo,
+ Client configuration for an ethernet bridge VPN tap Client configuration for a routed multi-client VPN tun Simple client configuration for a routed point-to-point VPN tun Server configuration for an ethernet bridge VPN tap Server configuration for a routed multi-client VPN tun Simple server configuration for a routed point-to-point VPN tun Tipo de servidor opción: Server configuration for a routed multi-client VPN  </description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>OpenVPN</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>OPENWRT EN HUAWEI ECHOLIFE HG556A</title>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-huawei_echolife_hg556a/</link>
+        <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Fri, 08 Apr 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-huawei_echolife_hg556a/</guid>
+        <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones. &lt;br /&gt;
+Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router que tiene USB es fácil y va genial.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hotspotcepeda.github.io/gallery/red/hg556a.png&#34; alt=&#34;HUAWEI ECHOLIFE HG556A&#34; /&gt;&lt;br /&gt;
+&lt;a href=&#34;https://wiki.openwrt.org/toh/huawei/hg556a&#34;&gt;https://wiki.openwrt.org/toh/huawei/hg556a&lt;/a&gt;&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>Router neutro</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Programar reinicio en OpenWRT</title>
@@ -190,7 +319,7 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
       </item>
       
       <item>
-        <title>OpenWRT COMTREND CT-5361</title>
+        <title>OpenWRT</title>
         <link>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5361/</link>
         <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>

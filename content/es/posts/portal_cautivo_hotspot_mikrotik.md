@@ -24,12 +24,10 @@ Vista la experiencia no soy partidario de usar hotspot con portal cautivo, entie
 La cosa es que cuando hacemos un hotspot con MikroTik una de los problemas que nos encontramos tras hacer el wizard es que el usuario que se conecta obtiene ip de manera correcta pero a la hora de ser redireccionado al portal cautivo si va a una dirección https no se le muestra la página y le sale un error 404.
 Y es que dentro de la Router Board hay un servidor web donde tenemos que hacer nuestra página web.
 ![Portal cautivo modelo ](/gallery/red/hotspot.PNG)
-Esta es la que teníamos en Cepeda
-![Portal cautivo Cepeda ](/gallery/red/hotspot_cepeda.PNG)
-Para solucionarlo hay que generar un par de archivos e importarlos en el Mikrotik, ya sea por consola o por winbox. **Necesitamos un certificado y una clave**, .crt y .key, para generarlos necesitamos la herramienta openssl, si no la tenemos lo primero seria instalarlos, bueno lo primero sería instalar una distribución de Linux.
+Para solucionar la redireecion con https hay que generar un par de archivos e importarlos en el Mikrotik, ya sea por consola o por winbox. **Necesitamos un certificado y una clave**, .crt y .key, para generarlos necesitamos la herramienta openssl, si no la tenemos lo primero seria instalarlos, bueno lo primero sería instalar una distribución de Linux.
 ```
 # apt-get update
-#apt-get install openssl
+# apt-get install openssl
 ```
 ## Clave privada
 Generamos una clave privada y una key, nos pedirá un password que debemos recordar.
@@ -92,7 +90,7 @@ Estos son los archivos que nos quedan al finalizar si hay algo raro o que no os 
  ca.crt    ca.key    server.crt  server.csr    server.key
 ```
 ## Importar a la MikroTik
-Luego para importarlos solo tenemos que copiar 2 archivos, el server.crt y server.key en el MikroTik, los otros archivos los guardamos por si acaso. Por ftp o por WinBox los pasamos a files y los importamos por consola o desde el menu SYSTEM->CERTIFICATES del WinBox. Este es el ejemplo de importación desde la consola del MikroTik.
+Luego para importarlos solo tenemos que copiar 2 archivos, el server.crt y server.key en el MikroTik, los otros archivos los guardamos. Por ftp o por WinBox los pasamos a files y los importamos por consola o desde el menu SYSTEM->CERTIFICATES del WinBox. Este es el ejemplo de importación desde la consola del MikroTik.
 ```
 [admin@MikroTik] /certificate> import file-name=server.crt
  passphrase:(password)
@@ -110,5 +108,7 @@ Luego para importarlos solo tenemos que copiar 2 archivos, el server.crt y serve
  keys-with-no-certificate: 0
 ```
 ## Configurar en hotspot
-Ya solo nos queda marcar en la casilla del hotspot -> «login by» https y en services el https seleccionando el certificado que hemos importado.
-Ahora cuando alguien se conecte al HotSpot y tenga una página https como pagína de inicio en su navegador,( que es lo más frecuente) se le redireccionará al portal cautivo donde se presentará al HotSpot y ya sea con usuario y contraseña o como invitado, podrá navegar y hacer uso del servicio.
+Ya solo nos queda marcar en la casilla del hotspot -> «login by» **https** y en services el https seleccionando el certificado que hemos importado.
+Ahora cuando se conecte al hotspot y se tenga una página https como pagína de inicio en su navegador (que es lo más normal), se le redireccionará al portal cautivo donde se presentará al HotSpot y ya sea con usuario y contraseña o como invitado, podrá navegar y hacer uso del servicio.
+Este es el portal cautivo que teníamos en Cepeda.
+![Portal cautivo Cepeda ](/gallery/red/hotspot_cepeda.PNG)

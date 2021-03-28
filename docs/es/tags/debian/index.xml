@@ -55,6 +55,184 @@
       </item>
       
       <item>
+        <title>VISTA EN MINIATURA DE ARCHIVOS DE IMAGEN NEF, RAW</title>
+        <link>https://hotspotcepeda.github.io/es/posts/imagen_raw_nef_miniatura/</link>
+        <pubDate>Sat, 03 Dec 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 03 Dec 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/imagen_raw_nef_miniatura/</guid>
+        <description>Muy fácil, para tener la vista en miniatura de archivos de imagen NEF, RAW y demás en Nautilus primero instalamos el UFRaw, si es que no lo tenemos ya:
+# apt-get update# apt-get install ufrawAhora generamos este archivo /usr/share/thumbnailers/raw.thumbnailer
+# nano /usr/share/thumbnailers/raw.thumbnailerCopiamos este contenido en el archivo:
+[Thumbnailer Entry]Exec=/usr/bin/ufraw-batch --embedded-image --out-type=png --size=%s %u --overwrite --silent --output=%oMimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2;image/x-canon-crw;image/x-cap;image/x-cr2;image/x-crw;image/x-dcr;image/x-dcraw;image/x-dcs;image/x-dng;image/x-drf;image/x-eip;image/x-erf;image/x-fff;image/x-fuji-raf;image/x-iiq;image/x-k25;image/x-kdc;image/x-mef;image/x-minolta-mrw;image/x-mos;image/x-mrw;image/x-nef;image/x-nikon-nef;image/x-nrw;image/x-olympus-orf;image/x-orf;image/x-panasonic-raw;image/x-pef;image/x-pentax-pef;image/x-ptx;image/x-pxn;image/x-r3d;image/x-raf;image/x-raw;image/x-rw2;image/x-rwl;image/x-rwz;image/x-sigma-x3f;image/x-sony-arw;image/x-sony-sr2;image/x-sony-srf;image/x-sr2;image/x-srf;image/x-x3f;Salvar el archivo y ya está.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>fotos</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>USB MULTIBOOT MULTISYSTEM</title>
+        <link>https://hotspotcepeda.github.io/es/posts/multiboot_multisystem/</link>
+        <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 02 May 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/multiboot_multisystem/</guid>
+        <description>Para hacer un USB boot con varios SO ya sea de diagnostico o live la mejor herramienta que he encontrado es MULTISYSTEM.
+Admite trabajar en modo persistente guardando los cambios o en live.
+http://liveusb.info/dotclear/index.php?pages/install
+Es buena cosa contar con un USB con herramientas de diagnostico y lives de SO para instalar, siempre que la maquina donde lo conectemos tenga capacidad de arrancar desde USB.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/MultiSystem.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>USB</category>
+            
+          
+            
+              <category>multisystem</category>
+            
+          
+            
+              <category>debian</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>CERTIFICADOS OPENVNP</title>
+        <link>https://hotspotcepeda.github.io/es/posts/certificado_openvpn/</link>
+        <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 16 Apr 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/certificado_openvpn/</guid>
+        <description>https://openvpn.net/index.php/open-source/documentation/howto.html
+https://aula128.wordpress.com/2015/02/07/openvpn-instalacion-y-configuracion-del-servidor-en-linux-y-autentificacion-de-un-cliente-windows-7/
+http://www.redeszone.net/redes/openvpn/ apt-get install easy-rsaapt-get install openvpnCopiar los DIRECTORIOS easy-rsa y sample-config-files a /etc/openvpn/
+/usr/share/doc/openvpn/examples# cp -R sample-config-files/ /etc/openvpn//usr/share# cp -R easy-rsa/ /etc/openvpn//etc/openvpn# lseasy-rsa sample-config-files update-resolv-conf/etc/openvpn# cd sample-config-files//etc/openvpn/sample-config-files# lsclient.conf home.up loopback-server openvpn-shutdown.sh README static-home.conf tls-home.conf xinetd-client-configfirewall.sh loopback-client office.up openvpn-startup.sh server.conf.gz static-office.conf tls-office.conf xinetd-server-configCrear carpeta de claves
+/etc/openvpn/easy-rsa# mkdir keys/etc/openvpn/easy-rsa# lsbuild-ca build-key build-key-server changelog.Debian.gz inherit-inter openssl-0.9.6.cnf pkitool revoke-full whichopensslcnfbuild-dh build-key-pass build-req clean-all keys openssl-0.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openVPN_LOGO.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>openVPN</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Rutina para después de instalar Debian</title>
+        <link>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</link>
+        <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Thu, 31 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</guid>
+        <description>Repositorios: # nano /etc/apt/sources.list Instalar KEYS de los repos
+gpg --keyserver pgpkeys.mit.edu --recv-key C90F9CB90E1FAD0Cgpg --export --armor C90F9CB90E1FAD0C | sudo apt-key add -apt-get install debian-keyring debian-archive-keyringapt-get install deb-multimedia-keyringRaspbian
+deb http://mirrordirector.raspbian.org/raspbian/ jessie main contrib non-free rpi# Uncomment line below then &#39;apt-get update&#39; to enable &#39;apt-get source&#39;#deb-src http://archive.raspbian.org/raspbian/ jessie main contrib non-free rpiThe directory /etc/apt/sources.list.d contains the file
+raspi.list
+/etc/apt/sources.list.d/raspi.listdeb http://archive.raspberrypi.org/debian/ jessie main ui# Uncomment line below then &#39;apt-get update&#39; to enable &#39;apt-get source&#39;#deb-src http://archive.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>jessie</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Banner ssh</title>
         <link>https://hotspotcepeda.github.io/es/posts/banner_ssh/</link>
         <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
@@ -82,7 +260,7 @@
         
           
             
-              <category>red</category>
+              <category>Linux</category>
             
           
         

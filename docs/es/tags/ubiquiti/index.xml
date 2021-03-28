@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>ubiquiti on HotspotCepeda, La red comunitaria.</title>
+    <link>https://hotspotcepeda.github.io/es/tags/ubiquiti/</link>
+    <description>Recent content in ubiquiti on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Tue, 03 May 2016 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/ubiquiti/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>NanoStation M5 qMp</title>
+        <link>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</link>
+        <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 03 May 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</guid>
+        <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌
+27/03/2021 Ojo con las nuevas remesas de de equipamiento Ubiquiti, las nuevas revisiones 2000K y superiores de NanoStation Loco M5 no funcionan ni con OpenWRT ar71xx ni con OpenWRT ath79, ni tan siquiera probando OpenWRT ath79 para Bullet M XW que sí funciona en las Rocket M XW. Al parecer hay dos arquitecturas distintas que sirven para distintas revisiones de hardware de Ubiquiti .</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>ubiquiti</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

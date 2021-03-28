@@ -12,7 +12,7 @@ tags:
 - debian
 - ssh
 categories:
-- red
+- Linux
 series:
 - Red comunitaria
 image: images/feature1/debian_logo.png

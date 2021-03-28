@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>openVPN on HotspotCepeda, La red comunitaria.</title>
+    <link>https://hotspotcepeda.github.io/es/tags/openvpn/</link>
+    <description>Recent content in openVPN on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Mon, 02 May 2016 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>OpenVNP en OpenWRT server</title>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt_openvpn/</link>
+        <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 02 May 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt_openvpn/</guid>
+        <description>Modos de trabajo,
+ Client configuration for an ethernet bridge VPN tap Client configuration for a routed multi-client VPN tun Simple client configuration for a routed point-to-point VPN tun Server configuration for an ethernet bridge VPN tap Server configuration for a routed multi-client VPN tun Simple server configuration for a routed point-to-point VPN tun Tipo de servidor opción: Server configuration for a routed multi-client VPN  </description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>OpenVPN</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>CERTIFICADOS OPENVNP</title>
+        <link>https://hotspotcepeda.github.io/es/posts/certificado_openvpn/</link>
+        <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 16 Apr 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/certificado_openvpn/</guid>
+        <description>https://openvpn.net/index.php/open-source/documentation/howto.html
+https://aula128.wordpress.com/2015/02/07/openvpn-instalacion-y-configuracion-del-servidor-en-linux-y-autentificacion-de-un-cliente-windows-7/
+http://www.redeszone.net/redes/openvpn/ apt-get install easy-rsaapt-get install openvpnCopiar los DIRECTORIOS easy-rsa y sample-config-files a /etc/openvpn/
+/usr/share/doc/openvpn/examples# cp -R sample-config-files/ /etc/openvpn//usr/share# cp -R easy-rsa/ /etc/openvpn//etc/openvpn# lseasy-rsa sample-config-files update-resolv-conf/etc/openvpn# cd sample-config-files//etc/openvpn/sample-config-files# lsclient.conf home.up loopback-server openvpn-shutdown.sh README static-home.conf tls-home.conf xinetd-client-configfirewall.sh loopback-client office.up openvpn-startup.sh server.conf.gz static-office.conf tls-office.conf xinetd-server-configCrear carpeta de claves
+/etc/openvpn/easy-rsa# mkdir keys/etc/openvpn/easy-rsa# lsbuild-ca build-key build-key-server changelog.Debian.gz inherit-inter openssl-0.9.6.cnf pkitool revoke-full whichopensslcnfbuild-dh build-key-pass build-req clean-all keys openssl-0.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openVPN_LOGO.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>openVPN</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

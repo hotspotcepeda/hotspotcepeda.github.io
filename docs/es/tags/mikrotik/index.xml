@@ -14,11 +14,66 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Wed, 09 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Mar 2016 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/mikrotik/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Virtualizar hotspot MikroTik</title>
+        <link>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</link>
+        <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 15 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</guid>
+        <description>VirtualBox Vamos a virtualizar RouterOS en una vieja maquina para convertirlo en hotspot MikroTik.
+Necesitamos una maquina que tenga más de una interfaz de red, un router con una sola interfaz no tiene mucho sentido.
+Un PC Pentium 4 completo se puede encontrar de segunda mano por 50 euros, y tarjetas de red 10/100 las regalan.
+En el servidor nos aseguramos que en la bios esté marcada la casilla de virtualización, (la máquina tiene que soportar virtualización VT-x o AMD-V) ya de paso en la sección de power management que el servidor se encienda si hay una interrupción de la alimentación eléctrica.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>VirtualBox</category>
+            
+          
+            
+              <category>RouterOS</category>
+            
+          
+            
+              <category>guifi.net</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Portal cautivo hotspot mikrotik</title>
