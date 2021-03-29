@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>math on HotspotCepeda. The community network.</title>
-    <link>https://hotspotcepeda.github.io/en/categories/math/</link>
+    <link>https://hotspotcepeda.github.io/es/sitio/en/categories/math/</link>
     <description>Recent content in math on HotspotCepeda. The community network.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,22 +16,22 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sat, 16 Nov 2019 12:00:06 +0900</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/en/categories/math/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/sitio/en/categories/math/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>MathJax support</title>
-        <link>https://hotspotcepeda.github.io/en/posts/test-mathjax/</link>
+        <link>https://hotspotcepeda.github.io/es/sitio/en/posts/test-mathjax/</link>
         <pubDate>Sat, 16 Nov 2019 12:00:06 +0900</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 16 Nov 2019 12:00:06 +0900</atom:modified>
-        <guid>https://hotspotcepeda.github.io/en/posts/test-mathjax/</guid>
+        <guid>https://hotspotcepeda.github.io/es/sitio/en/posts/test-mathjax/</guid>
         <description>When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/infinity.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/infinity.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -55,11 +55,11 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</description>
       
       <item>
         <title>Katex support</title>
-        <link>https://hotspotcepeda.github.io/en/posts/test-katex/</link>
+        <link>https://hotspotcepeda.github.io/es/sitio/en/posts/test-katex/</link>
         <pubDate>Fri, 15 Nov 2019 12:00:06 +0900</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 15 Nov 2019 12:00:06 +0900</atom:modified>
-        <guid>https://hotspotcepeda.github.io/en/posts/test-katex/</guid>
+        <guid>https://hotspotcepeda.github.io/es/sitio/en/posts/test-katex/</guid>
         <description>The following
 $$ \int_{a}^{b} x^2 dx $$
 Is an integral
@@ -70,7 +70,7 @@ Note: For inline math to render correctly, your content file extension must be .
 Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

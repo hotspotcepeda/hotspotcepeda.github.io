@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>librenms on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/librenms/</link>
+    <link>https://hotspotcepeda.github.io/es/sitio/es/tags/librenms/</link>
     <description>Recent content in librenms on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,23 +16,23 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 07 Mar 2021 00:46:37 +0100</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/librenms/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/sitio/es/tags/librenms/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Librenms Docker install</title>
-        <link>https://hotspotcepeda.github.io/es/posts/librenms_docker_install/</link>
+        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/librenms_docker_install/</link>
         <pubDate>Sun, 07 Mar 2021 00:46:37 +0100</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 07 Mar 2021 00:46:37 +0100</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/librenms_docker_install/</guid>
+        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/librenms_docker_install/</guid>
         <description>BBDD
 1 2 3 4 5 6  docker run -d \ -v `pwd`/mysql:/var/lib/mysql \ -v `pwd`/50-server.cnf:/etc/mysql/mariadb.conf.d/50-server.cnf:ro \ -e MYSQL_ROOT_PASSWORD=mysqlPASWORD \ –name librenms-db \ mariadb:latest   Lanza librenms, se asocia a la BBDD
 1 2 3 4 5 6 7 8 9 10 11 12 13  docker run -d \ -v `pwd`/data:/data \ -p 888:80 \ -e TZ=»Europe/Madrid» \ –link 0bd3a3993581(id container BBDD):mysql \ -e POLLER=24 \ -e DB_TYPE=mysql \ -e DB_HOST=mysql \ -e DB_NAME=librenms \ -e DB_USER=root \ -e DB_PASS=mysqlPASWORD \ –name librenms \ seti/librenms   Al navegador http://ipserver:888/install.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

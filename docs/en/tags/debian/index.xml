@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>debian on HotspotCepeda. The community network.</title>
-    <link>https://hotspotcepeda.github.io/en/tags/debian/</link>
+    <link>https://hotspotcepeda.github.io/es/sitio/en/tags/debian/</link>
     <description>Recent content in debian on HotspotCepeda. The community network.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 07 Mar 2021 00:46:37 +0100</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/en/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/sitio/en/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>NEXTCLOUD DEBIAN SERVER AND CLIENT</title>
-        <link>https://hotspotcepeda.github.io/en/posts/nextcloud_debian_debian_server_and_client/</link>
+        <link>https://hotspotcepeda.github.io/es/sitio/en/posts/nextcloud_debian_debian_server_and_client/</link>
         <pubDate>Sun, 07 Mar 2021 00:46:37 +0100</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 07 Mar 2021 00:46:37 +0100</atom:modified>
-        <guid>https://hotspotcepeda.github.io/en/posts/nextcloud_debian_debian_server_and_client/</guid>
+        <guid>https://hotspotcepeda.github.io/es/sitio/en/posts/nextcloud_debian_debian_server_and_client/</guid>
         <description>ADD NEXTCLOUD REPOSITORY
 Add the Nextcloud repository in the /etc/apt/sources.d/nextcloud.list
 1  echo &amp;#39;deb http://apt.jurisic.org/debian/ jessie main contrib non-free&amp;#39; &amp;gt;&amp;gt; /etc/apt/sources.list.d/nextcloud.list   Install release key of Nextcloud repository:

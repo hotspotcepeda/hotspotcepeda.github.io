@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on HotspotCepeda. The community network.</title>
-    <link>https://hotspotcepeda.github.io/en/categories/</link>
+    <link>https://hotspotcepeda.github.io/es/sitio/en/categories/</link>
     <description>Recent content in Categories on HotspotCepeda. The community network.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Fri, 20 Dec 2019 12:00:06 +0900</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/sitio/en/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>syntax</title>
-        <link>https://hotspotcepeda.github.io/en/categories/syntax/</link>
+        <link>https://hotspotcepeda.github.io/es/sitio/en/categories/syntax/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/en/categories/syntax/</guid>
+        <guid>https://hotspotcepeda.github.io/es/sitio/en/categories/syntax/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -40,11 +40,11 @@
       
       <item>
         <title>themes</title>
-        <link>https://hotspotcepeda.github.io/en/categories/themes/</link>
+        <link>https://hotspotcepeda.github.io/es/sitio/en/categories/themes/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/en/categories/themes/</guid>
+        <guid>https://hotspotcepeda.github.io/es/sitio/en/categories/themes/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -58,11 +58,11 @@
       
       <item>
         <title>hugo</title>
-        <link>https://hotspotcepeda.github.io/en/categories/hugo/</link>
+        <link>https://hotspotcepeda.github.io/es/sitio/en/categories/hugo/</link>
         <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/en/categories/hugo/</guid>
+        <guid>https://hotspotcepeda.github.io/es/sitio/en/categories/hugo/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -76,11 +76,11 @@
       
       <item>
         <title>diagram</title>
-        <link>https://hotspotcepeda.github.io/en/categories/diagram/</link>
+        <link>https://hotspotcepeda.github.io/es/sitio/en/categories/diagram/</link>
         <pubDate>Mon, 18 Nov 2019 21:00:06 +0900</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/en/categories/diagram/</guid>
+        <guid>https://hotspotcepeda.github.io/es/sitio/en/categories/diagram/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -94,11 +94,11 @@
       
       <item>
         <title>math</title>
-        <link>https://hotspotcepeda.github.io/en/categories/math/</link>
+        <link>https://hotspotcepeda.github.io/es/sitio/en/categories/math/</link>
         <pubDate>Sat, 16 Nov 2019 12:00:06 +0900</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/en/categories/math/</guid>
+        <guid>https://hotspotcepeda.github.io/es/sitio/en/categories/math/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>

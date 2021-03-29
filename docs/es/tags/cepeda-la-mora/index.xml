@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Cepeda la Mora on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/</link>
+    <link>https://hotspotcepeda.github.io/es/sitio/es/tags/cepeda-la-mora/</link>
     <description>Recent content in Cepeda la Mora on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Tue, 03 Jun 2014 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/sitio/es/tags/cepeda-la-mora/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>La propuesta</title>
-        <link>https://hotspotcepeda.github.io/es/posts/la_propuesta/</link>
+        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/la_propuesta/</link>
         <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 03 Jun 2014 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/la_propuesta/</guid>
+        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/la_propuesta/</guid>
         <description>&lt;p&gt;Me decidí a formular una propuesta para el despliegue de la red en Cepeda, como no tenia ni idea, le presenté al alcalde de aquella época &lt;a href=&#34;https://www.blogger.com/profile/13080724491994019511&#34; title=&#34;Blog Javier Garcia&#34;&gt;Javier Garcia&lt;/a&gt; un pdf, a lo que el alcalde respondó:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Mira, a mi no me vengas con cosas técnicas, si quieres hacerlo&amp;hellip; adelante. Te voy a ayudar en lo que pueda.&amp;quot;&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;idea-inicial&#34;&gt;Idea inicial&lt;/h2&gt;
@@ -34,14 +34,14 @@
 Una salida balanceada a internet con una RB-750 con un superservidor proxy para cachear a todo el que se asomara por allí y otra RB-750 para gestionar las conexiones del hotspot, ahí lo pone, 30 minutos al día con un caudal de 256 Kb en bajada y 64 Kb en subida. AP Unifi&lt;br /&gt;
 Para conectar las viviendas un modelo en Infraestructura AP cliente con una antena central a la que se conectan las estaciones de las casas.&lt;br /&gt;
 &lt;object data=&#34;/pdfs/ESQUEMA DE RED1.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;br /&gt;
-Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/ESQUEMA DE RED1.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;
+Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/es/sitio/pdfs/ESQUEMA DE RED1.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;
 &lt;/object&gt;&lt;/p&gt;
 &lt;h2 id=&#34;propuesta&#34;&gt;Propuesta&lt;/h2&gt;
 &lt;p&gt;Este es el documento que se presentó al Ayto, en nombre de la AC RASPUTIN. No me extraña que el alcalde me dijera que hiciera lo que quisiera. &lt;br /&gt;
 El logo de la cabra es lo que más me gusta, está a punto de embestir a los ISP tradicionales.&lt;br /&gt;
 &lt;object data=&#34;/pdfs/CEPEDA_guifi.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;/p&gt;
   &lt;p&gt;Parece que no tienes plugin para visualizar PDF en tu navegador.
-   Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/CEPEDA_guifi.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
+   Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/es/sitio/pdfs/CEPEDA_guifi.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
 &lt;/object&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Lo que nos tenemos que tatuar es el procomún de la Red Abierta Libre y Neutral:&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
 El Procomún de la RALN se fundamenta en las siguientes bases:&lt;/p&gt;
@@ -59,11 +59,11 @@ condiciones.&lt;/li&gt;
 &lt;p&gt;Es este documento está detallada la autoprovisión de nodos para el despliegue en modo infraestructura en la plataforma guifi.net&lt;br /&gt;
 &lt;object data=&#34;/pdfs/paso_a_paso.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;/p&gt;
   &lt;p&gt;Parece que no tienes plugin para visualizar PDF en tu navegador.
-   Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/paso_a_paso.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
+   Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/es/sitio/pdfs/paso_a_paso.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
 &lt;/object&gt;
 &lt;h2 id=&#34;presupuesto&#34;&gt;Presupuesto&lt;/h2&gt;
 &lt;p&gt;Se presentó un presupuesto en base a la propuesta. Creo que me salian 900 euros, esto es lo que se aprobó y lo que pagó el ayuntamiento más la salida a internet.&lt;br /&gt;
-&lt;img src=&#34;https://hotspotcepeda.github.io/images/ayto/hoja_gastos_ayto.jpg&#34; alt=&#34;Hoja de gastos Ayto Cepeda despliegue red comunitaria&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://hotspotcepeda.github.io/es/sitio/images/ayto/hoja_gastos_ayto.jpg&#34; alt=&#34;Hoja de gastos Ayto Cepeda despliegue red comunitaria&#34; /&gt;&lt;br /&gt;
 600 euros para un ayuntamiento es un gasto ridículo, en las empresas que trabajan este producto el precio habitual para un proyecto así es de 6000 a 10000 euros llave en mano + el coste de la gestión y el mantenimiento de la red. ¿Lo ves caro? pues hazlo tú mismo.&lt;br /&gt;
 Solo necesitas tener los conocimientos adecuados, bueno también te hará falta un ordenador y una conexión a internet para hacer la gestión remota, un espacio de trabajo, carnet de conducir y un coche grande o una furgoneta para poder desplazarte y transportar el equipamiento, los tramos de las torres y los mástiles, ropa de trabajo, EPIs, herramienta de mano, escalera grande de 3 tramos y pequeña, taladro, brocas, radial, discos, atornilladora, crimpadora, conectores, herrajes, abrazaderas, bridas, tacos, tornillos, cinta aislante, guiacables, aparatos de medida, comprobador de cables, cable ftp exterior, cable ftp interior, material eléctrico, conocimientos, negociaciones con proveedores, dinero para comprar el equipamiento, desplazamientos a proveedores, desplazamientos programados para labores preventivas, desplazamientos extraordinarios por averías, conocimientos, seguro de responsabilidad civil, titulación para trabajo en altura, tasas e impuestos, combustible, dinero, conocimientos y lo más valioso de todo, TU TIEMPO.&lt;/p&gt;
 &lt;h2 id=&#34;sax&#34;&gt;SAX&lt;/h2&gt;
@@ -84,7 +84,7 @@ Hay que tener en cuenta que debemos elegir con mucha atención el hardware, tien
 &lt;/div&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -124,16 +124,16 @@ Hay que tener en cuenta que debemos elegir con mucha atención el hardware, tien
       
       <item>
         <title>Hotspot</title>
-        <link>https://hotspotcepeda.github.io/es/posts/hotspot/</link>
+        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/hotspot/</link>
         <pubDate>Sun, 05 Jan 2014 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 05 Jan 2014 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/hotspot/</guid>
+        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/hotspot/</guid>
         <description>&lt;p&gt;Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.&lt;br /&gt;
 La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -177,15 +177,15 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
       
       <item>
         <title>Arrancando</title>
-        <link>https://hotspotcepeda.github.io/es/posts/arrancando/</link>
+        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/arrancando/</link>
         <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 03 Jan 2014 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/arrancando/</guid>
+        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/arrancando/</guid>
         <description>&lt;p&gt;En este artículo se comenta como intenté buscar el apoyo en asociaciones locales para que promovieran la iniciativa de una red de telecomunicaciones comunitaria, de alguna manera, para conseguir tener una wifi púbica, un acceso público a internet en un área rural desfavorecida. Por aquel entonces las conexiones a internet en Cepeda se hacían mediante el ISP Iberbanda (que daba conexiones de 1 2 y 3 Mb simétricos), y el 3G era un lujo.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/workflow.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature2/workflow.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
