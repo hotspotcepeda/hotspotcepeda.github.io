@@ -14,7 +14,6 @@ tags:
 - Cepeda la Mora
 categories:
 - Ayto
-- Cepeda la Mora
 series:
 - Red comunitaria
 image: images/feature2/workflow.png

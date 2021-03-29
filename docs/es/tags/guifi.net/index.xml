@@ -165,7 +165,7 @@ Pero en el escenario que tenemos en Cepeda no hay un sítio mágico desde el que
 &lt;p&gt;Con el despliegue en mesh la cobertura se va extendiendo con cada equipo que se incorpora a la red, se convierte en una red descentralizada que es un valor añadido.&lt;br /&gt;
 Lo primero que hay que hacer en montar toda la red sobre una mesa, elije un espacio de trabajo y empieza a configurar equipos, ponlos en producción y sometelos durante un tiempo a un estricto seguimiento. Cuando tengas la seguridad de que los equipos funcionan como tú quieres los instalas, cuando estamos instalando no podemos hacer investigaciones ni pruebas ni otra cosa que no sea instalar, de está manera si falla algo en la instalación automáticamente se descartan problemas de configuración.&lt;br /&gt;
 Para comenzar con el despliegue qMp recomiendo elegir ubicaciones elevadas y que siempre estén encendidas, de está manera la cobertura de la red se irá extendiendo sin esfuerzo a medida que se van agregando nuevos nodos.&lt;br /&gt;
-Se puede desplegar en 2.4 GHZ 802.11bg o en 5 GHz 802.11a, dependiendo del escenario, si queremos desplegar en el interior de un edificio podemos hacerlo con equipos indor y en 2.4 GHz, si los equipos están en la calle necesitamos CPE que soporten intemperie agua, hielo, sol y viento.&lt;br /&gt;
+Se puede desplegar en 2.4 GHZ 802.11bg o en 5 GHz 802.11a, dependiendo del escenario, si queremos desplegar en el interior de un edificio podemos hacerlo con equipos indoor y en 2.4 GHz, si los equipos están en la calle necesitamos CPE que soporten intemperie agua, hielo, sol y viento.&lt;br /&gt;
 Hay que tener en cuenta que debemos elegir con mucha atención el hardware, tiene que ser compatible con OpenWRT/qMp. Esta es la lista de hardware compatible &lt;a href=&#34;https://qmp.cat/Supported_devices&#34;&gt;https://qmp.cat/Supported_devices&lt;/a&gt;&lt;br /&gt;
 &lt;div class=&#34;notices warning&#34; data-title=&#34;Warning&#34;&gt;
   &lt;ul&gt;
@@ -201,10 +201,6 @@ Hay que tener en cuenta que debemos elegir con mucha atención el hardware, tien
           
             
               <category>Ayto</category>
-            
-          
-            
-              <category>Cepeda la Mora</category>
             
           
         
@@ -245,6 +241,14 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
               <category>mikrotik</category>
             
           
+            
+              <category>Cepeda la Mora</category>
+            
+          
+            
+              <category>Ubiquiti</category>
+            
+          
         
         
           
@@ -252,23 +256,11 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
               <category>Ayto</category>
             
           
-            
-              <category>Cepeda la Mora</category>
-            
-          
         
         
           
             
               <category>Red comunitaria</category>
-            
-          
-            
-              <category>guifi.net</category>
-            
-          
-            
-              <category>Cepeda la Mora</category>
             
           
         
@@ -306,10 +298,6 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
           
             
               <category>Ayto</category>
-            
-          
-            
-              <category>Cepeda la Mora</category>
             
           
         

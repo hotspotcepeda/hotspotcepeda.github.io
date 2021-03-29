@@ -10,7 +10,6 @@ author: HotspotCepeda
 authorEmoji: "🗻"
 categories:
 - Ayto
-- Cepeda la Mora
 series:
 - Red comunitaria
 tags: 
@@ -71,7 +70,7 @@ Pero en el escenario que tenemos en Cepeda no hay un sítio mágico desde el que
 Con el despliegue en mesh la cobertura se va extendiendo con cada equipo que se incorpora a la red, se convierte en una red descentralizada que es un valor añadido.
 Lo primero que hay que hacer en montar toda la red sobre una mesa, elije un espacio de trabajo y empieza a configurar equipos, ponlos en producción y sometelos durante un tiempo a un estricto seguimiento. Cuando tengas la seguridad de que los equipos funcionan como tú quieres los instalas, cuando estamos instalando no podemos hacer investigaciones ni pruebas ni otra cosa que no sea instalar, de está manera si falla algo en la instalación automáticamente se descartan problemas de configuración.
 Para comenzar con el despliegue qMp recomiendo elegir ubicaciones elevadas y que siempre estén encendidas, de está manera la cobertura de la red se irá extendiendo sin esfuerzo a medida que se van agregando nuevos nodos.
-Se puede desplegar en 2.4 GHZ 802.11bg o en 5 GHz 802.11a, dependiendo del escenario, si queremos desplegar en el interior de un edificio podemos hacerlo con equipos indor y en 2.4 GHz, si los equipos están en la calle necesitamos CPE que soporten intemperie agua, hielo, sol y viento.
+Se puede desplegar en 2.4 GHZ 802.11bg o en 5 GHz 802.11a, dependiendo del escenario, si queremos desplegar en el interior de un edificio podemos hacerlo con equipos indoor y en 2.4 GHz, si los equipos están en la calle necesitamos CPE que soporten intemperie agua, hielo, sol y viento.
 Hay que tener en cuenta que debemos elegir con mucha atención el hardware, tiene que ser compatible con OpenWRT/qMp. Esta es la lista de hardware compatible https://qmp.cat/Supported_devices
 {{< notice warning >}}
 - 27/03/2021 Ojo con las nuevas remesas de equipamiento Ubiquiti, las nuevas revisiones 2000K y superiores de NanoStation Loco M5 no funcionan ni con OpenWRT ar71xx ni con OpenWRT ath79, ni tan siquiera probando OpenWRT ath79 para Bullet M XW que sí funciona en las Rocket M XW. Al parecer hay dos arquitecturas distintas que sirven para distintas revisiones de hardware de Ubiquiti .La ar71xx es la de siempre, antes funcionaba, la ath79 es la nueva. No sé sabe todavía la manera de flashearlas. 
