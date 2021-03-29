@@ -1,11 +1,11 @@
 +++
 title = "Sitio"
-description = "descripcion del sitio"
+description = "Sobre el propósito del sítio"
 type = "about"
 date = "2021-03-06"
 +++
 
-El proposito de este sitio es:
+El propósito de este sitio es:
 
 - Compartir la experiencia del proyecto de red comunitaria en Cepeda.
 - Archivar y mantener disponible la documentación técnica.

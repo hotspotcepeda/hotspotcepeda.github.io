@@ -10,11 +10,14 @@ author: HotspotCepeda
 authorEmoji: "🗻"
 categories:
 - Ayto
+- Cepeda la Mora
 series:
 - Red comunitaria
 tags: 
 - guifi.net
 - qMp
+- guifi.net
+- Cepeda la Mora
 image: images/feature2/mathbook.png
 ---
 

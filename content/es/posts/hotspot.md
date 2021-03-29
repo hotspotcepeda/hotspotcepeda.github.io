@@ -14,8 +14,11 @@ tags:
 - mikrotik
 categories:
 - Ayto
+- Cepeda la Mora
 series:
 - Red comunitaria
+- guifi.net
+- Cepeda la Mora
 libraries:
 - mermaid
 image: images/feature1/hotspot.png
