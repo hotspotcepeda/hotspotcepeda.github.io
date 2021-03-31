@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>jessie on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/sitio/es/tags/jessie/</link>
+    <link>https://hotspotcepeda.github.io/es/tags/jessie/</link>
     <description>Recent content in jessie on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Thu, 31 Mar 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/sitio/es/tags/jessie/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/jessie/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Rutina para después de instalar Debian</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/postinstalacion_debian/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</link>
         <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 31 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/postinstalacion_debian/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</guid>
         <description>Repositorios: # nano /etc/apt/sources.list Instalar KEYS de los repos
 gpg --keyserver pgpkeys.mit.edu --recv-key C90F9CB90E1FAD0Cgpg --export --armor C90F9CB90E1FAD0C | sudo apt-key add -apt-get install debian-keyring debian-archive-keyringapt-get install deb-multimedia-keyringRaspbian
 deb http://mirrordirector.raspbian.org/raspbian/ jessie main contrib non-free rpi# Uncomment line below then &#39;apt-get update&#39; to enable &#39;apt-get source&#39;#deb-src http://archive.raspbian.org/raspbian/ jessie main contrib non-free rpiThe directory /etc/apt/sources.list.d contains the file
@@ -34,7 +34,7 @@ raspi.list
 /etc/apt/sources.list.d/raspi.listdeb http://archive.raspberrypi.org/debian/ jessie main ui# Uncomment line below then &#39;apt-get update&#39; to enable &#39;apt-get source&#39;#deb-src http://archive.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

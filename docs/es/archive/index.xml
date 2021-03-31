@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Archivo 🐐 on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/sitio/es/archive/</link>
+    <link>https://hotspotcepeda.github.io/es/archive/</link>
     <description>Recent content in Archivo 🐐 on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,7 +16,7 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sat, 19 Oct 2019 11:44:14 +0900</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/sitio/es/archive/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/archive/index.xml" rel="self" type="application/rss+xml" />
     
 
       

@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>diagram on HotspotCepeda. The community network.</title>
-    <link>https://hotspotcepeda.github.io/es/sitio/en/tags/diagram/</link>
+    <link>https://hotspotcepeda.github.io/en/tags/diagram/</link>
     <description>Recent content in diagram on HotspotCepeda. The community network.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,21 +16,21 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 17 Nov 2019 12:00:06 +0900</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/sitio/en/tags/diagram/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/en/tags/diagram/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Mermaid support</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/en/posts/test-mermaid/</link>
+        <link>https://hotspotcepeda.github.io/en/posts/test-mermaid/</link>
         <pubDate>Sun, 17 Nov 2019 12:00:06 +0900</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 17 Nov 2019 12:00:06 +0900</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/en/posts/test-mermaid/</guid>
+        <guid>https://hotspotcepeda.github.io/en/posts/test-mermaid/</guid>
         <description>sequenceDiagramparticipant Aliceparticipant BobAlice-&amp;gt;John: Hello John, how are you?loop HealthcheckJohn-&amp;gt;John: Fight against hypochondriaendNote right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...John--&amp;gt;Alice: Great!John-&amp;gt;Bob: How about you?Bob--&amp;gt;John: Jolly good!graph TDA[Hard] --&amp;gt;|Text| B(Round)B --&amp;gt; C{Decision}C --&amp;gt;|One| D[Result 1]C --&amp;gt;|Two| E[Result 2]ganttsection SectionCompleted :done, des1, 2014-01-06,2014-01-08Active :active, des2, 2014-01-07, 3dParallel 1 : des3, after des1, 1dParallel 2 : des4, after des1, 1dParallel 3 : des5, after des3, 1dParallel 4 : des6, after des4, 1dclassDiagramClass01 &amp;lt;|-- AveryLongClass : Cool&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01Class09 --&amp;gt; C2 : Where am i?</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature2/workflow.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/workflow.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

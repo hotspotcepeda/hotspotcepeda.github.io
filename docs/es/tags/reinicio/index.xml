@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Reinicio on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/sitio/es/tags/reinicio/</link>
+    <link>https://hotspotcepeda.github.io/es/tags/reinicio/</link>
     <description>Recent content in Reinicio on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,22 +16,22 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Thu, 03 Mar 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/sitio/es/tags/reinicio/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/reinicio/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Programar reinicio en OpenWRT</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/programar_reinicio_openwrt/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/programar_reinicio_openwrt/</link>
         <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 03 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/programar_reinicio_openwrt/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/programar_reinicio_openwrt/</guid>
         <description>https://wiki.openwrt.org/doc/howto/cron
 Me están dando guerra una serie de router. El usuario se queja de que de vez en cuando el router pierde la salida a internet, una de las veces que estaba teniendo el problema me conecté y era como que perdía la ip WAN del cliente dhcp, la red local seguía funcionando y la wifi también,la parte lan estaba ok y he pensado que programando un reinicio diario de madrugada se podía arreglar el problema.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

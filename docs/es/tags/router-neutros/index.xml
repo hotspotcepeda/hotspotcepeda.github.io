@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Router neutroS on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/sitio/es/tags/router-neutros/</link>
+    <link>https://hotspotcepeda.github.io/es/tags/router-neutros/</link>
     <description>Recent content in Router neutroS on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,24 +16,24 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sat, 24 Oct 2015 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/sitio/es/tags/router-neutros/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/router-neutros/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>OpenWRT en Comtrend CT-5361</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/openwrt-comtrend_ct-5361/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5361/</link>
         <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 24 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/openwrt-comtrend_ct-5361/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5361/</guid>
         <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones. &lt;br /&gt;
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router no es fácil y va corto de memoria pero se puede.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hotspotcepeda.github.io/es/sitio/gallery/red/CT-5361.png&#34; alt=&#34;Comtrend_CT-5361&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&#34;https://hotspotcepeda.github.io/gallery/red/CT-5361.png&#34; alt=&#34;Comtrend_CT-5361&#34; /&gt;&lt;br /&gt;
 &lt;a href=&#34;https://openwrt.org/toh/comtrend/ct5361&#34;&gt;https://openwrt.org/toh/comtrend/ct5361&lt;/a&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

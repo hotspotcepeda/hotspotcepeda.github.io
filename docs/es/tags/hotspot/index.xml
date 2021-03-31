@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>hotspot on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/sitio/es/tags/hotspot/</link>
+    <link>https://hotspotcepeda.github.io/es/tags/hotspot/</link>
     <description>Recent content in hotspot on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,24 +16,24 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Tue, 15 Mar 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/sitio/es/tags/hotspot/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/hotspot/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Virtualizar hotspot MikroTik</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/virtualizar_hotspot_mikrotik/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</link>
         <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 15 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/virtualizar_hotspot_mikrotik/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</guid>
         <description>VirtualBox Vamos a virtualizar RouterOS en una vieja maquina para convertirlo en hotspot MikroTik.
 Necesitamos una maquina que tenga más de una interfaz de red, un router con una sola interfaz no tiene mucho sentido.
 Un PC Pentium 4 completo se puede encontrar de segunda mano por 50 euros, y tarjetas de red 10/100 las regalan.
 En el servidor nos aseguramos que en la bios esté marcada la casilla de virtualización, (la máquina tiene que soportar virtualización VT-x o AMD-V) ya de paso en la sección de power management que el servidor se encienda si hay una interrupción de la alimentación eléctrica.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -77,15 +77,15 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
       
       <item>
         <title>Portal cautivo hotspot mikrotik</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/portal_cautivo_hotspot_mikrotik/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</link>
         <pubDate>Wed, 09 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Wed, 09 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/portal_cautivo_hotspot_mikrotik/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</guid>
         <description>Vista la experiencia no soy partidario de usar hotspot con portal cautivo, entiendo que en algunos escenarios puede ser de utilidad. Intro La cosa es que cuando hacemos un hotspot con MikroTik una de los problemas que nos encontramos tras hacer el wizard es que el usuario que se conecta obtiene ip de manera correcta pero a la hora de ser redireccionado al portal cautivo si va a una dirección https no se le muestra la página y le sale un error 404.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -117,16 +117,16 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
       
       <item>
         <title>Hotspot</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/hotspot/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/hotspot/</link>
         <pubDate>Sun, 05 Jan 2014 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 05 Jan 2014 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/hotspot/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/hotspot/</guid>
         <description>&lt;p&gt;Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.&lt;br /&gt;
 La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

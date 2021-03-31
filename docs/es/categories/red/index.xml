@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>red on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/sitio/es/categories/red/</link>
+    <link>https://hotspotcepeda.github.io/es/categories/red/</link>
     <description>Recent content in red on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,22 +16,22 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Tue, 03 May 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/sitio/es/categories/red/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/categories/red/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>NanoStation M5 qMp</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/qmp_nanostation_m5/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</link>
         <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 03 May 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/qmp_nanostation_m5/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</guid>
         <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌
 27/03/2021 Ojo con las nuevas remesas de de equipamiento Ubiquiti, las nuevas revisiones 2000K y superiores de NanoStation Loco M5 no funcionan ni con OpenWRT ar71xx ni con OpenWRT ath79, ni tan siquiera probando OpenWRT ath79 para Bullet M XW que sí funciona en las Rocket M XW. Al parecer hay dos arquitecturas distintas que sirven para distintas revisiones de hardware de Ubiquiti .</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -67,16 +67,16 @@
       
       <item>
         <title>OpenVNP en OpenWRT server</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/openwrt_openvpn/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt_openvpn/</link>
         <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 02 May 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/openwrt_openvpn/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt_openvpn/</guid>
         <description>Modos de trabajo,
  Client configuration for an ethernet bridge VPN tap Client configuration for a routed multi-client VPN tun Simple client configuration for a routed point-to-point VPN tun Server configuration for an ethernet bridge VPN tap Server configuration for a routed multi-client VPN tun Simple server configuration for a routed point-to-point VPN tun Tipo de servidor opción: Server configuration for a routed multi-client VPN  </description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -108,18 +108,18 @@
       
       <item>
         <title>OPENWRT EN HUAWEI ECHOLIFE HG556A</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/openwrt-huawei_echolife_hg556a/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-huawei_echolife_hg556a/</link>
         <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 08 Apr 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/openwrt-huawei_echolife_hg556a/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-huawei_echolife_hg556a/</guid>
         <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones. &lt;br /&gt;
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router que tiene USB es fácil y va genial.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hotspotcepeda.github.io/es/sitio/gallery/red/hg556a.png&#34; alt=&#34;HUAWEI ECHOLIFE HG556A&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&#34;https://hotspotcepeda.github.io/gallery/red/hg556a.png&#34; alt=&#34;HUAWEI ECHOLIFE HG556A&#34; /&gt;&lt;br /&gt;
 &lt;a href=&#34;https://wiki.openwrt.org/toh/huawei/hg556a&#34;&gt;https://wiki.openwrt.org/toh/huawei/hg556a&lt;/a&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -151,18 +151,18 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
       
       <item>
         <title>Virtualizar hotspot MikroTik</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/virtualizar_hotspot_mikrotik/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</link>
         <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 15 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/virtualizar_hotspot_mikrotik/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</guid>
         <description>VirtualBox Vamos a virtualizar RouterOS en una vieja maquina para convertirlo en hotspot MikroTik.
 Necesitamos una maquina que tenga más de una interfaz de red, un router con una sola interfaz no tiene mucho sentido.
 Un PC Pentium 4 completo se puede encontrar de segunda mano por 50 euros, y tarjetas de red 10/100 las regalan.
 En el servidor nos aseguramos que en la bios esté marcada la casilla de virtualización, (la máquina tiene que soportar virtualización VT-x o AMD-V) ya de paso en la sección de power management que el servidor se encienda si hay una interrupción de la alimentación eléctrica.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -206,15 +206,15 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
       
       <item>
         <title>Portal cautivo hotspot mikrotik</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/portal_cautivo_hotspot_mikrotik/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</link>
         <pubDate>Wed, 09 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Wed, 09 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/portal_cautivo_hotspot_mikrotik/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</guid>
         <description>Vista la experiencia no soy partidario de usar hotspot con portal cautivo, entiendo que en algunos escenarios puede ser de utilidad. Intro La cosa es que cuando hacemos un hotspot con MikroTik una de los problemas que nos encontramos tras hacer el wizard es que el usuario que se conecta obtiene ip de manera correcta pero a la hora de ser redireccionado al portal cautivo si va a una dirección https no se le muestra la página y le sale un error 404.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -246,16 +246,16 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
       
       <item>
         <title>Programar reinicio en OpenWRT</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/programar_reinicio_openwrt/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/programar_reinicio_openwrt/</link>
         <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 03 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/programar_reinicio_openwrt/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/programar_reinicio_openwrt/</guid>
         <description>https://wiki.openwrt.org/doc/howto/cron
 Me están dando guerra una serie de router. El usuario se queja de que de vez en cuando el router pierde la salida a internet, una de las veces que estaba teniendo el problema me conecté y era como que perdía la ip WAN del cliente dhcp, la red local seguía funcionando y la wifi también,la parte lan estaba ok y he pensado que programando un reinicio diario de madrugada se podía arreglar el problema.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -291,16 +291,16 @@ Me están dando guerra una serie de router. El usuario se queja de que de vez en
       
       <item>
         <title>Modos de trabajo qMp</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/modos_de_trabajo_qmp/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/modos_de_trabajo_qmp/</link>
         <pubDate>Tue, 27 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 27 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/modos_de_trabajo_qmp/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/modos_de_trabajo_qmp/</guid>
         <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌 Modos de trabajo de la radio con qMp 3.2.1 Estos son los modos de trabajo en modo community, opciones de Wireless interface wlan0.
 Ad_hoc_(mesh)_+_access_point_(Lan) Ad_hoc_(mesh) Access_point_(mesh) Access_point_(Lan) Client_(WAN) EXPERIMENTAL_802.11s_(mesh) EXPERIMENTAL_802.11s_(mesh)+Access_point_(Lan) Disabled la opción desaparece </description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -332,15 +332,15 @@ Ad_hoc_(mesh)_+_access_point_(Lan) Ad_hoc_(mesh) Access_point_(mesh) Access_poin
       
       <item>
         <title>UCI qMp archivo de configuración</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/uci_qmp_configuration_file/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/uci_qmp_configuration_file/</link>
         <pubDate>Mon, 26 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 26 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/uci_qmp_configuration_file/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/uci_qmp_configuration_file/</guid>
         <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌 Este es el archivo de configuración qMp 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89  /etc/config/qmp Node configuration: config &amp;#39;qmp &amp;#39; &amp;#39;node &amp;#39; option &amp;#39;community_node_id &amp;#39;	&amp;#39;901 &amp;#39; # An number identifying the node.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -372,18 +372,18 @@ Ad_hoc_(mesh)_+_access_point_(Lan) Ad_hoc_(mesh) Access_point_(mesh) Access_poin
       
       <item>
         <title>OpenWRT COMTREND CT-5365</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/openwrt-comtrend_ct-5365/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5365/</link>
         <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 25 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/openwrt-comtrend_ct-5365/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5365/</guid>
         <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones. &lt;br /&gt;
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router no es fácil y va corto de memoria pero se puede.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hotspotcepeda.github.io/es/sitio/gallery/red/CT-5365.png&#34; alt=&#34;Comtrend_CT-5365&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&#34;https://hotspotcepeda.github.io/gallery/red/CT-5365.png&#34; alt=&#34;Comtrend_CT-5365&#34; /&gt;&lt;br /&gt;
 &lt;a href=&#34;https://openwrt.org/toh/comtrend/ct5365&#34;&gt;https://openwrt.org/toh/comtrend/ct5365&lt;/a&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -415,18 +415,18 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
       
       <item>
         <title>OpenWRT en Comtrend CT-5361</title>
-        <link>https://hotspotcepeda.github.io/es/sitio/es/posts/openwrt-comtrend_ct-5361/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5361/</link>
         <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 24 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/sitio/es/posts/openwrt-comtrend_ct-5361/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5361/</guid>
         <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones. &lt;br /&gt;
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router no es fácil y va corto de memoria pero se puede.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hotspotcepeda.github.io/es/sitio/gallery/red/CT-5361.png&#34; alt=&#34;Comtrend_CT-5361&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&#34;https://hotspotcepeda.github.io/gallery/red/CT-5361.png&#34; alt=&#34;Comtrend_CT-5361&#34; /&gt;&lt;br /&gt;
 &lt;a href=&#34;https://openwrt.org/toh/comtrend/ct5361&#34;&gt;https://openwrt.org/toh/comtrend/ct5361&lt;/a&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/es/sitio/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
