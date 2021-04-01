@@ -14,11 +14,88 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Tue, 03 May 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 May 2017 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/categories/red/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Gestión OpenWRT</title>
+        <link>https://hotspotcepeda.github.io/es/posts/gestion_openwrt/</link>
+        <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 20 May 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/gestion_openwrt/</guid>
+        <description>Gráficas luci-app-vnstat A parte de las gráficas en tiempo real que vienen de serie &amp;ldquo;Realtime Traffic&amp;rdquo; he puesto el &amp;ldquo;VnStat Graphs&amp;rdquo; que almacena en el router gráficas de trafico en las interfaces.
+Mas gráficas, CPU, memoria, temperatura&amp;hellip; luci-app-statistics https://echt.guth.so/persistent-traffic-log-and-more-in-openwrt/
+Smart Queue Management  luci-app-sqm
+Se configura por luci , sirve para limitar el trafico de las interfaces, se instala con varios script de gestión de trafico, en este caso se usa para limitar el caudal de salida a internet se puede usar por ejemplo, para reservar un caudal máximo en la wifi y otro en las interfaces físicas.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Seguridad básica con MikroTik</title>
+        <link>https://hotspotcepeda.github.io/es/posts/mikrotik_seguridad_basico/</link>
+        <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 06 Jun 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_seguridad_basico/</guid>
+        <description>http://gregsowell.com/classes/mtk-security/GregSowell-mikrotik-security.pdf
+Si el router está conectado a internet puedes tener seguro que lo van a intentar dominar de todas las maneras posibles. System -&amp;gt; Password Poner una contraseña segura, con PassGen se pueden generar passwords seguras, pero no olvidar !
+System -&amp;gt; Users Es buena idea cambiar el nombre del usuario administrador, Cambiar admin por lo que sea. Los zombis están todo el santo día dando la matraca y probando con usuarios y password default.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>NanoStation M5 qMp</title>
@@ -270,6 +347,50 @@ Me están dando guerra una serie de router. El usuario se queja de que de vez en
           
             
               <category>Reinicio</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Compartir salida a internet con guifi.net</title>
+        <link>https://hotspotcepeda.github.io/es/posts/compartir-internet/</link>
+        <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Wed, 06 Jan 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/compartir-internet/</guid>
+        <description>Se trata de interconectar a tres vecinos, el escenario es una comunidad de vecinos de pisos donde se van compartir los gastos en infraestructura común de telecomunicaciones y conexión a internet. Como los tres vecinos están en el mismo edificio, se conectan con cable de red, se instala un router central junto al router de proveedor 300/30 Mb y un router de cliente para cada nodo se está usando firmware openWRT en los equipos.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/guifi_net.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>comunidad de vecinos</category>
+            
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>openwrt</category>
             
           
         

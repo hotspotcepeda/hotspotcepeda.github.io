@@ -76,6 +76,50 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
       </item>
       
       <item>
+        <title>Compartir salida a internet con guifi.net</title>
+        <link>https://hotspotcepeda.github.io/es/posts/compartir-internet/</link>
+        <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Wed, 06 Jan 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/compartir-internet/</guid>
+        <description>Se trata de interconectar a tres vecinos, el escenario es una comunidad de vecinos de pisos donde se van compartir los gastos en infraestructura común de telecomunicaciones y conexión a internet. Como los tres vecinos están en el mismo edificio, se conectan con cable de red, se instala un router central junto al router de proveedor 300/30 Mb y un router de cliente para cada nodo se está usando firmware openWRT en los equipos.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/guifi_net.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>comunidad de vecinos</category>
+            
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>openwrt</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>FAQ de ayuntamientos</title>
         <link>https://hotspotcepeda.github.io/es/posts/ayuntamientos_y_guifi_net/</link>
         <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>

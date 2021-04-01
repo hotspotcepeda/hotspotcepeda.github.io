@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>comunidad de vecinos on HotspotCepeda, La red comunitaria.</title>
+    <link>https://hotspotcepeda.github.io/es/tags/comunidad-de-vecinos/</link>
+    <description>Recent content in comunidad de vecinos on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Wed, 06 Jan 2016 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/comunidad-de-vecinos/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Compartir salida a internet con guifi.net</title>
+        <link>https://hotspotcepeda.github.io/es/posts/compartir-internet/</link>
+        <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Wed, 06 Jan 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/compartir-internet/</guid>
+        <description>Se trata de interconectar a tres vecinos, el escenario es una comunidad de vecinos de pisos donde se van compartir los gastos en infraestructura común de telecomunicaciones y conexión a internet. Como los tres vecinos están en el mismo edificio, se conectan con cable de red, se instala un router central junto al router de proveedor 300/30 Mb y un router de cliente para cada nodo se está usando firmware openWRT en los equipos.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/guifi_net.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>comunidad de vecinos</category>
+            
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>openwrt</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
