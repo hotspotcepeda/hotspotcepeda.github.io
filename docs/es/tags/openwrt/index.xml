@@ -60,6 +60,50 @@ Se configura por luci , sirve para limitar el trafico de las interfaces, se inst
       </item>
       
       <item>
+        <title>NanoStation M5 cliente qMp</title>
+        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</link>
+        <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 21 Jan 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</guid>
+        <description>   </description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>ubiquiti</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>NanoStation M5 qMp</title>
         <link>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</link>
         <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>

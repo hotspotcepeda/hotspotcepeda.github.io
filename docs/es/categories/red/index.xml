@@ -60,6 +60,149 @@ Se configura por luci , sirve para limitar el trafico de las interfaces, se inst
       </item>
       
       <item>
+        <title>NanoStation M5 cliente qMp</title>
+        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</link>
+        <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 21 Jan 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</guid>
+        <description>   </description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>ubiquiti</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>DDNS Change IP MikroTik script</title>
+        <link>https://hotspotcepeda.github.io/es/posts/ddns_change_ip_script_mikrotik/</link>
+        <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 13 Nov 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/ddns_change_ip_script_mikrotik/</guid>
+        <description>Script /system/script new and paste:# Written by Sam Norris, ChangeIP.com# Copyright ChangeIP.com 2009# For support send mail to Support@ChangeIP.com## 2009-06-22 RouterOS 3.25 Tested# 2009-10-05 RouterOS 4.01rc1 Tested## OVERVIEW: %# This script will update a ChangeIP.com dynamic dns hostname# with an ip address located directly on an interface.# %# NOTES: %# IF THIS SCRIPT DOES NOT PRODUCE ANY OUTPUT PLEASE COPY AND PASTE IT# AGAIN.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>ddsns</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Guardar log de MikroTik y Ubiqiti en servidor</title>
+        <link>https://hotspotcepeda.github.io/es/posts/log_remoto_syslog-ng/</link>
+        <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 01 Nov 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/log_remoto_syslog-ng/</guid>
+        <description>https://aacable.wordpress.com/2011/11/29/howto-save-mikrotik-logs-to-remote-syslog-server/
+Conviene tener los trastos en hora, configure NTP en todas sus máquinas. Cliente Mikrotik Con ip 10.38.15.10
+/system logging actionset 0 memory-lines=100set 1 disk-file-count=30 disk-file-name=MT-log-zaib disk-lines-per-file=500set 3 remote=10.38.15.3# 10.38.15.3 ip del servidor syslog-ng :514 default port/system loggingadd action=remote topics=criticaladd action=remote topics=erroradd action=remote topics=infoadd action=remote topics=warning# registro remoto de lo que se quieraCliente Ubiquiti Con ip 10.38.15.1
+Servidor IP 10.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>log</category>
+            
+          
+            
+              <category>Ubiquiti</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Seguridad básica con MikroTik</title>
         <link>https://hotspotcepeda.github.io/es/posts/mikrotik_seguridad_basico/</link>
         <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>

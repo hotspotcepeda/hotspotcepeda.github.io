@@ -2,7 +2,7 @@
 title: "La propuesta"
 date: 2014-06-03
 draft: false
-description: "La Propuesta que se hizo al Ayto"
+description: "La Propuesta de red comunitaria que se hizo al Ayto"
 hideToc: false
 enableToc: true
 enableTocContent: false
@@ -28,6 +28,7 @@ Está era la ida que tenía para el despliegue en 2014:
 Una salida balanceada a internet con una RB-750 con un superservidor proxy para cachear a todo el que se asomara por allí y otra RB-750 para gestionar las conexiones del hotspot, ahí lo pone, 30 minutos al día con un caudal de 256 Kb en bajada y 64 Kb en subida. AP Unifi
 Para conectar las viviendas un modelo en Infraestructura AP cliente con una antena central a la que se conectan las estaciones de las casas.
 <object data="/pdfs/ESQUEMA DE RED1.pdf#page=1" type="application/pdf" width="100%" height="950px">
+   <p>Parece que no tienes plugin para visualizar PDF en tu navegador.
    Puedes descargar el archivo <a href="/pdfs/ESQUEMA DE RED1.pdf">aquí</a></p>  
 </object>
 

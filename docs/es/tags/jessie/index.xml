@@ -14,11 +14,60 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Thu, 31 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Oct 2016 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/jessie/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Cliente SNMP linux</title>
+        <link>https://hotspotcepeda.github.io/es/posts/cliente_snmp_linux/</link>
+        <pubDate>Sun, 30 Oct 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 30 Oct 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/cliente_snmp_linux/</guid>
+        <description>Instalación # apt-get install snmp snmpd snmp-mibs-downloaderConfiguracón Cambiar en nano /etc/snmp/snmpd.conf:
+agentAddress udp:127.0.0.1:161...rocommunity public default -V systemonlypor:
+agentAddress udp::161...rocommunity publiccambiar en nano /etc/snmp/snmp.conf:
+mibs :por:
+#mibs :Reiniciar snmpd
+# service snmpd restartComprobar: snmpwalk -v 2c -c public IP</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>jessie</category>
+            
+          
+            
+              <category>SNMP</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Rutina para después de instalar Debian</title>

@@ -403,6 +403,51 @@
   </url>
   
   <url>
+    <loc>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</loc>
+    <lastmod>2017-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/qmp/</loc>
+    <lastmod>2017-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/ubiquiti/</loc>
+    <lastmod>2017-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/categories/ayto/</loc>
+    <lastmod>2017-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</loc>
+    <lastmod>2017-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/</loc>
+    <lastmod>2017-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/guifi.net/</loc>
+    <lastmod>2017-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/hotspot/</loc>
+    <lastmod>2017-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/mikrotik/</loc>
+    <lastmod>2017-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hotspotcepeda.github.io/es/tags/fotos/</loc>
     <lastmod>2016-12-03T00:00:00+00:00</lastmod>
   </url>
@@ -415,6 +460,16 @@
   <url>
     <loc>https://hotspotcepeda.github.io/es/posts/imagen_raw_nef_miniatura/</loc>
     <lastmod>2016-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/posts/ddns_change_ip_script_mikrotik/</loc>
+    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/ddsns/</loc>
+    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -433,8 +488,33 @@
   </url>
   
   <url>
-    <loc>https://hotspotcepeda.github.io/es/tags/mikrotik/</loc>
-    <lastmod>2016-06-06T00:00:00+00:00</lastmod>
+    <loc>https://hotspotcepeda.github.io/es/posts/log_remoto_syslog-ng/</loc>
+    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/linux/</loc>
+    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/log/</loc>
+    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/posts/cliente_snmp_linux/</loc>
+    <lastmod>2016-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/jessie/</loc>
+    <lastmod>2016-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hotspotcepeda.github.io/es/tags/snmp/</loc>
+    <lastmod>2016-10-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -444,16 +524,6 @@
   
   <url>
     <loc>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</loc>
-    <lastmod>2016-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/tags/qmp/</loc>
-    <lastmod>2016-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/tags/ubiquiti/</loc>
     <lastmod>2016-05-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -498,23 +568,8 @@
   </url>
   
   <url>
-    <loc>https://hotspotcepeda.github.io/es/tags/jessie/</loc>
-    <lastmod>2016-03-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</loc>
     <lastmod>2016-03-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/tags/guifi.net/</loc>
-    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/tags/hotspot/</loc>
-    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -605,16 +660,6 @@
   <url>
     <loc>https://hotspotcepeda.github.io/es/gallery/paisaje/</loc>
     <lastmod>2015-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/categories/ayto/</loc>
-    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/</loc>
-    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
