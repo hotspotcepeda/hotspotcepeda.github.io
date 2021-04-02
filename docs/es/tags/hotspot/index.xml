@@ -14,11 +14,55 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Mon, 16 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jan 2017 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/hotspot/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Hotspot MikroTik con proxy transparente</title>
+        <link>https://hotspotcepeda.github.io/es/posts/mikrotik_hotspot/</link>
+        <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 17 Jan 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_hotspot/</guid>
+        <description>La idea es poner un ap en 2.4 Ghz con un portal cautivo para tratar de dar a conocer el proyecto y ver si se anima alguien en el barrio a compartir la salida a internet.
+Antes de empezar vamos a configurar los servicios básicos.
+DNS Para sacarle partido a la RouterBoard se configura una cache DNS
+/ip dnsset allow-remote-requests=yes cache-size=4096KiB servers=91.239.100.100,89.233.43.71Rechaza peticiones dns externas:
+/ip firewall filteradd chain=input in-interface=ether1 protocol=udp dst-port=53 action=dropadd chain=input in-interface=ether1 protocol=tcp dst-port=53 action=dropY en el firewall una nueva redirección interna del puerto 53</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Buenas practicas en la realizacion de tus radioenlaces</title>
