@@ -1,6 +1,6 @@
 ---
 title: "Librenms Docker install"
-date: 2021-03-07T00:46:37+01:00
+date: 2017-11-17
 draft: false
 description: "Instalar LibreNMS en un contenedor de Docker"
 hideToc: false

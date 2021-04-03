@@ -1,9 +1,9 @@
 ---
 title: "Paisaje"
-date: 2015-03-07
+date: 2021-03-03
 type: "gallery"
 mode: "at-once" # at-once is a default value
-description: "Fotos de Cepeda"
+description: "Fotos de Cepeda la Mora, panorámica desde el Ayto."
 image: images/feature2/gallery.png
 ---
-Cepeda la Mora
+Fotos de Cepeda la Mora, panorámica desde el Ayto.

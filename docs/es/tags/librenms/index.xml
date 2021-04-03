@@ -14,7 +14,7 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Sun, 07 Mar 2021 00:46:37 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 17 Nov 2017 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/librenms/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,9 +23,9 @@
       <item>
         <title>Librenms Docker install</title>
         <link>https://hotspotcepeda.github.io/es/posts/librenms_docker_install/</link>
-        <pubDate>Sun, 07 Mar 2021 00:46:37 +0100</pubDate>
+        <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        <atom:modified>Sun, 07 Mar 2021 00:46:37 +0100</atom:modified>
+        <atom:modified>Fri, 17 Nov 2017 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/librenms_docker_install/</guid>
         <description>BBDD
 1 2 3 4 5 6  docker run -d \ -v `pwd`/mysql:/var/lib/mysql \ -v `pwd`/50-server.cnf:/etc/mysql/mariadb.conf.d/50-server.cnf:ro \ -e MYSQL_ROOT_PASSWORD=mysqlPASWORD \ –name librenms-db \ mariadb:latest   Lanza librenms, se asocia a la BBDD

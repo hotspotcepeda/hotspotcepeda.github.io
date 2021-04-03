@@ -11,8 +11,10 @@
     <description>Recent content in nextcloud on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Sun, 07 Mar 2021 00:46:37 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jun 2017 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/nextcloud/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,11 +22,11 @@
       
       <item>
         <title>NEXTCLOUD DEBIAN SERVER AND CLIENT</title>
-        <link>https://hotspotcepeda.github.io/es/posts/nextcloud_debian_debian_server_and_client/</link>
-        <pubDate>Sun, 07 Mar 2021 00:46:37 +0100</pubDate>
-        
-        <atom:modified>Sun, 07 Mar 2021 00:46:37 +0100</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/nextcloud_debian_debian_server_and_client/</guid>
+        <link>https://hotspotcepeda.github.io/es/posts/nextcloud_debian/</link>
+        <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 24 Jun 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/nextcloud_debian/</guid>
         <description>ADD NEXTCLOUD REPOSITORY
 Add the Nextcloud repository in the /etc/apt/sources.d/nextcloud.list
 1  echo &amp;#39;deb http://apt.jurisic.org/debian/ jessie main contrib non-free&amp;#39; &amp;gt;&amp;gt; /etc/apt/sources.list.d/nextcloud.list   Install release key of Nextcloud repository:
@@ -34,7 +36,7 @@ Install Nextcloud server with:
 1  apt-get install nextcloud-client   INSTALL NEXTCLOUD SERVER</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

@@ -14,11 +14,94 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Tue, 17 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 May 2017 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/mikrotik/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>MikroTik netflow</title>
+        <link>https://hotspotcepeda.github.io/es/posts/mikrotik_netflow/</link>
+        <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 16 May 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_netflow/</guid>
+        <description>Configuración en MikroTik Configuración en servidor debian jessie: # apt-get update &amp;amp;&amp;amp; apt-get upgradewget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-ntop-stable.debsudo apt-get updatesudo apt-get install nprobeconfig nProbesudo nano /etc/nprobe/nprobe-none.conf--zmq=&amp;quot;tcp://127.0.0.1:1234&amp;quot;--collector-port=5556-n=none-i=nonesudo touch /etc/nprobe/nprobe-none.startsudo service nprobe startInstalacion de ntopng
+wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-ntop-stable.debapt-get install topngconfig ntopngnano /etc/ntopng/ntopng.conf-G=/var/run/ntopng.pid-i tcp://127.0.0.1:1234sudo touch /etc/ntopng/ntopng.startsudo service ntopng startreboot DOCKER docker run -d --name nprobe --net=host xdrum/nprobe nprobe --collector-port 5556 --zmq tcp://*:1234 -i nonedocker run -d --name ntopng --net=host -p 3000:3000 vostro/ntopng ntopng -i tcp://127.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>nprobe</category>
+            
+          
+            
+              <category>debian</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Nodo MikroTik vlan</title>
+        <link>https://hotspotcepeda.github.io/es/posts/mikrotik_nodo/</link>
+        <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 29 Apr 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_nodo/</guid>
+        <description>http://wiki.mikrotik.com/wiki/Manual:CRS_examples
+para una RB850
+/interface ethernetset ether3 master-port=ether2set ether4 master-port=ether2/interface ethernet switch vlanadd ports=ether2,ether3 switch=switch1 vlan-id=200add ports=ether2,ether4 switch=switch1 vlan-id=300/interface ethernet switch portset ether2 vlan-mode=secure vlan-header=add-if-missingset ether3 vlan-mode=secure vlan-header=always-strip default-vlan-id=200set ether4 vlan-mode=secure vlan-header=always-strip default-vlan-id=300</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Hotspot MikroTik con proxy transparente</title>

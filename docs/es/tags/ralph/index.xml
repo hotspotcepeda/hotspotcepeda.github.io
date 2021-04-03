@@ -14,7 +14,7 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Thu, 16 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jul 2017 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/ralph/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,9 +23,9 @@
       <item>
         <title>Ralph en Docker</title>
         <link>https://hotspotcepeda.github.io/es/posts/ralph/</link>
-        <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        <atom:modified>Thu, 16 Apr 2015 00:00:00 +0000</atom:modified>
+        <atom:modified>Mon, 17 Jul 2017 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/ralph/</guid>
         <description>https://ralph-ng.readthedocs.io/
 Ralph es un sistema de gestión de activos, DCIM y CMDB simple pero potente para centros de datos y back office.

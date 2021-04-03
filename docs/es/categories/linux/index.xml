@@ -14,11 +14,181 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Sat, 03 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Apr 2017 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Ejecutar aplicación por ssh</title>
+        <link>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</link>
+        <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 30 Apr 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</guid>
+        <description>SERVIDOR Agregar en
+# nano /etc/ssh/sshd_configX11Forwarding yes# service ssh restartCLIENTE $ ssh -X -Y user@maquina -p puerto aplicación</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>debian</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Instalar conky en Debian</title>
+        <link>https://hotspotcepeda.github.io/es/posts/debian_conky/</link>
+        <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 15 Apr 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/debian_conky/</guid>
+        <description>https://github.com/brndnmtthws/conky
+# apt-get install conky conky-all# apt-get install curl lm-sensors hddtempPara autoarranque agregar en programas al inicio:
+conky p -15
+start conky -dstop
+pkill conkyrestart
+pkill -HUP conkyConfig nano /etc/conky/conky.conf
+background yesfont Zekton:size=8xftfont Zekton:size=8use_xft yesxftalpha 0.4update_interval 1.0total_run_times 0own_window yesown_window_type overrideown_window_transparent yesown_window_hints undecorated,below,skip_taskbar,skip_pagerdouble_buffer yesdraw_shades nodraw_outline nodraw_borders nodraw_graph_borders nominimum_size 220 5maximum_width 220default_color ffffffdefault_shade_color blackdefault_outline_color blackalignment top_rightgap_x 10gap_y 90no_buffers yescpu_avg_samples 2override_utf8_locale nouppercase no # set to yes if you want all text to be in uppercaseuse_spacer noTEXT${font Zekton:style=Bold:pixelsize=42}${alignc}${time %H:%M:%S}${font Zekton:size=8}lenovo T430s ${hr 1 }Hostname: $alignr$nodenameIP: $alignr${addr eth0}Kernel: $alignr$kernelUptime: $alignr$uptimeProcesses: ${alignr}$processes ($running_processes running)Load: ${alignr}$loadavgCPU0 ${alignc} ${freq}MHz ${alignr}(${cpu cpu0}%)${cpubar cpu0 4}CPU1 ${alignc} ${freq}MHz ${alignr}(${cpu cpu1}%)${cpubar 4 cpu1}CPU2 ${alignc} ${freq}MHz ${alignr}(${cpu cpu2}%)${cpubar 4 cpu2}CPU3 ${alignc} ${freq}MHz ${alignr}(${cpu cpu3}%)${cpubar 4 cpu3}CPU AVG${cpugraph}RAM ${alignr}$mem / $memmax ($memperc%)${membar 4}SWAP ${alignr}$swap / $swapmax ($swapperc%)${swapbar 4}Maximos de CPU $alignr CPU% MEM%${top name 1}$alignr${top cpu 1}${top mem 1}${top name 2}$alignr${top cpu 2}${top mem 2}${top name 3}$alignr${top cpu 3}${top mem 3}Maximos de MEM $alignr CPU% MEM%${top_mem name 1}$alignr${top_mem cpu 1}${top_mem mem 1}${top_mem name 2}$alignr${top_mem cpu 2}${top_mem mem 2}${top_mem name 3}$alignr${top_mem cpu 3}${top_mem mem 3}HDD FREE ${hr 1}${color}/ : ${alignr}${fs_free /} / ${fs_size /}${fs_bar 4 /}eth0 ${hr 1}${color}Down ${downspeed eth0} k/s ${alignr}Up ${upspeed eth0} k/s${downspeedgraph eth0 25,107} ${alignr}${upspeedgraph eth0 25,107}Total ${totaldown eth0} ${alignr}Total ${totalup eth0}wlan0 ${hr 1}${color}Intensidad WIFI $alignr ${wireless_link_qual wlan0}%Down ${downspeed wlan0} k/s ${alignr}Up ${upspeed wlan0} k/s${downspeedgraph wlan0 25,107} ${alignr}${upspeedgraph wlan0 25,107}Total ${totaldown wlan0} ${alignr}Total ${totalup wlan0}BATERIA${hr 1}${color}${battery_bar BAT0}${font Arial:style=Bold:size=12}</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>fotos</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Escritorio remoto debian con x11vnc</title>
+        <link>https://hotspotcepeda.github.io/es/posts/debian_escritorio_remoto/</link>
+        <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Fri, 14 Apr 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/debian_escritorio_remoto/</guid>
+        <description>https://github.com/LibVNC/x11vnc
+Instalamos servidor:
+$ sudo apt-get update$ sudo apt-get install x11vncPoner el password:
+$ x11vnc -storepasswdEnter VNC password: *********Verify password: *********Write password to /home/USUARIO/.vnc/passwd? [y]/n yPassword written to: /home/USUARIO/.vnc/passwdOpciones para lanzar el servidor en
+$ man x11vnc :-forever : Mantiene el servidor en funcionamiento después de la sesion.-rfbauth /home/USUARIO/.vnc/passwd : Para que pida el password de la ruta que queramos.-usepw : pide el password default ~/.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>fotos</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Instalación de Java en Linux Debian</title>
+        <link>https://hotspotcepeda.github.io/es/posts/instalar_java_linux_debian/</link>
+        <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 03 Apr 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/instalar_java_linux_debian/</guid>
+        <description>Unninstall DESINSTALACION TOTAL de todo lo relacionado con Java, Sun, Oracle, OpenJDK, IcedTea plugins, GIJ
+dpkg-query -W -f=&#39;${binary:Package}\n&#39; | grep -E -e &#39;^(ia32-)?(sun|oracle)-java&#39; -e &#39;^openjdk-&#39; -e &#39;^icedtea&#39; -e &#39;^(default|gcj)-j(re|dk)&#39; -e &#39;^gcj-(.*)-j(re|dk)&#39; -e &#39;^java-common&#39; | xargs sudo apt-get -y removesudo apt-get -y autoremovePurge config files:
+dpkg -l | grep ^rc | awk &#39;{print($2)}&#39; | xargs sudo apt-get -y purgeRemove Java config and cache directory:
+sudo bash -c &#39;ls -d /home/*/.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>fotos</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>VISTA EN MINIATURA DE ARCHIVOS DE IMAGEN NEF, RAW</title>

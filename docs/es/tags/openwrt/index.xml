@@ -60,13 +60,58 @@ Se configura por luci , sirve para limitar el trafico de las interfaces, se inst
       </item>
       
       <item>
-        <title>NanoStation M5 cliente qMp</title>
+        <title>NanoStation M5 GW</title>
         <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</link>
+        <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 04 Feb 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</guid>
+        <description>   </description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>ubiquiti</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>NanoStation M5 gateway internet</title>
+        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_gw/</link>
         <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 21 Jan 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</guid>
-        <description>   </description>
+        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_gw/</guid>
+        <description>Pasos para usar una antena Ubiquiti Nano Station en una red qmp con Lan y Wan. Las configuraciones de Vlan las vamos a hacer desde el menú de administración en el apartado de switch e interfaces.
+La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.1/24 user/password root/13f y nos proporciona una IP de ese rango al conectarnos. Tenemos conectado en el POE que va a la boca Main del router y viene como la Vlan1</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>

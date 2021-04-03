@@ -1,8 +1,8 @@
 ---
-title: "NanoStation M5 cliente qMp"
-date: 2017-01-21
+title: "NanoStation M5 GW"
+date: 2017-02-04
 draft: false
-description: "Video del proceso para cambiar el firmware a qMp"
+description: "Configuración LAN WAN en NanoStation M5 para GW internet"
 hideToc: false
 enableToc: true
 enableTocContent: false

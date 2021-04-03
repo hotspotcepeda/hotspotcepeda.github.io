@@ -1,10 +1,10 @@
 ---
 title: "Red"
-date: 2020-03-07 
+date: 2021-03-03 
 type: "gallery"
 mode: "at-once" # at-once is a default value
-description: "Galeria fotos de Red"
+description: "Fotos de equipamiento de Red"
 image: images/feature1/flowchart.png
 ---
-Fotos de la Red
+Equipamiento e instalaciones.
 
