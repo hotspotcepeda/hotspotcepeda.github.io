@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>COMFAST on HotspotCepeda, La red comunitaria.</title>
+    <link>https://hotspotcepeda.github.io/es/tags/comfast/</link>
+    <description>Recent content in COMFAST on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/comfast/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>COMFAST CF-E120A v3 Bootloader</title>
+        <link>https://hotspotcepeda.github.io/es/posts/comfast_cf-e120a_v3_bootloader/</link>
+        <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 02 Jan 2021 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/comfast_cf-e120a_v3_bootloader/</guid>
+        <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌 Comfast http://en.comfast.com.cn/index.php?m=content&amp;amp;c=index&amp;amp;a=show&amp;amp;catid=19&amp;amp;id=23
+OpenWRT https://openwrt.org/toh/comfast/cf-e120a
+qMp http://fw.qmp.cat/experimental/qMp_trunk-Kalimotxo_Comfast_CF-E120A-v3_sysupgrade_20210325-2110.bin
+  </description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/comfast_LOGO.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>COMFAST</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

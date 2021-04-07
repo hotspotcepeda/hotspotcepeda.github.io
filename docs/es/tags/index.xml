@@ -14,11 +14,65 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Fri, 17 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>COMFAST</title>
+        <link>https://hotspotcepeda.github.io/es/tags/comfast/</link>
+        <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/comfast/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>OpenWRT</title>
+        <link>https://hotspotcepeda.github.io/es/tags/openwrt/</link>
+        <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/openwrt/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>qMp</title>
+        <link>https://hotspotcepeda.github.io/es/tags/qmp/</link>
+        <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/qmp/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>debian</title>
@@ -111,24 +165,6 @@
       </item>
       
       <item>
-        <title>openwrt</title>
-        <link>https://hotspotcepeda.github.io/es/tags/openwrt/</link>
-        <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/openwrt/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>mikrotik</title>
         <link>https://hotspotcepeda.github.io/es/tags/mikrotik/</link>
         <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
@@ -207,24 +243,6 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/ubiquiti/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>qMp</title>
-        <link>https://hotspotcepeda.github.io/es/tags/qmp/</link>
-        <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/qmp/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
