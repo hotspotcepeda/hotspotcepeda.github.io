@@ -88,11 +88,15 @@ http://www.redeszone.net/redes/openvpn/ apt-get install easy-rsaapt-get instal
               <category>openVPN</category>
             
           
+            
+              <category>linux</category>
+            
+          
         
         
           
             
-              <category>Linux</category>
+              <category>red</category>
             
           
         

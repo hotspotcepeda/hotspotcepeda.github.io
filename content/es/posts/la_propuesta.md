@@ -16,7 +16,8 @@ tags:
 - guifi.net
 - qMp
 - guifi.net
-- Cepeda la Mora
+- cepeda la mora
+- wifi
 image: images/feature2/mathbook.png
 ---
 

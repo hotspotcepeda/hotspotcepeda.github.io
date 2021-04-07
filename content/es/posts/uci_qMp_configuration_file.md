@@ -11,6 +11,9 @@ authorEmoji: "🗻"
 tags:
 - OpenWRT
 - qMp
+- wifi
+- mesh
+- cepeda la mora
 categories:
 - red
 series:

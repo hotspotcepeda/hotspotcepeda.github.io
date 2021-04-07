@@ -11,6 +11,8 @@ authorEmoji: "🗻"
 tags:
 - OpenWRT
 - qMp
+- wifi
+- mesh
 categories:
 - red
 series:

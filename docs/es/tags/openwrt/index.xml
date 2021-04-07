@@ -50,6 +50,14 @@ qMp http://fw.qmp.cat/experimental/qMp_trunk-Kalimotxo_Comfast_CF-E120A-v3_sysup
               <category>COMFAST</category>
             
           
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>CF-E120A</category>
+            
+          
         
         
           
@@ -133,6 +141,18 @@ Se configura por luci , sirve para limitar el trafico de las interfaces, se inst
               <category>ubiquiti</category>
             
           
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
         
         
           
@@ -178,6 +198,14 @@ La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.
               <category>ubiquiti</category>
             
           
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
         
         
           
@@ -221,6 +249,18 @@ La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.
           
             
               <category>ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>internet</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -304,7 +344,11 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
             
           
             
-              <category>Router neutro</category>
+              <category>router neutro</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         
@@ -345,11 +389,11 @@ Me están dando guerra una serie de router. El usuario se queja de que de vez en
             
           
             
-              <category>Router neutro</category>
+              <category>router neutro</category>
             
           
             
-              <category>Reinicio</category>
+              <category>reinicio</category>
             
           
         
@@ -396,6 +440,10 @@ Me están dando guerra una serie de router. El usuario se queja de que de vez en
               <category>openwrt</category>
             
           
+            
+              <category>wifi</category>
+            
+          
         
         
           
@@ -437,6 +485,14 @@ Ad_hoc_(mesh)_+_access_point_(Lan) Ad_hoc_(mesh) Access_point_(mesh) Access_poin
               <category>qMp</category>
             
           
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
         
         
           
@@ -475,6 +531,18 @@ Ad_hoc_(mesh)_+_access_point_(Lan) Ad_hoc_(mesh) Access_point_(mesh) Access_poin
           
             
               <category>qMp</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -520,6 +588,10 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
               <category>Router neutro</category>
             
           
+            
+              <category>wifi</category>
+            
+          
         
         
           
@@ -560,7 +632,11 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
             
           
             
-              <category>Router neutroS</category>
+              <category>router neutro</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         

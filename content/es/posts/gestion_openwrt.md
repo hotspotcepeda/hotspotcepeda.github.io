@@ -2,7 +2,7 @@
 title: "Gestión OpenWRT"
 date: 2017-05-20
 draft: false
-description: "Configuraciones de gestión en OpenWRT"
+description: "Configuraciones y gestión de tráfico en OpenWRT"
 hideToc: false
 enableToc: true
 enableTocContent: false

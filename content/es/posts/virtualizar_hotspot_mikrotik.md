@@ -13,7 +13,9 @@ tags:
 - hotspot
 - VirtualBox
 - RouterOS
+- wifi
 - guifi.net
+- cepeda la mora
 categories:
 - red
 series:

@@ -11,7 +11,8 @@ authorEmoji: "🗻"
 tags:
 - guifi.net
 - asociaciones
-- Cepeda la Mora
+- cepeda la mora
+- wifi
 categories:
 - Ayto
 series:

@@ -14,64 +14,11 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Mon, 16 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jun 2014 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/categories/ayto/index.xml" rel="self" type="application/rss+xml" />
     
 
-      
-      <item>
-        <title>Buenas practicas en la realizacion de tus radioenlaces</title>
-        <link>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</link>
-        <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        <atom:modified>Mon, 16 Jan 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</guid>
-        <description>Antes de instalar: Llevar los equipos configurados. Si a la hora de poner en funcionamiento el enlace surgen problemas: como que el equipo no enciende, mala transferencia de datos&amp;hellip; será más fácil localizar averías en el cableado, conectores y alimentación, POE.
-Planificar el enlace: Si es posible hacer una primera visita para saber como planificar la instalación y saber que material puede hacer falta, cableados, herramienta que tenemos que llevar, accesos a zonas comunes bajo llave, etc&amp;hellip; tomar notas y fotos, ortofotos, línea de visión directa entre antenas, referencias para orientar las anteas.</description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>guifi.net</category>
-            
-          
-            
-              <category>hotspot</category>
-            
-          
-            
-              <category>mikrotik</category>
-            
-          
-            
-              <category>Cepeda la Mora</category>
-            
-          
-            
-              <category>Ubiquiti</category>
-            
-          
-        
-        
-          
-            
-              <category>Ayto</category>
-            
-          
-        
-        
-          
-            
-              <category>Red comunitaria</category>
-            
-          
-        
-      </item>
       
       <item>
         <title>FAQ de ayuntamientos</title>
@@ -90,6 +37,10 @@ Planificar el enlace: Si es posible hacer una primera visita para saber como pla
           
             
               <category>guifi.net</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -192,7 +143,11 @@ Hay que tener en cuenta que debemos elegir con mucha atención el hardware, tien
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         
@@ -241,11 +196,15 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
             
           
             
               <category>Ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         
@@ -289,7 +248,11 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         

@@ -12,6 +12,9 @@ tags:
 - OpenWRT
 - qMp
 - ubiquiti
+- wifi
+- internet
+- cepeda la mora
 categories:
 - red
 series:

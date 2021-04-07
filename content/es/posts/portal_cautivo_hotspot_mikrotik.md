@@ -11,6 +11,8 @@ authorEmoji: "🗻"
 tags:
 - mikrotik
 - hotspot
+- wifi
+- cepeda la mora
 categories:
 - red
 series:

@@ -48,6 +48,10 @@ wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-n
               <category>debian</category>
             
           
+            
+              <category>netflow</category>
+            
+          
         
         
           

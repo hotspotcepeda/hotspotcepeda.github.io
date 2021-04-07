@@ -12,6 +12,8 @@ tags:
 - OpenWRT
 - qMp
 - COMFAST
+- wifi
+- CF-E120A
 categories:
 - red
 series:

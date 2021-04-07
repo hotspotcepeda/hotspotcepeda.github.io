@@ -14,6 +14,7 @@ series:
 - Red comunitaria
 tags: 
 - guifi.net
+- cepeda la mora
 image: images/feature1/guifi_net.png
 ---
 1. ¿Qué es guifi.net?

@@ -10,7 +10,8 @@ author: HotspotCepeda
 authorEmoji: "🗻"
 tags:
 - OpenWRT
-- Router neutroS
+- router neutro
+- wifi
 categories:
 - red
 series:

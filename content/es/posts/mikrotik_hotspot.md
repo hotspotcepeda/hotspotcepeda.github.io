@@ -11,6 +11,7 @@ authorEmoji: "🗻"
 tags:
 - mikrotik
 - hotspot
+- wifi
 categories:
 - red
 series:

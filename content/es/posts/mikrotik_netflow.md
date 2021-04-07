@@ -12,6 +12,7 @@ tags:
 - mikrotik
 - nprobe
 - debian
+- netflow
 categories:
 - red
 series:

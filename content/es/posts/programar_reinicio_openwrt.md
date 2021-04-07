@@ -10,8 +10,8 @@ author: HotspotCepeda
 authorEmoji: "🗻"
 tags:
 - OpenWRT
-- Router neutro
-- Reinicio
+- router neutro
+- reinicio
 categories:
 - red
 series:

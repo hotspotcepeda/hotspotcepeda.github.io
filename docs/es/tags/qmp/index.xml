@@ -50,6 +50,14 @@ qMp http://fw.qmp.cat/experimental/qMp_trunk-Kalimotxo_Comfast_CF-E120A-v3_sysup
               <category>COMFAST</category>
             
           
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>CF-E120A</category>
+            
+          
         
         
           
@@ -92,6 +100,18 @@ qMp http://fw.qmp.cat/experimental/qMp_trunk-Kalimotxo_Comfast_CF-E120A-v3_sysup
           
             
               <category>ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -139,6 +159,14 @@ La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.
               <category>ubiquiti</category>
             
           
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
         
         
           
@@ -184,6 +212,18 @@ La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.
               <category>ubiquiti</category>
             
           
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>internet</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
         
         
           
@@ -225,6 +265,14 @@ Ad_hoc_(mesh)_+_access_point_(Lan) Ad_hoc_(mesh) Access_point_(mesh) Access_poin
               <category>qMp</category>
             
           
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
         
         
           
@@ -263,6 +311,18 @@ Ad_hoc_(mesh)_+_access_point_(Lan) Ad_hoc_(mesh) Access_point_(mesh) Access_poin
           
             
               <category>qMp</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -365,7 +425,11 @@ Hay que tener en cuenta que debemos elegir con mucha atención el hardware, tien
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         

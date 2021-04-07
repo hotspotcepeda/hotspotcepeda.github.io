@@ -11,6 +11,7 @@ authorEmoji: "🗻"
 tags:
 - debian
 - jessie
+- linux
 categories:
 - Linux
 series:

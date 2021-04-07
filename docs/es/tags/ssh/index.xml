@@ -14,11 +14,60 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Thu, 03 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Apr 2017 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Ejecutar aplicación por ssh</title>
+        <link>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</link>
+        <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 30 Apr 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</guid>
+        <description>SERVIDOR Agregar en
+# nano /etc/ssh/sshd_configX11Forwarding yes# service ssh restartCLIENTE $ ssh -X -Y user@maquina -p puerto aplicación</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>ssh</category>
+            
+          
+            
+              <category>gestion</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Banner ssh</title>
@@ -44,11 +93,15 @@
               <category>ssh</category>
             
           
+            
+              <category>linux</category>
+            
+          
         
         
           
             
-              <category>Linux</category>
+              <category>red</category>
             
           
         

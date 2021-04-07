@@ -12,6 +12,8 @@ tags:
 - guifi.net
 - hotspot
 - mikrotik
+- cepeda la mora
+- wifi
 categories:
 - red
 series:

@@ -10,7 +10,8 @@ author: HotspotCepeda
 authorEmoji: "🗻"
 tags:
 - debian
-- fotos
+- x11vnc
+- linux
 categories:
 - Linux
 series:

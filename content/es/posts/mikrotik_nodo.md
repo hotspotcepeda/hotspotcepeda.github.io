@@ -10,6 +10,7 @@ author: HotspotCepeda
 authorEmoji: "🗻"
 tags:
 - mikrotik
+- guifi.net
 categories:
 - red
 series:

@@ -16,6 +16,7 @@ tags:
 - comunidad de vecinos
 - guifi.net
 - openwrt
+- wifi
 image: images/feature1/guifi_net.png
 ---
 Se trata de interconectar a tres vecinos, el escenario es una comunidad de vecinos de pisos donde se van compartir los gastos en infraestructura común de telecomunicaciones y conexión a internet. Como los tres vecinos están en el mismo edificio, se conectan con cable de red, se instala un router central junto al router de proveedor 300/30 Mb y un router de cliente para cada  nodo se está usando firmware openWRT en los equipos.

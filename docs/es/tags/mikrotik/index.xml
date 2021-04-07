@@ -48,6 +48,10 @@ wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-n
               <category>debian</category>
             
           
+            
+              <category>netflow</category>
+            
+          
         
         
           
@@ -84,6 +88,10 @@ para una RB850
           
             
               <category>mikrotik</category>
+            
+          
+            
+              <category>guifi.net</category>
             
           
         
@@ -128,6 +136,10 @@ DNS Para sacarle partido a la RouterBoard se configura una cache DNS
           
             
               <category>hotspot</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         
@@ -176,7 +188,7 @@ Planificar el enlace: Si es posible hacer una primera visita para saber como pla
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
             
           
             
@@ -187,7 +199,7 @@ Planificar el enlace: Si es posible hacer una primera visita para saber como pla
         
           
             
-              <category>Ayto</category>
+              <category>red</category>
             
           
         
@@ -372,7 +384,15 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
             
           
             
+              <category>wifi</category>
+            
+          
+            
               <category>guifi.net</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -413,6 +433,14 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
           
             
               <category>hotspot</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -461,11 +489,15 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
             
           
             
               <category>Ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         

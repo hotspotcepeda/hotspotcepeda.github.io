@@ -10,7 +10,8 @@ author: HotspotCepeda
 authorEmoji: "🗻"
 tags:
 - debian
-- fotos
+- conky
+- linux
 categories:
 - Linux
 series:

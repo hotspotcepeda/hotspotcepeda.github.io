@@ -12,6 +12,7 @@ tags:
 - docker
 - nextcloud
 - debian
+- linux
 image: images/feature1/nextcloud_logo.png
 ---
 ![Nextcloud custom login server](/images/post/nextcloud_custom.png)

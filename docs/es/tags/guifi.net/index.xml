@@ -14,11 +14,53 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Mon, 16 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Apr 2017 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/guifi.net/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Nodo MikroTik vlan</title>
+        <link>https://hotspotcepeda.github.io/es/posts/mikrotik_nodo/</link>
+        <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 29 Apr 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_nodo/</guid>
+        <description>http://wiki.mikrotik.com/wiki/Manual:CRS_examples
+para una RB850
+/interface ethernetset ether3 master-port=ether2set ether4 master-port=ether2/interface ethernet switch vlanadd ports=ether2,ether3 switch=switch1 vlan-id=200add ports=ether2,ether4 switch=switch1 vlan-id=300/interface ethernet switch portset ether2 vlan-mode=secure vlan-header=add-if-missingset ether3 vlan-mode=secure vlan-header=always-strip default-vlan-id=200set ether4 vlan-mode=secure vlan-header=always-strip default-vlan-id=300</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>guifi.net</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Buenas practicas en la realizacion de tus radioenlaces</title>
@@ -49,7 +91,7 @@ Planificar el enlace: Si es posible hacer una primera visita para saber como pla
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
             
           
             
@@ -60,7 +102,7 @@ Planificar el enlace: Si es posible hacer una primera visita para saber como pla
         
           
             
-              <category>Ayto</category>
+              <category>red</category>
             
           
         
@@ -108,7 +150,15 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
             
           
             
+              <category>wifi</category>
+            
+          
+            
               <category>guifi.net</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -155,6 +205,10 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
               <category>openwrt</category>
             
           
+            
+              <category>wifi</category>
+            
+          
         
         
           
@@ -189,6 +243,10 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
           
             
               <category>guifi.net</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -291,7 +349,11 @@ Hay que tener en cuenta que debemos elegir con mucha atención el hardware, tien
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         
@@ -340,11 +402,15 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
             
           
             
               <category>Ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         
@@ -388,7 +454,11 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         

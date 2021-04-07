@@ -80,6 +80,18 @@ Características:
               <category>docker</category>
             
           
+            
+              <category>cdp</category>
+            
+          
+            
+              <category>isp</category>
+            
+          
+            
+              <category>gestion</category>
+            
+          
         
         
         
@@ -116,6 +128,10 @@ Install Nextcloud server with:
           
             
               <category>debian</category>
+            
+          
+            
+              <category>linux</category>
             
           
         

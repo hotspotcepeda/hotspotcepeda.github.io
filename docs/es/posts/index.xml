@@ -50,6 +50,14 @@ qMp http://fw.qmp.cat/experimental/qMp_trunk-Kalimotxo_Comfast_CF-E120A-v3_sysup
               <category>COMFAST</category>
             
           
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>CF-E120A</category>
+            
+          
         
         
           
@@ -127,6 +135,18 @@ Características:
               <category>docker</category>
             
           
+            
+              <category>cdp</category>
+            
+          
+            
+              <category>isp</category>
+            
+          
+            
+              <category>gestion</category>
+            
+          
         
         
         
@@ -163,6 +183,10 @@ Install Nextcloud server with:
           
             
               <category>debian</category>
+            
+          
+            
+              <category>linux</category>
             
           
         
@@ -271,6 +295,10 @@ wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-n
               <category>debian</category>
             
           
+            
+              <category>netflow</category>
+            
+          
         
         
           
@@ -306,6 +334,18 @@ wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-n
           
             
               <category>debian</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>ssh</category>
+            
+          
+            
+              <category>gestion</category>
             
           
         
@@ -344,6 +384,10 @@ para una RB850
           
             
               <category>mikrotik</category>
+            
+          
+            
+              <category>guifi.net</category>
             
           
         
@@ -432,7 +476,11 @@ background yesfont Zekton:size=8xftfont Zekton:size=8use_xft yesxftalpha 0.4
             
           
             
-              <category>fotos</category>
+              <category>conky</category>
+            
+          
+            
+              <category>linux</category>
             
           
         
@@ -476,7 +524,11 @@ $ man x11vnc :-forever : Mantiene el servidor en funcionamiento después de la 
             
           
             
-              <category>fotos</category>
+              <category>x11vnc</category>
+            
+          
+            
+              <category>linux</category>
             
           
         
@@ -566,6 +618,18 @@ sudo bash -c &#39;ls -d /home/*/.</description>
               <category>ubiquiti</category>
             
           
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
         
         
           
@@ -611,6 +675,14 @@ La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.
               <category>ubiquiti</category>
             
           
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
         
         
           
@@ -653,6 +725,10 @@ DNS Para sacarle partido a la RouterBoard se configura una cache DNS
           
             
               <category>hotspot</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         
@@ -701,7 +777,7 @@ Planificar el enlace: Si es posible hacer una primera visita para saber como pla
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
             
           
             
@@ -712,7 +788,7 @@ Planificar el enlace: Si es posible hacer una primera visita para saber como pla
         
           
             
-              <category>Ayto</category>
+              <category>red</category>
             
           
         
@@ -899,11 +975,15 @@ mibs :por:
               <category>SNMP</category>
             
           
+            
+              <category>linux</category>
+            
+          
         
         
           
             
-              <category>Linux</category>
+              <category>red</category>
             
           
         
@@ -980,6 +1060,18 @@ System -&amp;gt; Users Es buena idea cambiar el nombre del usuario administrador
           
             
               <category>ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>internet</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -1114,11 +1206,15 @@ http://www.redeszone.net/redes/openvpn/ apt-get install easy-rsaapt-get instal
               <category>openVPN</category>
             
           
+            
+              <category>linux</category>
+            
+          
         
         
           
             
-              <category>Linux</category>
+              <category>red</category>
             
           
         
@@ -1154,7 +1250,11 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
             
           
             
-              <category>Router neutro</category>
+              <category>router neutro</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         
@@ -1199,6 +1299,10 @@ raspi.list
           
             
               <category>jessie</category>
+            
+          
+            
+              <category>linux</category>
             
           
         
@@ -1253,7 +1357,15 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
             
           
             
+              <category>wifi</category>
+            
+          
+            
               <category>guifi.net</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -1294,6 +1406,14 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
           
             
               <category>hotspot</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -1337,11 +1457,15 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
               <category>ssh</category>
             
           
+            
+              <category>linux</category>
+            
+          
         
         
           
             
-              <category>Linux</category>
+              <category>red</category>
             
           
         
@@ -1375,11 +1499,11 @@ Me están dando guerra una serie de router. El usuario se queja de que de vez en
             
           
             
-              <category>Router neutro</category>
+              <category>router neutro</category>
             
           
             
-              <category>Reinicio</category>
+              <category>reinicio</category>
             
           
         
@@ -1426,6 +1550,10 @@ Me están dando guerra una serie de router. El usuario se queja de que de vez en
               <category>openwrt</category>
             
           
+            
+              <category>wifi</category>
+            
+          
         
         
           
@@ -1467,6 +1595,14 @@ Ad_hoc_(mesh)_+_access_point_(Lan) Ad_hoc_(mesh) Access_point_(mesh) Access_poin
               <category>qMp</category>
             
           
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
         
         
           
@@ -1505,6 +1641,18 @@ Ad_hoc_(mesh)_+_access_point_(Lan) Ad_hoc_(mesh) Access_point_(mesh) Access_poin
           
             
               <category>qMp</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -1550,6 +1698,10 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
               <category>Router neutro</category>
             
           
+            
+              <category>wifi</category>
+            
+          
         
         
           
@@ -1590,7 +1742,11 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
             
           
             
-              <category>Router neutroS</category>
+              <category>router neutro</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         
@@ -1627,6 +1783,10 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
           
             
               <category>guifi.net</category>
+            
+          
+            
+              <category>cepeda la mora</category>
             
           
         
@@ -1729,7 +1889,11 @@ Hay que tener en cuenta que debemos elegir con mucha atención el hardware, tien
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         
@@ -1778,11 +1942,15 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
             
           
             
               <category>Ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         
@@ -1826,7 +1994,11 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
             
           
             
-              <category>Cepeda la Mora</category>
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>wifi</category>
             
           
         

@@ -52,11 +52,15 @@ mibs :por:
               <category>SNMP</category>
             
           
+            
+              <category>linux</category>
+            
+          
         
         
           
             
-              <category>Linux</category>
+              <category>red</category>
             
           
         

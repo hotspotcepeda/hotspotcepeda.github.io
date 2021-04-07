@@ -87,6 +87,10 @@ Install Nextcloud server with:
               <category>debian</category>
             
           
+            
+              <category>linux</category>
+            
+          
         
         
         
@@ -154,6 +158,10 @@ wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-n
               <category>debian</category>
             
           
+            
+              <category>netflow</category>
+            
+          
         
         
           
@@ -189,6 +197,18 @@ wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-n
           
             
               <category>debian</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>ssh</category>
+            
+          
+            
+              <category>gestion</category>
             
           
         
@@ -234,7 +254,11 @@ background yesfont Zekton:size=8xftfont Zekton:size=8use_xft yesxftalpha 0.4
             
           
             
-              <category>fotos</category>
+              <category>conky</category>
+            
+          
+            
+              <category>linux</category>
             
           
         
@@ -278,7 +302,11 @@ $ man x11vnc :-forever : Mantiene el servidor en funcionamiento después de la 
             
           
             
-              <category>fotos</category>
+              <category>x11vnc</category>
+            
+          
+            
+              <category>linux</category>
             
           
         
@@ -515,11 +543,15 @@ mibs :por:
               <category>SNMP</category>
             
           
+            
+              <category>linux</category>
+            
+          
         
         
           
             
-              <category>Linux</category>
+              <category>red</category>
             
           
         
@@ -606,11 +638,15 @@ http://www.redeszone.net/redes/openvpn/ apt-get install easy-rsaapt-get instal
               <category>openVPN</category>
             
           
+            
+              <category>linux</category>
+            
+          
         
         
           
             
-              <category>Linux</category>
+              <category>red</category>
             
           
         
@@ -648,6 +684,10 @@ raspi.list
           
             
               <category>jessie</category>
+            
+          
+            
+              <category>linux</category>
             
           
         
@@ -691,11 +731,15 @@ raspi.list
               <category>ssh</category>
             
           
+            
+              <category>linux</category>
+            
+          
         
         
           
             
-              <category>Linux</category>
+              <category>red</category>
             
           
         

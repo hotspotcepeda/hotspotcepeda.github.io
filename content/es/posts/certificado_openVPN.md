@@ -11,8 +11,9 @@ authorEmoji: "🗻"
 tags:
 - debian
 - openVPN
+- linux
 categories:
-- Linux
+- red
 series:
 - Red comunitaria
 image: images/feature1/openVPN_LOGO.png

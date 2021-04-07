@@ -11,6 +11,7 @@ authorEmoji: "🗻"
 tags:
 - OpenWRT
 - Router neutro
+- wifi
 categories:
 - red
 series:

@@ -12,8 +12,9 @@ tags:
 - debian
 - jessie
 - SNMP
+- linux
 categories:
-- Linux
+- red
 series:
 - Red comunitaria
 image: images/feature1/debian_logo.png

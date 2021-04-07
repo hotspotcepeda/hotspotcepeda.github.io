@@ -12,10 +12,10 @@ tags:
 - guifi.net
 - hotspot
 - mikrotik
-- Cepeda la Mora
+- cepeda la mora
 - Ubiquiti
 categories:
-- Ayto
+- red
 series:
 - Red comunitaria
 libraries:

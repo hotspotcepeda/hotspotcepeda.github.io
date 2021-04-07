@@ -12,8 +12,9 @@ tags:
 - guifi.net
 - hotspot
 - mikrotik
-- Cepeda la Mora
+- cepeda la mora
 - Ubiquiti
+- wifi
 categories:
 - Ayto
 series:

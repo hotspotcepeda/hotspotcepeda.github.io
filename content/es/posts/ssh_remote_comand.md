@@ -10,6 +10,9 @@ author: HotspotCepeda
 authorEmoji: "🗻"
 tags:
 - debian
+- linux
+- ssh
+- gestion
 categories:
 - Linux
 series:
