@@ -102,6 +102,10 @@ Se configura la antena en bridge, se le añade dos interfaces VLANs, y se config
               <category>cepeda la mora</category>
             
           
+            
+              <category>NanoStation M5</category>
+            
+          
         
         
           
@@ -153,6 +157,10 @@ La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.
           
             
               <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
             
           
         
@@ -318,6 +326,10 @@ Servidor IP 10.</description>
           
             
               <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
             
           
         

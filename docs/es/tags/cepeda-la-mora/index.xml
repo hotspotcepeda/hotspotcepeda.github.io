@@ -14,11 +14,64 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Sat, 04 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Topología</title>
+        <link>https://hotspotcepeda.github.io/es/posts/topologia/</link>
+        <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 17 Apr 2021 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/topologia/</guid>
+        <description>&lt;p&gt;Voy a intentar explicar como funciona la red en Cepeda, en resumidas cuentas es fácil, solo hay que asignar a los nodos ó antenas, las ips de la web guifi.net para que darle un poco de orden y la frecuencia de trabajo para que se entiendan, el canal y el país en el que está trabajando la red comunitaria.&lt;br /&gt;
+Los enlaces los negocia el qMp en base a lo que tenga al alcance. Es una red con vida propia.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>NanoStation M5 GW</title>
@@ -57,6 +110,10 @@
           
             
               <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
             
           
         
@@ -110,6 +167,10 @@ La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.
           
             
               <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
             
           
         
@@ -220,6 +281,10 @@ Planificar el enlace: Si es posible hacer una primera visita para saber como pla
           
             
               <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
             
           
         

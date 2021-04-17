@@ -153,6 +153,10 @@ Se configura por luci , sirve para limitar el trafico de las interfaces, se inst
               <category>cepeda la mora</category>
             
           
+            
+              <category>NanoStation M5</category>
+            
+          
         
         
           
@@ -204,6 +208,10 @@ La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.
           
             
               <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
             
           
         
@@ -261,6 +269,10 @@ La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.
           
             
               <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
             
           
         

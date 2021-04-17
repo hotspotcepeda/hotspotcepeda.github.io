@@ -14,6 +14,7 @@ tags:
 - ubiquiti
 - wifi
 - cepeda la mora
+- NanoStation M5
 categories:
 - red
 series:
