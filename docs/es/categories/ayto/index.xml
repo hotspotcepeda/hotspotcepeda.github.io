@@ -14,11 +14,67 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Aug 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/categories/ayto/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>La Web</title>
+        <link>https://hotspotcepeda.github.io/es/posts/la_web/</link>
+        <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 24 Aug 2021 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/la_web/</guid>
+        <description>&lt;p&gt;Voy a intentar explicar como he hecho esta web. En la asociación quieren tener una web y creo que de esta manera se puede hacer bien, rápido, fiable, colaborativa, segura &amp;hellip;&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>github</category>
+            
+          
+            
+              <category>Visual Studio Code</category>
+            
+          
+            
+              <category>markdown</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>HUGO</category>
+            
+          
+            
+              <category>hotspotcepeda</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Autoprovisión</title>

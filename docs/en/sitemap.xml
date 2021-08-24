@@ -260,6 +260,16 @@
   <url>
     <loc>https://hotspotcepeda.github.io/en/tags/markdown/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/tags/markdown/"
+                />
   </url>
   
   <url>
@@ -320,6 +330,16 @@
   <url>
     <loc>https://hotspotcepeda.github.io/en/tags/hugo/</loc>
     <lastmod>2019-12-18T10:33:41+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/tags/hugo/"
+                />
   </url>
   
   <url>
