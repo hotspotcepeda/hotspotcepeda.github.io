@@ -388,12 +388,12 @@ Install Nextcloud server with:
         <atom:modified>Tue, 30 May 2017 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/docker/</guid>
         <description>Listar imagenes
-#docker images REPOSITORY TAG IMAGE ID CREATED SIZE borrar imagenes
-#docker images #docker rmi IMAGEN-ID Borra todas la imagenes
-#docker rmi $(docker images -q) Entrar en la consola de una imagen  docker run -t -i debian /bin/bash listar contenedores
-#docker ps -a borra contenedor
-#docker rm -f ad287f00940b borra todos los contenedores
-#docker stop $(docker ps -a -q) #docker rm $(docker ps -a -q) borra volúmenes huerfanos</description>
+#docker imagesREPOSITORY TAG IMAGE ID CREATED SIZEborrar imagenes
+#docker images#docker rmi IMAGEN-IDBorra todas la imagenes
+#docker rmi $(docker images -q)Entrar en la consola de una imagen  docker run -t -i debian /bin/bashlistar contenedores
+#docker ps -aborra contenedor
+#docker rm -f ad287f00940bborra todos los contenedores
+#docker stop $(docker ps -a -q)#docker rm $(docker ps -a -q)borra volúmenes huerfanos</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/docker_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
