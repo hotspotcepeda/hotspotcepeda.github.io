@@ -1326,7 +1326,7 @@
 <meta name="description" content="La Web" />
 
 
-<meta name="keywords" content="github,Visual Studio Code,markdown,cepeda la mora,HUGO,hotspotcepeda">
+<meta name="keywords" content="github,Visual Studio Code,markdown,cepeda la mora,HUGO,hotspotcepeda,git,netlify">
 
 <meta name="created" content="2021-08-24T00:00:00&#43;0000">
 <meta name="modified" content="2021-08-24T00:00:00&#43;0000">
@@ -1391,7 +1391,7 @@
     "dateModified": "2021-08-24T00:00:00Z",
     "url" : "https://hotspotcepeda.github.io/es/posts/la_web/",
     "description": "La Web",
-    "keywords": ["github","Visual Studio Code","markdown","cepeda la mora","HUGO","hotspotcepeda"],
+    "keywords": ["github","Visual Studio Code","markdown","cepeda la mora","HUGO","hotspotcepeda","git","netlify"],
     "image" : "https://hotspotcepeda.github.io/images/feature1/hotspot.png",
     "author": {
       "@type": "Person",
@@ -1818,6 +1818,10 @@ if (!doNotTrack) {
 
   <li><a href="https://hotspotcepeda.github.io/es/tags/hotspotcepeda/" class="single__tag" title="hotspotcepeda">#hotspotcepeda</a></li>
 
+  <li><a href="https://hotspotcepeda.github.io/es/tags/git/" class="single__tag" title="git">#git</a></li>
+
+  <li><a href="https://hotspotcepeda.github.io/es/tags/netlify/" class="single__tag" title="netlify">#netlify</a></li>
+
 </ul>
 
     </div>
@@ -1827,7 +1831,9 @@ if (!doNotTrack) {
 <h2 id="ingredientes">Ingredientes</h2>
 <h3 id="hugo">HUGO</h3>
 <p><a href="https://gohugo.io/">https://gohugo.io/</a><br />
-Como generador de sitio web estático escrito en Go, básicamente escribes los contenidos en Markdown (lenguaje humano) y HUGO lo transforma en HTML y CCS</p>
+Como generador de sitio web estático en Go, básicamente escribes los contenidos en Markdown (lenguaje humano) y HUGO lo transforma a HTML y CCS<br />
+Chuleta Markdown:<br />
+<a href="https://dl.icdst.org/pdfs/files3/c79990b0b853932d36ddc117ce2503e3.pdf">https://dl.icdst.org/pdfs/files3/c79990b0b853932d36ddc117ce2503e3.pdf</a></p>
 <pre><code>hugo server --&gt; Crea un servidor local con tu web en http://localhost:1313/ es LIVE.
 hugo -d docs/ --&gt; Vuelca contenido a HTML CCS en la carpeta &quot;docs&quot; que es la que pilla github para hacer la web
 </code></pre><h3 id="github">GitHub</h3>
@@ -1846,22 +1852,25 @@ git push --&gt; Sube los cambios marcados de local a repositorio
 <h3 id="visual-code-studio">Visual Code Studio</h3>
 <p><a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a><br />
 Esto es lo mejor para perderle el respeto a la programación, Cuando está instalado y configurado se pueden hacer los post en 1 minuto, y muchas cosas más.</p>
-<h2 id="aprendizaje">Aprendizaje</h2>
+<h3 id="netlify">Netlify</h3>
+<p><a href="https://www.netlify.com/">https://www.netlify.com/</a><br />
+Si ya tenemos un nombre de dominio para nuestro sitio de guithub lo pedemos sincronizar con netlify. Gratis. Solo se pagaria por el dominio.</p>
+<h2 id="preparación">Preparación</h2>
 <p>Yo lo que hice fue pillar una plantilla de HUGO, descargarla a una carpeta de mi máquina, trabajarla con el Visual Code, subirla a github e ir modificando con mi contenido. <br />
 Que te equivocas y te los cargas todo, pues no pasa nada, pasito para atrás y a probar de nuevo, es lo bueno de git.</p>
 <p>Los pasos serían:</p>
 <ul>
-<li>HUGO
+<li>HUGO :
 <ul>
 <li>Instalar: Windows / macOS / Linux <a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a></li>
 </ul>
 </li>
-<li>Git
+<li>Git :
 <ul>
 <li>Instalar: Windows / macOS / Linux <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></li>
 </ul>
 </li>
-<li>Visual Studio Code
+<li>Visual Studio Code :
 <ul>
 <li>Instalar: Windows / macOS / Linux <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></li>
 <li>Configurar:
@@ -1885,6 +1894,8 @@ Cada plantilla suele tener su propia documentación, su repositorio, su soporte,
 <li>Visual Studio Code<br />
 <a href="https://www.youtube.com/watch?v=HVzFLw5r2EM">https://www.youtube.com/watch?v=HVzFLw5r2EM</a><br />
 <a href="https://www.youtube.com/watch?v=AYbgqmyg7dk">https://www.youtube.com/watch?v=AYbgqmyg7dk</a></li>
+<li>Netlify<br />
+<a href="https://youtu.be/OomyaFBGlyU">https://youtu.be/OomyaFBGlyU</a></li>
 </ul>
 <div class="notices info" data-title="Info">
   La página también tiene el Brave Rewards para donaciones en BAT, indexacion en google y microsoft, Google Analytics&hellip;
@@ -2601,9 +2612,10 @@ document.addEventListener('DOMContentLoaded', function () {
         <li><a href="#github">GitHub</a></li>
         <li><a href="#google">Google</a></li>
         <li><a href="#visual-code-studio">Visual Code Studio</a></li>
+        <li><a href="#netlify">Netlify</a></li>
       </ul>
     </li>
-    <li><a href="#aprendizaje">Aprendizaje</a></li>
+    <li><a href="#preparación">Preparación</a></li>
   </ul>
 </nav>
   </div>

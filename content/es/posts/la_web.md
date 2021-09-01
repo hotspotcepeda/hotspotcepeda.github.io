@@ -15,6 +15,8 @@ tags:
 - cepeda la mora
 - HUGO
 - hotspotcepeda
+- git
+- netlify
 categories:
 - Ayto
 series:
@@ -28,7 +30,10 @@ Voy a intentar explicar como he hecho esta web. En la asociación quieren tener 
 ## Ingredientes
 ### HUGO
 https://gohugo.io/
-Como generador de sitio web estático escrito en Go, básicamente escribes los contenidos en Markdown (lenguaje humano) y HUGO lo transforma en HTML y CCS
+Como generador de sitio web estático en Go, básicamente escribes los contenidos en Markdown (lenguaje humano) y HUGO lo transforma a HTML y CCS
+Chuleta Markdown:
+https://dl.icdst.org/pdfs/files3/c79990b0b853932d36ddc117ce2503e3.pdf
+
 ```
 hugo server --> Crea un servidor local con tu web en http://localhost:1313/ es LIVE.
 hugo -d docs/ --> Vuelca contenido a HTML CCS en la carpeta "docs" que es la que pilla github para hacer la web
@@ -53,18 +58,21 @@ Una cuenta de correo google o el correo que sea va ha hacer falta, para logarse 
 ### Visual Code Studio
 https://code.visualstudio.com/
 Esto es lo mejor para perderle el respeto a la programación, Cuando está instalado y configurado se pueden hacer los post en 1 minuto, y muchas cosas más.
+### Netlify
+https://www.netlify.com/
+Si ya tenemos un nombre de dominio para nuestro sitio de guithub lo pedemos sincronizar con netlify. Gratis. Solo se pagaria por el dominio.
 
-## Aprendizaje
+## Preparación
 
 Yo lo que hice fue pillar una plantilla de HUGO, descargarla a una carpeta de mi máquina, trabajarla con el Visual Code, subirla a github e ir modificando con mi contenido. 
 Que te equivocas y te los cargas todo, pues no pasa nada, pasito para atrás y a probar de nuevo, es lo bueno de git.
 
 Los pasos serían:
-- HUGO
+- HUGO :
   - Instalar: Windows / macOS / Linux https://gohugo.io/getting-started/installing/
-- Git
+- Git :
   - Instalar: Windows / macOS / Linux https://git-scm.com/downloads
-- Visual Studio Code
+- Visual Studio Code :
   - Instalar: Windows / macOS / Linux https://code.visualstudio.com/
   - Configurar:
     - Terminal para usar el bash de git.
@@ -82,6 +90,8 @@ https://www.youtube.com/playlist?list=PLIcuwIrm4rKddeIBeA_8HrXE27ZaDZoQE
 - Visual Studio Code
 https://www.youtube.com/watch?v=HVzFLw5r2EM
 https://www.youtube.com/watch?v=AYbgqmyg7dk
+- Netlify
+https://youtu.be/OomyaFBGlyU
 
 
 
