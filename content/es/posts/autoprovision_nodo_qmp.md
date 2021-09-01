@@ -91,7 +91,7 @@ Por último fijamos la ip y la red de la antena, la que habíamos previsto en el
 ![Añadiendo el router](/images/web_guifi/6guifi_nodo.png)
 Click en guardar y salir y ya está, ya tenemos presencia en la web guifi.net
 ![Añadiendo el router](/images/web_guifi/7guifi_nodo.png)
-Este es el nodo que hemos creado, https://guifi.net/es/node/129487, es para una amiga y espero ponerlo en producción muy pronto.
+Este es el nodo que hemos creado, https://guifi.net/es/node/129487 es para una amiga y espero ponerlo en producción muy pronto.
 ## Configuración de equipos
 Una vez que tenemos el trasto con el firmware qMp configuramos lo primero el modo de trabajo, nosotros estamos en modo Community.
 Asignamos los parámetros de configuración que tenemos en la web guifi.net

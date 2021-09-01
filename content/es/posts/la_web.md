@@ -31,7 +31,7 @@ https://gohugo.io/
 Como generador de sitio web estático escrito en Go, básicamente escribes los contenidos en Markdown (lenguaje humano) y HUGO lo transforma en HTML y CCS
 ```
 hugo server --> Crea un servidor local con tu web en http://localhost:1313/ es LIVE.
-hugo - d docs/ --> Vuelca tu contenido a HTML CCS.
+hugo -d docs/ --> Vuelca contenido a HTML CCS en la carpeta "docs" que es la que pilla github para hacer la web
 ```
 ### GitHub
 https://github.com/hotspotcepeda/hotspotcepeda.github.io
@@ -44,12 +44,12 @@ Como controlador de versiones en nube.
 ```
 git clone https://github.com/hotspotcepeda/cepeda.git --> Clona a local el repositorio
 git pull --> Compara diferencias entre local y en repositorio
-git add . --> marca para subir a repositorio los cambios
-git commit -m "mensaje para control de versiones"
+git add . --> marca todo para subir a repositorio los cambios
+git commit -m "mensaje para control de versiones" --> sube cambios
 git push --> Sube los cambios marcados de local a repositorio
 ```
 ### Google
-Una cuenta de correo google o el correo que sea va ha hacer falta, para logarse en github, para hacer el posicionamiento, de contacto del sitio, etc...
+Una cuenta de correo google o el correo que sea va ha hacer falta, para logarse en github, para hacer indexación, posicionamiento, de contacto del sitio, etc...
 ### Visual Code Studio
 https://code.visualstudio.com/
 Esto es lo mejor para perderle el respeto a la programación, Cuando está instalado y configurado se pueden hacer los post en 1 minuto, y muchas cosas más.
@@ -58,6 +58,21 @@ Esto es lo mejor para perderle el respeto a la programación, Cuando está insta
 
 Yo lo que hice fue pillar una plantilla de HUGO, descargarla a una carpeta de mi máquina, trabajarla con el Visual Code, subirla a github e ir modificando con mi contenido. 
 Que te equivocas y te los cargas todo, pues no pasa nada, pasito para atrás y a probar de nuevo, es lo bueno de git.
+
+Los pasos serían:
+- HUGO
+  - Instalar: Windows / macOS / Linux https://gohugo.io/getting-started/installing/
+- Git
+  - Instalar: Windows / macOS / Linux https://git-scm.com/downloads
+- Visual Studio Code
+  - Instalar: Windows / macOS / Linux https://code.visualstudio.com/
+  - Configurar:
+    - Terminal para usar el bash de git.
+    - Instalar extensiones.
+  
+Y luego ya descargar y trabajar con la plantilla que más te guste de HUGO 
+https://themes.gohugo.io/ 
+Cada plantilla suele tener su propia documentación, su repositorio, su soporte, su equipo de trabajo...
 
 Estos videos me vinieron muy bien para empezar.
 - HUGO
@@ -75,6 +90,5 @@ https://www.youtube.com/watch?v=AYbgqmyg7dk
 
 
 {{< notice info >}}
-La página también tiene el Brave Rewards para donaciones en BAT.
-El posicionamiento de google y microsoft, Google Analytics...
+La página también tiene el Brave Rewards para donaciones en BAT, indexacion en google y microsoft, Google Analytics...
 {{< /notice >}}
