@@ -14,11 +14,83 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Tue, 24 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Librenms</title>
+        <link>https://hotspotcepeda.github.io/es/tags/librenms/</link>
+        <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/librenms/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>linux</title>
+        <link>https://hotspotcepeda.github.io/es/tags/linux/</link>
+        <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/linux/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Proxmox</title>
+        <link>https://hotspotcepeda.github.io/es/tags/proxmox/</link>
+        <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/proxmox/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Ubuntu</title>
+        <link>https://hotspotcepeda.github.io/es/tags/ubuntu/</link>
+        <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/ubuntu/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>cepeda la mora</title>
@@ -345,24 +417,6 @@
       </item>
       
       <item>
-        <title>librenms</title>
-        <link>https://hotspotcepeda.github.io/es/tags/librenms/</link>
-        <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/librenms/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>cdp</title>
         <link>https://hotspotcepeda.github.io/es/tags/cdp/</link>
         <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
@@ -423,24 +477,6 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/ralph/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>linux</title>
-        <link>https://hotspotcepeda.github.io/es/tags/linux/</link>
-        <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/linux/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
