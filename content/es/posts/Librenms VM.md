@@ -220,6 +220,52 @@ ossyNMMMNyMMhsssssssssssssshmmmhssssssso   GPU: 00:02.0 Vendor 1234 Device 1111
 
 root@librenms:/opt/librenms#
 ```
+### PROXMOX VE
+Y ya de paso subo a bullseye el servidor con apt:
+```
+         .://:`              `://:.            root@cepeda
+       `hMMMMMMd/          /dMMMMMMh`          -----------
+        `sMMMMMMMd:      :mMMMMMMMs`           OS: Proxmox VE 7.2-11 x86_64
+`-/+oo+/:`.yMMMMMMMh-  -hMMMMMMMy.`:/+oo+/-`   Host: IBM System x -[794732G]- 00
+`:oooooooo/`-hMMMMMMMyyMMMMMMMh-`/oooooooo:`   Kernel: 5.15.53-1-pve
+  `/oooooooo:`:mMMMMMMMMMMMMm:`:oooooooo/`     Uptime: 5 mins
+    ./ooooooo+- +NMMMMMMMMN+ -+ooooooo/.       Packages: 807 (dpkg)
+      .+ooooooo+-`oNMMMMNo`-+ooooooo+.         Shell: bash 5.1.4
+        -+ooooooo/.`sMMs`./ooooooo+-           Resolution: 1280x1024
+          :oooooooo/`..`/oooooooo:             Terminal: /dev/pts/0
+          :oooooooo/`..`/oooooooo:             CPU: Intel Xeon E5520 (16) @ 2.394GHz
+        -+ooooooo/.`sMMs`./ooooooo+-           GPU: 07:00.0 Matrox Electronics Systems Ltd. MGA G200EV
+      .+ooooooo+-`oNMMMMNo`-+ooooooo+.         Memory: 2736MiB / 7948MiB
+    ./ooooooo+- +NMMMMMMMMN+ -+ooooooo/.
+  `/oooooooo:`:mMMMMMMMMMMMMm:`:oooooooo/`
+`:oooooooo/`-hMMMMMMMyyMMMMMMMh-`/oooooooo:`
+`-/+oo+/:`.yMMMMMMMh-  -hMMMMMMMy.`:/+oo+/-`
+        `sMMMMMMMm:      :dMMMMMMMs`
+       `hMMMMMMd/          /dMMMMMMh`
+         `://:`              `://:`
+```
+/etc/apt/sources.list
+```
+# oficiales
+deb http://deb.debian.org/debian/ bullseye main contrib non-free
+#deb-src http://deb.debian.org/debian/ buster main contrib non-free
+
+# seguridad
+deb http://security.debian.org/debian-security bullseye-security main contrib non-free
+#deb-src http://security.debian.org/debian-security buster/updates main contrib non-free
+
+# actualizaciones
+deb http://deb.debian.org/debian/ bullseye-updates main contrib non-free
+#deb-src http://deb.debian.org/debian/ buster-updates main contrib non-free
+
+# MULTIMEDIA
+deb http://www.deb-multimedia.org bullseye main non-free
+
+# PVE pve-no-subscription repository provided by proxmox.com,
+# NOT recommended for production use
+deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
+```
+
 
 {{< notice info >}}
 Me sigue gustando mas debian.
