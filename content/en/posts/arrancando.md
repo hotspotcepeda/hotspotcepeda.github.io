@@ -1,3 +1,4 @@
+---
 Title: "Getting Started"
 Date: 2014-01-03
 Draft: false
