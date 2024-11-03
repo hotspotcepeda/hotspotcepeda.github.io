@@ -49,10 +49,15 @@
         <atom:modified>Sat, 02 Nov 2024 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/nas/</guid>
         <description>Aquí el NAS
-Ingredientes  Placa base y CPU: Algo potente, moderno, escalable, versátil&amp;hellip; sobre todo económico. RAM: Cuanto más mejor para el ZFS y MV. Unidades NVMe (2 x 256 GB): Esto para sistema. Discos duros SATA (4 x 8 TB): Almacenamiento al gusto.  </description>
+Ingredientes  Placa base y CPU: Algo potente, moderno, escalable, versátil&amp;hellip; sobre todo económico. RAM: Cuanto más mejor para el ZFS y MV. Unidades NVMe (2 x 256 GB): Esto para sistema. Discos duros SATA (4 x 8 TB): Almacenamiento al gusto.  Placa base / micro RK3588 ARM Lo vi en este video y desde entonces lo necesito, jajaja
+https://youtu.be/QsM6b5yix0U?si=1ZbKHL0xmKAdn43S
+https://www.friendlyelec.com/index.php?route=product/product&amp;amp;product_id=299
+N100 X86 https://androidpc.es/x86-p5-nas/
+https://www.toptonpc.com/product/12th-gen-intel-n100-nas-motherboard-6-bay-6sata3-0-42-5g-i226/
+N6005 X86 https://www.</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/nas.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
