@@ -100,5 +100,5 @@ https://youtu.be/OomyaFBGlyU
 
 
 {{< notice info >}}
-La página también tiene indexacion en google y microsoft, Google Analytics...
+La página también tiene indexation en google y microsoft, Google Analytics...
 {{< /notice >}}
