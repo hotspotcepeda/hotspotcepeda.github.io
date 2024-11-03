@@ -9,17 +9,16 @@ enableTocContent: false
 author: HotspotCepeda 
 authorEmoji: "🗻"
 tags:
-- NAS
+
 categories:
-- Ayto
+
 series:
-- Red comunitaria
+
 libraries:
 - mermaid
-image: images/feature2/nas.png
+image: images/feature1/qmp_logo.png
 ---
-Aquí la movida del NAS
-<!--more-->
+Aquí el NAS
 ## Ingredientes
 - **Placa base y CPU**: Algo potente, moderno, escalable, versátil... 
 - **RAM**: Cuanto más mejor para el ZFS y MV.
