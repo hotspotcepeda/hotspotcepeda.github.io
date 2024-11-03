@@ -9,14 +9,14 @@ EnableTocContent: false
 Author: HotspotCepeda
 AuthorEmoji: "🗻"
 Tags:
-guifi.net
-associations
-Cepeda la Mora
-wifi
+- guifi.net
+- associations
+- Cepeda la Mora
+- wifi
 Categories:
-Ayto
+- Ayto
 Series:
-Community Network
+- Community Network
 Image: images/feature2/workflow.png
 ---
 In this article, I discuss how I tried to seek support from local associations to promote a community telecommunications network initiative, in order to establish public WiFi and provide internet access in a disadvantaged rural area. At that time, internet connections in Cepeda were provided by the ISP Iberbanda (which offered 1, 2, and 3 Mbps symmetric connections), and 3G was a luxury.
