@@ -30,7 +30,7 @@ Voy a intentar explicar como he hecho esta web. En la asociación quieren tener 
 ## Ingredientes
 ### HUGO
 https://gohugo.io/
-Como generador de sitio web estático en Go, básicamente escribes los contenidos en Markdown (lenguaje humano) y HUGO lo transforma a HTML y CCS
+Como generador de sitio web estático Go, escribes los contenidos en Markdown (lenguaje humano) y HUGO lo transforma a HTML y CCS
 Chuleta Markdown:
 https://dl.icdst.org/pdfs/files3/c79990b0b853932d36ddc117ce2503e3.pdf
 
@@ -54,13 +54,13 @@ git commit -m "mensaje para control de versiones" --> sube cambios
 git push --> Sube los cambios marcados de local a repositorio
 ```
 ### Google
-Una cuenta de correo google o el correo que sea va ha hacer falta, para logarse en github, para hacer indexación, posicionamiento, de contacto del sitio, etc...
+Una cuenta de correo google o el correo que sea va ha hacer falta, para logarse en github, para hacer indexation, posicionamiento, de contacto del sitio, etc...
 ### Visual Code Studio
 https://code.visualstudio.com/
 Esto es lo mejor para perderle el respeto a la programación, Cuando está instalado y configurado se pueden hacer los post en 1 minuto, y muchas cosas más.
 ### Netlify
 https://www.netlify.com/
-Si ya tenemos un nombre de dominio para nuestro sitio de guithub lo pedemos sincronizar con netlify. Gratis. Solo se pagaria por el dominio.
+Si ya tenemos un nombre de dominio para nuestro sitio de guithub lo podemos sincronizar con netlify. Gratis. Solo se pagaría por el dominio.
 
 ## Preparación
 
@@ -100,5 +100,5 @@ https://youtu.be/OomyaFBGlyU
 
 
 {{< notice info >}}
-La página también tiene el Brave Rewards para donaciones en BAT, indexacion en google y microsoft, Google Analytics...
+La página también tiene indexacion en google y microsoft, Google Analytics...
 {{< /notice >}}
