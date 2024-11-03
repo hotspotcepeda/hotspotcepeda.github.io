@@ -554,6 +554,54 @@ Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.</description>
         
       </item>
       
+      <item>
+        <title>Getting Started</title>
+        <link>https://hotspotcepeda.github.io/en/posts/arrancando/</link>
+        <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Fri, 03 Jan 2014 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/en/posts/arrancando/</guid>
+        <description>&lt;p&gt;In this article, I discuss how I tried to seek support from local associations to promote a community telecommunications network initiative, in order to establish public WiFi and provide internet access in a disadvantaged rural area. At that time, internet connections in Cepeda were provided by the ISP Iberbanda (which offered 1, 2, and 3 Mbps symmetric connections), and 3G was a luxury.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/workflow.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>associations</category>
+            
+          
+            
+              <category>Cepeda la Mora</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Community Network</category>
+            
+          
+        
+      </item>
+      
 
     
   </channel>

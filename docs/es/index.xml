@@ -14,7 +14,7 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,25 @@
         
       
 
+      
+      <item>
+        <title>NAS</title>
+        <link>https://hotspotcepeda.github.io/es/posts/nas/</link>
+        <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 02 Nov 2024 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/nas/</guid>
+        <description>Aquí el NAS
+Ingredientes  Placa base y CPU: Algo potente, moderno, escalable, versátil&amp;hellip; sobre todo económico. RAM: Cuanto más mejor para el ZFS y MV. Unidades NVMe (2 x 256 GB): Esto para sistema. Discos duros SATA (4 x 8 TB): Almacenamiento al gusto.  </description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Librenms VM</title>

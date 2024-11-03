@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/</loc>
-    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -41,8 +41,34 @@
                 href="https://hotspotcepeda.github.io/es/"
                 />
   </url><url>
+    <loc>https://hotspotcepeda.github.io/es/posts/nas/</loc>
+    <lastmod>2024-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/posts/</loc>
+    <lastmod>2024-11-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/posts/"
+                />
+  </url><url>
     <loc>https://hotspotcepeda.github.io/es/categories/ayto/</loc>
     <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/categories/ayto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/categories/ayto/"
+                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/categories/</loc>
     <lastmod>2022-09-15T00:00:00+00:00</lastmod>
@@ -65,19 +91,6 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/linux/</loc>
     <lastmod>2022-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hotspotcepeda.github.io/es/posts/</loc>
-    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/posts/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/proxmox/</loc>
     <lastmod>2022-09-15T00:00:00+00:00</lastmod>
@@ -116,6 +129,16 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/</loc>
     <lastmod>2021-08-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/tags/cepeda-la-mora/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/"
+                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/git/</loc>
     <lastmod>2021-08-24T00:00:00+00:00</lastmod>
@@ -169,6 +192,16 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/guifi.net/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/tags/guifi.net/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/tags/guifi.net/"
+                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/mesh/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
@@ -178,6 +211,16 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/wifi/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/tags/wifi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/tags/wifi/"
+                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/posts/topologia/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
@@ -659,6 +702,16 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/posts/arrancando/</loc>
     <lastmod>2014-01-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/posts/arrancando/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/posts/arrancando/"
+                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/asociaciones/</loc>
     <lastmod>2014-01-03T00:00:00+00:00</lastmod>

@@ -23,8 +23,3 @@ Aquí el NAS
 - **RAM**: Cuanto más mejor para el ZFS y MV.
 - **Unidades NVMe (2 x 256 GB)**: Esto para sistema.
 - **Discos duros SATA (4 x 8 TB)**: Almacenamiento al gusto.
-
-# CM3588
-
-![CM3588-plus]( images/feature1/cm3588.png)
-![Configuración para WAN de VLAN SWITCH](/images/post/configuracion_vlan_wan_qmp.png)
