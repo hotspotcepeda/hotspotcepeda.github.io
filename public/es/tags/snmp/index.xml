@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>SNMP on HotspotCepeda, La red comunitaria.</title>
+    <link>https://hotspotcepeda.github.io/es/tags/snmp/</link>
+    <description>Recent content in SNMP on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Sun, 30 Oct 2016 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/snmp/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Cliente SNMP linux</title>
+        <link>https://hotspotcepeda.github.io/es/posts/cliente_snmp_linux/</link>
+        <pubDate>Sun, 30 Oct 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 30 Oct 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/cliente_snmp_linux/</guid>
+        <description>Instalación # apt-get install snmp snmpd snmp-mibs-downloaderConfiguracón Cambiar en nano /etc/snmp/snmpd.conf:
+agentAddress udp:127.0.0.1:161...rocommunity public default -V systemonlypor:
+agentAddress udp::161...rocommunity publiccambiar en nano /etc/snmp/snmp.conf:
+mibs :por:
+#mibs :Reiniciar snmpd
+# service snmpd restartComprobar: snmpwalk -v 2c -c public IP</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>jessie</category>
+            
+          
+            
+              <category>SNMP</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

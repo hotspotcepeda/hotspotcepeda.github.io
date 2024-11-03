@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Ubiquiti on HotspotCepeda, La red comunitaria.</title>
+    <link>https://hotspotcepeda.github.io/es/tags/ubiquiti/</link>
+    <description>Recent content in Ubiquiti on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Sat, 15 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/ubiquiti/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Configurar vlan de gestión en Ubiquiti</title>
+        <link>https://hotspotcepeda.github.io/es/posts/vlan_gestion_ubiquiti/</link>
+        <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 15 Apr 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/vlan_gestion_ubiquiti/</guid>
+        <description>http://ca.wiki.guifi.net/wiki/Gestio_de_antenes_ubnt_a_trav%C3%A9s_de_VLAN_de_gesti%C3%B3 Lo que queremos es mantener gestión de las antenas de manera directa. En los equipos Ubiquiti se permiten hacer vlans, desde la version 5.5.
+Se define una VLAN de gestión: vlan666
+Se define una VLAN de tráfico general: vlan10
+Se configura la antena en bridge, se le añade dos interfaces VLANs, y se configura la IP manual en la LAN0.X X = vlan ID (en nuestro caso 666)</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/UBNT_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>ubiquiti</category>
+            
+          
+            
+              <category>gestión</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>NanoStation M5 GW</title>
+        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</link>
+        <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 04 Feb 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</guid>
+        <description>   </description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>NanoStation M5 gateway internet</title>
+        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_gw/</link>
+        <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 21 Jan 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_gw/</guid>
+        <description>Pasos para usar una antena Ubiquiti Nano Station en una red qmp con Lan y Wan. Las configuraciones de Vlan las vamos a hacer desde el menú de administración en el apartado de switch e interfaces.
+La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.1/24 user/password root/13f y nos proporciona una IP de ese rango al conectarnos. Tenemos conectado en el POE que va a la boca Main del router y viene como la Vlan1</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Buenas practicas en la realizacion de tus radioenlaces</title>
+        <link>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</link>
+        <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 16 Jan 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</guid>
+        <description>Antes de instalar: Llevar los equipos configurados. Si a la hora de poner en funcionamiento el enlace surgen problemas: como que el equipo no enciende, mala transferencia de datos&amp;hellip; será más fácil localizar averías en el cableado, conectores y alimentación, POE.
+Planificar el enlace: Si es posible hacer una primera visita para saber como planificar la instalación y saber que material puede hacer falta, cableados, herramienta que tenemos que llevar, accesos a zonas comunes bajo llave, etc&amp;hellip; tomar notas y fotos, ortofotos, línea de visión directa entre antenas, referencias para orientar las anteas.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>Ubiquiti</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Guardar log de MikroTik y Ubiqiti en servidor</title>
+        <link>https://hotspotcepeda.github.io/es/posts/log_remoto_syslog-ng/</link>
+        <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 01 Nov 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/log_remoto_syslog-ng/</guid>
+        <description>https://aacable.wordpress.com/2011/11/29/howto-save-mikrotik-logs-to-remote-syslog-server/
+Conviene tener los trastos en hora, configure NTP en todas sus máquinas. Cliente Mikrotik Con ip 10.38.15.10
+/system logging actionset 0 memory-lines=100set 1 disk-file-count=30 disk-file-name=MT-log-zaib disk-lines-per-file=500set 3 remote=10.38.15.3# 10.38.15.3 ip del servidor syslog-ng :514 default port/system loggingadd action=remote topics=criticaladd action=remote topics=erroradd action=remote topics=infoadd action=remote topics=warning# registro remoto de lo que se quieraCliente Ubiquiti Con ip 10.38.15.1
+Servidor IP 10.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>log</category>
+            
+          
+            
+              <category>Ubiquiti</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>NanoStation M5 qMp</title>
+        <link>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</link>
+        <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 03 May 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</guid>
+        <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌
+27/03/2021 Ojo con las nuevas remesas de de equipamiento Ubiquiti, las nuevas revisiones 2000K y superiores de NanoStation Loco M5 no funcionan ni con OpenWRT ar71xx ni con OpenWRT ath79, ni tan siquiera probando OpenWRT ath79 para Bullet M XW que sí funciona en las Rocket M XW. Al parecer hay dos arquitecturas distintas que sirven para distintas revisiones de hardware de Ubiquiti .</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>internet</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Hotspot</title>
+        <link>https://hotspotcepeda.github.io/es/posts/hotspot/</link>
+        <pubDate>Sun, 05 Jan 2014 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 05 Jan 2014 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/hotspot/</guid>
+        <description>&lt;p&gt;Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.&lt;br /&gt;
+La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>Ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

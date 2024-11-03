@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>cepeda la mora on HotspotCepeda, La red comunitaria.</title>
+    <link>https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/</link>
+    <description>Recent content in cepeda la mora on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Tue, 24 Aug 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>La Web</title>
+        <link>https://hotspotcepeda.github.io/es/posts/la_web/</link>
+        <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 24 Aug 2021 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/la_web/</guid>
+        <description>&lt;p&gt;Voy a intentar explicar como he hecho esta web. En la asociación quieren tener una web y creo que de esta manera se puede hacer bien, rápido, fiable, colaborativa, segura &amp;hellip;&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>github</category>
+            
+          
+            
+              <category>Visual Studio Code</category>
+            
+          
+            
+              <category>markdown</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>HUGO</category>
+            
+          
+            
+              <category>hotspotcepeda</category>
+            
+          
+            
+              <category>git</category>
+            
+          
+            
+              <category>netlify</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Autoprovisión</title>
+        <link>https://hotspotcepeda.github.io/es/posts/autoprovision_nodo_qmp/</link>
+        <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Wed, 21 Apr 2021 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/autoprovision_nodo_qmp/</guid>
+        <description>&lt;p&gt;Por si alguien se lo quiere montar por su cuenta.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>autoprovision</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Topología</title>
+        <link>https://hotspotcepeda.github.io/es/posts/topologia/</link>
+        <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 17 Apr 2021 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/topologia/</guid>
+        <description>&lt;p&gt;Voy a intentar explicar como funciona la red en Cepeda, en resumidas cuentas es fácil, solo hay que asignar a los nodos ó antenas, las ips de la web guifi.net para que darle un poco de orden y la frecuencia de trabajo para que se entiendan, el canal y el país en el que está trabajando la red comunitaria.&lt;br /&gt;
+Los enlaces los negocia el qMp en base a lo que tenga al alcance. Es una red con vida propia.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>NanoStation M5 GW</title>
+        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</link>
+        <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 04 Feb 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</guid>
+        <description>   </description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>NanoStation M5 gateway internet</title>
+        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_gw/</link>
+        <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 21 Jan 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_gw/</guid>
+        <description>Pasos para usar una antena Ubiquiti Nano Station en una red qmp con Lan y Wan. Las configuraciones de Vlan las vamos a hacer desde el menú de administración en el apartado de switch e interfaces.
+La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.1/24 user/password root/13f y nos proporciona una IP de ese rango al conectarnos. Tenemos conectado en el POE que va a la boca Main del router y viene como la Vlan1</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Buenas practicas en la realizacion de tus radioenlaces</title>
+        <link>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</link>
+        <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 16 Jan 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</guid>
+        <description>Antes de instalar: Llevar los equipos configurados. Si a la hora de poner en funcionamiento el enlace surgen problemas: como que el equipo no enciende, mala transferencia de datos&amp;hellip; será más fácil localizar averías en el cableado, conectores y alimentación, POE.
+Planificar el enlace: Si es posible hacer una primera visita para saber como planificar la instalación y saber que material puede hacer falta, cableados, herramienta que tenemos que llevar, accesos a zonas comunes bajo llave, etc&amp;hellip; tomar notas y fotos, ortofotos, línea de visión directa entre antenas, referencias para orientar las anteas.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>Ubiquiti</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>NanoStation M5 qMp</title>
+        <link>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</link>
+        <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 03 May 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</guid>
+        <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌
+27/03/2021 Ojo con las nuevas remesas de de equipamiento Ubiquiti, las nuevas revisiones 2000K y superiores de NanoStation Loco M5 no funcionan ni con OpenWRT ar71xx ni con OpenWRT ath79, ni tan siquiera probando OpenWRT ath79 para Bullet M XW que sí funciona en las Rocket M XW. Al parecer hay dos arquitecturas distintas que sirven para distintas revisiones de hardware de Ubiquiti .</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>internet</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>NanoStation M5</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Virtualizar hotspot MikroTik</title>
+        <link>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</link>
+        <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 15 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</guid>
+        <description>VirtualBox Vamos a virtualizar RouterOS en una vieja maquina para convertirlo en hotspot MikroTik.
+Necesitamos una maquina que tenga más de una interfaz de red, un router con una sola interfaz no tiene mucho sentido.
+Un PC Pentium 4 completo se puede encontrar de segunda mano por 50 euros, y tarjetas de red 10/100 las regalan.
+En el servidor nos aseguramos que en la bios esté marcada la casilla de virtualización, (la máquina tiene que soportar virtualización VT-x o AMD-V) ya de paso en la sección de power management que el servidor se encienda si hay una interrupción de la alimentación eléctrica.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>VirtualBox</category>
+            
+          
+            
+              <category>RouterOS</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Portal cautivo hotspot mikrotik</title>
+        <link>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</link>
+        <pubDate>Wed, 09 Mar 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Wed, 09 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</guid>
+        <description>Vista la experiencia no soy partidario de usar hotspot con portal cautivo, entiendo que en algunos escenarios puede ser de utilidad. Intro La cosa es que cuando hacemos un hotspot con MikroTik una de los problemas que nos encontramos tras hacer el wizard es que el usuario que se conecta obtiene ip de manera correcta pero a la hora de ser redireccionado al portal cautivo si va a una dirección https no se le muestra la página y le sale un error 404.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>UCI qMp archivo de configuración</title>
+        <link>https://hotspotcepeda.github.io/es/posts/uci_qmp_configuration_file/</link>
+        <pubDate>Mon, 26 Oct 2015 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 26 Oct 2015 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/uci_qmp_configuration_file/</guid>
+        <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌 Este es el archivo de configuración qMp 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89  /etc/config/qmp Node configuration: config &amp;#39;qmp &amp;#39; &amp;#39;node &amp;#39; option &amp;#39;community_node_id &amp;#39;	&amp;#39;901 &amp;#39; # An number identifying the node.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OpenWRT</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>mesh</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>FAQ de ayuntamientos</title>
+        <link>https://hotspotcepeda.github.io/es/posts/ayuntamientos_y_guifi_net/</link>
+        <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 03 Jun 2014 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/ayuntamientos_y_guifi_net/</guid>
+        <description>¿Qué es guifi.net?  guifi.net es una red libre. Los usuarios que quieren conectarse instalan dispositivos de red, normalmente inalámbricos, usando bandas de frecuencia de libre uso. Estos dispositivos de red se organizan para encaminar tráfico de otros usuarios. La organización es similar a la estructura que hace funcionar Internet. Para las direcciones IP por el momento se usan direcciones no válidas para Internet, llamadas rangos de direcciones para redes privadas.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/guifi_net.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>La propuesta</title>
+        <link>https://hotspotcepeda.github.io/es/posts/la_propuesta/</link>
+        <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 03 Jun 2014 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/la_propuesta/</guid>
+        <description>&lt;p&gt;Me decidí a formular una propuesta para el despliegue de la red en Cepeda, como no tenia ni idea, le presenté al alcalde de aquella época &lt;a href=&#34;https://www.blogger.com/profile/13080724491994019511&#34; title=&#34;Blog Javier Garcia&#34;&gt;Javier Garcia&lt;/a&gt; un pdf, a lo que el alcalde respondó:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Mira, a mi no me vengas con cosas técnicas, si quieres hacerlo&amp;hellip; adelante. Te voy a ayudar en lo que pueda.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;idea-inicial&#34;&gt;Idea inicial&lt;/h2&gt;
+&lt;p&gt;Está era la ida que tenía para el despliegue en 2014:&lt;br /&gt;
+Una salida balanceada a internet con una RB-750 con un superservidor proxy para cachear a todo el que se asomara por allí y otra RB-750 para gestionar las conexiones del hotspot, ahí lo pone, 30 minutos al día con un caudal de 256 Kb en bajada y 64 Kb en subida. AP Unifi&lt;br /&gt;
+Para conectar las viviendas un modelo en Infraestructura AP cliente con una antena central a la que se conectan las estaciones de las casas.&lt;br /&gt;
+&lt;object data=&#34;/pdfs/ESQUEMA DE RED1.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;/p&gt;
+   &lt;p&gt;Parece que no tienes plugin para visualizar PDF en tu navegador.
+   Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/ESQUEMA DE RED1.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
+&lt;/object&gt;
+&lt;h2 id=&#34;propuesta&#34;&gt;Propuesta&lt;/h2&gt;
+&lt;p&gt;Este es el documento que se presentó al Ayto, en nombre de la AC RASPUTIN. No me extraña que el alcalde me dijera que hiciera lo que quisiera. &lt;br /&gt;
+El logo de la cabra es lo que más me gusta, está a punto de embestir a los ISP tradicionales.&lt;br /&gt;
+&lt;object data=&#34;/pdfs/CEPEDA_guifi.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;/p&gt;
+  &lt;p&gt;Parece que no tienes plugin para visualizar PDF en tu navegador.
+   Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/CEPEDA_guifi.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
+&lt;/object&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Lo que nos tenemos que tatuar es el procomún de la Red Abierta Libre y Neutral:&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
+El Procomún de la RALN se fundamenta en las siguientes bases:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Eres libre de utilizar la red para cualquier propósito mientras no perjudiques el&lt;br /&gt;
+funcionamiento de la propia red, la libertad de otros usuarios, y respetes las&lt;br /&gt;
+condiciones de los contenidos y servicios que circulan libremente.&lt;/li&gt;
+&lt;li&gt;Eres libre de conocer como es la red, sus componentes y su funcionamiento,&lt;br /&gt;
+también puedes difundir su espíritu y funcionamiento libremente.&lt;/li&gt;
+&lt;li&gt;Eres libre para incorporar servicios y contenidos a la red con las condiciones&lt;br /&gt;
+que quieras.&lt;/li&gt;
+&lt;li&gt;Eres libre de Incorporarte a la red y ayudar a extender estas libertades y&lt;br /&gt;
+condiciones.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Es este documento está detallada la autoprovisión de nodos para el despliegue en modo infraestructura en la plataforma guifi.net&lt;br /&gt;
+&lt;object data=&#34;/pdfs/paso_a_paso.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;/p&gt;
+  &lt;p&gt;Parece que no tienes plugin para visualizar PDF en tu navegador.
+   Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/paso_a_paso.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
+&lt;/object&gt;
+&lt;h2 id=&#34;presupuesto&#34;&gt;Presupuesto&lt;/h2&gt;
+&lt;p&gt;Se presentó un presupuesto en base a la propuesta. Creo que me salian 900 euros, esto es lo que se aprobó y lo que pagó el ayuntamiento más la salida a internet.&lt;br /&gt;
+&lt;img src=&#34;https://hotspotcepeda.github.io/images/ayto/hoja_gastos_ayto.jpg&#34; alt=&#34;Hoja de gastos Ayto Cepeda despliegue red comunitaria&#34; /&gt;&lt;br /&gt;
+600 euros para un ayuntamiento es un gasto ridículo, en las empresas que trabajan este producto el precio habitual para un proyecto así es de 6000 a 10000 euros llave en mano + el coste de la gestión y el mantenimiento de la red. ¿Lo ves caro? pues hazlo tú mismo.&lt;br /&gt;
+Solo necesitas tener los conocimientos adecuados, bueno también te hará falta un ordenador y una conexión a internet para hacer la gestión remota, un espacio de trabajo, carnet de conducir y un coche grande o una furgoneta para poder desplazarte y transportar el equipamiento, los tramos de las torres y los mástiles, ropa de trabajo, EPIs, herramienta de mano, escalera grande de 3 tramos y pequeña, taladro, brocas, radial, discos, atornilladora, crimpadora, conectores, herrajes, abrazaderas, bridas, tacos, tornillos, cinta aislante, guiacables, aparatos de medida, comprobador de cables, cable ftp exterior, cable ftp interior, material eléctrico, conocimientos, negociaciones con proveedores, dinero para comprar el equipamiento, desplazamientos a proveedores, desplazamientos programados para labores preventivas, desplazamientos extraordinarios por averías, conocimientos, seguro de responsabilidad civil, titulación para trabajo en altura, tasas e impuestos, combustible, dinero, conocimientos y lo más valioso de todo, TU TIEMPO.&lt;/p&gt;
+&lt;h2 id=&#34;sax&#34;&gt;SAX&lt;/h2&gt;
+&lt;p&gt;Llegó el SAX 2015. El SAX (Salut, Amor i Xarxa), es un encuentro anual de la comunidad guifi.net, allí conocí al &lt;a href=&#34;https://dev.qmp.cat/users/68&#34; title=&#34;Perfil de Roger Pueyo en dev.qmp.cat&#34;&gt;Sr. Roger Pueyo&lt;/a&gt;, le comenté la idea que teníamos para desplegar en Cepeda y después de una charla muy amena, llegue a la conclusion de que lo más económico y productivo que podia hacer era desplegar la red en modo adhoc con &lt;a href=&#34;http://qmp.cat/Inicio&#34; title=&#34;web qMp&#34;&gt;qMp&lt;/a&gt;, Quick Mesh Project.&lt;br /&gt;
+Desplegar en modo infraestructura puede estár bien en algunos escenarios, si tienes una ubicación con alimentación eléctrica y acceso asegurado desde la que se domine todo el área que quieras iluminar, pues genial. Tendrás un punto central al que apuntar todas las conexiones, esto es una red centralizada punto-multipunto y si falla el punto central dejará de funcionar toda la red, puedes redundar la antena central para que esto no suceda. Cuando quieras conectar una nueva antena tendrás que configurar en los 2 extremos.&lt;br /&gt;
+Pero en el escenario que tenemos en Cepeda no hay un sítio mágico desde el que se pueda ver todo el pueblo, estuve mirando el deposito de agua, pero eran todo problemas, la alimentación eléctrica, el acceso, la ubicación expuesta a robos y sabotajes, aparte que la salida a internet está en el ayuntamiento, tenía que hacer un enlace dedicado del Ayto al depósito con 2 equipos, 4 en caso de redundancia y otro equipo bien potente para conectar con todos los nodos.&lt;/p&gt;
+&lt;h2 id=&#34;qmp&#34;&gt;qMp&lt;/h2&gt;
+&lt;p&gt;Con el despliegue en mesh la cobertura se va extendiendo con cada equipo que se incorpora a la red, se convierte en una red descentralizada que es un valor añadido.&lt;br /&gt;
+Lo primero que hay que hacer en montar toda la red sobre una mesa, elije un espacio de trabajo y empieza a configurar equipos, ponlos en producción y sometelos durante un tiempo a un estricto seguimiento. Cuando tengas la seguridad de que los equipos funcionan como tú quieres los instalas, cuando estamos instalando no podemos hacer investigaciones ni pruebas ni otra cosa que no sea instalar, de está manera si falla algo en la instalación automáticamente se descartan problemas de configuración.&lt;br /&gt;
+Para comenzar con el despliegue qMp recomiendo elegir ubicaciones elevadas y que siempre estén encendidas, de está manera la cobertura de la red se irá extendiendo sin esfuerzo a medida que se van agregando nuevos nodos.&lt;br /&gt;
+Se puede desplegar en 2.4 GHZ 802.11bg o en 5 GHz 802.11a, dependiendo del escenario, si queremos desplegar en el interior de un edificio podemos hacerlo con equipos indoor y en 2.4 GHz, si los equipos están en la calle necesitamos CPE que soporten intemperie agua, hielo, sol y viento.&lt;br /&gt;
+Hay que tener en cuenta que debemos elegir con mucha atención el hardware, tiene que ser compatible con OpenWRT/qMp. Esta es la lista de hardware compatible &lt;a href=&#34;https://qmp.cat/Supported_devices&#34;&gt;https://qmp.cat/Supported_devices&lt;/a&gt;&lt;br /&gt;
+&lt;div class=&#34;notices warning&#34; data-title=&#34;Warning&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;27/03/2021 Ojo con las nuevas remesas de equipamiento Ubiquiti, las nuevas revisiones 2000K y superiores de NanoStation Loco M5 no funcionan ni con OpenWRT ar71xx ni con OpenWRT ath79, ni tan siquiera probando OpenWRT ath79 para Bullet M XW que sí funciona en las Rocket M XW. Al parecer hay dos arquitecturas distintas que sirven para distintas revisiones de hardware de Ubiquiti .La ar71xx es la de siempre, antes funcionaba, la ath79 es la nueva. No sé sabe todavía la manera de flashearlas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>qMp</category>
+            
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Hotspot</title>
+        <link>https://hotspotcepeda.github.io/es/posts/hotspot/</link>
+        <pubDate>Sun, 05 Jan 2014 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 05 Jan 2014 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/hotspot/</guid>
+        <description>&lt;p&gt;Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.&lt;br /&gt;
+La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>Ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Arrancando</title>
+        <link>https://hotspotcepeda.github.io/es/posts/arrancando/</link>
+        <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Fri, 03 Jan 2014 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/arrancando/</guid>
+        <description>&lt;p&gt;En este artículo se comenta como intenté buscar el apoyo en asociaciones locales para que promovieran la iniciativa de una red de telecomunicaciones comunitaria, de alguna manera, para conseguir tener una wifi púbica, un acceso público a internet en un área rural desfavorecida. Por aquel entonces las conexiones a internet en Cepeda se hacían mediante el ISP Iberbanda (que daba conexiones de 1 2 y 3 Mb simétricos), y el 3G era un lujo.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/workflow.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>asociaciones</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

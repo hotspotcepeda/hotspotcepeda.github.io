@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>hotspot on HotspotCepeda, La red comunitaria.</title>
+    <link>https://hotspotcepeda.github.io/es/tags/hotspot/</link>
+    <description>Recent content in hotspot on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Tue, 17 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/hotspot/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Hotspot MikroTik con proxy transparente</title>
+        <link>https://hotspotcepeda.github.io/es/posts/mikrotik_hotspot/</link>
+        <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 17 Jan 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_hotspot/</guid>
+        <description>La idea es poner un ap en 2.4 Ghz con un portal cautivo para tratar de dar a conocer el proyecto y ver si se anima alguien en el barrio a compartir la salida a internet.
+Antes de empezar vamos a configurar los servicios básicos.
+DNS Para sacarle partido a la RouterBoard se configura una cache DNS
+/ip dnsset allow-remote-requests=yes cache-size=4096KiB servers=91.239.100.100,89.233.43.71Rechaza peticiones dns externas:
+/ip firewall filteradd chain=input in-interface=ether1 protocol=udp dst-port=53 action=dropadd chain=input in-interface=ether1 protocol=tcp dst-port=53 action=dropY en el firewall una nueva redirección interna del puerto 53</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Buenas practicas en la realizacion de tus radioenlaces</title>
+        <link>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</link>
+        <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 16 Jan 2017 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</guid>
+        <description>Antes de instalar: Llevar los equipos configurados. Si a la hora de poner en funcionamiento el enlace surgen problemas: como que el equipo no enciende, mala transferencia de datos&amp;hellip; será más fácil localizar averías en el cableado, conectores y alimentación, POE.
+Planificar el enlace: Si es posible hacer una primera visita para saber como planificar la instalación y saber que material puede hacer falta, cableados, herramienta que tenemos que llevar, accesos a zonas comunes bajo llave, etc&amp;hellip; tomar notas y fotos, ortofotos, línea de visión directa entre antenas, referencias para orientar las anteas.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>Ubiquiti</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Virtualizar hotspot MikroTik</title>
+        <link>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</link>
+        <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Tue, 15 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</guid>
+        <description>VirtualBox Vamos a virtualizar RouterOS en una vieja maquina para convertirlo en hotspot MikroTik.
+Necesitamos una maquina que tenga más de una interfaz de red, un router con una sola interfaz no tiene mucho sentido.
+Un PC Pentium 4 completo se puede encontrar de segunda mano por 50 euros, y tarjetas de red 10/100 las regalan.
+En el servidor nos aseguramos que en la bios esté marcada la casilla de virtualización, (la máquina tiene que soportar virtualización VT-x o AMD-V) ya de paso en la sección de power management que el servidor se encienda si hay una interrupción de la alimentación eléctrica.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>VirtualBox</category>
+            
+          
+            
+              <category>RouterOS</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Portal cautivo hotspot mikrotik</title>
+        <link>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</link>
+        <pubDate>Wed, 09 Mar 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Wed, 09 Mar 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</guid>
+        <description>Vista la experiencia no soy partidario de usar hotspot con portal cautivo, entiendo que en algunos escenarios puede ser de utilidad. Intro La cosa es que cuando hacemos un hotspot con MikroTik una de los problemas que nos encontramos tras hacer el wizard es que el usuario que se conecta obtiene ip de manera correcta pero a la hora de ser redireccionado al portal cautivo si va a una dirección https no se le muestra la página y le sale un error 404.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+        
+        
+          
+            
+              <category>red</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Hotspot</title>
+        <link>https://hotspotcepeda.github.io/es/posts/hotspot/</link>
+        <pubDate>Sun, 05 Jan 2014 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 05 Jan 2014 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/hotspot/</guid>
+        <description>&lt;p&gt;Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.&lt;br /&gt;
+La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>guifi.net</category>
+            
+          
+            
+              <category>hotspot</category>
+            
+          
+            
+              <category>mikrotik</category>
+            
+          
+            
+              <category>cepeda la mora</category>
+            
+          
+            
+              <category>Ubiquiti</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+        
+        
+          
+            
+              <category>Ayto</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

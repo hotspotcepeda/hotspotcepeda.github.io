@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>USB on HotspotCepeda, La red comunitaria.</title>
+    <link>https://hotspotcepeda.github.io/es/tags/usb/</link>
+    <description>Recent content in USB on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Mon, 02 May 2016 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/usb/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>USB MULTIBOOT MULTISYSTEM</title>
+        <link>https://hotspotcepeda.github.io/es/posts/multiboot_multisystem/</link>
+        <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 02 May 2016 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/multiboot_multisystem/</guid>
+        <description>Para hacer un USB boot con varios SO ya sea de diagnostico o live la mejor herramienta que he encontrado es MULTISYSTEM.
+Admite trabajar en modo persistente guardando los cambios o en live.
+http://liveusb.info/dotclear/index.php?pages/install
+Es buena cosa contar con un USB con herramientas de diagnostico y lives de SO para instalar, siempre que la maquina donde lo conectemos tenga capacidad de arrancar desde USB.</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/MultiSystem.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>USB</category>
+            
+          
+            
+              <category>multisystem</category>
+            
+          
+            
+              <category>debian</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+          
+            
+              <category>Red comunitaria</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
