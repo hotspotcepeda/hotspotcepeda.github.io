@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Xdr on HotspotCepeda, La red comunitaria.</title>
+    <link>http://localhost:1313/es/tags/xdr/</link>
+    <description>Recent content in Xdr on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/es/tags/xdr/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Wazuh: Tu Centro de Seguridad Open Source (Guía Completa)</title>
+        <link>http://localhost:1313/es/posts/wazuh/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Fri, 06 Dec 2024 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/es/posts/wazuh/</guid>
+        <description>&lt;h2 id=&#34;-qué-es-wazuh-el-guardián-de-tu-infraestructura&#34;&gt;🌐 ¿Qué es Wazuh? El Guardián de tu Infraestructura&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Wazuh&lt;/strong&gt; es una plataforma de seguridad de código abierto, gratuita y universalmente reconocida. Funciona como una solución &lt;strong&gt;XDR&lt;/strong&gt; (Detección y Respuesta Extendidas) y &lt;strong&gt;SIEM&lt;/strong&gt; (Gestión de Eventos e Información de Seguridad) todo en uno.&lt;/p&gt;
+&lt;p&gt;En términos sencillos, Wazuh centraliza, analiza y responde a eventos de seguridad de toda tu infraestructura, desde servidores y PCs hasta dispositivos móviles.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Arquitectura de Wazuh&#34; src=&#34;images/feature1/wazuh-architecture.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;qué-hace-exactamente&#34;&gt;¿Qué Hace Exactamente?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Detección de Intrusiones (HIDS):&lt;/strong&gt; Monitoriza tus sistemas en busca de actividad sospechosa, cambios no autorizados en ficheros y malware.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Análisis de Logs:&lt;/strong&gt; Recopila y analiza logs de cualquier fuente (aplicaciones, sistemas operativos, firewalls) para detectar patrones de ataque.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitorización de Integridad de Ficheros (FIM):&lt;/strong&gt; Te alerta si ficheros críticos del sistema o de tus aplicaciones son modificados.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluación de Vulnerabilidades:&lt;/strong&gt; Detecta software obsoleto o con vulnerabilidades conocidas en tus equipos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cumplimiento Normativo:&lt;/strong&gt; Ayuda a cumplir con estándares de seguridad como PCI DSS, GDPR o HIPAA mediante reglas predefinidas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Respuesta Activa:&lt;/strong&gt; Puede tomar acciones automáticas, como bloquear una dirección IP en el firewall o detener un proceso malicioso.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-instalación-del-servidor-wazuh-en-proxmox-lxc&#34;&gt;🛠️ Instalación del Servidor Wazuh en Proxmox LXC&lt;/h2&gt;
+&lt;p&gt;Vamos a instalar la pila completa de Wazuh (Indexer, Server y Dashboard) en un único contenedor LXC, una opción eficiente y potente para un homelab.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="http://localhost:1313/images/feature1/wazuh-banner.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>wazuh</category>
+            
+          
+            
+              <category>siem</category>
+            
+          
+            
+              <category>xdr</category>
+            
+          
+            
+              <category>seguridad</category>
+            
+          
+            
+              <category>proxmox</category>
+            
+          
+            
+              <category>homelab</category>
+            
+          
+        
+        
+          
+            
+              <category>Seguridad</category>
+            
+          
+            
+              <category>Homelab</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

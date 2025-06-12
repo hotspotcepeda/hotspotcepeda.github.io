@@ -17,7 +17,7 @@ tags:
 categories:
   - Homelab
   - Virtualización
-image: images/feature1/lxc-proxmox-banner.png
+image: images/feature1/lxc.png
 ---
 
 ## 🔍 ¿Qué es LXC ?
@@ -30,8 +30,6 @@ Esto se traduce en eficiencia :
 - **Bajo Overhead:** Consumo mínimo de RAM y CPU, permitiendo una mayor densidad de servicios en el mismo hardware.
 - **Integración Nativa:** Se sienten como una VM ligera, con su propia IP y servicios, pero sin el peso del hipervisor.
 
-![Arquitectura LXC vs VM](images/feature1/lxc-vs-vm.png)
-
 ### Conceptos Clave en Proxmox
 
 *   **Template (Plantilla):** Imágenes de sistema operativo preconfiguradas (Ubuntu, Debian, Alpine, etc.) que sirven como base para tus contenedores.
@@ -40,7 +38,7 @@ Esto se traduce en eficiencia :
 *   **Bind Mount:** Permite compartir un directorio del host de Proxmox directamente dentro de un contenedor. Ideal para datos compartidos.
 *   **Integración con ZFS:** Si usas ZFS como almacenamiento, los snapshots y clones de contenedores son casi instantáneos y muy eficientes en espacio.
 
-## 🛠️ Comandos `pct`: La Navaja Suiza para LXC en Proxmox
+## 🛠️ Comandos pct para LXC en Proxmox
 
 Olvídate de `lxc-*`. En Proxmox, el comando `pct` (Proxmox Container Toolkit) manda. Comandos esenciales .
 
@@ -142,5 +140,5 @@ vzdump 100 --compress zstd --storage mi-storage-de-backups --mode snapshot
 *   **Bots y Scripts de Automatización:** Contenedores dedicados para bots de Discord, Telegram, o scripts de Python.
 *   **Entornos de Desarrollo:** Un contenedor por proyecto para aislar dependencias sin el peso de Docker.
 
- ¡ Al ataque ! 🚀
-````
+
+# ¡ Al ataque ! 🚀

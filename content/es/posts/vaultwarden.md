@@ -22,11 +22,11 @@ Después de un intenso viaje de configuración, aquí se presenta una guía comp
 
 Este post resume la arquitectura final, la configuración clave de cada componente y las valiosas lecciones aprendidas durante el proceso.
 
-## 🚀 La Arquitectura Final: El Flujo de la Verdad
+## 🚀 Arquitectura
 
 El error más común es no entender cómo deben comunicarse los servicios. Después de todo el troubleshooting, la arquitectura correcta es simple y elegante:
 
-**`Tu Dispositivo -> AdGuard (DNS) -> Nginx Proxy Manager (Recepción) -> Vaultwarden (Servicio)`**
+**`Dispositivo (petición) -> AdGuard (DNS) -> Nginx Proxy Manager (Recepción) -> Vaultwarden (Servicio)`**
 
 En una analogía más clara:
 
@@ -34,7 +34,6 @@ En una analogía más clara:
 2.  **Nginx Proxy Manager (La Recepción Segura):** Es la única puerta de entrada. Recibe la llamada en un idioma seguro (HTTPS), verifica la identidad (el dominio) y transfiere la llamada a la oficina correcta en un idioma interno (HTTP).
 3.  **Vaultwarden (La Oficina Privada):** Hace el trabajo real. No tiene puerta a la calle y solo habla con la recepción.
 
-Con esto claro, ¡vamos a la configuración!
 
 ## 🛠️ Componentes del Ecosistema
 
@@ -45,7 +44,7 @@ Con esto claro, ¡vamos a la configuración!
 | **AdGuard Home**      | Servidor DNS local y bloqueo de anuncios   | Contenedor LXC    | `192.168.100.110` |
 | **Nginx Proxy Mgr**   | Reverse Proxy y gestión de SSL             | Contenedor LXC    | `192.168.100.183` |
 | **Vaultwarden**       | Servidor de contraseñas (Bitwarden)        | Contenedor LXC    | `192.168.100.182` |
-| **Tailscale**         | VPN segura para acceso remoto (Overlay Net) | Todos los equipos | IP de Tailscale  |
+| **Tailscale**         | VPN segura para acceso remoto (Overlay Net) | Todos los equipos | N/A  |
 
 ## ⚙️ Guía de Configuración Clave
 
@@ -61,7 +60,7 @@ Aquí no se detallará la instalación básica de cada LXC (que se ha hecho con 
 *   **Rol:** Resolver nuestros dominios locales a las IPs correctas.
 *   **Configuración Crítica:** `Filters` -> `DNS rewrites`.
     *   Crea una reescritura para tu servicio.
-    *   **Dominio:** `vault.dominio.com`
+    *   **Dominio:** `subdominio.dominio.com`
     *   **IP de Respuesta:** **¡DEBE APUNTAR AL REVERSE PROXY (NPM)!**.
         ```
         192.168.100.183
@@ -94,7 +93,7 @@ Aquí no se detallará la instalación básica de cada LXC (que se ha hecho con 
 *   **Rol:** Recibir el tráfico HTTPS, desencriptarlo y pasarlo a Vaultwarden.
 *   **Configuración Crítica:** Crear un `Proxy Host`.
     *   **Pestaña Details:**
-        *   Domain Names: `vault.dominio.com`
+        *   Domain Names: `subdominio.dominio.com`
         *   Scheme: `http`
         *   Forward Hostname / IP: `192.168.100.182` (La IP de Vaultwarden)
         *   Forward Port: `8000`
@@ -138,7 +137,7 @@ Este setup es robusto, pero el camino para llegar a él estuvo lleno de pistas f
 3.  **DNS del Navegador vs. Sistema:** Los navegadores modernos con **"DNS Seguro" (DoH)** pueden ignorar tu DNS local (AdGuard). Desactivarlo o usar el fichero `hosts` de Windows fue clave para diagnosticar.
 4.  **Configuración de Vaultwarden:** La variable `ROCKET_ADDRESS=0.0.0.0` es imprescindible para que el servicio acepte conexiones externas a su contenedor. Si se queda en `127.0.0.1`, nadie excepto él mismo puede hablarle.
 5.  **El Destino del DNS Rewrite:** El error más simple. La reescritura en AdGuard **siempre** debe apuntar al Reverse Proxy (NPM), no al servicio final (Vaultwarden).
-6.  **Inprescindible contratar un dominio** En verdad es justo y necesario **Cloudflare** es una opción económica y solida.
+6.  **Imprescindible contratar un dominio** En verdad es justo y necesario **Cloudflare** es una opción económica y solida.
 
 Espero que este post sirva de ayuda como una guía clara y una fuente de motivación.
 Montar un homelab privado y seguro es un viaje de aprendizaje increíblemente satisfactorio.

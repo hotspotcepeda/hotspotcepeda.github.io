@@ -1761,16 +1761,15 @@
       <h1 id="guía-definitiva-vaultwarden-y-tailscale">Guía Definitiva: Vaultwarden y Tailscale</h1>
 <p>Después de un intenso viaje de configuración, aquí se presenta una guía completa sobre cómo montar un entorno <code>homelab</code> seguro, privado y accesible desde cualquier lugar. El objetivo final: tener nuestro propio gestor de contraseñas (Vaultwarden) funcionando a la perfección, sin exponer un solo puerto a internet.</p>
 <p>Este post resume la arquitectura final, la configuración clave de cada componente y las valiosas lecciones aprendidas durante el proceso.</p>
-<h2 id="-la-arquitectura-final-el-flujo-de-la-verdad">🚀 La Arquitectura Final: El Flujo de la Verdad</h2>
+<h2 id="-arquitectura">🚀 Arquitectura</h2>
 <p>El error más común es no entender cómo deben comunicarse los servicios. Después de todo el troubleshooting, la arquitectura correcta es simple y elegante:</p>
-<p><strong><code>Tu Dispositivo -&gt; AdGuard (DNS) -&gt; Nginx Proxy Manager (Recepción) -&gt; Vaultwarden (Servicio)</code></strong></p>
+<p><strong><code>Dispositivo (petición) -&gt; AdGuard (DNS) -&gt; Nginx Proxy Manager (Recepción) -&gt; Vaultwarden (Servicio)</code></strong></p>
 <p>En una analogía más clara:</p>
 <ol>
 <li><strong>AdGuard (La Guía Telefónica):</strong> Tu dispositivo pregunta por <code>subdominio.dominio.com</code>. AdGuard le da el número de la <strong>Recepción del Edificio</strong>, no el de la oficina interna.</li>
 <li><strong>Nginx Proxy Manager (La Recepción Segura):</strong> Es la única puerta de entrada. Recibe la llamada en un idioma seguro (HTTPS), verifica la identidad (el dominio) y transfiere la llamada a la oficina correcta en un idioma interno (HTTP).</li>
 <li><strong>Vaultwarden (La Oficina Privada):</strong> Hace el trabajo real. No tiene puerta a la calle y solo habla con la recepción.</li>
 </ol>
-<p>Con esto claro, ¡vamos a la configuración!</p>
 <h2 id="-componentes-del-ecosistema">🛠️ Componentes del Ecosistema</h2>
 <table>
   <thead>
@@ -1816,7 +1815,7 @@
           <td><strong>Tailscale</strong></td>
           <td>VPN segura para acceso remoto (Overlay Net)</td>
           <td>Todos los equipos</td>
-          <td>IP de Tailscale</td>
+          <td>N/A</td>
       </tr>
   </tbody>
 </table>
@@ -1833,7 +1832,7 @@
 <li><strong>Configuración Crítica:</strong> <code>Filters</code> -&gt; <code>DNS rewrites</code>.
 <ul>
 <li>Crea una reescritura para tu servicio.</li>
-<li><strong>Dominio:</strong> <code>vault.dominio.com</code></li>
+<li><strong>Dominio:</strong> <code>subdominio.dominio.com</code></li>
 <li><strong>IP de Respuesta:</strong> <strong>¡DEBE APUNTAR AL REVERSE PROXY (NPM)!</strong>.
 <pre tabindex="0"><code>192.168.100.183
 </code></pre></li>
@@ -1890,7 +1889,7 @@
 <li>
 <p><strong>Pestaña Details:</strong></p>
 <ul>
-<li>Domain Names: <code>vault.dominio.com</code></li>
+<li>Domain Names: <code>subdominio.dominio.com</code></li>
 <li>Scheme: <code>http</code></li>
 <li>Forward Hostname / IP: <code>192.168.100.182</code> (La IP de Vaultwarden)</li>
 <li>Forward Port: <code>8000</code></li>
@@ -1961,7 +1960,7 @@
 <li><strong>DNS del Navegador vs. Sistema:</strong> Los navegadores modernos con <strong>&ldquo;DNS Seguro&rdquo; (DoH)</strong> pueden ignorar tu DNS local (AdGuard). Desactivarlo o usar el fichero <code>hosts</code> de Windows fue clave para diagnosticar.</li>
 <li><strong>Configuración de Vaultwarden:</strong> La variable <code>ROCKET_ADDRESS=0.0.0.0</code> es imprescindible para que el servicio acepte conexiones externas a su contenedor. Si se queda en <code>127.0.0.1</code>, nadie excepto él mismo puede hablarle.</li>
 <li><strong>El Destino del DNS Rewrite:</strong> El error más simple. La reescritura en AdGuard <strong>siempre</strong> debe apuntar al Reverse Proxy (NPM), no al servicio final (Vaultwarden).</li>
-<li><strong>Inprescindible contratar un dominio</strong> En verdad es justo y necesario <strong>Cloudflare</strong> es una opción económica y solida.</li>
+<li><strong>Imprescindible contratar un dominio</strong> En verdad es justo y necesario <strong>Cloudflare</strong> es una opción económica y solida.</li>
 </ol>
 <p>Espero que este post sirva de ayuda como una guía clara y una fuente de motivación.<br />
 Montar un homelab privado y seguro es un viaje de aprendizaje increíblemente satisfactorio.</p>
@@ -2277,11 +2276,11 @@ Montar un homelab privado y seguro es un viaje de aprendizaje increíblemente sa
 <nav class="pagination-single">
   
     
-      <a href="http://localhost:1313/es/posts/wazuh/" class="pagination-single__left">
+      <a href="http://localhost:1313/es/posts/lxc/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">Wazuh</div>      
+        <div class="pagination-single__left-title">LXC en Proxmox</div>      
       </a>
     
     <div class="grow"></div>
@@ -2642,7 +2641,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#-la-arquitectura-final-el-flujo-de-la-verdad">🚀 La Arquitectura Final: El Flujo de la Verdad</a></li>
+    <li><a href="#-arquitectura">🚀 Arquitectura</a></li>
     <li><a href="#-componentes-del-ecosistema">🛠️ Componentes del Ecosistema</a></li>
     <li><a href="#-guía-de-configuración-clave">⚙️ Guía de Configuración Clave</a>
       <ul>

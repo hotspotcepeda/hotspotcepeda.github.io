@@ -35,10 +35,19 @@
 &lt;li&gt;&lt;strong&gt;Bajo Overhead:&lt;/strong&gt; Consumo mínimo de RAM y CPU, permitiendo una mayor densidad de servicios en el mismo hardware.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Integración Nativa:&lt;/strong&gt; Se sienten como una VM ligera, con su propia IP y servicios, pero sin el peso del hipervisor.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;Arquitectura LXC vs VM&#34; src=&#34;images/feature1/lxc-vs-vm.png&#34;&gt;&lt;/p&gt;</description>
+&lt;h3 id=&#34;conceptos-clave-en-proxmox&#34;&gt;Conceptos Clave en Proxmox&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Template (Plantilla):&lt;/strong&gt; Imágenes de sistema operativo preconfiguradas (Ubuntu, Debian, Alpine, etc.) que sirven como base para tus contenedores.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contenedor Privilegiado:&lt;/strong&gt; Tiene acceso casi total a los recursos del host. Más compatible, pero menos seguro.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contenedor No Privilegiado:&lt;/strong&gt; Mapea los UIDs/GIDs, aislando el contenedor del host. Es la opción recomendada por seguridad.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bind Mount:&lt;/strong&gt; Permite compartir un directorio del host de Proxmox directamente dentro de un contenedor. Ideal para datos compartidos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integración con ZFS:&lt;/strong&gt; Si usas ZFS como almacenamiento, los snapshots y clones de contenedores son casi instantáneos y muy eficientes en espacio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-comandos-pct-para-lxc-en-proxmox&#34;&gt;🛠️ Comandos pct para LXC en Proxmox&lt;/h2&gt;
+&lt;p&gt;Olvídate de &lt;code&gt;lxc-*&lt;/code&gt;. En Proxmox, el comando &lt;code&gt;pct&lt;/code&gt; (Proxmox Container Toolkit) manda. Comandos esenciales .&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/lxc-proxmox-banner.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/lxc.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

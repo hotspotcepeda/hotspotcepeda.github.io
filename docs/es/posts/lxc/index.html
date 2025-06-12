@@ -1343,8 +1343,8 @@
 <meta property="og:description" content="Contenedores LXC en entorno Proxmox.">
 
   
-    <meta property="og:image" content="https://hotspotcepeda.github.io/images/feature1/lxc-proxmox-banner.png">
-    <meta property="og:image:url" content="https://hotspotcepeda.github.io/images/feature1/lxc-proxmox-banner.png">
+    <meta property="og:image" content="https://hotspotcepeda.github.io/images/feature1/lxc.png">
+    <meta property="og:image:url" content="https://hotspotcepeda.github.io/images/feature1/lxc.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="HotspotCepeda, La red comunitaria.">
     <meta property="twitter:title" content="LXC en Proxmox">
@@ -1392,7 +1392,7 @@
     "url" : "https://hotspotcepeda.github.io/es/posts/lxc/",
     "description": "Contenedores LXC en entorno Proxmox.",
     "keywords": ["lxc","proxmox","contenedores","virtualización","devops"],
-    "image" : "https://hotspotcepeda.github.io/images/feature1/lxc-proxmox-banner.png",
+    "image" : "https://hotspotcepeda.github.io/images/feature1/lxc.png",
     "author": {
       "@type": "Person",
       "name": "HotspotCepeda"
@@ -1781,7 +1781,6 @@
 <li><strong>Bajo Overhead:</strong> Consumo mínimo de RAM y CPU, permitiendo una mayor densidad de servicios en el mismo hardware.</li>
 <li><strong>Integración Nativa:</strong> Se sienten como una VM ligera, con su propia IP y servicios, pero sin el peso del hipervisor.</li>
 </ul>
-<p><img alt="Arquitectura LXC vs VM" src="images/feature1/lxc-vs-vm.png"></p>
 <h3 id="conceptos-clave-en-proxmox">Conceptos Clave en Proxmox</h3>
 <ul>
 <li><strong>Template (Plantilla):</strong> Imágenes de sistema operativo preconfiguradas (Ubuntu, Debian, Alpine, etc.) que sirven como base para tus contenedores.</li>
@@ -1790,7 +1789,7 @@
 <li><strong>Bind Mount:</strong> Permite compartir un directorio del host de Proxmox directamente dentro de un contenedor. Ideal para datos compartidos.</li>
 <li><strong>Integración con ZFS:</strong> Si usas ZFS como almacenamiento, los snapshots y clones de contenedores son casi instantáneos y muy eficientes en espacio.</li>
 </ul>
-<h2 id="-comandos-pct-la-navaja-suiza-para-lxc-en-proxmox">🛠️ Comandos <code>pct</code>: La Navaja Suiza para LXC en Proxmox</h2>
+<h2 id="-comandos-pct-para-lxc-en-proxmox">🛠️ Comandos pct para LXC en Proxmox</h2>
 <p>Olvídate de <code>lxc-*</code>. En Proxmox, el comando <code>pct</code> (Proxmox Container Toolkit) manda. Comandos esenciales .</p>
 <p><em>(Ejemplo:  <code>100</code> es el ID de tu contenedor)</em></p>
 <h3 id="1-gestión-básica-del-ciclo-de-vida">1. Gestión Básica del Ciclo de Vida</h3>
@@ -1989,8 +1988,8 @@
 <li><strong>Bots y Scripts de Automatización:</strong> Contenedores dedicados para bots de Discord, Telegram, o scripts de Python.</li>
 <li><strong>Entornos de Desarrollo:</strong> Un contenedor por proyecto para aislar dependencias sin el peso de Docker.</li>
 </ul>
-<p>¡ Al ataque ! 🚀</p>
-<pre tabindex="0"><code></code></pre>
+<h1 id="-al-ataque--">¡ Al ataque ! 🚀</h1>
+
     </article>
     
     
@@ -2296,22 +2295,37 @@
     <section class="related">
     
     
+    <h1 class="related__title">
+      <hr class="hr-dots"/>
+      <div>
+        Ver también
+      </div>
+      <hr class="hr-dots"/>
+    </h1>
+    <ul class="related-ul">
+        
+        <li>
+          <a href="/es/posts/wazuh/" class="related__link">Wazuh: Tu Centro de Seguridad Open Source (Guía Completa)</a>
+        </li>
+        
+    </ul>
+    
   </section>
     <div class="grow"></div>
 <nav class="pagination-single">
   
     
-      <a href="https://hotspotcepeda.github.io/es/posts/terminal_custom/" class="pagination-single__left">
+      <a href="https://hotspotcepeda.github.io/es/posts/wazuh/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">Terminal custom</div>      
+        <div class="pagination-single__left-title">Wazuh: Tu Centro de Seguridad Open Source (Guía Completa)</div>      
       </a>
     
     <div class="grow"></div>
     
-      <a href="https://hotspotcepeda.github.io/es/posts/wazuh/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">Wazuh</div>
+      <a href="https://hotspotcepeda.github.io/es/posts/vaultwarden/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">Vaultwarden</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
@@ -2678,7 +2692,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <li><a href="#conceptos-clave-en-proxmox">Conceptos Clave en Proxmox</a></li>
       </ul>
     </li>
-    <li><a href="#-comandos-pct-la-navaja-suiza-para-lxc-en-proxmox">🛠️ Comandos <code>pct</code>: La Navaja Suiza para LXC en Proxmox</a>
+    <li><a href="#-comandos-pct-para-lxc-en-proxmox">🛠️ Comandos pct para LXC en Proxmox</a>
       <ul>
         <li><a href="#1-gestión-básica-del-ciclo-de-vida">1. Gestión Básica del Ciclo de Vida</a></li>
         <li><a href="#2-configuración-y-recursos">2. Configuración y Recursos</a></li>
