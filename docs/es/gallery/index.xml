@@ -27,7 +27,7 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Wed, 03 Mar 2021 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/gallery/paisaje/</guid>
-        <description>Fotos de Cepeda la Mora, panorámica desde el Ayto.</description>
+        <description>&lt;p&gt;Fotos de Cepeda la Mora, panorámica desde el Ayto.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature2/gallery.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -45,7 +45,7 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Wed, 03 Mar 2021 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/gallery/red/</guid>
-        <description>Equipamiento e instalaciones.</description>
+        <description>&lt;p&gt;Equipamiento e instalaciones.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>

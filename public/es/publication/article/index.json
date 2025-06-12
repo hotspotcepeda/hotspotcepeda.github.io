@@ -3,4 +3,4 @@
   
     
 
-[{"ENTRYTYPE":"article","abstract":"Se despliega en base a los http://guifi.net/es/PrincipiosGenerales bajo el código http://guifi.net/es/BuenasPracticas, .....","authors":["zzossig"],"booktitle":null,"id":0,"publication":"abc","publishDate":"2018-06-01T00:00:00Z","shorttitle":null,"tags":null,"title":"La propuesta","uri":"https://hotspotcepeda.github.io/es/publication/article/article_any_folder_name_1/"}]
+[{"ENTRYTYPE":"article","abstract":"Se despliega en base a los http://guifi.net/es/PrincipiosGenerales bajo el código http://guifi.net/es/BuenasPracticas, .....","authors":["zzossig"],"booktitle":null,"id":0,"publication":"abc","publishDate":"2018-06-01T00:00:00Z","shorttitle":null,"tags":null,"title":"La propuesta","uri":"http://localhost:1313/es/publication/article/article_any_folder_name_1/"}]

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Privacidad on HotspotCepeda, La red comunitaria.</title>
+    <link>http://localhost:1313/es/tags/privacidad/</link>
+    <description>Recent content in Privacidad on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/es/tags/privacidad/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>De NAS a Homelab: Privacidad, Aprendizaje y Rebelión Tecnológica</title>
+        <link>http://localhost:1313/es/posts/nas-proxmox/</link>
+        <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 24 Nov 2024 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/es/posts/nas-proxmox/</guid>
+        <description>&lt;h2 id=&#34;por-qué-un-homelab-y-no-solo-un-nas&#34;&gt;¿Por qué un homelab y no solo un NAS?&lt;/h2&gt;
+&lt;p&gt;Más que un simple NAS, quiero construir un &lt;strong&gt;homelab&lt;/strong&gt;: un espacio para servicios familiares, privados y seguros. Un acto de rebeldía contra la erosión de la privacidad y una forma de recuperar el control sobre nuestros datos.&lt;/p&gt;
+&lt;h3 id=&#34;objetivos&#34;&gt;Objetivos:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aprendizaje&lt;/strong&gt;: Experimentar con ZFS, virtualización, redes y autohospedaje.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacidad&lt;/strong&gt;: Dejar de depender de servicios cloud que monetizan tus datos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Autonomía&lt;/strong&gt;: Tener control total sobre tu infraestructura digital.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;componentes-clave&#34;&gt;Componentes clave&lt;/h2&gt;
+&lt;h3 id=&#34;-hardware&#34;&gt;🔧 Hardware&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Componente&lt;/th&gt;
+          &lt;th&gt;Especificación&lt;/th&gt;
+          &lt;th&gt;Notas&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Placa base + CPU&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Intel N100/N6005 o RK3588 (ARM)&lt;/td&gt;
+          &lt;td&gt;Equilibrio entre potencia y eficiencia energética.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;RAM&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;32-64 GB DDR4&lt;/td&gt;
+          &lt;td&gt;ZFS y máquinas virtuales son ávidas de memoria.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Almacenamiento&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;2x NVMe (256 GB) + 4x HDD (8 TB SATA)&lt;/td&gt;
+          &lt;td&gt;NVMe para sistema/VM, HDD para almacenamiento masivo con ZFS.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Fuente de alimentación&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;180W 80+ Platinum&lt;/td&gt;
+          &lt;td&gt;Suficiente para picos de arranque (≈77W en operación normal).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Caja&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Jonsbo N1 o alternativa DIY&lt;/td&gt;
+          &lt;td&gt;Priorizar ventilación y espacio para discos.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;opciones-de-placa-base&#34;&gt;Opciones de placa base:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RK3588 (ARM)&lt;/strong&gt;&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="http://localhost:1313/images/feature2/nas.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>homelab</category>
+            
+          
+            
+              <category>privacidad</category>
+            
+          
+            
+              <category>selfhosting</category>
+            
+          
+            
+              <category>opensource</category>
+            
+          
+        
+        
+          
+            
+              <category>Tecnología</category>
+            
+          
+        
+        
+          
+            
+              <category>Homelab desde cero</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

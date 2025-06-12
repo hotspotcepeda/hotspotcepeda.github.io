@@ -7,26 +7,26 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/categories/</link>
+    <link>http://localhost:1313/es/categories/</link>
     <description>Recent content in Categories on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>Ayto</title>
-        <link>https://hotspotcepeda.github.io/es/categories/ayto/</link>
-        <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+        <title>Homelab</title>
+        <link>http://localhost:1313/es/categories/homelab/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/categories/ayto/</guid>
+        <guid>http://localhost:1313/es/categories/homelab/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -39,12 +39,66 @@
       </item>
       
       <item>
-        <title>red</title>
-        <link>https://hotspotcepeda.github.io/es/categories/red/</link>
+        <title>Virtualización</title>
+        <link>http://localhost:1313/es/categories/virtualizaci%C3%B3n/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/categories/virtualizaci%C3%B3n/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Tecnología</title>
+        <link>http://localhost:1313/es/categories/tecnolog%C3%ADa/</link>
+        <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/categories/tecnolog%C3%ADa/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Ayto</title>
+        <link>http://localhost:1313/es/categories/ayto/</link>
+        <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/categories/ayto/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Red</title>
+        <link>http://localhost:1313/es/categories/red/</link>
         <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/categories/red/</guid>
+        <guid>http://localhost:1313/es/categories/red/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -58,11 +112,11 @@
       
       <item>
         <title>Linux</title>
-        <link>https://hotspotcepeda.github.io/es/categories/linux/</link>
+        <link>http://localhost:1313/es/categories/linux/</link>
         <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/categories/linux/</guid>
+        <guid>http://localhost:1313/es/categories/linux/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>

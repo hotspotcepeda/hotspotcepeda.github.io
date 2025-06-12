@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>CF-E120A on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/cf-e120a/</link>
+    <link>http://localhost:1313/es/tags/cf-e120a/</link>
     <description>Recent content in CF-E120A on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,24 +16,38 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/cf-e120a/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/cf-e120a/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>COMFAST CF-E120A v3 Bootloader</title>
-        <link>https://hotspotcepeda.github.io/es/posts/comfast_cf-e120a_v3_bootloader/</link>
+        <link>http://localhost:1313/es/posts/comfast_cf-e120a_v3_bootloader/</link>
         <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 02 Jan 2021 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/comfast_cf-e120a_v3_bootloader/</guid>
-        <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌 Comfast http://en.comfast.com.cn/index.php?m=content&amp;amp;c=index&amp;amp;a=show&amp;amp;catid=19&amp;amp;id=23
-OpenWRT https://openwrt.org/toh/comfast/cf-e120a
-qMp http://fw.qmp.cat/experimental/qMp_trunk-Kalimotxo_Comfast_CF-E120A-v3_sysupgrade_20210325-2110.bin
-  </description>
+        <guid>http://localhost:1313/es/posts/comfast_cf-e120a_v3_bootloader/</guid>
+        <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  &lt;strong&gt;¿Que qué es qMp?&lt;/strong&gt; Visite &lt;a href=&#34;http://qmp.cat/Inicio&#34;&gt;http://qmp.cat/Inicio&lt;/a&gt; para conocerlo.&lt;br /&gt;
+Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/projects/qmp&#34;&gt;https://dev.qmp.cat/projects/qmp&lt;/a&gt;  &lt;strong&gt;🙌&lt;/strong&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;comfast&#34;&gt;Comfast&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://en.comfast.com.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=19&amp;id=23&#34;&gt;http://en.comfast.com.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=19&amp;id=23&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;openwrt&#34;&gt;OpenWRT&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://openwrt.org/toh/comfast/cf-e120a&#34;&gt;https://openwrt.org/toh/comfast/cf-e120a&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;qmp&#34;&gt;qMp&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://fw.qmp.cat/experimental/qMp_trunk-Kalimotxo_Comfast_CF-E120A-v3_sysupgrade_20210325-2110.bin&#34;&gt;http://fw.qmp.cat/experimental/qMp_trunk-Kalimotxo_Comfast_CF-E120A-v3_sysupgrade_20210325-2110.bin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;COMFAST CF-E120A v3&#34; src=&#34;http://localhost:1313/gallery/red/comfast_cf-120a.png&#34;&gt;&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/qWvfSIp-dJc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/comfast_LOGO.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/comfast_LOGO.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

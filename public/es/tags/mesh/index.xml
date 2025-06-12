@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>mesh on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/mesh/</link>
-    <description>Recent content in mesh on HotspotCepeda, La red comunitaria.</description>
+    <title>Mesh on HotspotCepeda, La red comunitaria.</title>
+    <link>http://localhost:1313/es/tags/mesh/</link>
+    <description>Recent content in Mesh on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
@@ -16,21 +16,21 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/mesh/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/mesh/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Autoprovisión</title>
-        <link>https://hotspotcepeda.github.io/es/posts/autoprovision_nodo_qmp/</link>
+        <link>http://localhost:1313/es/posts/autoprovision_nodo_qmp/</link>
         <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Wed, 21 Apr 2021 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/autoprovision_nodo_qmp/</guid>
+        <guid>http://localhost:1313/es/posts/autoprovision_nodo_qmp/</guid>
         <description>&lt;p&gt;Por si alguien se lo quiere montar por su cuenta.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -78,16 +78,16 @@
       
       <item>
         <title>Topología</title>
-        <link>https://hotspotcepeda.github.io/es/posts/topologia/</link>
+        <link>http://localhost:1313/es/posts/topologia/</link>
         <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 17 Apr 2021 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/topologia/</guid>
+        <guid>http://localhost:1313/es/posts/topologia/</guid>
         <description>&lt;p&gt;Voy a intentar explicar como funciona la red en Cepeda, en resumidas cuentas es fácil, solo hay que asignar a los nodos ó antenas, las ips de la web guifi.net para que darle un poco de orden y la frecuencia de trabajo para que se entiendan, el canal y el país en el que está trabajando la red comunitaria.&lt;br /&gt;
 Los enlaces los negocia el qMp en base a lo que tenga al alcance. Es una red con vida propia.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -131,15 +131,17 @@ Los enlaces los negocia el qMp en base a lo que tenga al alcance. Es una red con
       
       <item>
         <title>NanoStation M5 GW</title>
-        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</link>
+        <link>http://localhost:1313/es/posts/nanostationm5_cliente_qmp/</link>
         <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 04 Feb 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</guid>
-        <description>   </description>
+        <guid>http://localhost:1313/es/posts/nanostationm5_cliente_qmp/</guid>
+        <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/196173358&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -191,16 +193,36 @@ Los enlaces los negocia el qMp en base a lo que tenga al alcance. Es una red con
       
       <item>
         <title>Modos de trabajo qMp</title>
-        <link>https://hotspotcepeda.github.io/es/posts/modos_de_trabajo_qmp/</link>
+        <link>http://localhost:1313/es/posts/modos_de_trabajo_qmp/</link>
         <pubDate>Tue, 27 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 27 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/modos_de_trabajo_qmp/</guid>
-        <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌 Modos de trabajo de la radio con qMp 3.2.1 Estos son los modos de trabajo en modo community, opciones de Wireless interface wlan0.
-Ad_hoc_(mesh)_+_access_point_(Lan) Ad_hoc_(mesh) Access_point_(mesh) Access_point_(Lan) Client_(WAN) EXPERIMENTAL_802.11s_(mesh) EXPERIMENTAL_802.11s_(mesh)+Access_point_(Lan) Disabled la opción desaparece </description>
+        <guid>http://localhost:1313/es/posts/modos_de_trabajo_qmp/</guid>
+        <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  &lt;strong&gt;¿Que qué es qMp?&lt;/strong&gt; Visite &lt;a href=&#34;http://qmp.cat/Inicio&#34;&gt;http://qmp.cat/Inicio&lt;/a&gt; para conocerlo.&lt;br /&gt;
+Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/projects/qmp&#34;&gt;https://dev.qmp.cat/projects/qmp&lt;/a&gt;  &lt;strong&gt;🙌&lt;/strong&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;modos-de-trabajo-de-la-radio-con-qmp-321&#34;&gt;Modos de trabajo de la radio con qMp 3.2.1&lt;/h4&gt;
+&lt;p&gt;Estos son los modos de trabajo en modo community, opciones de Wireless interface wlan0.&lt;/p&gt;
+&lt;h5 id=&#34;ad_hoc_mesh__access_point_lan&#34;&gt;Ad_hoc_(mesh)_+&lt;em&gt;access_point&lt;/em&gt;(Lan)&lt;/h5&gt;
+&lt;p&gt;&lt;img alt=&#34;Ad_hoc_(mesh)_+&lt;em&gt;access_point&lt;/em&gt;(Lan)&#34; src=&#34;http://localhost:1313/images/qmp/Ad_hoc_mesh_-_access_point_Lan.png&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;ad_hoc_mesh&#34;&gt;Ad_hoc_(mesh)&lt;/h5&gt;
+&lt;p&gt;&lt;img alt=&#34;Ad_hoc_(mesh)&#34; src=&#34;http://localhost:1313/images/qmp/Ad_hoc_mesh.png&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;access_point_mesh&#34;&gt;Access_point_(mesh)&lt;/h5&gt;
+&lt;p&gt;&lt;img alt=&#34;Access_point_(mesh)&#34; src=&#34;http://localhost:1313/images/qmp/access_point_mesh.png&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;access_point_lan&#34;&gt;Access_point_(Lan)&lt;/h5&gt;
+&lt;p&gt;&lt;img alt=&#34;Access_point_(Lan)&#34; src=&#34;http://localhost:1313/images/qmp/Access_point_Lan.png&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;client_wan&#34;&gt;Client_(WAN)&lt;/h5&gt;
+&lt;p&gt;&lt;img alt=&#34;Client_(WAN)&#34; src=&#34;http://localhost:1313/images/qmp/Client_WAN.png&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;experimental_80211s_mesh&#34;&gt;EXPERIMENTAL_802.11s_(mesh)&lt;/h5&gt;
+&lt;p&gt;&lt;img alt=&#34;EXPERIMENTAL_802.11s_(mesh)&#34; src=&#34;http://localhost:1313/images/qmp/EXPERIMENTAL_802.11s_mesh.png&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;experimental_80211s_meshaccess_point_lan&#34;&gt;EXPERIMENTAL_802.11s_(mesh)+Access_point_(Lan)&lt;/h5&gt;
+&lt;p&gt;&lt;img alt=&#34;EXPERIMENTAL_802.11s_(mesh)&#34; src=&#34;http://localhost:1313/images/qmp/EXPERIMENTAL_802.11s_mesh-Access_point_Lan.png&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;disabled-la-opción-desaparece&#34;&gt;Disabled la opción desaparece&lt;/h5&gt;
+&lt;p&gt;&lt;img alt=&#34;Disabled&#34; src=&#34;http://localhost:1313/images/qmp/Disabled.png&#34;&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -240,15 +262,204 @@ Ad_hoc_(mesh)_+_access_point_(Lan) Ad_hoc_(mesh) Access_point_(mesh) Access_poin
       
       <item>
         <title>UCI qMp archivo de configuración</title>
-        <link>https://hotspotcepeda.github.io/es/posts/uci_qmp_configuration_file/</link>
+        <link>http://localhost:1313/es/posts/uci_qmp_configuration_file/</link>
         <pubDate>Mon, 26 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 26 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/uci_qmp_configuration_file/</guid>
-        <description>¿Que qué es qMp? Visite http://qmp.cat/Inicio para conocerlo. Esta es la página de desarrollo proyecto https://dev.qmp.cat/projects/qmp 🙌 Este es el archivo de configuración qMp 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89  /etc/config/qmp Node configuration: config &amp;#39;qmp &amp;#39; &amp;#39;node &amp;#39; option &amp;#39;community_node_id &amp;#39;	&amp;#39;901 &amp;#39; # An number identifying the node.</description>
+        <guid>http://localhost:1313/es/posts/uci_qmp_configuration_file/</guid>
+        <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  &lt;strong&gt;¿Que qué es qMp?&lt;/strong&gt; Visite &lt;a href=&#34;http://qmp.cat/Inicio&#34;&gt;http://qmp.cat/Inicio&lt;/a&gt; para conocerlo.&lt;br /&gt;
+Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/projects/qmp&#34;&gt;https://dev.qmp.cat/projects/qmp&lt;/a&gt;  &lt;strong&gt;🙌&lt;/strong&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;este-es-el-archivo-de-configuración-qmp&#34;&gt;Este es el archivo de configuración qMp&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;45
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;46
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;47
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;48
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;49
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;50
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;51
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;52
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;53
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;54
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;55
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;56
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;57
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;58
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;59
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;60
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;61
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;62
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;63
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;64
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;65
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;66
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;67
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;68
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;69
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;70
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;71
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;72
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;73
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;74
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;75
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;76
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;77
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;78
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;79
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;80
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;81
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;82
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;83
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;84
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;85
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;86
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;87
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;88
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;89
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/etc/config/qmp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	Node configuration:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		config &lt;span class=&#34;s1&#34;&gt;&amp;#39;qmp &amp;#39;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;node &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;community_node_id &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;901 &amp;#39;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# An number identifying the node. In this case node name will be: &amp;#34;qmp901&amp;#34;. If not specified it will be auto-configured based on the last byte of the MAC address.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;key &amp;#39;&lt;/span&gt;			&lt;span class=&#34;s1&#34;&gt;&amp;#39;/tmp/ qmp_key &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# Path to file containing the QMP key. It is a hash generated randomly on each boot used by some QMP applications for security purposes.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	Interfaces
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		config &lt;span class=&#34;s1&#34;&gt;&amp;#39;qmp &amp;#39;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;interfaces &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;lan_devices &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;eth0 wlan1 &amp;#39;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Interfaces used for nal client connection, a bridge between them will be created and the DHCP server will be enabled.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;wan_device &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;eth1 &amp;#39;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;#  Interface connection with another network. A DHCP client will be enabled in this interface to automatically get the network conguration.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;mesh_devices &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;wlan0 wlan2 &amp;#39;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Interfaces used for meshing. Several VLAN will be created and routing protocols will be enabled.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	Networks
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		config &lt;span class=&#34;s1&#34;&gt;&amp;#39;qmp &amp;#39;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;networks &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;dns &amp;#39;&lt;/span&gt;			&lt;span class=&#34;s1&#34;&gt;&amp;#39;141.1.1.1 &amp;#39;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Nameservers used for the device and final clients&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;lan_address &amp;#39;&lt;/span&gt;		&lt;span class=&#34;s1&#34;&gt;&amp;#39;172.30.22.1 &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# lan address: IPv4 address used for final client bridge interface (see 7.3.2)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;lan_netmask &amp;#39;&lt;/span&gt;		&lt;span class=&#34;s1&#34;&gt;&amp;#39;255.255.255.0 &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#  lan netmask: IPv4 netmask used for final client bridge interface&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;niit_prefix96 &amp;#39;&lt;/span&gt;		&lt;span class=&#34;s1&#34;&gt;&amp;#39;0:0:0:0:0: ffff &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# niit prefix96: Niit is used for 4in6 tunneling, see 7.2.4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;mesh_protocol_vids &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;olsr6 :1 bmx6 :2&amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# VLAN tag suffix added for routing protocol interfaces (mesh vid - offset + mesh protocol vids)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;mesh_vid_offset &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;10&amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# VLAN tag offset used for routing protocol interfaces (e. eth0.10)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;olsr6_mesh_prefix48 &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;fd01 :0:0 &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# First 48 bits used for IPv6 calculation, see IP structure chapter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;bmx6_mesh_prefix48 &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;fd02 :0:0 &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;babel_mesh_prefix48 &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;fd03 :0:0 &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		      option &lt;span class=&#34;s1&#34;&gt;&amp;#39;netserver &amp;#39;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;1&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	Wireless
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	General section
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		config &lt;span class=&#34;s1&#34;&gt;&amp;#39;qmp &amp;#39;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;wireless &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;driver &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;mac80211 &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# Which driver to use: mac80211 or madwi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;country &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;ES &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# country: Country code to use for WiFi devices&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;bssid &amp;#39;&lt;/span&gt;		&lt;span class=&#34;s1&#34;&gt;&amp;#39;02: CA:FF:EE:BA:BE &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# bssid: BSSID to use for Ad-Hoc devices&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	Specific device section looks like that:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		config &lt;span class=&#34;s1&#34;&gt;&amp;#39;wireless &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;mode &amp;#39;&lt;/span&gt;		&lt;span class=&#34;s1&#34;&gt;&amp;#39;adhoc &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# WiFi supported modes are &amp;#34;adhoc&amp;#34;, &amp;#34;ap&amp;#34; or &amp;#34;none&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;name &amp;#39;&lt;/span&gt;		&lt;span class=&#34;s1&#34;&gt;&amp;#39;qMp &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# WiFi SSID to use in this device&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;txpower &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;20&amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# txpower: Transmit power for this device&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;channel &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;48+ &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# channel: Channel for this device. If +/- added, 802.11n in mode HT40 will be used&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;mac &amp;#39;&lt;/span&gt;		&lt;span class=&#34;s1&#34;&gt;&amp;#39;00: AA:BB:CC:DD:EE &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# mac: MAC identify the device&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;device &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;wlan0 &amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# device: Interface name used for this device&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	Tunnels
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		config &lt;span class=&#34;s1&#34;&gt;&amp;#39;qmp &amp;#39;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;tunnels &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;search_ipv4_tunnel &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;0.0.0.0/0 &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;offer_ipv6_tunnel &amp;#39;&lt;/span&gt;	&lt;span class=&#34;s1&#34;&gt;&amp;#39;::/0 &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Autoconfiguration system:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	/qmp_autoconf		 &lt;span class=&#34;c1&#34;&gt;# se ejecuta solo en el primer arranque, si ya existe no se ejecuta &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	/etc/init.d/qmp_autoconf &lt;span class=&#34;c1&#34;&gt;# a init script &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;				 &lt;span class=&#34;c1&#34;&gt;# pasos del autoconf 	1. Check if control file exist&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;							2. Configure wireless devices
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;							3. Configure networking
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;							4. Restart affected services
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;							5. Create control file 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Wireless config
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	/etc/qmp/qmp_wireless.sh &lt;span class=&#34;c1&#34;&gt;# dos funciones&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; qmp_configure_wifi_initial &lt;span class=&#34;c1&#34;&gt;# &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		config &lt;span class=&#34;s1&#34;&gt;&amp;#39;wireless &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;mode &amp;#39;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;adhoc &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;name &amp;#39;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;qMp -MESH &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		config &lt;span class=&#34;s1&#34;&gt;&amp;#39;wireless &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;mode &amp;#39;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;ap &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			option &lt;span class=&#34;s1&#34;&gt;&amp;#39;name &amp;#39;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;qMp -AP &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; qmp_configure_wifi &lt;span class=&#34;c1&#34;&gt;# in /etc/qmp/templates &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;					wireless .# &lt;span class=&#34;nv&#34;&gt;QMP_DEVICE&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;wifi - device
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;					wireless .# QMP_DEVICE. &lt;span class=&#34;nb&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; mac80211
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;					wireless .# QMP_DEVICE. &lt;span class=&#34;nv&#34;&gt;macaddr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# QMP_MAC&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;					wireless .# QMP_DEVICE. &lt;span class=&#34;nv&#34;&gt;channel&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# QMP_CHANNEL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;					wireless .@wifi - iface &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# QMP_INDEX ]. mode = adhoc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;					wireless .@wifi - iface &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# QMP_INDEX ]. bssid =# QMP_BSSID&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;MANAGEMENT TOOLS
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qmpcontrol &lt;span class=&#34;c1&#34;&gt;# is located on /etc/qmp/qmp_control.sh&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	Usage : /usr/bin/qmpcontrol &amp;lt;&lt;span class=&#34;k&#34;&gt;function&lt;/span&gt; &amp;gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; params &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	Available functions :
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			offer_default_gw	: Offers default gw to the network
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			search_default_gw	: Search &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; a default gw in the network
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			configure_wifi		: Configure and apply current wifi settings
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			configure_network	: Configure and apply current network settings
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			apply_netserver		: Start / stop netserver depending on configuration
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			enable_ns_ppt		: Enable POE passtrought from NanoStation M2/5 devices . Be careful with this
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qmpinfo &lt;span class=&#34;c1&#34;&gt;# It uses the library provided by OpenWRT libiwinfo which gives information about WiFi devices.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	Usage : qmpinfo &amp;lt;question &amp;gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; options &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	Available questions :
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			modes &amp;lt;dev &amp;gt;		: supported modes by the wireless card
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			channels &amp;lt;dev &amp;gt;		: supported channels and supported HT40 &lt;span class=&#34;nb&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;+/ -&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			ipv4			: print all ipv4 from this computer &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; excluding localhost &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			hostname		: print device hostname
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			bwtest &amp;lt;ipv6 &amp;gt;		: perform a bandwidth &lt;span class=&#34;nb&#34;&gt;test&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			nodes			: list all nodes on MESH network
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;			key			: print qmp key
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

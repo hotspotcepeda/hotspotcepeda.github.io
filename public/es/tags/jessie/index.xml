@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>jessie on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/jessie/</link>
-    <description>Recent content in jessie on HotspotCepeda, La red comunitaria.</description>
+    <title>Jessie on HotspotCepeda, La red comunitaria.</title>
+    <link>http://localhost:1313/es/tags/jessie/</link>
+    <description>Recent content in Jessie on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
@@ -16,26 +16,40 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 30 Oct 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/jessie/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/jessie/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Cliente SNMP linux</title>
-        <link>https://hotspotcepeda.github.io/es/posts/cliente_snmp_linux/</link>
+        <link>http://localhost:1313/es/posts/cliente_snmp_linux/</link>
         <pubDate>Sun, 30 Oct 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 30 Oct 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/cliente_snmp_linux/</guid>
-        <description>Instalación # apt-get install snmp snmpd snmp-mibs-downloaderConfiguracón Cambiar en nano /etc/snmp/snmpd.conf:
-agentAddress udp:127.0.0.1:161...rocommunity public default -V systemonlypor:
-agentAddress udp::161...rocommunity publiccambiar en nano /etc/snmp/snmp.conf:
-mibs :por:
-#mibs :Reiniciar snmpd
-# service snmpd restartComprobar: snmpwalk -v 2c -c public IP</description>
+        <guid>http://localhost:1313/es/posts/cliente_snmp_linux/</guid>
+        <description>&lt;h2 id=&#34;instalación&#34;&gt;Instalación&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get install snmp snmpd snmp-mibs-downloader
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;configuracón&#34;&gt;Configuracón&lt;/h2&gt;
+&lt;p&gt;Cambiar en nano /etc/snmp/snmpd.conf:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;agentAddress udp:127.0.0.1:161
+...
+rocommunity public default -V systemonly
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;por:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;agentAddress udp::161
+...
+rocommunity public
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;cambiar en nano /etc/snmp/snmp.conf:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mibs :
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;por:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#mibs :
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Reiniciar snmpd&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# service snmpd restart
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;comprobar&#34;&gt;Comprobar:&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;snmpwalk -v 2c -c public IP
+&lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -75,19 +89,33 @@ mibs :por:
       
       <item>
         <title>Rutina para después de instalar Debian</title>
-        <link>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</link>
+        <link>http://localhost:1313/es/posts/postinstalacion_debian/</link>
         <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 31 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</guid>
-        <description>Repositorios: # nano /etc/apt/sources.list Instalar KEYS de los repos
-gpg --keyserver pgpkeys.mit.edu --recv-key C90F9CB90E1FAD0Cgpg --export --armor C90F9CB90E1FAD0C | sudo apt-key add -apt-get install debian-keyring debian-archive-keyringapt-get install deb-multimedia-keyringRaspbian
-deb http://mirrordirector.raspbian.org/raspbian/ jessie main contrib non-free rpi# Uncomment line below then &#39;apt-get update&#39; to enable &#39;apt-get source&#39;#deb-src http://archive.raspbian.org/raspbian/ jessie main contrib non-free rpiThe directory /etc/apt/sources.list.d contains the file
-raspi.list
-/etc/apt/sources.list.d/raspi.listdeb http://archive.raspberrypi.org/debian/ jessie main ui# Uncomment line below then &#39;apt-get update&#39; to enable &#39;apt-get source&#39;#deb-src http://archive.</description>
+        <guid>http://localhost:1313/es/posts/postinstalacion_debian/</guid>
+        <description>&lt;h2 id=&#34;repositorios&#34;&gt;Repositorios:&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nano /etc/apt/sources.list 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Instalar KEYS de los repos&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;gpg --keyserver pgpkeys.mit.edu --recv-key C90F9CB90E1FAD0C
+gpg --export --armor C90F9CB90E1FAD0C | sudo apt-key add -
+apt-get install debian-keyring debian-archive-keyring
+apt-get install deb-multimedia-keyring
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Raspbian&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;deb http://mirrordirector.raspbian.org/raspbian/ jessie main contrib non-free rpi
+# Uncomment line below then &amp;#39;apt-get update&amp;#39; to enable &amp;#39;apt-get source&amp;#39;
+#deb-src http://archive.raspbian.org/raspbian/ jessie main contrib non-free rpi
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The directory /etc/apt/sources.list.d contains the file&lt;br /&gt;
+raspi.list&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/etc/apt/sources.list.d/raspi.list
+
+deb http://archive.raspberrypi.org/debian/ jessie main ui
+# Uncomment line below then &amp;#39;apt-get update&amp;#39; to enable &amp;#39;apt-get source&amp;#39;
+#deb-src http://archive.raspberrypi.org/debian/ jessie main ui
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Jessie&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

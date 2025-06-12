@@ -27,12 +27,26 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 30 Oct 2016 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/cliente_snmp_linux/</guid>
-        <description>Instalación # apt-get install snmp snmpd snmp-mibs-downloaderConfiguracón Cambiar en nano /etc/snmp/snmpd.conf:
-agentAddress udp:127.0.0.1:161...rocommunity public default -V systemonlypor:
-agentAddress udp::161...rocommunity publiccambiar en nano /etc/snmp/snmp.conf:
-mibs :por:
-#mibs :Reiniciar snmpd
-# service snmpd restartComprobar: snmpwalk -v 2c -c public IP</description>
+        <description>&lt;h2 id=&#34;instalación&#34;&gt;Instalación&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get install snmp snmpd snmp-mibs-downloader
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;configuracón&#34;&gt;Configuracón&lt;/h2&gt;
+&lt;p&gt;Cambiar en nano /etc/snmp/snmpd.conf:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;agentAddress udp:127.0.0.1:161
+...
+rocommunity public default -V systemonly
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;por:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;agentAddress udp::161
+...
+rocommunity public
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;cambiar en nano /etc/snmp/snmp.conf:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mibs :
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;por:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#mibs :
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Reiniciar snmpd&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# service snmpd restart
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;comprobar&#34;&gt;Comprobar:&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;snmpwalk -v 2c -c public IP
+&lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>

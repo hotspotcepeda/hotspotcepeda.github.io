@@ -7,31 +7,117 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Proxmox on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/proxmox/</link>
+    <link>http://localhost:1313/es/tags/proxmox/</link>
     <description>Recent content in Proxmox on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Wazuh</title>
+        <link>http://localhost:1313/es/posts/wazuh/</link>
+        <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Thu, 26 Dec 2024 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/es/posts/wazuh/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="http://localhost:1313/images/feature1/wazuh.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>ciberseguridad</category>
+            
+          
+            
+              <category>proxmox</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>LXC en Proxmox</title>
+        <link>http://localhost:1313/es/posts/lxc/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Fri, 06 Dec 2024 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/es/posts/lxc/</guid>
+        <description>&lt;h2 id=&#34;-qué-es-lxc-&#34;&gt;🔍 ¿Qué es LXC ?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;LXC&lt;/strong&gt; (Linux Containers) es una tecnología de virtualización a nivel de sistema operativo que permite ejecutar múltiples sistemas Linux aislados, conocidos como contenedores (CTs), en un único host. A diferencia de las Máquinas Virtuales (VMs) tradicionales que emulan hardware completo, los contenedores LXC comparten el kernel del host.&lt;/p&gt;
+&lt;p&gt;Esto se traduce en eficiencia :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Arranque Instantáneo:&lt;/strong&gt; Los contenedores se inician en segundos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bajo Overhead:&lt;/strong&gt; Consumo mínimo de RAM y CPU, permitiendo una mayor densidad de servicios en el mismo hardware.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integración Nativa:&lt;/strong&gt; Se sienten como una VM ligera, con su propia IP y servicios, pero sin el peso del hipervisor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;Arquitectura LXC vs VM&#34; src=&#34;images/feature1/lxc-vs-vm.png&#34;&gt;&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="http://localhost:1313/images/feature1/lxc-proxmox-banner.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>lxc</category>
+            
+          
+            
+              <category>proxmox</category>
+            
+          
+            
+              <category>contenedores</category>
+            
+          
+            
+              <category>virtualización</category>
+            
+          
+            
+              <category>devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Homelab</category>
+            
+          
+            
+              <category>Virtualización</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
         <title>Librenms VM</title>
-        <link>https://hotspotcepeda.github.io/es/posts/librenms-vm/</link>
+        <link>http://localhost:1313/es/posts/librenms-vm/</link>
         <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 15 Sep 2022 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/librenms-vm/</guid>
+        <guid>http://localhost:1313/es/posts/librenms-vm/</guid>
         <description>&lt;p&gt;Como al actulizar me he cargado la maquina virtual de servidor de SNNMP Librenms al volver a instalar de 0 me ha costado un poco por que no me acordaba de nada.&lt;br /&gt;
 Voy a instalar la misma que tenia, la 18.04 y voy a ir actualizando para ver si le cojo el punto a Ubuntu, nunca me habia cargado nada actualizando Debian.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

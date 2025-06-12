@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>fotos on HotspotCepeda, La red comunitaria.</title>
+    <title>Fotos on HotspotCepeda, La red comunitaria.</title>
     <link>https://hotspotcepeda.github.io/es/tags/fotos/</link>
-    <description>Recent content in fotos on HotspotCepeda, La red comunitaria.</description>
+    <description>Recent content in Fotos on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
@@ -27,10 +27,15 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 03 Apr 2017 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/instalar_java_linux_debian/</guid>
-        <description>Unninstall DESINSTALACION TOTAL de todo lo relacionado con Java, Sun, Oracle, OpenJDK, IcedTea plugins, GIJ
-dpkg-query -W -f=&#39;${binary:Package}\n&#39; | grep -E -e &#39;^(ia32-)?(sun|oracle)-java&#39; -e &#39;^openjdk-&#39; -e &#39;^icedtea&#39; -e &#39;^(default|gcj)-j(re|dk)&#39; -e &#39;^gcj-(.*)-j(re|dk)&#39; -e &#39;^java-common&#39; | xargs sudo apt-get -y removesudo apt-get -y autoremovePurge config files:
-dpkg -l | grep ^rc | awk &#39;{print($2)}&#39; | xargs sudo apt-get -y purgeRemove Java config and cache directory:
-sudo bash -c &#39;ls -d /home/*/.</description>
+        <description>&lt;h2 id=&#34;unninstall&#34;&gt;Unninstall&lt;/h2&gt;
+&lt;p&gt;DESINSTALACION TOTAL de todo lo relacionado con Java, Sun, Oracle, OpenJDK, IcedTea plugins, GIJ&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;dpkg-query -W -f=&amp;#39;${binary:Package}\n&amp;#39; | grep -E -e &amp;#39;^(ia32-)?(sun|oracle)-java&amp;#39; -e &amp;#39;^openjdk-&amp;#39; -e &amp;#39;^icedtea&amp;#39; -e &amp;#39;^(default|gcj)-j(re|dk)&amp;#39; -e &amp;#39;^gcj-(.*)-j(re|dk)&amp;#39; -e &amp;#39;^java-common&amp;#39; | xargs sudo apt-get -y remove
+sudo apt-get -y autoremove
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Purge config files:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;dpkg -l | grep ^rc | awk &amp;#39;{print($2)}&amp;#39; | xargs sudo apt-get -y purge
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Remove Java config and cache directory:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo bash -c &amp;#39;ls -d /home/*/.java&amp;#39; | xargs sudo rm -rf
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Remove manually installed JVMs:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -70,10 +75,16 @@ sudo bash -c &#39;ls -d /home/*/.</description>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 03 Dec 2016 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/imagen_raw_nef_miniatura/</guid>
-        <description>Muy fácil, para tener la vista en miniatura de archivos de imagen NEF, RAW y demás en Nautilus primero instalamos el UFRaw, si es que no lo tenemos ya:
-# apt-get update# apt-get install ufrawAhora generamos este archivo /usr/share/thumbnailers/raw.thumbnailer
-# nano /usr/share/thumbnailers/raw.thumbnailerCopiamos este contenido en el archivo:
-[Thumbnailer Entry]Exec=/usr/bin/ufraw-batch --embedded-image --out-type=png --size=%s %u --overwrite --silent --output=%oMimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2;image/x-canon-crw;image/x-cap;image/x-cr2;image/x-crw;image/x-dcr;image/x-dcraw;image/x-dcs;image/x-dng;image/x-drf;image/x-eip;image/x-erf;image/x-fff;image/x-fuji-raf;image/x-iiq;image/x-k25;image/x-kdc;image/x-mef;image/x-minolta-mrw;image/x-mos;image/x-mrw;image/x-nef;image/x-nikon-nef;image/x-nrw;image/x-olympus-orf;image/x-orf;image/x-panasonic-raw;image/x-pef;image/x-pentax-pef;image/x-ptx;image/x-pxn;image/x-r3d;image/x-raf;image/x-raw;image/x-rw2;image/x-rwl;image/x-rwz;image/x-sigma-x3f;image/x-sony-arw;image/x-sony-sr2;image/x-sony-srf;image/x-sr2;image/x-srf;image/x-x3f;Salvar el archivo y ya está.</description>
+        <description>&lt;p&gt;Muy fácil, para tener la vista en miniatura de archivos de imagen NEF, RAW y demás en Nautilus primero instalamos el UFRaw, si es que no lo tenemos ya:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get update
+# apt-get install ufraw
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ahora generamos este archivo /usr/share/thumbnailers/raw.thumbnailer&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nano /usr/share/thumbnailers/raw.thumbnailer
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Copiamos este contenido en el archivo:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Thumbnailer Entry]
+Exec=/usr/bin/ufraw-batch --embedded-image --out-type=png --size=%s %u --overwrite --silent --output=%o
+MimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2;image/x-canon-crw;image/x-cap;image/x-cr2;image/x-crw;image/x-dcr;image/x-dcraw;image/x-dcs;image/x-dng;image/x-drf;image/x-eip;image/x-erf;image/x-fff;image/x-fuji-raf;image/x-iiq;image/x-k25;image/x-kdc;image/x-mef;image/x-minolta-mrw;image/x-mos;image/x-mrw;image/x-nef;image/x-nikon-nef;image/x-nrw;image/x-olympus-orf;image/x-orf;image/x-panasonic-raw;image/x-pef;image/x-pentax-pef;image/x-ptx;image/x-pxn;image/x-r3d;image/x-raf;image/x-raw;image/x-rw2;image/x-rwl;image/x-rwz;image/x-sigma-x3f;image/x-sony-arw;image/x-sony-sr2;image/x-sony-srf;image/x-sr2;image/x-srf;image/x-x3f;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Salvar el archivo y ya está.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>

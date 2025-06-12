@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>x11vnc on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/x11vnc/</link>
-    <description>Recent content in x11vnc on HotspotCepeda, La red comunitaria.</description>
+    <title>X11vnc on HotspotCepeda, La red comunitaria.</title>
+    <link>http://localhost:1313/es/tags/x11vnc/</link>
+    <description>Recent content in X11vnc on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
@@ -16,25 +16,43 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Fri, 14 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/x11vnc/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/x11vnc/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Escritorio remoto debian con x11vnc</title>
-        <link>https://hotspotcepeda.github.io/es/posts/debian_escritorio_remoto/</link>
+        <link>http://localhost:1313/es/posts/debian_escritorio_remoto/</link>
         <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 14 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/debian_escritorio_remoto/</guid>
-        <description>https://github.com/LibVNC/x11vnc
-Instalamos servidor:
-$ sudo apt-get update$ sudo apt-get install x11vncPoner el password:
-$ x11vnc -storepasswdEnter VNC password: *********Verify password: *********Write password to /home/USUARIO/.vnc/passwd? [y]/n yPassword written to: /home/USUARIO/.vnc/passwdOpciones para lanzar el servidor en
-$ man x11vnc :-forever : Mantiene el servidor en funcionamiento después de la sesion.-rfbauth /home/USUARIO/.vnc/passwd : Para que pida el password de la ruta que queramos.-usepw : pide el password default ~/.</description>
+        <guid>http://localhost:1313/es/posts/debian_escritorio_remoto/</guid>
+        <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  &lt;a href=&#34;https://github.com/LibVNC/x11vnc&#34;&gt;https://github.com/LibVNC/x11vnc&lt;/a&gt;
+&lt;/div&gt;&lt;br /&gt;
+Instalamos servidor:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo apt-get update
+$ sudo apt-get install x11vnc
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Poner el password:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ x11vnc -storepasswd
+Enter VNC password: *********
+Verify password: *********
+Write password to /home/USUARIO/.vnc/passwd? [y]/n y
+Password written to: /home/USUARIO/.vnc/passwd
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Opciones para lanzar el servidor en&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ man x11vnc :
+-forever : Mantiene el servidor en funcionamiento después de la sesion.
+-rfbauth /home/USUARIO/.vnc/passwd : Para que pida el password de la ruta que queramos.
+-usepw : pide el password default ~/.vnc/passwd
+-rfbport 5900 : Indicamos el puerto de trabajo, el que queramos, si no ponemos nada es el :5900
+-display :0 : Display independiente del puerto 0 1 2 3 4 5
+-bg : Lanza el server en background, segundo plano.
+-auth : indicamos el gestor de escritorio que queremos usar, si no lo sabemos lanzar: $ x11vnc -findauth
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Opciones para arrancar el servidor x11vnc: - Entrar por SSH y lanzarlo para una vez o para que se quede abierto.&lt;br /&gt;
+Ejemplo para conectarse usando cliente vinagre, remmina, tincvnc &amp;hellip; En el servidor ejecutamos:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

@@ -10,17 +10,17 @@
 
 
   
-  <script defer src="/js/fuse.min.8dfbf8696f107ab8b55732efbb04c5c51576692a4a2cce6effef9f6e92d341a7.js"></script>
+  <script defer src="/js/fuse.min.32195737929df2c8096e855a5789cbb3f1331224d9169e8705493e7008f47df8.js"></script>
 
 
 
-<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
+<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
 
-<script defer src="/js/lazysizes.min.498676c34eb225e85357ab0ce19c3c1244f3bd0bf595e5684d1b9d50ea4fbc42.js"></script>
+<script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1351,7 +1351,7 @@
     <meta property="twitter:description" content="Rutina para después de instalar Debian Jessie ">
   
 
-<meta name="generator" content="Hugo 0.87.0" />
+<meta name="generator" content="Hugo 0.139.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1410,54 +1410,6 @@
 </script>
 
     
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-82809297-2', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-82809297-2', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-
-
-
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWJ36NS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-
-
-
-  
-  
-  <script>
-    var dataLayer = window.dataLayer = window.dataLayer || [];
-    dataLayer.push({
-      page:'Rutina para después de instalar Debian',
-      categories:'only examples about your dataLayer'
-    });
-  </script>
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NWJ36NS');</script>
-  
-
-
-
-
     
 </head>
 
@@ -1806,11 +1758,11 @@ if (!doNotTrack) {
   🏷️
   
 
-  <li><a href="https://hotspotcepeda.github.io/es/tags/debian/" class="single__tag" title="debian">#debian</a></li>
+  <li><a href="https://hotspotcepeda.github.io/es/tags/debian/" class="single__tag" title="Debian">#Debian</a></li>
 
-  <li><a href="https://hotspotcepeda.github.io/es/tags/jessie/" class="single__tag" title="jessie">#jessie</a></li>
+  <li><a href="https://hotspotcepeda.github.io/es/tags/jessie/" class="single__tag" title="Jessie">#Jessie</a></li>
 
-  <li><a href="https://hotspotcepeda.github.io/es/tags/linux/" class="single__tag" title="linux">#linux</a></li>
+  <li><a href="https://hotspotcepeda.github.io/es/tags/linux/" class="single__tag" title="Linux">#Linux</a></li>
 
 </ul>
 
@@ -1818,25 +1770,25 @@ if (!doNotTrack) {
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
       <h2 id="repositorios">Repositorios:</h2>
-<pre><code># nano /etc/apt/sources.list 
+<pre tabindex="0"><code># nano /etc/apt/sources.list 
 </code></pre><p>Instalar KEYS de los repos</p>
-<pre><code>gpg --keyserver pgpkeys.mit.edu --recv-key C90F9CB90E1FAD0C
+<pre tabindex="0"><code>gpg --keyserver pgpkeys.mit.edu --recv-key C90F9CB90E1FAD0C
 gpg --export --armor C90F9CB90E1FAD0C | sudo apt-key add -
 apt-get install debian-keyring debian-archive-keyring
 apt-get install deb-multimedia-keyring
 </code></pre><p>Raspbian</p>
-<pre><code>deb http://mirrordirector.raspbian.org/raspbian/ jessie main contrib non-free rpi
-# Uncomment line below then 'apt-get update' to enable 'apt-get source'
+<pre tabindex="0"><code>deb http://mirrordirector.raspbian.org/raspbian/ jessie main contrib non-free rpi
+# Uncomment line below then &#39;apt-get update&#39; to enable &#39;apt-get source&#39;
 #deb-src http://archive.raspbian.org/raspbian/ jessie main contrib non-free rpi
 </code></pre><p>The directory /etc/apt/sources.list.d contains the file<br />
 raspi.list</p>
-<pre><code>/etc/apt/sources.list.d/raspi.list
+<pre tabindex="0"><code>/etc/apt/sources.list.d/raspi.list
 
 deb http://archive.raspberrypi.org/debian/ jessie main ui
-# Uncomment line below then 'apt-get update' to enable 'apt-get source'
+# Uncomment line below then &#39;apt-get update&#39; to enable &#39;apt-get source&#39;
 #deb-src http://archive.raspberrypi.org/debian/ jessie main ui
 </code></pre><p>Jessie</p>
-<pre><code>## DEBIAN OFICIAL
+<pre tabindex="0"><code>## DEBIAN OFICIAL
 
  deb http://ftp.fi.debian.org/debian/ jessie main contrib non-free
 
@@ -1909,10 +1861,10 @@ deb http://archive.raspberrypi.org/debian/ jessie main ui
  # deb http://ftp.uk.debian.org/debian squeeze main non-free
  
 </code></pre><h2 id="driver-de-la-tarjeta-wifi">Driver de la tarjeta wifi:</h2>
-<pre><code># apt-get update &amp;&amp; apt-get install firmware-iwlwifi
+<pre tabindex="0"><code># apt-get update &amp;&amp; apt-get install firmware-iwlwifi
 # modprobe -r iwlwifi ; modprobe iwlwifi
 </code></pre><p>Auto login</p>
-<pre><code>http://www.linuxserve.com/2015/06/how-to-enable-automatic-login-on-debian.html
+<pre tabindex="0"><code>http://www.linuxserve.com/2015/06/how-to-enable-automatic-login-on-debian.html
 
 Con GDM3
 
@@ -1925,7 +1877,7 @@ nano /etc/lightdm/lightdm.conf
 autologin-user=USUARIO
 autologin-user-timeout=0
 </code></pre><h2 id="autocompletar-con-tabulador">Autocompletar con tabulador</h2>
-<pre><code># apt-get  install bash-completion
+<pre tabindex="0"><code># apt-get  install bash-completion
 # vi /etc/bash.bashrc
 # enable bash completion in interactive shells
  if ! shopt -oq posix; then
@@ -1936,7 +1888,7 @@ autologin-user-timeout=0
    fi
  fi
 </code></pre><h2 id="interfaces-de-red">Interfaces de red</h2>
-<pre><code># nano /etc/network/interfaces
+<pre tabindex="0"><code># nano /etc/network/interfaces
 # cat /etc/network/interfaces
 # This file describes the network interfaces available on your system
 # and how to activate them. For more information, see interfaces(5).
@@ -1959,7 +1911,7 @@ iface eth0 inet dhcp
 # broadcast 192.168.1.255
 # gateway 192.168.1.1
 </code></pre><h2 id="mantiene-dns-con-reinicio">Mantiene DNS con reinicio</h2>
-<pre><code># apt-get install resolvconf
+<pre tabindex="0"><code># apt-get install resolvconf
 
 # cat /etc/resolv.conf
 # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
@@ -1973,7 +1925,7 @@ Poner aquí los DNS que queramos guardar  permanentemente y actualizar con resol
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 </code></pre><h2 id="retoques-en-grub">Retoques en grub</h2>
-<pre><code># nano /etc/default/grub
+<pre tabindex="0"><code># nano /etc/default/grub
 # sudo update-grub
 </code></pre><h2 id="migrar-correo-icedove-o-thunderbird">Migrar correo icedove o thunderbird</h2>
 <p>Se copia la carpeta del profile y se borra la que tenga, para ver la ruta de la carpeta del profile<br />
@@ -1982,7 +1934,7 @@ menu help -&gt;  Troubleshooting Information</p>
     </article>
     
     
-<script defer src="/js/clipboard.min.c168d3a04c45a631be76437054619a4a3b30107960cb9730be96012fef5762b0.js"></script>
+<script defer src="/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js"></script>
 
 <script defer src="/js/helper/prev.min.js"></script>
 
@@ -2372,7 +2324,7 @@ menu help -&gt;  Troubleshooting Information</p>
 </div>
 
 
-<script defer src="/js/swipe.min.d2e020e2d405fafaa45c0a10d2af949627bf554a9366c31a905af38f8cc30c30.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3065,7 +3017,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 
@@ -3417,7 +3369,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2024, <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero v1.0 Universal</a>
+                    ©2025, <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero v1.0 Universal</a>
                 
             </p>
         

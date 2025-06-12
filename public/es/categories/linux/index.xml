@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Linux on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/categories/linux/</link>
+    <link>http://localhost:1313/es/categories/linux/</link>
     <description>Recent content in Linux on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,22 +16,30 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 30 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Ejecutar aplicación por ssh</title>
-        <link>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</link>
+        <link>http://localhost:1313/es/posts/ssh_remote_comand/</link>
         <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 30 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</guid>
-        <description>SERVIDOR Agregar en
-# nano /etc/ssh/sshd_configX11Forwarding yes# service ssh restartCLIENTE $ ssh -X -Y user@maquina -p puerto aplicación</description>
+        <guid>http://localhost:1313/es/posts/ssh_remote_comand/</guid>
+        <description>&lt;h2 id=&#34;servidor&#34;&gt;SERVIDOR&lt;/h2&gt;
+&lt;p&gt;Agregar en&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nano /etc/ssh/sshd_config
+
+X11Forwarding yes
+
+# service ssh restart
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;cliente&#34;&gt;CLIENTE&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ssh -X -Y user@maquina -p puerto aplicación
+&lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -71,21 +79,107 @@
       
       <item>
         <title>Instalar conky en Debian</title>
-        <link>https://hotspotcepeda.github.io/es/posts/debian_conky/</link>
+        <link>http://localhost:1313/es/posts/debian_conky/</link>
         <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 15 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/debian_conky/</guid>
-        <description>https://github.com/brndnmtthws/conky
-# apt-get install conky conky-all# apt-get install curl lm-sensors hddtempPara autoarranque agregar en programas al inicio:
-conky p -15
-start conky -dstop
-pkill conkyrestart
-pkill -HUP conkyConfig nano /etc/conky/conky.conf
-background yesfont Zekton:size=8xftfont Zekton:size=8use_xft yesxftalpha 0.4update_interval 1.0total_run_times 0own_window yesown_window_type overrideown_window_transparent yesown_window_hints undecorated,below,skip_taskbar,skip_pagerdouble_buffer yesdraw_shades nodraw_outline nodraw_borders nodraw_graph_borders nominimum_size 220 5maximum_width 220default_color ffffffdefault_shade_color blackdefault_outline_color blackalignment top_rightgap_x 10gap_y 90no_buffers yescpu_avg_samples 2override_utf8_locale nouppercase no # set to yes if you want all text to be in uppercaseuse_spacer noTEXT${font Zekton:style=Bold:pixelsize=42}${alignc}${time %H:%M:%S}${font Zekton:size=8}lenovo T430s ${hr 1 }Hostname: $alignr$nodenameIP: $alignr${addr eth0}Kernel: $alignr$kernelUptime: $alignr$uptimeProcesses: ${alignr}$processes ($running_processes running)Load: ${alignr}$loadavgCPU0 ${alignc} ${freq}MHz ${alignr}(${cpu cpu0}%)${cpubar cpu0 4}CPU1 ${alignc} ${freq}MHz ${alignr}(${cpu cpu1}%)${cpubar 4 cpu1}CPU2 ${alignc} ${freq}MHz ${alignr}(${cpu cpu2}%)${cpubar 4 cpu2}CPU3 ${alignc} ${freq}MHz ${alignr}(${cpu cpu3}%)${cpubar 4 cpu3}CPU AVG${cpugraph}RAM ${alignr}$mem / $memmax ($memperc%)${membar 4}SWAP ${alignr}$swap / $swapmax ($swapperc%)${swapbar 4}Maximos de CPU $alignr CPU% MEM%${top name 1}$alignr${top cpu 1}${top mem 1}${top name 2}$alignr${top cpu 2}${top mem 2}${top name 3}$alignr${top cpu 3}${top mem 3}Maximos de MEM $alignr CPU% MEM%${top_mem name 1}$alignr${top_mem cpu 1}${top_mem mem 1}${top_mem name 2}$alignr${top_mem cpu 2}${top_mem mem 2}${top_mem name 3}$alignr${top_mem cpu 3}${top_mem mem 3}HDD FREE ${hr 1}${color}/ : ${alignr}${fs_free /} / ${fs_size /}${fs_bar 4 /}eth0 ${hr 1}${color}Down ${downspeed eth0} k/s ${alignr}Up ${upspeed eth0} k/s${downspeedgraph eth0 25,107} ${alignr}${upspeedgraph eth0 25,107}Total ${totaldown eth0} ${alignr}Total ${totalup eth0}wlan0 ${hr 1}${color}Intensidad WIFI $alignr ${wireless_link_qual wlan0}%Down ${downspeed wlan0} k/s ${alignr}Up ${upspeed wlan0} k/s${downspeedgraph wlan0 25,107} ${alignr}${upspeedgraph wlan0 25,107}Total ${totaldown wlan0} ${alignr}Total ${totalup wlan0}BATERIA${hr 1}${color}${battery_bar BAT0}${font Arial:style=Bold:size=12}</description>
+        <guid>http://localhost:1313/es/posts/debian_conky/</guid>
+        <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  &lt;a href=&#34;https://github.com/brndnmtthws/conky&#34;&gt;https://github.com/brndnmtthws/conky&lt;/a&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;img alt=&#34;Configuración de monitor de sistema en escritorio&#34; src=&#34;http://localhost:1313/images/post/escritorio_conky.png&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get install conky conky-all
+# apt-get install curl lm-sensors hddtemp
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Para autoarranque agregar en programas al inicio:&lt;/p&gt;
+&lt;p&gt;conky p -15&lt;/p&gt;
+&lt;h2 id=&#34;start&#34;&gt;start&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;conky -d
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;stop&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pkill conky
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;restart&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pkill -HUP conky
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;config&#34;&gt;Config&lt;/h2&gt;
+&lt;p&gt;nano /etc/conky/conky.conf&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;background yes
+font Zekton:size=8
+xftfont Zekton:size=8
+use_xft yes
+xftalpha 0.4
+update_interval 1.0
+total_run_times 0
+own_window yes
+own_window_type override
+own_window_transparent yes
+own_window_hints undecorated,below,skip_taskbar,skip_pager
+double_buffer yes
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+minimum_size 220 5
+maximum_width 220
+default_color ffffff
+default_shade_color black
+default_outline_color black
+alignment top_right
+gap_x 10
+gap_y 90
+no_buffers yes
+cpu_avg_samples 2
+override_utf8_locale no
+uppercase no # set to yes if you want all text to be in uppercase
+use_spacer no
+TEXT
+${font Zekton:style=Bold:pixelsize=42}${alignc}${time %H:%M:%S}${font Zekton:size=8}
+lenovo T430s ${hr 1 }
+Hostname: $alignr$nodename
+IP: $alignr${addr eth0}
+Kernel: $alignr$kernel
+Uptime: $alignr$uptime
+Processes: ${alignr}$processes ($running_processes running)
+Load: ${alignr}$loadavg
+CPU0 ${alignc} ${freq}MHz ${alignr}(${cpu cpu0}%)
+${cpubar cpu0 4}
+CPU1 ${alignc} ${freq}MHz ${alignr}(${cpu cpu1}%)
+${cpubar 4 cpu1}
+CPU2 ${alignc} ${freq}MHz ${alignr}(${cpu cpu2}%)
+${cpubar 4 cpu2}
+CPU3 ${alignc} ${freq}MHz ${alignr}(${cpu cpu3}%)
+${cpubar 4 cpu3}
+CPU AVG
+${cpugraph}
+RAM ${alignr}$mem / $memmax ($memperc%)
+${membar 4}
+SWAP ${alignr}$swap / $swapmax ($swapperc%)
+${swapbar 4}
+Maximos de CPU $alignr CPU% MEM%
+${top name 1}$alignr${top cpu 1}${top mem 1}
+${top name 2}$alignr${top cpu 2}${top mem 2}
+${top name 3}$alignr${top cpu 3}${top mem 3}
+Maximos de MEM $alignr CPU% MEM%
+${top_mem name 1}$alignr${top_mem cpu 1}${top_mem mem 1}
+${top_mem name 2}$alignr${top_mem cpu 2}${top_mem mem 2}
+${top_mem name 3}$alignr${top_mem cpu 3}${top_mem mem 3}
+HDD FREE ${hr 1}${color}
+/ : ${alignr}${fs_free /} / ${fs_size /}
+${fs_bar 4 /}
+eth0 ${hr 1}${color}
+Down ${downspeed eth0} k/s ${alignr}Up ${upspeed eth0} k/s
+${downspeedgraph eth0 25,107} ${alignr}${upspeedgraph eth0 25,107}
+Total ${totaldown eth0} ${alignr}Total ${totalup eth0}
+wlan0 ${hr 1}${color}
+Intensidad WIFI $alignr ${wireless_link_qual wlan0}%
+Down ${downspeed wlan0} k/s ${alignr}Up ${upspeed wlan0} k/s
+${downspeedgraph wlan0 25,107} ${alignr}${upspeedgraph wlan0 25,107}
+Total ${totaldown wlan0} ${alignr}Total ${totalup wlan0}
+BATERIA${hr 1}${color}
+${battery_bar BAT0}
+
+${font Arial:style=Bold:size=12}
+&lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -121,19 +215,37 @@ background yesfont Zekton:size=8xftfont Zekton:size=8use_xft yesxftalpha 0.4
       
       <item>
         <title>Escritorio remoto debian con x11vnc</title>
-        <link>https://hotspotcepeda.github.io/es/posts/debian_escritorio_remoto/</link>
+        <link>http://localhost:1313/es/posts/debian_escritorio_remoto/</link>
         <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 14 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/debian_escritorio_remoto/</guid>
-        <description>https://github.com/LibVNC/x11vnc
-Instalamos servidor:
-$ sudo apt-get update$ sudo apt-get install x11vncPoner el password:
-$ x11vnc -storepasswdEnter VNC password: *********Verify password: *********Write password to /home/USUARIO/.vnc/passwd? [y]/n yPassword written to: /home/USUARIO/.vnc/passwdOpciones para lanzar el servidor en
-$ man x11vnc :-forever : Mantiene el servidor en funcionamiento después de la sesion.-rfbauth /home/USUARIO/.vnc/passwd : Para que pida el password de la ruta que queramos.-usepw : pide el password default ~/.</description>
+        <guid>http://localhost:1313/es/posts/debian_escritorio_remoto/</guid>
+        <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  &lt;a href=&#34;https://github.com/LibVNC/x11vnc&#34;&gt;https://github.com/LibVNC/x11vnc&lt;/a&gt;
+&lt;/div&gt;&lt;br /&gt;
+Instalamos servidor:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo apt-get update
+$ sudo apt-get install x11vnc
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Poner el password:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ x11vnc -storepasswd
+Enter VNC password: *********
+Verify password: *********
+Write password to /home/USUARIO/.vnc/passwd? [y]/n y
+Password written to: /home/USUARIO/.vnc/passwd
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Opciones para lanzar el servidor en&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ man x11vnc :
+-forever : Mantiene el servidor en funcionamiento después de la sesion.
+-rfbauth /home/USUARIO/.vnc/passwd : Para que pida el password de la ruta que queramos.
+-usepw : pide el password default ~/.vnc/passwd
+-rfbport 5900 : Indicamos el puerto de trabajo, el que queramos, si no ponemos nada es el :5900
+-display :0 : Display independiente del puerto 0 1 2 3 4 5
+-bg : Lanza el server en background, segundo plano.
+-auth : indicamos el gestor de escritorio que queremos usar, si no lo sabemos lanzar: $ x11vnc -findauth
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Opciones para arrancar el servidor x11vnc: - Entrar por SSH y lanzarlo para una vez o para que se quede abierto.&lt;br /&gt;
+Ejemplo para conectarse usando cliente vinagre, remmina, tincvnc &amp;hellip; En el servidor ejecutamos:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -169,18 +281,23 @@ $ man x11vnc :-forever : Mantiene el servidor en funcionamiento después de la 
       
       <item>
         <title>Instalación de Java en Linux Debian</title>
-        <link>https://hotspotcepeda.github.io/es/posts/instalar_java_linux_debian/</link>
+        <link>http://localhost:1313/es/posts/instalar_java_linux_debian/</link>
         <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 03 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/instalar_java_linux_debian/</guid>
-        <description>Unninstall DESINSTALACION TOTAL de todo lo relacionado con Java, Sun, Oracle, OpenJDK, IcedTea plugins, GIJ
-dpkg-query -W -f=&#39;${binary:Package}\n&#39; | grep -E -e &#39;^(ia32-)?(sun|oracle)-java&#39; -e &#39;^openjdk-&#39; -e &#39;^icedtea&#39; -e &#39;^(default|gcj)-j(re|dk)&#39; -e &#39;^gcj-(.*)-j(re|dk)&#39; -e &#39;^java-common&#39; | xargs sudo apt-get -y removesudo apt-get -y autoremovePurge config files:
-dpkg -l | grep ^rc | awk &#39;{print($2)}&#39; | xargs sudo apt-get -y purgeRemove Java config and cache directory:
-sudo bash -c &#39;ls -d /home/*/.</description>
+        <guid>http://localhost:1313/es/posts/instalar_java_linux_debian/</guid>
+        <description>&lt;h2 id=&#34;unninstall&#34;&gt;Unninstall&lt;/h2&gt;
+&lt;p&gt;DESINSTALACION TOTAL de todo lo relacionado con Java, Sun, Oracle, OpenJDK, IcedTea plugins, GIJ&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;dpkg-query -W -f=&amp;#39;${binary:Package}\n&amp;#39; | grep -E -e &amp;#39;^(ia32-)?(sun|oracle)-java&amp;#39; -e &amp;#39;^openjdk-&amp;#39; -e &amp;#39;^icedtea&amp;#39; -e &amp;#39;^(default|gcj)-j(re|dk)&amp;#39; -e &amp;#39;^gcj-(.*)-j(re|dk)&amp;#39; -e &amp;#39;^java-common&amp;#39; | xargs sudo apt-get -y remove
+sudo apt-get -y autoremove
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Purge config files:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;dpkg -l | grep ^rc | awk &amp;#39;{print($2)}&amp;#39; | xargs sudo apt-get -y purge
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Remove Java config and cache directory:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo bash -c &amp;#39;ls -d /home/*/.java&amp;#39; | xargs sudo rm -rf
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Remove manually installed JVMs:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -212,18 +329,24 @@ sudo bash -c &#39;ls -d /home/*/.</description>
       
       <item>
         <title>VISTA EN MINIATURA DE ARCHIVOS DE IMAGEN NEF, RAW</title>
-        <link>https://hotspotcepeda.github.io/es/posts/imagen_raw_nef_miniatura/</link>
+        <link>http://localhost:1313/es/posts/imagen_raw_nef_miniatura/</link>
         <pubDate>Sat, 03 Dec 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 03 Dec 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/imagen_raw_nef_miniatura/</guid>
-        <description>Muy fácil, para tener la vista en miniatura de archivos de imagen NEF, RAW y demás en Nautilus primero instalamos el UFRaw, si es que no lo tenemos ya:
-# apt-get update# apt-get install ufrawAhora generamos este archivo /usr/share/thumbnailers/raw.thumbnailer
-# nano /usr/share/thumbnailers/raw.thumbnailerCopiamos este contenido en el archivo:
-[Thumbnailer Entry]Exec=/usr/bin/ufraw-batch --embedded-image --out-type=png --size=%s %u --overwrite --silent --output=%oMimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2;image/x-canon-crw;image/x-cap;image/x-cr2;image/x-crw;image/x-dcr;image/x-dcraw;image/x-dcs;image/x-dng;image/x-drf;image/x-eip;image/x-erf;image/x-fff;image/x-fuji-raf;image/x-iiq;image/x-k25;image/x-kdc;image/x-mef;image/x-minolta-mrw;image/x-mos;image/x-mrw;image/x-nef;image/x-nikon-nef;image/x-nrw;image/x-olympus-orf;image/x-orf;image/x-panasonic-raw;image/x-pef;image/x-pentax-pef;image/x-ptx;image/x-pxn;image/x-r3d;image/x-raf;image/x-raw;image/x-rw2;image/x-rwl;image/x-rwz;image/x-sigma-x3f;image/x-sony-arw;image/x-sony-sr2;image/x-sony-srf;image/x-sr2;image/x-srf;image/x-x3f;Salvar el archivo y ya está.</description>
+        <guid>http://localhost:1313/es/posts/imagen_raw_nef_miniatura/</guid>
+        <description>&lt;p&gt;Muy fácil, para tener la vista en miniatura de archivos de imagen NEF, RAW y demás en Nautilus primero instalamos el UFRaw, si es que no lo tenemos ya:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get update
+# apt-get install ufraw
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ahora generamos este archivo /usr/share/thumbnailers/raw.thumbnailer&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nano /usr/share/thumbnailers/raw.thumbnailer
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Copiamos este contenido en el archivo:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Thumbnailer Entry]
+Exec=/usr/bin/ufraw-batch --embedded-image --out-type=png --size=%s %u --overwrite --silent --output=%o
+MimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2;image/x-canon-crw;image/x-cap;image/x-cr2;image/x-crw;image/x-dcr;image/x-dcraw;image/x-dcs;image/x-dng;image/x-drf;image/x-eip;image/x-erf;image/x-fff;image/x-fuji-raf;image/x-iiq;image/x-k25;image/x-kdc;image/x-mef;image/x-minolta-mrw;image/x-mos;image/x-mrw;image/x-nef;image/x-nikon-nef;image/x-nrw;image/x-olympus-orf;image/x-orf;image/x-panasonic-raw;image/x-pef;image/x-pentax-pef;image/x-ptx;image/x-pxn;image/x-r3d;image/x-raf;image/x-raw;image/x-rw2;image/x-rwl;image/x-rwz;image/x-sigma-x3f;image/x-sony-arw;image/x-sony-sr2;image/x-sony-srf;image/x-sr2;image/x-srf;image/x-x3f;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Salvar el archivo y ya está.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -255,18 +378,18 @@ sudo bash -c &#39;ls -d /home/*/.</description>
       
       <item>
         <title>USB MULTIBOOT MULTISYSTEM</title>
-        <link>https://hotspotcepeda.github.io/es/posts/multiboot_multisystem/</link>
+        <link>http://localhost:1313/es/posts/multiboot_multisystem/</link>
         <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 02 May 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/multiboot_multisystem/</guid>
-        <description>Para hacer un USB boot con varios SO ya sea de diagnostico o live la mejor herramienta que he encontrado es MULTISYSTEM.
-Admite trabajar en modo persistente guardando los cambios o en live.
-http://liveusb.info/dotclear/index.php?pages/install
-Es buena cosa contar con un USB con herramientas de diagnostico y lives de SO para instalar, siempre que la maquina donde lo conectemos tenga capacidad de arrancar desde USB.</description>
+        <guid>http://localhost:1313/es/posts/multiboot_multisystem/</guid>
+        <description>&lt;p&gt;Para hacer un USB boot con varios SO ya sea de diagnostico o live la mejor herramienta que he encontrado es MULTISYSTEM.&lt;/p&gt;
+&lt;p&gt;Admite trabajar en modo persistente guardando los cambios o en live.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://liveusb.info/dotclear/index.php?pages/install&#34;&gt;http://liveusb.info/dotclear/index.php?pages/install&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Es buena cosa contar con un USB con herramientas de diagnostico y lives de SO para instalar, siempre que la maquina donde lo conectemos tenga capacidad de arrancar desde USB.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/MultiSystem.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/MultiSystem.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -302,19 +425,33 @@ Es buena cosa contar con un USB con herramientas de diagnostico y lives de SO pa
       
       <item>
         <title>Rutina para después de instalar Debian</title>
-        <link>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</link>
+        <link>http://localhost:1313/es/posts/postinstalacion_debian/</link>
         <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 31 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</guid>
-        <description>Repositorios: # nano /etc/apt/sources.list Instalar KEYS de los repos
-gpg --keyserver pgpkeys.mit.edu --recv-key C90F9CB90E1FAD0Cgpg --export --armor C90F9CB90E1FAD0C | sudo apt-key add -apt-get install debian-keyring debian-archive-keyringapt-get install deb-multimedia-keyringRaspbian
-deb http://mirrordirector.raspbian.org/raspbian/ jessie main contrib non-free rpi# Uncomment line below then &#39;apt-get update&#39; to enable &#39;apt-get source&#39;#deb-src http://archive.raspbian.org/raspbian/ jessie main contrib non-free rpiThe directory /etc/apt/sources.list.d contains the file
-raspi.list
-/etc/apt/sources.list.d/raspi.listdeb http://archive.raspberrypi.org/debian/ jessie main ui# Uncomment line below then &#39;apt-get update&#39; to enable &#39;apt-get source&#39;#deb-src http://archive.</description>
+        <guid>http://localhost:1313/es/posts/postinstalacion_debian/</guid>
+        <description>&lt;h2 id=&#34;repositorios&#34;&gt;Repositorios:&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nano /etc/apt/sources.list 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Instalar KEYS de los repos&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;gpg --keyserver pgpkeys.mit.edu --recv-key C90F9CB90E1FAD0C
+gpg --export --armor C90F9CB90E1FAD0C | sudo apt-key add -
+apt-get install debian-keyring debian-archive-keyring
+apt-get install deb-multimedia-keyring
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Raspbian&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;deb http://mirrordirector.raspbian.org/raspbian/ jessie main contrib non-free rpi
+# Uncomment line below then &amp;#39;apt-get update&amp;#39; to enable &amp;#39;apt-get source&amp;#39;
+#deb-src http://archive.raspbian.org/raspbian/ jessie main contrib non-free rpi
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The directory /etc/apt/sources.list.d contains the file&lt;br /&gt;
+raspi.list&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/etc/apt/sources.list.d/raspi.list
+
+deb http://archive.raspberrypi.org/debian/ jessie main ui
+# Uncomment line below then &amp;#39;apt-get update&amp;#39; to enable &amp;#39;apt-get source&amp;#39;
+#deb-src http://archive.raspberrypi.org/debian/ jessie main ui
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Jessie&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

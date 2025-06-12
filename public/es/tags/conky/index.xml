@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>conky on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/conky/</link>
-    <description>Recent content in conky on HotspotCepeda, La red comunitaria.</description>
+    <title>Conky on HotspotCepeda, La red comunitaria.</title>
+    <link>http://localhost:1313/es/tags/conky/</link>
+    <description>Recent content in Conky on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
@@ -16,27 +16,113 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sat, 15 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/conky/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/conky/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Instalar conky en Debian</title>
-        <link>https://hotspotcepeda.github.io/es/posts/debian_conky/</link>
+        <link>http://localhost:1313/es/posts/debian_conky/</link>
         <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 15 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/debian_conky/</guid>
-        <description>https://github.com/brndnmtthws/conky
-# apt-get install conky conky-all# apt-get install curl lm-sensors hddtempPara autoarranque agregar en programas al inicio:
-conky p -15
-start conky -dstop
-pkill conkyrestart
-pkill -HUP conkyConfig nano /etc/conky/conky.conf
-background yesfont Zekton:size=8xftfont Zekton:size=8use_xft yesxftalpha 0.4update_interval 1.0total_run_times 0own_window yesown_window_type overrideown_window_transparent yesown_window_hints undecorated,below,skip_taskbar,skip_pagerdouble_buffer yesdraw_shades nodraw_outline nodraw_borders nodraw_graph_borders nominimum_size 220 5maximum_width 220default_color ffffffdefault_shade_color blackdefault_outline_color blackalignment top_rightgap_x 10gap_y 90no_buffers yescpu_avg_samples 2override_utf8_locale nouppercase no # set to yes if you want all text to be in uppercaseuse_spacer noTEXT${font Zekton:style=Bold:pixelsize=42}${alignc}${time %H:%M:%S}${font Zekton:size=8}lenovo T430s ${hr 1 }Hostname: $alignr$nodenameIP: $alignr${addr eth0}Kernel: $alignr$kernelUptime: $alignr$uptimeProcesses: ${alignr}$processes ($running_processes running)Load: ${alignr}$loadavgCPU0 ${alignc} ${freq}MHz ${alignr}(${cpu cpu0}%)${cpubar cpu0 4}CPU1 ${alignc} ${freq}MHz ${alignr}(${cpu cpu1}%)${cpubar 4 cpu1}CPU2 ${alignc} ${freq}MHz ${alignr}(${cpu cpu2}%)${cpubar 4 cpu2}CPU3 ${alignc} ${freq}MHz ${alignr}(${cpu cpu3}%)${cpubar 4 cpu3}CPU AVG${cpugraph}RAM ${alignr}$mem / $memmax ($memperc%)${membar 4}SWAP ${alignr}$swap / $swapmax ($swapperc%)${swapbar 4}Maximos de CPU $alignr CPU% MEM%${top name 1}$alignr${top cpu 1}${top mem 1}${top name 2}$alignr${top cpu 2}${top mem 2}${top name 3}$alignr${top cpu 3}${top mem 3}Maximos de MEM $alignr CPU% MEM%${top_mem name 1}$alignr${top_mem cpu 1}${top_mem mem 1}${top_mem name 2}$alignr${top_mem cpu 2}${top_mem mem 2}${top_mem name 3}$alignr${top_mem cpu 3}${top_mem mem 3}HDD FREE ${hr 1}${color}/ : ${alignr}${fs_free /} / ${fs_size /}${fs_bar 4 /}eth0 ${hr 1}${color}Down ${downspeed eth0} k/s ${alignr}Up ${upspeed eth0} k/s${downspeedgraph eth0 25,107} ${alignr}${upspeedgraph eth0 25,107}Total ${totaldown eth0} ${alignr}Total ${totalup eth0}wlan0 ${hr 1}${color}Intensidad WIFI $alignr ${wireless_link_qual wlan0}%Down ${downspeed wlan0} k/s ${alignr}Up ${upspeed wlan0} k/s${downspeedgraph wlan0 25,107} ${alignr}${upspeedgraph wlan0 25,107}Total ${totaldown wlan0} ${alignr}Total ${totalup wlan0}BATERIA${hr 1}${color}${battery_bar BAT0}${font Arial:style=Bold:size=12}</description>
+        <guid>http://localhost:1313/es/posts/debian_conky/</guid>
+        <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  &lt;a href=&#34;https://github.com/brndnmtthws/conky&#34;&gt;https://github.com/brndnmtthws/conky&lt;/a&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;img alt=&#34;Configuración de monitor de sistema en escritorio&#34; src=&#34;http://localhost:1313/images/post/escritorio_conky.png&#34;&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get install conky conky-all
+# apt-get install curl lm-sensors hddtemp
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Para autoarranque agregar en programas al inicio:&lt;/p&gt;
+&lt;p&gt;conky p -15&lt;/p&gt;
+&lt;h2 id=&#34;start&#34;&gt;start&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;conky -d
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;stop&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pkill conky
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;restart&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pkill -HUP conky
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;config&#34;&gt;Config&lt;/h2&gt;
+&lt;p&gt;nano /etc/conky/conky.conf&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;background yes
+font Zekton:size=8
+xftfont Zekton:size=8
+use_xft yes
+xftalpha 0.4
+update_interval 1.0
+total_run_times 0
+own_window yes
+own_window_type override
+own_window_transparent yes
+own_window_hints undecorated,below,skip_taskbar,skip_pager
+double_buffer yes
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+minimum_size 220 5
+maximum_width 220
+default_color ffffff
+default_shade_color black
+default_outline_color black
+alignment top_right
+gap_x 10
+gap_y 90
+no_buffers yes
+cpu_avg_samples 2
+override_utf8_locale no
+uppercase no # set to yes if you want all text to be in uppercase
+use_spacer no
+TEXT
+${font Zekton:style=Bold:pixelsize=42}${alignc}${time %H:%M:%S}${font Zekton:size=8}
+lenovo T430s ${hr 1 }
+Hostname: $alignr$nodename
+IP: $alignr${addr eth0}
+Kernel: $alignr$kernel
+Uptime: $alignr$uptime
+Processes: ${alignr}$processes ($running_processes running)
+Load: ${alignr}$loadavg
+CPU0 ${alignc} ${freq}MHz ${alignr}(${cpu cpu0}%)
+${cpubar cpu0 4}
+CPU1 ${alignc} ${freq}MHz ${alignr}(${cpu cpu1}%)
+${cpubar 4 cpu1}
+CPU2 ${alignc} ${freq}MHz ${alignr}(${cpu cpu2}%)
+${cpubar 4 cpu2}
+CPU3 ${alignc} ${freq}MHz ${alignr}(${cpu cpu3}%)
+${cpubar 4 cpu3}
+CPU AVG
+${cpugraph}
+RAM ${alignr}$mem / $memmax ($memperc%)
+${membar 4}
+SWAP ${alignr}$swap / $swapmax ($swapperc%)
+${swapbar 4}
+Maximos de CPU $alignr CPU% MEM%
+${top name 1}$alignr${top cpu 1}${top mem 1}
+${top name 2}$alignr${top cpu 2}${top mem 2}
+${top name 3}$alignr${top cpu 3}${top mem 3}
+Maximos de MEM $alignr CPU% MEM%
+${top_mem name 1}$alignr${top_mem cpu 1}${top_mem mem 1}
+${top_mem name 2}$alignr${top_mem cpu 2}${top_mem mem 2}
+${top_mem name 3}$alignr${top_mem cpu 3}${top_mem mem 3}
+HDD FREE ${hr 1}${color}
+/ : ${alignr}${fs_free /} / ${fs_size /}
+${fs_bar 4 /}
+eth0 ${hr 1}${color}
+Down ${downspeed eth0} k/s ${alignr}Up ${upspeed eth0} k/s
+${downspeedgraph eth0 25,107} ${alignr}${upspeedgraph eth0 25,107}
+Total ${totaldown eth0} ${alignr}Total ${totalup eth0}
+wlan0 ${hr 1}${color}
+Intensidad WIFI $alignr ${wireless_link_qual wlan0}%
+Down ${downspeed wlan0} k/s ${alignr}Up ${upspeed wlan0} k/s
+${downspeedgraph wlan0 25,107} ${alignr}${upspeedgraph wlan0 25,107}
+Total ${totaldown wlan0} ${alignr}Total ${totalup wlan0}
+BATERIA${hr 1}${color}
+${battery_bar BAT0}
+
+${font Arial:style=Bold:size=12}
+&lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

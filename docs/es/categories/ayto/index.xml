@@ -249,7 +249,23 @@ Los enlaces los negocia el qMp en base a lo que tenga al alcance. Es una red con
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 03 Jun 2014 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/ayuntamientos_y_guifi_net/</guid>
-        <description>¿Qué es guifi.net?  guifi.net es una red libre. Los usuarios que quieren conectarse instalan dispositivos de red, normalmente inalámbricos, usando bandas de frecuencia de libre uso. Estos dispositivos de red se organizan para encaminar tráfico de otros usuarios. La organización es similar a la estructura que hace funcionar Internet. Para las direcciones IP por el momento se usan direcciones no válidas para Internet, llamadas rangos de direcciones para redes privadas.</description>
+        <description>&lt;ol&gt;
+&lt;li&gt;¿Qué es guifi.net?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;guifi.net es una red libre. Los usuarios que quieren conectarse instalan dispositivos de red, normalmente inalámbricos, usando bandas de frecuencia de libre uso. Estos dispositivos de red se organizan para encaminar tráfico de otros usuarios. La organización es similar a la estructura que hace funcionar Internet. Para las direcciones IP por el momento se usan direcciones no válidas para Internet, llamadas rangos de direcciones para redes privadas. Guifi.net forma parte de una estructura a nivel nacional y mundial en el que se coordinan estas direcciones de modo que si las comunidades se conectan, la red resultante también funcione.&lt;br /&gt;
+De lo anterior se deduce que guifi.net no es la única comunidad de red libre, en cambio tiene el mérito de ser la mayor en ámbito geográfico a nivel mundial, además de estar abierta a la interconexión con otras redes de forma organizada.&lt;br /&gt;
+Los usuarios de guifi.net deben hacerse responsables de sus actos y por tanto derimir a la propia red de esta responsabilidad. Asimismo deben comprometerse a no interferir con otras redes y a cumplir las normas legales de emisión vigentes.&lt;br /&gt;
+En guifi.net pueden participar individuos, administraciones y entes privados o empresas.&lt;br /&gt;
+Guifi.net no pertenece exclusivamente a nadie más que a sus usuarios.&lt;br /&gt;
+Resumiendo, guifi.net es una red formada y mantenida por los propios usuarios, desde la cual se pueden ofrecer puentes hacia Internet, pero cuyo objetivo sería más bien establecer una red propia con sus propios servicios y que conecte usuarios e intereses más locales.&lt;br /&gt;
+En guifi.net no existen cuotas ni pagos, exceptuando las aportaciones voluntarias para el mantenimiento y crecimiento de la red.&lt;br /&gt;
+Algunos datos sobre guifi.net:&lt;br /&gt;
+-Premio Nacional de Telecomunicaciones de Cataluña 2007.&lt;br /&gt;
+-Ha sido nombrada &amp;ldquo;Living Lab&amp;rdquo; por la Comunidad Europea.&lt;br /&gt;
+-13754 nodos activos y 6000 mas proyectados.&lt;br /&gt;
+-Ritmo crecimiento 100% anual, actualmente alrededor de 500 nodos al mes.&lt;br /&gt;
+-Los enlaces cubren 22197 kilómetros lineales.&lt;br /&gt;
+Más información sobre los nodos existentes y otra documentación a partir de guifi.net.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/guifi_net.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -290,7 +306,7 @@ Los enlaces los negocia el qMp en base a lo que tenga al alcance. Es una red con
         <atom:modified>Tue, 03 Jun 2014 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/la_propuesta/</guid>
         <description>&lt;p&gt;Me decidí a formular una propuesta para el despliegue de la red en Cepeda, como no tenia ni idea, le presenté al alcalde de aquella época &lt;a href=&#34;https://www.blogger.com/profile/13080724491994019511&#34; title=&#34;Blog Javier Garcia&#34;&gt;Javier Garcia&lt;/a&gt; un pdf, a lo que el alcalde respondó:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;Mira, a mi no me vengas con cosas técnicas, si quieres hacerlo&amp;hellip; adelante. Te voy a ayudar en lo que pueda.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Mira, a mi no me vengas con cosas técnicas, si quieres hacerlo&amp;hellip; adelante. Te voy a ayudar en lo que pueda.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;idea-inicial&#34;&gt;Idea inicial&lt;/h2&gt;
 &lt;p&gt;Está era la ida que tenía para el despliegue en 2014:&lt;br /&gt;
 Una salida balanceada a internet con una RB-750 con un superservidor proxy para cachear a todo el que se asomara por allí y otra RB-750 para gestionar las conexiones del hotspot, ahí lo pone, 30 minutos al día con un caudal de 256 Kb en bajada y 64 Kb en subida. AP Unifi&lt;br /&gt;
@@ -300,7 +316,7 @@ Para conectar las viviendas un modelo en Infraestructura AP cliente con una ante
    Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/ESQUEMA DE RED1.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
 &lt;/object&gt;
 &lt;h2 id=&#34;propuesta&#34;&gt;Propuesta&lt;/h2&gt;
-&lt;p&gt;Este es el documento que se presentó al Ayto, en nombre de la AC RASPUTIN. No me extraña que el alcalde me dijera que hiciera lo que quisiera. &lt;br /&gt;
+&lt;p&gt;Este es el documento que se presentó al Ayto, en nombre de la AC RASPUTIN. No me extraña que el alcalde me dijera que hiciera lo que quisiera.&lt;br /&gt;
 El logo de la cabra es lo que más me gusta, está a punto de embestir a los ISP tradicionales.&lt;br /&gt;
 &lt;object data=&#34;/pdfs/CEPEDA_guifi.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;/p&gt;
   &lt;p&gt;Parece que no tienes plugin para visualizar PDF en tu navegador.
@@ -326,7 +342,7 @@ condiciones.&lt;/li&gt;
 &lt;/object&gt;
 &lt;h2 id=&#34;presupuesto&#34;&gt;Presupuesto&lt;/h2&gt;
 &lt;p&gt;Se presentó un presupuesto en base a la propuesta. Creo que me salian 900 euros, esto es lo que se aprobó y lo que pagó el ayuntamiento más la salida a internet.&lt;br /&gt;
-&lt;img src=&#34;https://hotspotcepeda.github.io/images/ayto/hoja_gastos_ayto.jpg&#34; alt=&#34;Hoja de gastos Ayto Cepeda despliegue red comunitaria&#34; /&gt;&lt;br /&gt;
+&lt;img alt=&#34;Hoja de gastos Ayto Cepeda despliegue red comunitaria&#34; src=&#34;https://hotspotcepeda.github.io/images/ayto/hoja_gastos_ayto.jpg&#34;&gt;&lt;br /&gt;
 600 euros para un ayuntamiento es un gasto ridículo, en las empresas que trabajan este producto el precio habitual para un proyecto así es de 6000 a 10000 euros llave en mano + el coste de la gestión y el mantenimiento de la red. ¿Lo ves caro? pues hazlo tú mismo.&lt;br /&gt;
 Solo necesitas tener los conocimientos adecuados, bueno también te hará falta un ordenador y una conexión a internet para hacer la gestión remota, un espacio de trabajo, carnet de conducir y un coche grande o una furgoneta para poder desplazarte y transportar el equipamiento, los tramos de las torres y los mástiles, ropa de trabajo, EPIs, herramienta de mano, escalera grande de 3 tramos y pequeña, taladro, brocas, radial, discos, atornilladora, crimpadora, conectores, herrajes, abrazaderas, bridas, tacos, tornillos, cinta aislante, guiacables, aparatos de medida, comprobador de cables, cable ftp exterior, cable ftp interior, material eléctrico, conocimientos, negociaciones con proveedores, dinero para comprar el equipamiento, desplazamientos a proveedores, desplazamientos programados para labores preventivas, desplazamientos extraordinarios por averías, conocimientos, seguro de responsabilidad civil, titulación para trabajo en altura, tasas e impuestos, combustible, dinero, conocimientos y lo más valioso de todo, TU TIEMPO.&lt;/p&gt;
 &lt;h2 id=&#34;sax&#34;&gt;SAX&lt;/h2&gt;

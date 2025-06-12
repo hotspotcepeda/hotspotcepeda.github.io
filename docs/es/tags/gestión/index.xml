@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>gestión on HotspotCepeda, La red comunitaria.</title>
+    <title>Gestión on HotspotCepeda, La red comunitaria.</title>
     <link>https://hotspotcepeda.github.io/es/tags/gesti%C3%B3n/</link>
-    <description>Recent content in gestión on HotspotCepeda, La red comunitaria.</description>
+    <description>Recent content in Gestión on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
@@ -27,10 +27,13 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 15 Apr 2017 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/vlan_gestion_ubiquiti/</guid>
-        <description>http://ca.wiki.guifi.net/wiki/Gestio_de_antenes_ubnt_a_trav%C3%A9s_de_VLAN_de_gesti%C3%B3 Lo que queremos es mantener gestión de las antenas de manera directa. En los equipos Ubiquiti se permiten hacer vlans, desde la version 5.5.
-Se define una VLAN de gestión: vlan666
-Se define una VLAN de tráfico general: vlan10
-Se configura la antena en bridge, se le añade dos interfaces VLANs, y se configura la IP manual en la LAN0.X X = vlan ID (en nuestro caso 666)</description>
+        <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  &lt;a href=&#34;http://ca.wiki.guifi.net/wiki/Gestio_de_antenes_ubnt_a_trav%C3%A9s_de_VLAN_de_gesti%C3%B3&#34;&gt;http://ca.wiki.guifi.net/wiki/Gestio_de_antenes_ubnt_a_trav%C3%A9s_de_VLAN_de_gesti%C3%B3&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;Lo que queremos es mantener gestión de las antenas de manera directa. En los equipos Ubiquiti se permiten hacer vlans, desde la version 5.5.&lt;/p&gt;
+&lt;p&gt;Se define una VLAN de gestión: vlan666&lt;/p&gt;
+&lt;p&gt;Se define una VLAN de tráfico general: vlan10&lt;/p&gt;
+&lt;p&gt;Se configura la antena en bridge, se le añade dos interfaces VLANs, y se configura la IP manual en la LAN0.X X = vlan ID (en nuestro caso 666)&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/UBNT_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>

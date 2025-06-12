@@ -10,17 +10,17 @@
 
 
   
-  <script defer src="/js/fuse.min.8dfbf8696f107ab8b55732efbb04c5c51576692a4a2cce6effef9f6e92d341a7.js"></script>
+  <script defer src="/js/fuse.min.32195737929df2c8096e855a5789cbb3f1331224d9169e8705493e7008f47df8.js"></script>
 
 
 
-<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
+<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
 
-<script defer src="/js/lazysizes.min.498676c34eb225e85357ab0ce19c3c1244f3bd0bf595e5684d1b9d50ea4fbc42.js"></script>
+<script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1351,7 +1351,7 @@
     <meta property="twitter:description" content="Instalación de Java en Linux Debian 8">
   
 
-<meta name="generator" content="Hugo 0.87.0" />
+<meta name="generator" content="Hugo 0.139.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1410,54 +1410,6 @@
 </script>
 
     
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-82809297-2', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-82809297-2', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-
-
-
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWJ36NS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-
-
-
-  
-  
-  <script>
-    var dataLayer = window.dataLayer = window.dataLayer || [];
-    dataLayer.push({
-      page:'Instalación de Java en Linux Debian',
-      categories:'only examples about your dataLayer'
-    });
-  </script>
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NWJ36NS');</script>
-  
-
-
-
-
     
 </head>
 
@@ -1806,9 +1758,9 @@ if (!doNotTrack) {
   🏷️
   
 
-  <li><a href="https://hotspotcepeda.github.io/es/tags/debian/" class="single__tag" title="debian">#debian</a></li>
+  <li><a href="https://hotspotcepeda.github.io/es/tags/debian/" class="single__tag" title="Debian">#Debian</a></li>
 
-  <li><a href="https://hotspotcepeda.github.io/es/tags/fotos/" class="single__tag" title="fotos">#fotos</a></li>
+  <li><a href="https://hotspotcepeda.github.io/es/tags/fotos/" class="single__tag" title="Fotos">#Fotos</a></li>
 
 </ul>
 
@@ -1817,28 +1769,28 @@ if (!doNotTrack) {
       
       <h2 id="unninstall">Unninstall</h2>
 <p>DESINSTALACION TOTAL de todo lo relacionado con Java, Sun, Oracle, OpenJDK, IcedTea plugins, GIJ</p>
-<pre><code>dpkg-query -W -f='${binary:Package}\n' | grep -E -e '^(ia32-)?(sun|oracle)-java' -e '^openjdk-' -e '^icedtea' -e '^(default|gcj)-j(re|dk)' -e '^gcj-(.*)-j(re|dk)' -e '^java-common' | xargs sudo apt-get -y remove
+<pre tabindex="0"><code>dpkg-query -W -f=&#39;${binary:Package}\n&#39; | grep -E -e &#39;^(ia32-)?(sun|oracle)-java&#39; -e &#39;^openjdk-&#39; -e &#39;^icedtea&#39; -e &#39;^(default|gcj)-j(re|dk)&#39; -e &#39;^gcj-(.*)-j(re|dk)&#39; -e &#39;^java-common&#39; | xargs sudo apt-get -y remove
 sudo apt-get -y autoremove
 </code></pre><p>Purge config files:</p>
-<pre><code>dpkg -l | grep ^rc | awk '{print($2)}' | xargs sudo apt-get -y purge
+<pre tabindex="0"><code>dpkg -l | grep ^rc | awk &#39;{print($2)}&#39; | xargs sudo apt-get -y purge
 </code></pre><p>Remove Java config and cache directory:</p>
-<pre><code>sudo bash -c 'ls -d /home/*/.java' | xargs sudo rm -rf
+<pre tabindex="0"><code>sudo bash -c &#39;ls -d /home/*/.java&#39; | xargs sudo rm -rf
 </code></pre><p>Remove manually installed JVMs:</p>
-<pre><code>sudo rm -rf /usr/lib/jvm/*
+<pre tabindex="0"><code>sudo rm -rf /usr/lib/jvm/*
 </code></pre><p>Remove Java entries, if there is still any, from the alternatives:</p>
-<pre><code>for g in ControlPanel java java_vm javaws jcontrol jexec keytool mozilla-javaplugin.so orbd pack200 policytool rmid rmiregistry servertool tnameserv unpack200 appletviewer apt extcheck HtmlConverter idlj jar jarsigner javac javadoc javah javap jconsole jdb jhat jinfo jmap jps jrunscript jsadebugd jstack jstat jstatd native2ascii rmic schemagen serialver wsgen wsimport xjc xulrunner-1.9-javaplugin.so; do sudo update-alternatives --remove-all $g; done
+<pre tabindex="0"><code>for g in ControlPanel java java_vm javaws jcontrol jexec keytool mozilla-javaplugin.so orbd pack200 policytool rmid rmiregistry servertool tnameserv unpack200 appletviewer apt extcheck HtmlConverter idlj jar jarsigner javac javadoc javah javap jconsole jdb jhat jinfo jmap jps jrunscript jsadebugd jstack jstat jstatd native2ascii rmic schemagen serialver wsgen wsimport xjc xulrunner-1.9-javaplugin.so; do sudo update-alternatives --remove-all $g; done
 Search for possible remaining Java directories:
 sudo updatedb
-sudo locate -b '\pack200'
+sudo locate -b &#39;\pack200&#39;
 </code></pre><p>If the command above produces any output like /path/to/jre1.6.0_34/bin/pack200 remove the directory that is parent of bin, like</p>
-<pre><code>this: sudo rm -rf /path/to/jre1.6.0_34.
+<pre tabindex="0"><code>this: sudo rm -rf /path/to/jre1.6.0_34.
 </code></pre><h2 id="install">Install</h2>
 <p>OpenJRE</p>
-<pre><code>sudo apt-get install openjdk-7-jre
+<pre tabindex="0"><code>sudo apt-get install openjdk-7-jre
 </code></pre><p>IcedTea Plugin</p>
-<pre><code>sudo apt-get install icedtea-plugin
+<pre tabindex="0"><code>sudo apt-get install icedtea-plugin
 </code></pre><p>Ver que java está activo:</p>
-<pre><code># update-alternatives --config java
+<pre tabindex="0"><code># update-alternatives --config java
 Existen 2 opciones para la alternativa java (que provee /usr/bin/java).
 
 Selección Ruta Prioridad Estado
@@ -1849,18 +1801,18 @@ Selección Ruta Prioridad Estado
 
 Pulse &lt;Intro&gt; para mantener el valor por omisión [*] o pulse un número de selección: 0
 # java -version
-java version &quot;1.7.0_131&quot;
+java version &#34;1.7.0_131&#34;
 OpenJDK Runtime Environment (IcedTea 2.6.9) (7u131-2.6.9-2~deb8u1)
 OpenJDK 64-Bit Server VM (build 24.131-b00, mixed mode)
 </code></pre><p>Cambiar prioridad</p>
-<pre><code># update-alternatives --install &quot;/usr/bin/javac&quot; &quot;javac&quot; &quot;/usr/lib/jvm/java-8-oracle/jre/bin/java&quot; 1001
+<pre tabindex="0"><code># update-alternatives --install &#34;/usr/bin/javac&#34; &#34;javac&#34; &#34;/usr/lib/jvm/java-8-oracle/jre/bin/java&#34; 1001
 update-alternatives: utilizando /usr/lib/jvm/java-8-oracle/jre/bin/java para proveer /usr/bin/javac (javac) en modo automático
 ```
 </code></pre>
     </article>
     
     
-<script defer src="/js/clipboard.min.c168d3a04c45a631be76437054619a4a3b30107960cb9730be96012fef5762b0.js"></script>
+<script defer src="/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js"></script>
 
 <script defer src="/js/helper/prev.min.js"></script>
 
@@ -2266,7 +2218,7 @@ update-alternatives: utilizando /usr/lib/jvm/java-8-oracle/jre/bin/java para pro
 </div>
 
 
-<script defer src="/js/swipe.min.d2e020e2d405fafaa45c0a10d2af949627bf554a9366c31a905af38f8cc30c30.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -2954,7 +2906,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 
@@ -3306,7 +3258,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2024, <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero v1.0 Universal</a>
+                    ©2025, <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero v1.0 Universal</a>
                 
             </p>
         

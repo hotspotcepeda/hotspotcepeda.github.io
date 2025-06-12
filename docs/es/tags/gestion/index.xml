@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>gestion on HotspotCepeda, La red comunitaria.</title>
+    <title>Gestion on HotspotCepeda, La red comunitaria.</title>
     <link>https://hotspotcepeda.github.io/es/tags/gestion/</link>
-    <description>Recent content in gestion on HotspotCepeda, La red comunitaria.</description>
+    <description>Recent content in Gestion on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
@@ -27,10 +27,36 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 17 Jul 2017 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/ralph/</guid>
-        <description>https://ralph-ng.readthedocs.io/
-Ralph es un sistema de gestión de activos, DCIM y CMDB simple pero potente para centros de datos y back office.
-Características:
- realizar un seguimiento de las compras de activos y su ciclo de vida sistema de flujo flexible para el ciclo de vida de los activos centro de datos y soporte de back office Visualización dc incorporada  Ralph en Docker 1 2 3  docker run -i -t --name=&amp;#34;mysql_ralph&amp;#34; -v /var/lib/mysql -v /home/ralph/.</description>
+        <description>&lt;p&gt;&lt;a href=&#34;https://ralph-ng.readthedocs.io/&#34;&gt;https://ralph-ng.readthedocs.io/&lt;/a&gt;&lt;br /&gt;
+Ralph es un sistema de gestión de activos, DCIM y CMDB simple pero potente para centros de datos y back office.&lt;/p&gt;
+&lt;p&gt;Características:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;realizar un seguimiento de las compras de activos y su ciclo de vida&lt;/li&gt;
+&lt;li&gt;sistema de flujo flexible para el ciclo de vida de los activos&lt;/li&gt;
+&lt;li&gt;centro de datos y soporte de back office&lt;/li&gt;
+&lt;li&gt;Visualización dc incorporada&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ralph-en-docker&#34;&gt;Ralph en Docker&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -i -t --name&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;mysql_ralph&amp;#34;&lt;/span&gt; -v /var/lib/mysql -v /home/ralph/.ralph busybox /bin/sh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;chown root /home/ralph; chown root /home/ralph/.ralph&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -P -t -i --volumes-from mysql_ralph allegrogroup/ralph:latest /bin/bash /home/ralph/init.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -P -p 8000:8000 -t -i --name ralph --mac-address&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;02:42:ac:11:ff:ff --volumes-from mysql_ralph allegrogroup/ralph:latest
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Compose&lt;br /&gt;
+&lt;a href=&#34;https://ralph-ng.readthedocs.io/en/stable/&#34;&gt;https://ralph-ng.readthedocs.io/en/stable/&lt;/a&gt;&lt;br /&gt;
+Install&lt;br /&gt;
+Install docker and docker-compose first.&lt;br /&gt;
+Create compose configuration&lt;br /&gt;
+Copy docker-compose.yml.tmpl outside ralph sources to docker-compose.yml and tweak it.&lt;br /&gt;
+Build&lt;br /&gt;
+Then build ralph:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/ralph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -70,8 +96,16 @@ Características:
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 30 Apr 2017 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</guid>
-        <description>SERVIDOR Agregar en
-# nano /etc/ssh/sshd_configX11Forwarding yes# service ssh restartCLIENTE $ ssh -X -Y user@maquina -p puerto aplicación</description>
+        <description>&lt;h2 id=&#34;servidor&#34;&gt;SERVIDOR&lt;/h2&gt;
+&lt;p&gt;Agregar en&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nano /etc/ssh/sshd_config
+
+X11Forwarding yes
+
+# service ssh restart
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;cliente&#34;&gt;CLIENTE&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ssh -X -Y user@maquina -p puerto aplicación
+&lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>

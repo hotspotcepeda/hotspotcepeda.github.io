@@ -10,17 +10,17 @@
 
 
   
-  <script defer src="/js/fuse.min.8dfbf8696f107ab8b55732efbb04c5c51576692a4a2cce6effef9f6e92d341a7.js"></script>
+  <script defer src="/js/fuse.min.32195737929df2c8096e855a5789cbb3f1331224d9169e8705493e7008f47df8.js"></script>
 
 
 
-<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
+<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
 
-<script defer src="/js/lazysizes.min.498676c34eb225e85357ab0ce19c3c1244f3bd0bf595e5684d1b9d50ea4fbc42.js"></script>
+<script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1351,7 +1351,7 @@
     <meta property="twitter:description" content="Librenms VM">
   
 
-<meta name="generator" content="Hugo 0.87.0" />
+<meta name="generator" content="Hugo 0.139.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1410,54 +1410,6 @@
 </script>
 
     
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-82809297-2', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-82809297-2', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-
-
-
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWJ36NS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-
-
-
-  
-  
-  <script>
-    var dataLayer = window.dataLayer = window.dataLayer || [];
-    dataLayer.push({
-      page:'Librenms VM',
-      categories:'only examples about your dataLayer'
-    });
-  </script>
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NWJ36NS');</script>
-  
-
-
-
-
     
 </head>
 
@@ -1808,7 +1760,7 @@ if (!doNotTrack) {
 
   <li><a href="https://hotspotcepeda.github.io/es/tags/ubuntu/" class="single__tag" title="Ubuntu">#Ubuntu</a></li>
 
-  <li><a href="https://hotspotcepeda.github.io/es/tags/linux/" class="single__tag" title="linux">#linux</a></li>
+  <li><a href="https://hotspotcepeda.github.io/es/tags/linux/" class="single__tag" title="Linux">#Linux</a></li>
 
   <li><a href="https://hotspotcepeda.github.io/es/tags/proxmox/" class="single__tag" title="Proxmox">#Proxmox</a></li>
 
@@ -1830,22 +1782,22 @@ Para convertir el archivo de imagen .ova en VM Proxmox seguí los pasos de este 
 <h3 id="poner-en-marcha-la-red">Poner en marcha la RED</h3>
 <p>De primeras la imagen está lista para trabajar pero faltan algunas cosillas.<br />
 Default password:</p>
-<pre><code>librenms login: librenms
+<pre tabindex="0"><code>librenms login: librenms
 password: CDne3fwdfds
 </code></pre><p>Para ponerse en modo root</p>
-<pre><code>sudo su
+<pre tabindex="0"><code>sudo su
 </code></pre><p>Para cambiar el password:</p>
-<pre><code>passwd librems
+<pre tabindex="0"><code>passwd librems
 </code></pre><p>Pero para configurar la red no es como en debian,<br />
 Lo primero es sacar el mombre de la interface en mi caso la ethernet&hellip; como no funciona ifconfig:</p>
-<pre><code>sudo systemctl start systemd-networkd
+<pre tabindex="0"><code>sudo systemctl start systemd-networkd
 sudo systemctl enable systemd-networkd
 networkctl list
 networkctl status
 </code></pre><p>Una vez que sabemos el nombre de la interface ethernet configuramos la ip en mi caso ip fija, el archivo de configuracion no está en /etc/network/interfaces está en el arhivo:<br />
 /etc/netplan/50-cloud-init.yaml<br />
 Tiene que quedar con este formato para ip fija:</p>
-<pre><code>network:
+<pre tabindex="0"><code>network:
   version: 2
   renderer: networkd
   ethernets:
@@ -1859,16 +1811,16 @@ Tiene que quedar con este formato para ip fija:</p>
 Deja 2 espacios por cada nivel. Por ejemplo, la linea que dice version: 2 tiene dos espacios al inicio. La que dice ens19: tiene 4<br />
 Deja un espacio entre los dos puntos y el valor. Por ejemplo, entre dhcp4: y no hay un espacio.</p>
 <p>Luego aplicamos los cambios ejecutando el siguiente comando:</p>
-<pre><code>sudo netplan apply
+<pre tabindex="0"><code>sudo netplan apply
 </code></pre><h3 id="otras">Otras</h3>
 <p>Ahora que ya hay salida a internet vamos a dar otros retoques:<br />
 Teclado en castellano ISO</p>
-<pre><code>sudo dpkg-reconfigure locales
+<pre tabindex="0"><code>sudo dpkg-reconfigure locales
 </code></pre><p>nano<br />
 Con vi es que no tengo practica <a href="https://www.linuxtotal.com.mx/index.php?cont=info_admon_010">https://www.linuxtotal.com.mx/index.php?cont=info_admon_010</a></p>
 <p>bash-completion<br />
 indispensable para mi</p>
-<pre><code>nano /etc/bash.bashrc
+<pre tabindex="0"><code>nano /etc/bash.bashrc
 enable # bash completion in interactive shells
  if ! shopt -oq posix; then
    if [ -f /usr/share/bash-completion/bash_completion ]; then
@@ -1879,7 +1831,7 @@ enable # bash completion in interactive shells
  fi
 </code></pre><p>SSH<br />
 enable sshd</p>
-<pre><code>nano /etc/ssh/sshd_config
+<pre tabindex="0"><code>nano /etc/ssh/sshd_config
 enable delete # lines
 Port 2023
 AddressFamily any
@@ -1887,7 +1839,7 @@ ListenAddress 0.0.0.0
 ListenAddress ::
 </code></pre><p>neofetch<br />
 Add neofetch end file .bashrc user</p>
-<pre><code>librenms@librenms:~$ sudo su
+<pre tabindex="0"><code>librenms@librenms:~$ sudo su
             .-/+oossssoo+/-.               root@librenms
         `:+ssssssssssssssssss+:`           -------------
       -+ssssssssssssssssssyyssss+-         OS: Ubuntu 18.04.6 LTS x86_64
@@ -1923,7 +1875,7 @@ rarp se usa para manipular la tabla RARP del núcleo.<br />
 route se usa para manipular la tabla de encaminamiento IP.<br />
 slattach conecta una interfaz de red a una línea serie. Esto permite usar líneas de terminales normales para crear enlaces punto a punto con otras computadoras.</p>
 <p>NTP</p>
-<pre><code>sudo dpkg-reconfigure tzdata
+<pre tabindex="0"><code>sudo dpkg-reconfigure tzdata
 root@librenms:~# timedatectl
                       Local time: Thu 2022-09-15 19:05:03 CEST
                   Universal time: Thu 2022-09-15 17:05:03 UTC
@@ -1934,12 +1886,12 @@ systemd-timesyncd.service active: yes
                  RTC in local TZ: no
 root@librenms:~#
 </code></pre><p>para instalar todo esto</p>
-<pre><code>apt update &amp;&amp; sudo apt upgrade
+<pre tabindex="0"><code>apt update &amp;&amp; sudo apt upgrade
 apt install net-tools neofetch bash-completion nano
 </code></pre><h2 id="backup-vm">BACKUP VM</h2>
 <p>Y llegados a este punto, a respaldar la VM para no perder todo el trabajo.</p>
 <h3 id="actualizar-ubuntu">Actualizar Ubuntu</h3>
-<pre><code>root@librenms:~# lsb_release -a
+<pre tabindex="0"><code>root@librenms:~# lsb_release -a
 No LSB modules are available.
 Distributor ID: Ubuntu
 Description:    Ubuntu 18.04.6 LTS
@@ -1949,14 +1901,14 @@ root@librenms:~#
 </code></pre><p>La quiero acutualizar 18.04 &ldquo;Bionic Beavera&rdquo; la siguiente LTS la 20.04 &ldquo;Focal Fossa&rdquo; con soporte hasta 2025<br />
 <a href="https://www.fosslinux.com/38303/how-to-upgrade-to-ubuntu-20-04-lts-focal-fossa.htm">https://www.fosslinux.com/38303/how-to-upgrade-to-ubuntu-20-04-lts-focal-fossa.htm</a><br />
 Esta vez que tenía hecho el backup ha funcionado todo perfectamente siguiendo las indicaciones estasy por ssh.</p>
-<pre><code>root@librenms:/opt/librenms# lsb_release -a
+<pre tabindex="0"><code>root@librenms:/opt/librenms# lsb_release -a
 No LSB modules are available.
 Distributor ID: Ubuntu
 Description:    Ubuntu 20.04.5 LTS
 Release:        20.04
 Codename:       focal
 root@librenms:/opt/librenms#
-</code></pre><pre><code>librenms@librenms:~$ sudo su
+</code></pre><pre tabindex="0"><code>librenms@librenms:~$ sudo su
             .-/+oossssoo+/-.               root@librenms
         `:+ssssssssssssssssss+:`           -------------
       -+ssssssssssssssssssyyssss+-         OS: Ubuntu 20.04.5 LTS x86_64
@@ -1981,7 +1933,7 @@ ossyNMMMNyMMhsssssssssssssshmmmhssssssso   GPU: 00:02.0 Vendor 1234 Device 1111
 root@librenms:/opt/librenms#
 </code></pre><h3 id="proxmox-ve">PROXMOX VE</h3>
 <p>Y ya de paso subo a bullseye el servidor con apt:</p>
-<pre><code>         .://:`              `://:.            root@cepeda
+<pre tabindex="0"><code>         .://:`              `://:.            root@cepeda
        `hMMMMMMd/          /dMMMMMMh`          -----------
         `sMMMMMMMd:      :mMMMMMMMs`           OS: Proxmox VE 7.2-11 x86_64
 `-/+oo+/:`.yMMMMMMMh-  -hMMMMMMMy.`:/+oo+/-`   Host: IBM System x -[794732G]- 00
@@ -2002,7 +1954,7 @@ root@librenms:/opt/librenms#
        `hMMMMMMd/          /dMMMMMMh`
          `://:`              `://:`
 </code></pre><p>/etc/apt/sources.list</p>
-<pre><code># oficiales
+<pre tabindex="0"><code># oficiales
 deb http://deb.debian.org/debian/ bullseye main contrib non-free
 #deb-src http://deb.debian.org/debian/ buster main contrib non-free
 
@@ -2026,7 +1978,7 @@ deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
     </article>
     
     
-<script defer src="/js/clipboard.min.c168d3a04c45a631be76437054619a4a3b30107960cb9730be96012fef5762b0.js"></script>
+<script defer src="/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js"></script>
 
 <script defer src="/js/helper/prev.min.js"></script>
 
@@ -2342,8 +2294,8 @@ deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
     
     <div class="grow"></div>
     
-      <a href="https://hotspotcepeda.github.io/es/posts/nas/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">NAS</div>
+      <a href="https://hotspotcepeda.github.io/es/posts/nas-proxmox/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">De NAS a Homelab: Privacidad, Aprendizaje y Rebelión Tecnológica</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
@@ -2401,7 +2353,7 @@ deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
 </div>
 
 
-<script defer src="/js/swipe.min.d2e020e2d405fafaa45c0a10d2af949627bf554a9366c31a905af38f8cc30c30.js"></script>
+<script defer src="/js/swipe.min.feb438efb7ca009ecd7fc2ac3ad2fced4840990b2798d81f87137f2dc6281f05.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3102,7 +3054,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 
@@ -3454,7 +3406,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2024, <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero v1.0 Universal</a>
+                    ©2025, <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero v1.0 Universal</a>
                 
             </p>
         

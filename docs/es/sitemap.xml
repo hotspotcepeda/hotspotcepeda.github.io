@@ -4,32 +4,12 @@
   <url>
     <loc>https://hotspotcepeda.github.io/es/showcase/hugo/hugo-theme-zzo/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/showcase/hugo/hugo-theme-zzo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/showcase/hugo/hugo-theme-zzo/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/showcase/hugo/hugo-theme-zdoc/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/showcase/hugo/hugo-theme-zdoc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/showcase/hugo/hugo-theme-zdoc/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/</loc>
-    <lastmod>2024-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -41,78 +21,14 @@
                 href="https://hotspotcepeda.github.io/es/"
                 />
   </url><url>
-    <loc>https://hotspotcepeda.github.io/es/posts/nas/</loc>
-    <lastmod>2024-11-02T00:00:00+00:00</lastmod>
+    <loc>https://hotspotcepeda.github.io/es/tags/index/</loc>
+    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/posts/</loc>
-    <lastmod>2024-11-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/posts/"
-                />
-  </url><url>
-    <loc>https://hotspotcepeda.github.io/es/categories/ayto/</loc>
-    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/categories/ayto/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/categories/ayto/"
-                />
-  </url><url>
-    <loc>https://hotspotcepeda.github.io/es/categories/</loc>
-    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/categories/"
-                />
-  </url><url>
-    <loc>https://hotspotcepeda.github.io/es/tags/librenms/</loc>
-    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hotspotcepeda.github.io/es/posts/librenms-vm/</loc>
-    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hotspotcepeda.github.io/es/tags/linux/</loc>
-    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hotspotcepeda.github.io/es/tags/proxmox/</loc>
-    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hotspotcepeda.github.io/es/series/red-comunitaria/</loc>
-    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hotspotcepeda.github.io/es/series/</loc>
-    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/series/"
-                />
+    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/</loc>
-    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -124,21 +40,112 @@
                 href="https://hotspotcepeda.github.io/es/tags/"
                 />
   </url><url>
+    <loc>https://hotspotcepeda.github.io/es/posts/vaultwarden/</loc>
+    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/ciberseguridad/</loc>
+    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/proxmox/</loc>
+    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/posts/wazuh/</loc>
+    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/categories/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/categories/"
+                />
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/contenedores/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/devops/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/categories/homelab/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/lxc/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/posts/lxc/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/virtualizaci%C3%B3n/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/categories/virtualizaci%C3%B3n/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/consola/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/posts/terminal_custom/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/posts/nas-proxmox/</loc>
+    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/homelab/</loc>
+    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/series/homelab-desde-cero/</loc>
+    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/opensource/</loc>
+    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/privacidad/</loc>
+    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/selfhosting/</loc>
+    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/series/</loc>
+    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hotspotcepeda.github.io/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://hotspotcepeda.github.io/es/series/"
+                />
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/categories/tecnolog%C3%ADa/</loc>
+    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/categories/ayto/</loc>
+    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/librenms/</loc>
+    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/posts/librenms-vm/</loc>
+    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/tags/linux/</loc>
+    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hotspotcepeda.github.io/es/series/red-comunitaria/</loc>
+    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/ubuntu/</loc>
     <lastmod>2022-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/</loc>
     <lastmod>2021-08-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/tags/cepeda-la-mora/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/git/</loc>
     <lastmod>2021-08-24T00:00:00+00:00</lastmod>
@@ -151,32 +158,12 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/hugo/</loc>
     <lastmod>2021-08-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/tags/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/tags/hugo/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/posts/la_web/</loc>
     <lastmod>2021-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/markdown/</loc>
     <lastmod>2021-08-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/tags/markdown/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/netlify/</loc>
     <lastmod>2021-08-24T00:00:00+00:00</lastmod>
@@ -192,16 +179,6 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/guifi.net/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/tags/guifi.net/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/tags/guifi.net/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/mesh/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
@@ -211,16 +188,6 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/wifi/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/tags/wifi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/tags/wifi/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/posts/topologia/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
@@ -230,16 +197,6 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/gallery/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/gallery/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/gallery/paisaje/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
@@ -264,198 +221,48 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/publication/article/</loc>
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/publication/article/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/publication/article/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/publication/book/</loc>
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/publication/book/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/publication/book/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/publication/misc/</loc>
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/publication/misc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/publication/misc/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/publication/</loc>
     <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/publication/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/showcase/hugo/</loc>
     <lastmod>2020-01-19T21:04:11+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/showcase/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/showcase/hugo/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/showcase/</loc>
     <lastmod>2020-01-19T15:43:38+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/showcase/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/showcase/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/presentation/dir/fourth/</loc>
     <lastmod>2019-10-30T20:48:10+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/presentation/dir/fourth/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/presentation/dir/fourth/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/presentation/</loc>
     <lastmod>2019-10-30T20:48:10+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/presentation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/presentation/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/presentation/third/</loc>
     <lastmod>2019-10-30T20:46:30+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/presentation/third/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/presentation/third/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/presentation/second/</loc>
     <lastmod>2019-10-30T20:45:24+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/presentation/second/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/presentation/second/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/presentation/first/</loc>
     <lastmod>2019-10-30T19:45:20+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/presentation/first/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/presentation/first/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/archive/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/archive/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/publication/article/article_any_folder_name_1/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/publication/article/article_any_folder_name_1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/publication/article/article_any_folder_name_1/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/debian/</loc>
     <lastmod>2017-11-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/tags/debian/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/tags/debian/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/docker/</loc>
     <lastmod>2017-11-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/tags/docker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/tags/docker/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/posts/librenms_docker_install/</loc>
     <lastmod>2017-11-17T00:00:00+00:00</lastmod>
@@ -477,32 +284,12 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/nextcloud/</loc>
     <lastmod>2017-06-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/tags/nextcloud/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/tags/nextcloud/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/posts/nextcloud_debian/</loc>
     <lastmod>2017-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/publication/book/book_any_folder_name_1/</loc>
     <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/publication/book/book_any_folder_name_1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/publication/book/book_any_folder_name_1/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/posts/docker/</loc>
     <lastmod>2017-05-30T00:00:00+00:00</lastmod>
@@ -590,16 +377,6 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/publication/misc/misc_any_folder_name_1/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/publication/misc/misc_any_folder_name_1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/publication/misc/misc_any_folder_name_1/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/posts/log_remoto_syslog-ng/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
@@ -702,30 +479,8 @@
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/posts/arrancando/</loc>
     <lastmod>2014-01-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/posts/arrancando/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/posts/arrancando/"
-                />
   </url><url>
     <loc>https://hotspotcepeda.github.io/es/tags/asociaciones/</loc>
     <lastmod>2014-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hotspotcepeda.github.io/es/tags/index/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hotspotcepeda.github.io/en/tags/index/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://hotspotcepeda.github.io/es/tags/index/"
-                />
   </url>
 </urlset>

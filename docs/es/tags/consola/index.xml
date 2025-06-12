@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Consola on HotspotCepeda, La red comunitaria.</title>
+    <link>https://hotspotcepeda.github.io/es/tags/consola/</link>
+    <description>Recent content in Consola on HotspotCepeda, La red comunitaria.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
+    <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
+    <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
+    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/consola/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Terminal custom</title>
+        <link>https://hotspotcepeda.github.io/es/posts/terminal_custom/</link>
+        <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Thu, 28 Nov 2024 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/terminal_custom/</guid>
+        <description>&lt;h1 id=&#34;neofetch&#34;&gt;&lt;em&gt;Neofetch&lt;/em&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;instalación&#34;&gt;&lt;strong&gt;Instalación&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Neofetch es una herramienta ligera y obsoleta que muestra información del sistema junto a un logotipo ASCII.&lt;/p&gt;
+&lt;p&gt;Actualiza los paquetes del sistema con:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;sudo apt update &amp;amp;&amp;amp; sudo apt upgrade -y&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Instala Neofetch desde los repositorios oficiales:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;sudo apt install -y neofetch&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Para ejecutarlo, simplemente escribe:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;neofetch&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;-&amp;ndash;&lt;/p&gt;
+&lt;h2 id=&#34;configuración&#34;&gt;&lt;strong&gt;Configuración&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Para personalizar Neofetch, edita su archivo de configuración ubicado en:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;cp ${HOME}/.config/neofetch/config.conf_ORI ${HOME}/.config/neofetch/config.conf *&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;~/.config/neofetch/config.conf&lt;br /&gt;
+o&lt;br /&gt;
+${HOME}/.config/neofetch/config.conf&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Si deseas que Neofetch se ejecute automáticamente al abrir una nueva terminal, añade el comando neofetch al final del archivo de configuración de tu shell:&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>consola</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

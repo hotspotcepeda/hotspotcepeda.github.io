@@ -1,7 +1,7 @@
 baseURL = "https://hotspotcepeda.github.io/"
-title = "Red comunitaria Cepeda la Mora"
+languageCode = "es-es"
+title = "HotSpotCepeda"
 theme = "zzo"
-
 defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
@@ -12,11 +12,9 @@ buildFuture = true
 copyright = "&copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)"
 timeout = 10000
 enableEmoji = true
-paginate = 13
 rssLimit = 100
 
 enableGitInfo = false
-googleAnalytics = "UA-82809297-2"
 
 [markup]
   [markup.goldmark]
@@ -37,7 +35,6 @@ googleAnalytics = "UA-82809297-2"
 [outputs]
   home = ["HTML", "RSS", "SearchIndex"]
   section = ["HTML", "RSS", "SearchIndex"]
-  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
   taxonomy = ["HTML", "RSS", "SearchIndex"]
 
 [outputFormats]

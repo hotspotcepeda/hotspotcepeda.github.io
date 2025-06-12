@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>mikrotik on HotspotCepeda, La red comunitaria.</title>
+    <title>Mikrotik on HotspotCepeda, La red comunitaria.</title>
     <link>https://hotspotcepeda.github.io/es/tags/mikrotik/</link>
-    <description>Recent content in mikrotik on HotspotCepeda, La red comunitaria.</description>
+    <description>Recent content in Mikrotik on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
@@ -27,8 +27,41 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 16 May 2017 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_netflow/</guid>
-        <description>Configuración en MikroTik Configuración en servidor debian jessie: # apt-get update &amp;amp;&amp;amp; apt-get upgradewget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-ntop-stable.debsudo apt-get updatesudo apt-get install nprobeconfig nProbesudo nano /etc/nprobe/nprobe-none.conf--zmq=&amp;quot;tcp://127.0.0.1:1234&amp;quot;--collector-port=5556-n=none-i=nonesudo touch /etc/nprobe/nprobe-none.startsudo service nprobe startInstalacion de ntopng
-wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-ntop-stable.debapt-get install topngconfig ntopngnano /etc/ntopng/ntopng.conf-G=/var/run/ntopng.pid-i tcp://127.0.0.1:1234sudo touch /etc/ntopng/ntopng.startsudo service ntopng startreboot DOCKER docker run -d --name nprobe --net=host xdrum/nprobe nprobe --collector-port 5556 --zmq tcp://*:1234 -i nonedocker run -d --name ntopng --net=host -p 3000:3000 vostro/ntopng ntopng -i tcp://127.</description>
+        <description>&lt;h2 id=&#34;configuración-en-mikrotik&#34;&gt;Configuración en MikroTik&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Configuración netflow MikroTik&#34; src=&#34;https://hotspotcepeda.github.io/images/post/netflow_mikrotik.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;configuración-en-servidor-debian-jessie&#34;&gt;Configuración en servidor debian jessie:&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get update &amp;amp;&amp;amp; apt-get upgrade
+wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.deb
+sudo dpkg -i apt-ntop-stable.deb
+sudo apt-get update
+sudo apt-get install nprobe
+config nProbe
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nano /etc/nprobe/nprobe-none.conf
+
+--zmq=&amp;#34;tcp://127.0.0.1:1234&amp;#34;
+--collector-port=5556
+-n=none
+-i=none
+
+
+sudo touch /etc/nprobe/nprobe-none.start
+sudo service nprobe start
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Instalacion de ntopng&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.deb
+sudo dpkg -i apt-ntop-stable.deb
+apt-get install topng
+ 
+config ntopng
+
+nano /etc/ntopng/ntopng.conf
+
+-G=/var/run/ntopng.pid
+-i tcp://127.0.0.1:1234
+ 
+sudo touch /etc/ntopng/ntopng.start
+sudo service ntopng start
+reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; &lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -76,9 +109,23 @@ wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-n
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 29 Apr 2017 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_nodo/</guid>
-        <description>http://wiki.mikrotik.com/wiki/Manual:CRS_examples
-para una RB850
-/interface ethernetset ether3 master-port=ether2set ether4 master-port=ether2/interface ethernet switch vlanadd ports=ether2,ether3 switch=switch1 vlan-id=200add ports=ether2,ether4 switch=switch1 vlan-id=300/interface ethernet switch portset ether2 vlan-mode=secure vlan-header=add-if-missingset ether3 vlan-mode=secure vlan-header=always-strip default-vlan-id=200set ether4 vlan-mode=secure vlan-header=always-strip default-vlan-id=300</description>
+        <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  &lt;a href=&#34;http://wiki.mikrotik.com/wiki/Manual:CRS_examples&#34;&gt;http://wiki.mikrotik.com/wiki/Manual:CRS_examples&lt;/a&gt;
+&lt;/div&gt;&lt;br /&gt;
+para una RB850&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/interface ethernet
+set ether3 master-port=ether2
+set ether4 master-port=ether2
+
+/interface ethernet switch vlan
+add ports=ether2,ether3 switch=switch1 vlan-id=200
+add ports=ether2,ether4 switch=switch1 vlan-id=300
+
+/interface ethernet switch port
+set ether2 vlan-mode=secure vlan-header=add-if-missing
+set ether3 vlan-mode=secure vlan-header=always-strip default-vlan-id=200
+set ether4 vlan-mode=secure vlan-header=always-strip default-vlan-id=300
+&lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -118,11 +165,15 @@ para una RB850
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 17 Jan 2017 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_hotspot/</guid>
-        <description>La idea es poner un ap en 2.4 Ghz con un portal cautivo para tratar de dar a conocer el proyecto y ver si se anima alguien en el barrio a compartir la salida a internet.
-Antes de empezar vamos a configurar los servicios básicos.
-DNS Para sacarle partido a la RouterBoard se configura una cache DNS
-/ip dnsset allow-remote-requests=yes cache-size=4096KiB servers=91.239.100.100,89.233.43.71Rechaza peticiones dns externas:
-/ip firewall filteradd chain=input in-interface=ether1 protocol=udp dst-port=53 action=dropadd chain=input in-interface=ether1 protocol=tcp dst-port=53 action=dropY en el firewall una nueva redirección interna del puerto 53</description>
+        <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  La idea es poner un ap en 2.4 Ghz con un portal cautivo para tratar de dar a conocer el proyecto y ver si se anima alguien en el barrio a compartir la salida a internet.
+&lt;/div&gt;&lt;br /&gt;
+Antes de empezar vamos a configurar los servicios básicos.&lt;/p&gt;
+&lt;h2 id=&#34;dns&#34;&gt;DNS&lt;/h2&gt;
+&lt;p&gt;Para sacarle partido a la RouterBoard se configura una cache DNS&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/ip dns
+set allow-remote-requests=yes cache-size=4096KiB servers=91.239.100.100,89.233.43.71
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Rechaza peticiones dns externas:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -166,8 +217,11 @@ DNS Para sacarle partido a la RouterBoard se configura una cache DNS
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 16 Jan 2017 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</guid>
-        <description>Antes de instalar: Llevar los equipos configurados. Si a la hora de poner en funcionamiento el enlace surgen problemas: como que el equipo no enciende, mala transferencia de datos&amp;hellip; será más fácil localizar averías en el cableado, conectores y alimentación, POE.
-Planificar el enlace: Si es posible hacer una primera visita para saber como planificar la instalación y saber que material puede hacer falta, cableados, herramienta que tenemos que llevar, accesos a zonas comunes bajo llave, etc&amp;hellip; tomar notas y fotos, ortofotos, línea de visión directa entre antenas, referencias para orientar las anteas.</description>
+        <description>&lt;h2 id=&#34;antes-de-instalar&#34;&gt;Antes de instalar:&lt;/h2&gt;
+&lt;h3 id=&#34;llevar-los-equipos-configurados&#34;&gt;Llevar los equipos configurados.&lt;/h3&gt;
+&lt;p&gt;Si a la hora de poner en funcionamiento el enlace surgen problemas: como que el equipo no enciende, mala transferencia de datos&amp;hellip; será más fácil localizar averías en el cableado, conectores y alimentación, POE.&lt;/p&gt;
+&lt;h3 id=&#34;planificar-el-enlace&#34;&gt;Planificar el enlace:&lt;/h3&gt;
+&lt;p&gt;Si es posible hacer una primera visita para saber como planificar la instalación y saber que material puede hacer falta, cableados, herramienta que tenemos que llevar, accesos a zonas comunes bajo llave, etc&amp;hellip; tomar notas y fotos, ortofotos, línea de visión directa entre antenas, referencias para orientar las anteas.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -219,7 +273,80 @@ Planificar el enlace: Si es posible hacer una primera visita para saber como pla
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 13 Nov 2016 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/ddns_change_ip_script_mikrotik/</guid>
-        <description>Script /system/script new and paste:# Written by Sam Norris, ChangeIP.com# Copyright ChangeIP.com 2009# For support send mail to Support@ChangeIP.com## 2009-06-22 RouterOS 3.25 Tested# 2009-10-05 RouterOS 4.01rc1 Tested## OVERVIEW: %# This script will update a ChangeIP.com dynamic dns hostname# with an ip address located directly on an interface.# %# NOTES: %# IF THIS SCRIPT DOES NOT PRODUCE ANY OUTPUT PLEASE COPY AND PASTE IT# AGAIN.</description>
+        <description>&lt;h2 id=&#34;script&#34;&gt;Script&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/system/script new and paste:
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Written by Sam Norris, ChangeIP.com
+# Copyright ChangeIP.com 2009
+# For support send mail to Support@ChangeIP.com
+#
+# 2009-06-22 RouterOS 3.25 Tested
+# 2009-10-05 RouterOS 4.01rc1 Tested
+#
+# OVERVIEW:         %
+#  This script will update a ChangeIP.com dynamic dns hostname
+#  with an ip address located directly on an interface.
+#                   %
+# NOTES:            %
+#  IF THIS SCRIPT DOES NOT PRODUCE ANY OUTPUT PLEASE COPY AND PASTE IT
+#  AGAIN.  THERE PROBABLY IS A LINE BREAK IN THE WRONG PLACE! Once you
+#  have created this script and tested that it works by running it
+#  manually you can schedule it to run every few minutes.
+#                   %
+# CONFIGURATION FIELD DEFINITIONS:
+#  ddnsuser:  Enter your ChangeIP.com user id.
+#  ddnspass:  Enter your ChangeIP.com password.
+#  ddnshost:  Enter the hostname (www.example.com) to update.
+#  ddnsinterface:  Enter an interface name to watch - case sensative.
+#                   %
+#                   %
+#                   %
+#                   %
+#               %   %   %
+#                %  %  %
+#                 % % %
+#                   %
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# EDIT YOUR DETAILS / CONFIGURATION HERE
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:global ddnsuser &amp;#34;user&amp;#34;
+:global ddnspass &amp;#34;pass&amp;#34;
+:global ddnshost &amp;#34;ddnsname.net&amp;#34;
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# END OF USER DEFINED CONFIGURATION
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:global ddnssystem (&amp;#34;mt-&amp;#34; . [/system package get [/system package find name=system] version] )
+/tool fetch url=&amp;#34;http://myip.dnsomatic.com/&amp;#34; mode=http dst-path=mypublicip.txt
+:global ddnsip [file get mypublicip.txt contents ]
+:global ddnslastip
+
+
+
+:if ([ :typeof $ddnslastip ] = &amp;#34;nothing&amp;#34; ) do={ :global ddnslastip 0.0.0.0/0 }
+
+:if ([ :typeof $ddnsip ] = &amp;#34;nothing&amp;#34; ) do={
+:log info (&amp;#34;DDNS: No ip address present on contents , please check.&amp;#34;)
+
+} else={
+
+  :if ($ddnsip != $ddnslastip) do={
+
+    :log info &amp;#34;DDNS: Sending UPDATE!&amp;#34;
+    :log info [ :put [/tool dns-update name=$ddnshost address= $ddnsip key-name=$ddnsuser key=$ddnspass ] ]
+    :log info $ddnsip
+    :global ddnslastip $ddnsip
+
+  } else={ 
+
+    :log info &amp;#34;DDNS: No changes necessary.&amp;#34;
+
+  }
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/system/schedule Interval: 00:10:00
+&lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -263,10 +390,27 @@ Planificar el enlace: Si es posible hacer una primera visita para saber como pla
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 01 Nov 2016 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/log_remoto_syslog-ng/</guid>
-        <description>https://aacable.wordpress.com/2011/11/29/howto-save-mikrotik-logs-to-remote-syslog-server/
-Conviene tener los trastos en hora, configure NTP en todas sus máquinas. Cliente Mikrotik Con ip 10.38.15.10
-/system logging actionset 0 memory-lines=100set 1 disk-file-count=30 disk-file-name=MT-log-zaib disk-lines-per-file=500set 3 remote=10.38.15.3# 10.38.15.3 ip del servidor syslog-ng :514 default port/system loggingadd action=remote topics=criticaladd action=remote topics=erroradd action=remote topics=infoadd action=remote topics=warning# registro remoto de lo que se quieraCliente Ubiquiti Con ip 10.38.15.1
-Servidor IP 10.</description>
+        <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  &lt;a href=&#34;https://aacable.wordpress.com/2011/11/29/howto-save-mikrotik-logs-to-remote-syslog-server/&#34;&gt;https://aacable.wordpress.com/2011/11/29/howto-save-mikrotik-logs-to-remote-syslog-server/&lt;/a&gt;&lt;br /&gt;
+Conviene tener los trastos en hora, configure NTP en todas sus máquinas.
+&lt;/div&gt;
+&lt;h2 id=&#34;cliente-mikrotik&#34;&gt;Cliente Mikrotik&lt;/h2&gt;
+&lt;p&gt;Con ip 10.38.15.10&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/system logging action
+set 0 memory-lines=100
+set 1 disk-file-count=30 disk-file-name=MT-log-zaib disk-lines-per-file=500
+set 3 remote=10.38.15.3
+# 10.38.15.3 ip del servidor syslog-ng :514 default port
+
+/system logging
+add action=remote topics=critical
+add action=remote topics=error
+add action=remote topics=info
+add action=remote topics=warning
+# registro remoto de lo que se quiera
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;cliente-ubiquiti&#34;&gt;Cliente Ubiquiti&lt;/h2&gt;
+&lt;p&gt;Con ip 10.38.15.1&lt;br /&gt;
+&lt;img alt=&#34;Configuración log remoto Ubiquiti&#34; src=&#34;https://hotspotcepeda.github.io/images/post/syslog_UBNT.png&#34;&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -318,9 +462,14 @@ Servidor IP 10.</description>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 06 Jun 2016 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_seguridad_basico/</guid>
-        <description>http://gregsowell.com/classes/mtk-security/GregSowell-mikrotik-security.pdf
-Si el router está conectado a internet puedes tener seguro que lo van a intentar dominar de todas las maneras posibles. System -&amp;gt; Password Poner una contraseña segura, con PassGen se pueden generar passwords seguras, pero no olvidar !
-System -&amp;gt; Users Es buena idea cambiar el nombre del usuario administrador, Cambiar admin por lo que sea. Los zombis están todo el santo día dando la matraca y probando con usuarios y password default.</description>
+        <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  &lt;a href=&#34;http://gregsowell.com/classes/mtk-security/GregSowell-mikrotik-security.pdf&#34;&gt;http://gregsowell.com/classes/mtk-security/GregSowell-mikrotik-security.pdf&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;Si el router está conectado a internet puedes tener seguro que lo van a intentar dominar de todas las maneras posibles.&lt;/strong&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;system---password&#34;&gt;System -&amp;gt; Password&lt;/h2&gt;
+&lt;p&gt;Poner una contraseña segura, con PassGen se pueden generar passwords seguras, pero &lt;strong&gt;no olvidar !&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;system---users&#34;&gt;System -&amp;gt; Users&lt;/h2&gt;
+&lt;p&gt;Es buena idea cambiar el nombre del usuario administrador, Cambiar admin por lo que sea. Los zombis están todo el santo día dando la matraca y probando con usuarios y password default. &lt;strong&gt;no olvidar !&lt;/strong&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -356,10 +505,13 @@ System -&amp;gt; Users Es buena idea cambiar el nombre del usuario administrador
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 15 Mar 2016 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</guid>
-        <description>VirtualBox Vamos a virtualizar RouterOS en una vieja maquina para convertirlo en hotspot MikroTik.
-Necesitamos una maquina que tenga más de una interfaz de red, un router con una sola interfaz no tiene mucho sentido.
-Un PC Pentium 4 completo se puede encontrar de segunda mano por 50 euros, y tarjetas de red 10/100 las regalan.
-En el servidor nos aseguramos que en la bios esté marcada la casilla de virtualización, (la máquina tiene que soportar virtualización VT-x o AMD-V) ya de paso en la sección de power management que el servidor se encienda si hay una interrupción de la alimentación eléctrica.</description>
+        <description>&lt;h2 id=&#34;virtualbox&#34;&gt;VirtualBox&lt;/h2&gt;
+&lt;p&gt;Vamos a virtualizar RouterOS en una vieja maquina para convertirlo en hotspot MikroTik.&lt;br /&gt;
+Necesitamos una maquina que tenga más de una interfaz de red, un router con una sola interfaz no tiene mucho sentido.&lt;br /&gt;
+Un PC Pentium 4 completo se puede encontrar de segunda mano por 50 euros, y tarjetas de red 10/100 las regalan.&lt;br /&gt;
+En el servidor nos aseguramos que en la bios esté marcada la casilla de virtualización, (la máquina tiene que soportar virtualización  VT-x o AMD-V) ya de paso en la sección de power management que el servidor se encienda si hay una interrupción de la alimentación eléctrica.&lt;br /&gt;
+También vamos a decirle al servidor que arranque automáticamente nuestro router virtualizado cuando se encienda.&lt;br /&gt;
+Para ver si nuestra maquina Linux cumple con los requisitos para virtualizar podemos ejecutar unos comandos desde la consola:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -419,7 +571,14 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Wed, 09 Mar 2016 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/portal_cautivo_hotspot_mikrotik/</guid>
-        <description>Vista la experiencia no soy partidario de usar hotspot con portal cautivo, entiendo que en algunos escenarios puede ser de utilidad. Intro La cosa es que cuando hacemos un hotspot con MikroTik una de los problemas que nos encontramos tras hacer el wizard es que el usuario que se conecta obtiene ip de manera correcta pero a la hora de ser redireccionado al portal cautivo si va a una dirección https no se le muestra la página y le sale un error 404.</description>
+        <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  Vista la experiencia no soy partidario de usar hotspot con portal cautivo, entiendo que en algunos escenarios puede ser de utilidad.
+&lt;/div&gt;
+&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;La cosa es que cuando hacemos un hotspot con MikroTik una de los problemas que nos encontramos tras hacer el wizard es que el usuario que se conecta obtiene ip de manera correcta pero a la hora de ser redireccionado al portal cautivo si va a una dirección https no se le muestra la página y le sale un error 404.&lt;br /&gt;
+Y es que dentro de la Router Board hay un servidor web donde tenemos que hacer nuestra página web.&lt;br /&gt;
+&lt;img alt=&#34;Portal cautivo modelo &#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/hotspot.PNG&#34;&gt;&lt;br /&gt;
+Para solucionar la redireecion con https hay que generar un par de archivos e importarlos en el Mikrotik, ya sea por consola o por winbox. &lt;strong&gt;Necesitamos un certificado y una clave&lt;/strong&gt;, .crt y .key, para generarlos necesitamos la herramienta openssl, si no la tenemos lo primero seria instalarlos, bueno lo primero sería instalar una distribución de Linux.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>

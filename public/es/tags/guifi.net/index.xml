@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>guifi.net on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/guifi.net/</link>
-    <description>Recent content in guifi.net on HotspotCepeda, La red comunitaria.</description>
+    <title>Guifi.net on HotspotCepeda, La red comunitaria.</title>
+    <link>http://localhost:1313/es/tags/guifi.net/</link>
+    <description>Recent content in Guifi.net on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
@@ -16,21 +16,21 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/guifi.net/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/guifi.net/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Autoprovisión</title>
-        <link>https://hotspotcepeda.github.io/es/posts/autoprovision_nodo_qmp/</link>
+        <link>http://localhost:1313/es/posts/autoprovision_nodo_qmp/</link>
         <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Wed, 21 Apr 2021 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/autoprovision_nodo_qmp/</guid>
+        <guid>http://localhost:1313/es/posts/autoprovision_nodo_qmp/</guid>
         <description>&lt;p&gt;Por si alguien se lo quiere montar por su cuenta.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -78,16 +78,16 @@
       
       <item>
         <title>Topología</title>
-        <link>https://hotspotcepeda.github.io/es/posts/topologia/</link>
+        <link>http://localhost:1313/es/posts/topologia/</link>
         <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 17 Apr 2021 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/topologia/</guid>
+        <guid>http://localhost:1313/es/posts/topologia/</guid>
         <description>&lt;p&gt;Voy a intentar explicar como funciona la red en Cepeda, en resumidas cuentas es fácil, solo hay que asignar a los nodos ó antenas, las ips de la web guifi.net para que darle un poco de orden y la frecuencia de trabajo para que se entiendan, el canal y el país en el que está trabajando la red comunitaria.&lt;br /&gt;
 Los enlaces los negocia el qMp en base a lo que tenga al alcance. Es una red con vida propia.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -131,17 +131,31 @@ Los enlaces los negocia el qMp en base a lo que tenga al alcance. Es una red con
       
       <item>
         <title>Nodo MikroTik vlan</title>
-        <link>https://hotspotcepeda.github.io/es/posts/mikrotik_nodo/</link>
+        <link>http://localhost:1313/es/posts/mikrotik_nodo/</link>
         <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 29 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_nodo/</guid>
-        <description>http://wiki.mikrotik.com/wiki/Manual:CRS_examples
-para una RB850
-/interface ethernetset ether3 master-port=ether2set ether4 master-port=ether2/interface ethernet switch vlanadd ports=ether2,ether3 switch=switch1 vlan-id=200add ports=ether2,ether4 switch=switch1 vlan-id=300/interface ethernet switch portset ether2 vlan-mode=secure vlan-header=add-if-missingset ether3 vlan-mode=secure vlan-header=always-strip default-vlan-id=200set ether4 vlan-mode=secure vlan-header=always-strip default-vlan-id=300</description>
+        <guid>http://localhost:1313/es/posts/mikrotik_nodo/</guid>
+        <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
+  &lt;a href=&#34;http://wiki.mikrotik.com/wiki/Manual:CRS_examples&#34;&gt;http://wiki.mikrotik.com/wiki/Manual:CRS_examples&lt;/a&gt;
+&lt;/div&gt;&lt;br /&gt;
+para una RB850&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/interface ethernet
+set ether3 master-port=ether2
+set ether4 master-port=ether2
+
+/interface ethernet switch vlan
+add ports=ether2,ether3 switch=switch1 vlan-id=200
+add ports=ether2,ether4 switch=switch1 vlan-id=300
+
+/interface ethernet switch port
+set ether2 vlan-mode=secure vlan-header=add-if-missing
+set ether3 vlan-mode=secure vlan-header=always-strip default-vlan-id=200
+set ether4 vlan-mode=secure vlan-header=always-strip default-vlan-id=300
+&lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -173,16 +187,19 @@ para una RB850
       
       <item>
         <title>Buenas practicas en la realizacion de tus radioenlaces</title>
-        <link>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</link>
+        <link>http://localhost:1313/es/posts/buenas_practicas_radioenlaces/</link>
         <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 16 Jan 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</guid>
-        <description>Antes de instalar: Llevar los equipos configurados. Si a la hora de poner en funcionamiento el enlace surgen problemas: como que el equipo no enciende, mala transferencia de datos&amp;hellip; será más fácil localizar averías en el cableado, conectores y alimentación, POE.
-Planificar el enlace: Si es posible hacer una primera visita para saber como planificar la instalación y saber que material puede hacer falta, cableados, herramienta que tenemos que llevar, accesos a zonas comunes bajo llave, etc&amp;hellip; tomar notas y fotos, ortofotos, línea de visión directa entre antenas, referencias para orientar las anteas.</description>
+        <guid>http://localhost:1313/es/posts/buenas_practicas_radioenlaces/</guid>
+        <description>&lt;h2 id=&#34;antes-de-instalar&#34;&gt;Antes de instalar:&lt;/h2&gt;
+&lt;h3 id=&#34;llevar-los-equipos-configurados&#34;&gt;Llevar los equipos configurados.&lt;/h3&gt;
+&lt;p&gt;Si a la hora de poner en funcionamiento el enlace surgen problemas: como que el equipo no enciende, mala transferencia de datos&amp;hellip; será más fácil localizar averías en el cableado, conectores y alimentación, POE.&lt;/p&gt;
+&lt;h3 id=&#34;planificar-el-enlace&#34;&gt;Planificar el enlace:&lt;/h3&gt;
+&lt;p&gt;Si es posible hacer una primera visita para saber como planificar la instalación y saber que material puede hacer falta, cableados, herramienta que tenemos que llevar, accesos a zonas comunes bajo llave, etc&amp;hellip; tomar notas y fotos, ortofotos, línea de visión directa entre antenas, referencias para orientar las anteas.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -226,18 +243,21 @@ Planificar el enlace: Si es posible hacer una primera visita para saber como pla
       
       <item>
         <title>Virtualizar hotspot MikroTik</title>
-        <link>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</link>
+        <link>http://localhost:1313/es/posts/virtualizar_hotspot_mikrotik/</link>
         <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 15 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</guid>
-        <description>VirtualBox Vamos a virtualizar RouterOS en una vieja maquina para convertirlo en hotspot MikroTik.
-Necesitamos una maquina que tenga más de una interfaz de red, un router con una sola interfaz no tiene mucho sentido.
-Un PC Pentium 4 completo se puede encontrar de segunda mano por 50 euros, y tarjetas de red 10/100 las regalan.
-En el servidor nos aseguramos que en la bios esté marcada la casilla de virtualización, (la máquina tiene que soportar virtualización VT-x o AMD-V) ya de paso en la sección de power management que el servidor se encienda si hay una interrupción de la alimentación eléctrica.</description>
+        <guid>http://localhost:1313/es/posts/virtualizar_hotspot_mikrotik/</guid>
+        <description>&lt;h2 id=&#34;virtualbox&#34;&gt;VirtualBox&lt;/h2&gt;
+&lt;p&gt;Vamos a virtualizar RouterOS en una vieja maquina para convertirlo en hotspot MikroTik.&lt;br /&gt;
+Necesitamos una maquina que tenga más de una interfaz de red, un router con una sola interfaz no tiene mucho sentido.&lt;br /&gt;
+Un PC Pentium 4 completo se puede encontrar de segunda mano por 50 euros, y tarjetas de red 10/100 las regalan.&lt;br /&gt;
+En el servidor nos aseguramos que en la bios esté marcada la casilla de virtualización, (la máquina tiene que soportar virtualización  VT-x o AMD-V) ya de paso en la sección de power management que el servidor se encienda si hay una interrupción de la alimentación eléctrica.&lt;br /&gt;
+También vamos a decirle al servidor que arranque automáticamente nuestro router virtualizado cuando se encienda.&lt;br /&gt;
+Para ver si nuestra maquina Linux cumple con los requisitos para virtualizar podemos ejecutar unos comandos desde la consola:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -289,15 +309,15 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
       
       <item>
         <title>Compartir salida a internet con guifi.net</title>
-        <link>https://hotspotcepeda.github.io/es/posts/compartir-internet/</link>
+        <link>http://localhost:1313/es/posts/compartir-internet/</link>
         <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Wed, 06 Jan 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/compartir-internet/</guid>
-        <description>Se trata de interconectar a tres vecinos, el escenario es una comunidad de vecinos de pisos donde se van compartir los gastos en infraestructura común de telecomunicaciones y conexión a internet. Como los tres vecinos están en el mismo edificio, se conectan con cable de red, se instala un router central junto al router de proveedor 300/30 Mb y un router de cliente para cada nodo se está usando firmware openWRT en los equipos.</description>
+        <guid>http://localhost:1313/es/posts/compartir-internet/</guid>
+        <description>&lt;p&gt;Se trata de interconectar a tres vecinos, el escenario es una comunidad de vecinos de pisos donde se van compartir los gastos en infraestructura común de telecomunicaciones y conexión a internet. Como los tres vecinos están en el mismo edificio, se conectan con cable de red, se instala un router central junto al router de proveedor 300/30 Mb y un router de cliente para cada  nodo se está usando firmware openWRT en los equipos.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/guifi_net.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/guifi_net.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -337,15 +357,31 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
       
       <item>
         <title>FAQ de ayuntamientos</title>
-        <link>https://hotspotcepeda.github.io/es/posts/ayuntamientos_y_guifi_net/</link>
+        <link>http://localhost:1313/es/posts/ayuntamientos_y_guifi_net/</link>
         <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 03 Jun 2014 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/ayuntamientos_y_guifi_net/</guid>
-        <description>¿Qué es guifi.net?  guifi.net es una red libre. Los usuarios que quieren conectarse instalan dispositivos de red, normalmente inalámbricos, usando bandas de frecuencia de libre uso. Estos dispositivos de red se organizan para encaminar tráfico de otros usuarios. La organización es similar a la estructura que hace funcionar Internet. Para las direcciones IP por el momento se usan direcciones no válidas para Internet, llamadas rangos de direcciones para redes privadas.</description>
+        <guid>http://localhost:1313/es/posts/ayuntamientos_y_guifi_net/</guid>
+        <description>&lt;ol&gt;
+&lt;li&gt;¿Qué es guifi.net?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;guifi.net es una red libre. Los usuarios que quieren conectarse instalan dispositivos de red, normalmente inalámbricos, usando bandas de frecuencia de libre uso. Estos dispositivos de red se organizan para encaminar tráfico de otros usuarios. La organización es similar a la estructura que hace funcionar Internet. Para las direcciones IP por el momento se usan direcciones no válidas para Internet, llamadas rangos de direcciones para redes privadas. Guifi.net forma parte de una estructura a nivel nacional y mundial en el que se coordinan estas direcciones de modo que si las comunidades se conectan, la red resultante también funcione.&lt;br /&gt;
+De lo anterior se deduce que guifi.net no es la única comunidad de red libre, en cambio tiene el mérito de ser la mayor en ámbito geográfico a nivel mundial, además de estar abierta a la interconexión con otras redes de forma organizada.&lt;br /&gt;
+Los usuarios de guifi.net deben hacerse responsables de sus actos y por tanto derimir a la propia red de esta responsabilidad. Asimismo deben comprometerse a no interferir con otras redes y a cumplir las normas legales de emisión vigentes.&lt;br /&gt;
+En guifi.net pueden participar individuos, administraciones y entes privados o empresas.&lt;br /&gt;
+Guifi.net no pertenece exclusivamente a nadie más que a sus usuarios.&lt;br /&gt;
+Resumiendo, guifi.net es una red formada y mantenida por los propios usuarios, desde la cual se pueden ofrecer puentes hacia Internet, pero cuyo objetivo sería más bien establecer una red propia con sus propios servicios y que conecte usuarios e intereses más locales.&lt;br /&gt;
+En guifi.net no existen cuotas ni pagos, exceptuando las aportaciones voluntarias para el mantenimiento y crecimiento de la red.&lt;br /&gt;
+Algunos datos sobre guifi.net:&lt;br /&gt;
+-Premio Nacional de Telecomunicaciones de Cataluña 2007.&lt;br /&gt;
+-Ha sido nombrada &amp;ldquo;Living Lab&amp;rdquo; por la Comunidad Europea.&lt;br /&gt;
+-13754 nodos activos y 6000 mas proyectados.&lt;br /&gt;
+-Ritmo crecimiento 100% anual, actualmente alrededor de 500 nodos al mes.&lt;br /&gt;
+-Los enlaces cubren 22197 kilómetros lineales.&lt;br /&gt;
+Más información sobre los nodos existentes y otra documentación a partir de guifi.net.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/guifi_net.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/guifi_net.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -377,27 +413,27 @@ En el servidor nos aseguramos que en la bios esté marcada la casilla de virtual
       
       <item>
         <title>La propuesta</title>
-        <link>https://hotspotcepeda.github.io/es/posts/la_propuesta/</link>
+        <link>http://localhost:1313/es/posts/la_propuesta/</link>
         <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 03 Jun 2014 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/la_propuesta/</guid>
+        <guid>http://localhost:1313/es/posts/la_propuesta/</guid>
         <description>&lt;p&gt;Me decidí a formular una propuesta para el despliegue de la red en Cepeda, como no tenia ni idea, le presenté al alcalde de aquella época &lt;a href=&#34;https://www.blogger.com/profile/13080724491994019511&#34; title=&#34;Blog Javier Garcia&#34;&gt;Javier Garcia&lt;/a&gt; un pdf, a lo que el alcalde respondó:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;Mira, a mi no me vengas con cosas técnicas, si quieres hacerlo&amp;hellip; adelante. Te voy a ayudar en lo que pueda.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Mira, a mi no me vengas con cosas técnicas, si quieres hacerlo&amp;hellip; adelante. Te voy a ayudar en lo que pueda.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;idea-inicial&#34;&gt;Idea inicial&lt;/h2&gt;
 &lt;p&gt;Está era la ida que tenía para el despliegue en 2014:&lt;br /&gt;
 Una salida balanceada a internet con una RB-750 con un superservidor proxy para cachear a todo el que se asomara por allí y otra RB-750 para gestionar las conexiones del hotspot, ahí lo pone, 30 minutos al día con un caudal de 256 Kb en bajada y 64 Kb en subida. AP Unifi&lt;br /&gt;
 Para conectar las viviendas un modelo en Infraestructura AP cliente con una antena central a la que se conectan las estaciones de las casas.&lt;br /&gt;
 &lt;object data=&#34;/pdfs/ESQUEMA DE RED1.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;/p&gt;
    &lt;p&gt;Parece que no tienes plugin para visualizar PDF en tu navegador.
-   Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/ESQUEMA DE RED1.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
+   Puedes descargar el archivo &lt;a href=&#34;http://localhost:1313/pdfs/ESQUEMA DE RED1.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
 &lt;/object&gt;
 &lt;h2 id=&#34;propuesta&#34;&gt;Propuesta&lt;/h2&gt;
-&lt;p&gt;Este es el documento que se presentó al Ayto, en nombre de la AC RASPUTIN. No me extraña que el alcalde me dijera que hiciera lo que quisiera. &lt;br /&gt;
+&lt;p&gt;Este es el documento que se presentó al Ayto, en nombre de la AC RASPUTIN. No me extraña que el alcalde me dijera que hiciera lo que quisiera.&lt;br /&gt;
 El logo de la cabra es lo que más me gusta, está a punto de embestir a los ISP tradicionales.&lt;br /&gt;
 &lt;object data=&#34;/pdfs/CEPEDA_guifi.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;/p&gt;
   &lt;p&gt;Parece que no tienes plugin para visualizar PDF en tu navegador.
-   Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/CEPEDA_guifi.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
+   Puedes descargar el archivo &lt;a href=&#34;http://localhost:1313/pdfs/CEPEDA_guifi.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
 &lt;/object&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Lo que nos tenemos que tatuar es el procomún de la Red Abierta Libre y Neutral:&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
 El Procomún de la RALN se fundamenta en las siguientes bases:&lt;/p&gt;
@@ -415,11 +451,11 @@ condiciones.&lt;/li&gt;
 &lt;p&gt;Es este documento está detallada la autoprovisión de nodos para el despliegue en modo infraestructura en la plataforma guifi.net&lt;br /&gt;
 &lt;object data=&#34;/pdfs/paso_a_paso.pdf#page=1&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;950px&#34;&gt;&lt;/p&gt;
   &lt;p&gt;Parece que no tienes plugin para visualizar PDF en tu navegador.
-   Puedes descargar el archivo &lt;a href=&#34;https://hotspotcepeda.github.io/pdfs/paso_a_paso.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
+   Puedes descargar el archivo &lt;a href=&#34;http://localhost:1313/pdfs/paso_a_paso.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;  
 &lt;/object&gt;
 &lt;h2 id=&#34;presupuesto&#34;&gt;Presupuesto&lt;/h2&gt;
 &lt;p&gt;Se presentó un presupuesto en base a la propuesta. Creo que me salian 900 euros, esto es lo que se aprobó y lo que pagó el ayuntamiento más la salida a internet.&lt;br /&gt;
-&lt;img src=&#34;https://hotspotcepeda.github.io/images/ayto/hoja_gastos_ayto.jpg&#34; alt=&#34;Hoja de gastos Ayto Cepeda despliegue red comunitaria&#34; /&gt;&lt;br /&gt;
+&lt;img alt=&#34;Hoja de gastos Ayto Cepeda despliegue red comunitaria&#34; src=&#34;http://localhost:1313/images/ayto/hoja_gastos_ayto.jpg&#34;&gt;&lt;br /&gt;
 600 euros para un ayuntamiento es un gasto ridículo, en las empresas que trabajan este producto el precio habitual para un proyecto así es de 6000 a 10000 euros llave en mano + el coste de la gestión y el mantenimiento de la red. ¿Lo ves caro? pues hazlo tú mismo.&lt;br /&gt;
 Solo necesitas tener los conocimientos adecuados, bueno también te hará falta un ordenador y una conexión a internet para hacer la gestión remota, un espacio de trabajo, carnet de conducir y un coche grande o una furgoneta para poder desplazarte y transportar el equipamiento, los tramos de las torres y los mástiles, ropa de trabajo, EPIs, herramienta de mano, escalera grande de 3 tramos y pequeña, taladro, brocas, radial, discos, atornilladora, crimpadora, conectores, herrajes, abrazaderas, bridas, tacos, tornillos, cinta aislante, guiacables, aparatos de medida, comprobador de cables, cable ftp exterior, cable ftp interior, material eléctrico, conocimientos, negociaciones con proveedores, dinero para comprar el equipamiento, desplazamientos a proveedores, desplazamientos programados para labores preventivas, desplazamientos extraordinarios por averías, conocimientos, seguro de responsabilidad civil, titulación para trabajo en altura, tasas e impuestos, combustible, dinero, conocimientos y lo más valioso de todo, TU TIEMPO.&lt;/p&gt;
 &lt;h2 id=&#34;sax&#34;&gt;SAX&lt;/h2&gt;
@@ -440,7 +476,7 @@ Hay que tener en cuenta que debemos elegir con mucha atención el hardware, tien
 &lt;/div&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -484,16 +520,16 @@ Hay que tener en cuenta que debemos elegir con mucha atención el hardware, tien
       
       <item>
         <title>Hotspot</title>
-        <link>https://hotspotcepeda.github.io/es/posts/hotspot/</link>
+        <link>http://localhost:1313/es/posts/hotspot/</link>
         <pubDate>Sun, 05 Jan 2014 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 05 Jan 2014 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/hotspot/</guid>
+        <guid>http://localhost:1313/es/posts/hotspot/</guid>
         <description>&lt;p&gt;Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.&lt;br /&gt;
 La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -541,15 +577,15 @@ La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto
       
       <item>
         <title>Arrancando</title>
-        <link>https://hotspotcepeda.github.io/es/posts/arrancando/</link>
+        <link>http://localhost:1313/es/posts/arrancando/</link>
         <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 03 Jan 2014 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/arrancando/</guid>
+        <guid>http://localhost:1313/es/posts/arrancando/</guid>
         <description>&lt;p&gt;En este artículo se comenta como intenté buscar el apoyo en asociaciones locales para que promovieran la iniciativa de una red de telecomunicaciones comunitaria, de alguna manera, para conseguir tener una wifi púbica, un acceso público a internet en un área rural desfavorecida. Por aquel entonces las conexiones a internet en Cepeda se hacían mediante el ISP Iberbanda (que daba conexiones de 1 2 y 3 Mb simétricos), y el 3G era un lujo.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/workflow.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature2/workflow.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

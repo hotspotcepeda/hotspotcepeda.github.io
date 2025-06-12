@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>netflow on HotspotCepeda, La red comunitaria.</title>
+    <title>Netflow on HotspotCepeda, La red comunitaria.</title>
     <link>https://hotspotcepeda.github.io/es/tags/netflow/</link>
-    <description>Recent content in netflow on HotspotCepeda, La red comunitaria.</description>
+    <description>Recent content in Netflow on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
@@ -27,8 +27,41 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 16 May 2017 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_netflow/</guid>
-        <description>Configuración en MikroTik Configuración en servidor debian jessie: # apt-get update &amp;amp;&amp;amp; apt-get upgradewget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-ntop-stable.debsudo apt-get updatesudo apt-get install nprobeconfig nProbesudo nano /etc/nprobe/nprobe-none.conf--zmq=&amp;quot;tcp://127.0.0.1:1234&amp;quot;--collector-port=5556-n=none-i=nonesudo touch /etc/nprobe/nprobe-none.startsudo service nprobe startInstalacion de ntopng
-wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.debsudo dpkg -i apt-ntop-stable.debapt-get install topngconfig ntopngnano /etc/ntopng/ntopng.conf-G=/var/run/ntopng.pid-i tcp://127.0.0.1:1234sudo touch /etc/ntopng/ntopng.startsudo service ntopng startreboot DOCKER docker run -d --name nprobe --net=host xdrum/nprobe nprobe --collector-port 5556 --zmq tcp://*:1234 -i nonedocker run -d --name ntopng --net=host -p 3000:3000 vostro/ntopng ntopng -i tcp://127.</description>
+        <description>&lt;h2 id=&#34;configuración-en-mikrotik&#34;&gt;Configuración en MikroTik&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Configuración netflow MikroTik&#34; src=&#34;https://hotspotcepeda.github.io/images/post/netflow_mikrotik.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;configuración-en-servidor-debian-jessie&#34;&gt;Configuración en servidor debian jessie:&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get update &amp;amp;&amp;amp; apt-get upgrade
+wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.deb
+sudo dpkg -i apt-ntop-stable.deb
+sudo apt-get update
+sudo apt-get install nprobe
+config nProbe
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nano /etc/nprobe/nprobe-none.conf
+
+--zmq=&amp;#34;tcp://127.0.0.1:1234&amp;#34;
+--collector-port=5556
+-n=none
+-i=none
+
+
+sudo touch /etc/nprobe/nprobe-none.start
+sudo service nprobe start
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Instalacion de ntopng&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.deb
+sudo dpkg -i apt-ntop-stable.deb
+apt-get install topng
+ 
+config ntopng
+
+nano /etc/ntopng/ntopng.conf
+
+-G=/var/run/ntopng.pid
+-i tcp://127.0.0.1:1234
+ 
+sudo touch /etc/ntopng/ntopng.start
+sudo service ntopng start
+reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; &lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>

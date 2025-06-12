@@ -6,85 +6,74 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Lxc on HotSpotCepeda</title>
+    <title>Lxc on HotspotCepeda, La red comunitaria.</title>
     <link>http://localhost:1313/es/tags/lxc/</link>
-    <description>Recent content in Lxc on HotSpotCepeda</description>
+    <description>Recent content in Lxc on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://localhost:1313/es/tags/lxc/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>LXC</title>
+        <title>LXC en Proxmox</title>
         <link>http://localhost:1313/es/posts/lxc/</link>
-        <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        <atom:modified>Thu, 28 Nov 2024 00:00:00 +0000</atom:modified>
+        <atom:modified>Fri, 06 Dec 2024 00:00:00 +0000</atom:modified>
         <guid>http://localhost:1313/es/posts/lxc/</guid>
-        <description>&lt;p&gt;&lt;a href=&#34;https://ralph-ng.readthedocs.io/&#34;&gt;https://ralph-ng.readthedocs.io/&lt;/a&gt;&lt;br /&gt;
-Ralph es un sistema de gestión de activos, DCIM y CMDB simple pero potente para centros de datos y back office.&lt;/p&gt;
-&lt;p&gt;Características:&lt;/p&gt;
+        <description>&lt;h2 id=&#34;-qué-es-lxc-&#34;&gt;🔍 ¿Qué es LXC ?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;LXC&lt;/strong&gt; (Linux Containers) es una tecnología de virtualización a nivel de sistema operativo que permite ejecutar múltiples sistemas Linux aislados, conocidos como contenedores (CTs), en un único host. A diferencia de las Máquinas Virtuales (VMs) tradicionales que emulan hardware completo, los contenedores LXC comparten el kernel del host.&lt;/p&gt;
+&lt;p&gt;Esto se traduce en eficiencia :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;realizar un seguimiento de las compras de activos y su ciclo de vida&lt;/li&gt;
-&lt;li&gt;sistema de flujo flexible para el ciclo de vida de los activos&lt;/li&gt;
-&lt;li&gt;centro de datos y soporte de back office&lt;/li&gt;
-&lt;li&gt;Visualización dc incorporada&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arranque Instantáneo:&lt;/strong&gt; Los contenedores se inician en segundos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bajo Overhead:&lt;/strong&gt; Consumo mínimo de RAM y CPU, permitiendo una mayor densidad de servicios en el mismo hardware.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integración Nativa:&lt;/strong&gt; Se sienten como una VM ligera, con su propia IP y servicios, pero sin el peso del hipervisor.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;ralph-en-docker&#34;&gt;Ralph en Docker&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -i -t --name&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;mysql_ralph&amp;#34;&lt;/span&gt; -v /var/lib/mysql -v /home/ralph/.ralph busybox /bin/sh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;chown root /home/ralph; chown root /home/ralph/.ralph&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -P -t -i --volumes-from mysql_ralph allegrogroup/ralph:latest /bin/bash /home/ralph/init.sh
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -P -p 8000:8000 -t -i --name ralph --mac-address&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;02:42:ac:11:ff:ff --volumes-from mysql_ralph allegrogroup/ralph:latest
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Compose&lt;br /&gt;
-&lt;a href=&#34;https://ralph-ng.readthedocs.io/en/stable/&#34;&gt;https://ralph-ng.readthedocs.io/en/stable/&lt;/a&gt;&lt;br /&gt;
-Install&lt;br /&gt;
-Install docker and docker-compose first.&lt;br /&gt;
-Create compose configuration&lt;br /&gt;
-Copy docker-compose.yml.tmpl outside ralph sources to docker-compose.yml and tweak it.&lt;br /&gt;
-Build&lt;br /&gt;
-Then build ralph:&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;Arquitectura LXC vs VM&#34; src=&#34;images/feature1/lxc-vs-vm.png&#34;&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/ralph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/lxc-proxmox-banner.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
-          
-            
-              <category>ralph</category>
-            
           
             
               <category>lxc</category>
             
           
             
-              <category>cdp</category>
+              <category>proxmox</category>
             
           
             
-              <category>isp</category>
+              <category>contenedores</category>
             
           
             
-              <category>gestion</category>
+              <category>virtualización</category>
+            
+          
+            
+              <category>devops</category>
             
           
         
+        
+          
+            
+              <category>Homelab</category>
+            
+          
+            
+              <category>Virtualización</category>
+            
+          
         
         
       </item>

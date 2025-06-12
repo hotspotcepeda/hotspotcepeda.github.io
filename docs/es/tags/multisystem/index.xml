@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>multisystem on HotspotCepeda, La red comunitaria.</title>
+    <title>Multisystem on HotspotCepeda, La red comunitaria.</title>
     <link>https://hotspotcepeda.github.io/es/tags/multisystem/</link>
-    <description>Recent content in multisystem on HotspotCepeda, La red comunitaria.</description>
+    <description>Recent content in Multisystem on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
@@ -27,10 +27,10 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 02 May 2016 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/multiboot_multisystem/</guid>
-        <description>Para hacer un USB boot con varios SO ya sea de diagnostico o live la mejor herramienta que he encontrado es MULTISYSTEM.
-Admite trabajar en modo persistente guardando los cambios o en live.
-http://liveusb.info/dotclear/index.php?pages/install
-Es buena cosa contar con un USB con herramientas de diagnostico y lives de SO para instalar, siempre que la maquina donde lo conectemos tenga capacidad de arrancar desde USB.</description>
+        <description>&lt;p&gt;Para hacer un USB boot con varios SO ya sea de diagnostico o live la mejor herramienta que he encontrado es MULTISYSTEM.&lt;/p&gt;
+&lt;p&gt;Admite trabajar en modo persistente guardando los cambios o en live.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://liveusb.info/dotclear/index.php?pages/install&#34;&gt;http://liveusb.info/dotclear/index.php?pages/install&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Es buena cosa contar con un USB con herramientas de diagnostico y lives de SO para instalar, siempre que la maquina donde lo conectemos tenga capacidad de arrancar desde USB.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/MultiSystem.png" medium="image"><media:title type="html">featured image</media:title></media:content>

@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>ddsns on HotspotCepeda, La red comunitaria.</title>
+    <title>Ddsns on HotspotCepeda, La red comunitaria.</title>
     <link>https://hotspotcepeda.github.io/es/tags/ddsns/</link>
-    <description>Recent content in ddsns on HotspotCepeda, La red comunitaria.</description>
+    <description>Recent content in Ddsns on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
@@ -27,7 +27,80 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 13 Nov 2016 00:00:00 +0000</atom:modified>
         <guid>https://hotspotcepeda.github.io/es/posts/ddns_change_ip_script_mikrotik/</guid>
-        <description>Script /system/script new and paste:# Written by Sam Norris, ChangeIP.com# Copyright ChangeIP.com 2009# For support send mail to Support@ChangeIP.com## 2009-06-22 RouterOS 3.25 Tested# 2009-10-05 RouterOS 4.01rc1 Tested## OVERVIEW: %# This script will update a ChangeIP.com dynamic dns hostname# with an ip address located directly on an interface.# %# NOTES: %# IF THIS SCRIPT DOES NOT PRODUCE ANY OUTPUT PLEASE COPY AND PASTE IT# AGAIN.</description>
+        <description>&lt;h2 id=&#34;script&#34;&gt;Script&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/system/script new and paste:
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Written by Sam Norris, ChangeIP.com
+# Copyright ChangeIP.com 2009
+# For support send mail to Support@ChangeIP.com
+#
+# 2009-06-22 RouterOS 3.25 Tested
+# 2009-10-05 RouterOS 4.01rc1 Tested
+#
+# OVERVIEW:         %
+#  This script will update a ChangeIP.com dynamic dns hostname
+#  with an ip address located directly on an interface.
+#                   %
+# NOTES:            %
+#  IF THIS SCRIPT DOES NOT PRODUCE ANY OUTPUT PLEASE COPY AND PASTE IT
+#  AGAIN.  THERE PROBABLY IS A LINE BREAK IN THE WRONG PLACE! Once you
+#  have created this script and tested that it works by running it
+#  manually you can schedule it to run every few minutes.
+#                   %
+# CONFIGURATION FIELD DEFINITIONS:
+#  ddnsuser:  Enter your ChangeIP.com user id.
+#  ddnspass:  Enter your ChangeIP.com password.
+#  ddnshost:  Enter the hostname (www.example.com) to update.
+#  ddnsinterface:  Enter an interface name to watch - case sensative.
+#                   %
+#                   %
+#                   %
+#                   %
+#               %   %   %
+#                %  %  %
+#                 % % %
+#                   %
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# EDIT YOUR DETAILS / CONFIGURATION HERE
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:global ddnsuser &amp;#34;user&amp;#34;
+:global ddnspass &amp;#34;pass&amp;#34;
+:global ddnshost &amp;#34;ddnsname.net&amp;#34;
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# END OF USER DEFINED CONFIGURATION
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:global ddnssystem (&amp;#34;mt-&amp;#34; . [/system package get [/system package find name=system] version] )
+/tool fetch url=&amp;#34;http://myip.dnsomatic.com/&amp;#34; mode=http dst-path=mypublicip.txt
+:global ddnsip [file get mypublicip.txt contents ]
+:global ddnslastip
+
+
+
+:if ([ :typeof $ddnslastip ] = &amp;#34;nothing&amp;#34; ) do={ :global ddnslastip 0.0.0.0/0 }
+
+:if ([ :typeof $ddnsip ] = &amp;#34;nothing&amp;#34; ) do={
+:log info (&amp;#34;DDNS: No ip address present on contents , please check.&amp;#34;)
+
+} else={
+
+  :if ($ddnsip != $ddnslastip) do={
+
+    :log info &amp;#34;DDNS: Sending UPDATE!&amp;#34;
+    :log info [ :put [/tool dns-update name=$ddnshost address= $ddnsip key-name=$ddnsuser key=$ddnspass ] ]
+    :log info $ddnsip
+    :global ddnslastip $ddnsip
+
+  } else={ 
+
+    :log info &amp;#34;DDNS: No changes necessary.&amp;#34;
+
+  }
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/system/schedule Interval: 00:10:00
+&lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
         <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
