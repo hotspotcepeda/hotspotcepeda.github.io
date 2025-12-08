@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Ddsns on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/ddsns/</link>
+    <link>http://localhost:1313/es/tags/ddsns/</link>
     <description>Recent content in Ddsns on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 13 Nov 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/ddsns/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/ddsns/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>DDNS Change IP MikroTik script</title>
-        <link>https://hotspotcepeda.github.io/es/posts/ddns_change_ip_script_mikrotik/</link>
+        <link>http://localhost:1313/es/posts/ddns_change_ip_script_mikrotik/</link>
         <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 13 Nov 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/ddns_change_ip_script_mikrotik/</guid>
+        <guid>http://localhost:1313/es/posts/ddns_change_ip_script_mikrotik/</guid>
         <description>&lt;h2 id=&#34;script&#34;&gt;Script&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/system/script new and paste:
 &lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Written by Sam Norris, ChangeIP.com
@@ -103,7 +103,7 @@
 &lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

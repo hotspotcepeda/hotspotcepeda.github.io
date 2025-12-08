@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Contenedores on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/contenedores/</link>
+    <link>http://localhost:1313/es/tags/contenedores/</link>
     <description>Recent content in Contenedores on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/contenedores/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/contenedores/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Orquestación de Arranque PVE</title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_pve_boot_order/</link>
+        <link>http://localhost:1313/es/posts/proxmox_pve_boot_order/</link>
         <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 08 Dec 2025 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_pve_boot_order/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_pve_boot_order/</guid>
         <description>&lt;hr /&gt;
 &lt;h1 id=&#34;optimización-y-orquestación-del-orden-de-arranque-en-proxmox-ve&#34;&gt;Optimización y Orquestación del Orden de Arranque en Proxmox VE&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Fecha:&lt;/strong&gt; 08 de Diciembre de 2025&lt;br /&gt;
@@ -37,7 +37,7 @@
 &lt;p&gt;Tras un corte de energía o un mantenimiento, si todos los contenedores (LXC) y máquinas virtuales (VM) intentan arrancar simultáneamente, ocurren dos problemas:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -79,11 +79,11 @@
       
       <item>
         <title>LXC en Proxmox</title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_lxc/</link>
+        <link>http://localhost:1313/es/posts/proxmox_lxc/</link>
         <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 06 Dec 2024 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_lxc/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_lxc/</guid>
         <description>&lt;h2 id=&#34;-qué-es-lxc-&#34;&gt;🔍 ¿Qué es LXC ?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;LXC&lt;/strong&gt; (Linux Containers) es una tecnología de virtualización a nivel de sistema operativo que permite ejecutar múltiples sistemas Linux aislados, conocidos como contenedores (CTs), en un único host. A diferencia de las Máquinas Virtuales (VMs) tradicionales que emulan hardware completo, los contenedores LXC comparten el kernel del host.&lt;/p&gt;
 &lt;p&gt;Esto se traduce en eficiencia :&lt;/p&gt;
@@ -104,7 +104,7 @@
 &lt;p&gt;Olvídate de &lt;code&gt;lxc-*&lt;/code&gt;. En Proxmox, el comando &lt;code&gt;pct&lt;/code&gt; (Proxmox Container Toolkit) manda. Comandos esenciales .&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/lxc.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/lxc.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -146,11 +146,11 @@
       
       <item>
         <title>PBS recuperacion</title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_pbs_recuperacion/</link>
+        <link>http://localhost:1313/es/posts/proxmox_pbs_recuperacion/</link>
         <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 15 Nov 2024 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_pbs_recuperacion/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_pbs_recuperacion/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
@@ -392,7 +392,7 @@
 &lt;/div&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -434,18 +434,18 @@
       
       <item>
         <title>Backup en Proxmox</title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_backup_a_hdd/</link>
+        <link>http://localhost:1313/es/posts/proxmox_backup_a_hdd/</link>
         <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 10 Nov 2024 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_backup_a_hdd/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_backup_a_hdd/</guid>
         <description>&lt;h1 id=&#34;backup-y-restauración-de-máquinas-virtuales-proxmox-ve-guía-avanzada&#34;&gt;Backup y Restauración de Máquinas Virtuales Proxmox VE (Guía Avanzada)&lt;/h1&gt;
 &lt;p&gt;Este post detalla el proceso para realizar un backup completo de una Máquina Virtual (VM) en Proxmox VE a un disco externo o directorio no gestionado por Proxmox, y cómo restaurarla, manteniendo la distribución original de los discos en diferentes almacenamientos. Se asume un entorno Proxmox VE con ZFS pools (&lt;code&gt;local-zfs&lt;/code&gt;, &lt;code&gt;dual-mirror-8_TB&lt;/code&gt;) y un disco externo (&lt;code&gt;/dev/sda&lt;/code&gt;) montado.&lt;/p&gt;
 &lt;h2 id=&#34;escenario-de-la-vm-a-respaldar-id-100&#34;&gt;Escenario de la VM a Respaldar (ID 100)&lt;/h2&gt;
 &lt;p&gt;La VM con ID &lt;code&gt;100&lt;/code&gt; (&lt;code&gt;NEXT&lt;/code&gt;) tiene la siguiente configuración de discos:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

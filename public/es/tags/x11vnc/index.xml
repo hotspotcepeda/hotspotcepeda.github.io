@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>X11vnc on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/x11vnc/</link>
+    <link>http://localhost:1313/es/tags/x11vnc/</link>
     <description>Recent content in X11vnc on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Fri, 14 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/x11vnc/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/x11vnc/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Escritorio remoto debian con x11vnc</title>
-        <link>https://hotspotcepeda.github.io/es/posts/debian_escritorio_remoto/</link>
+        <link>http://localhost:1313/es/posts/debian_escritorio_remoto/</link>
         <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 14 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/debian_escritorio_remoto/</guid>
+        <guid>http://localhost:1313/es/posts/debian_escritorio_remoto/</guid>
         <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;https://github.com/LibVNC/x11vnc&#34;&gt;https://github.com/LibVNC/x11vnc&lt;/a&gt;
 &lt;/div&gt;&lt;br /&gt;
@@ -52,7 +52,7 @@ Password written to: /home/USUARIO/.vnc/passwd
 Ejemplo para conectarse usando cliente vinagre, remmina, tincvnc &amp;hellip; En el servidor ejecutamos:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Nprobe on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/nprobe/</link>
+    <link>http://localhost:1313/es/tags/nprobe/</link>
     <description>Recent content in Nprobe on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,19 +16,19 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Tue, 16 May 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/nprobe/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/nprobe/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>MikroTik netflow</title>
-        <link>https://hotspotcepeda.github.io/es/posts/mikrotik_netflow/</link>
+        <link>http://localhost:1313/es/posts/mikrotik_netflow/</link>
         <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 16 May 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_netflow/</guid>
+        <guid>http://localhost:1313/es/posts/mikrotik_netflow/</guid>
         <description>&lt;h2 id=&#34;configuración-en-mikrotik&#34;&gt;Configuración en MikroTik&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&#34;Configuración netflow MikroTik&#34; src=&#34;https://hotspotcepeda.github.io/images/post/netflow_mikrotik.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Configuración netflow MikroTik&#34; src=&#34;http://localhost:1313/images/post/netflow_mikrotik.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;configuración-en-servidor-debian-jessie&#34;&gt;Configuración en servidor debian jessie:&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get update &amp;amp;&amp;amp; apt-get upgrade
 wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.deb
@@ -64,7 +64,7 @@ reboot
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt; &lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

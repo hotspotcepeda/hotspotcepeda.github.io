@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Ubiquiti on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/ubiquiti/</link>
+    <link>http://localhost:1313/es/tags/ubiquiti/</link>
     <description>Recent content in Ubiquiti on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sat, 15 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/ubiquiti/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/ubiquiti/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Configurar vlan de gestión en Ubiquiti</title>
-        <link>https://hotspotcepeda.github.io/es/posts/vlan_gestion_ubiquiti/</link>
+        <link>http://localhost:1313/es/posts/vlan_gestion_ubiquiti/</link>
         <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 15 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/vlan_gestion_ubiquiti/</guid>
+        <guid>http://localhost:1313/es/posts/vlan_gestion_ubiquiti/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;http://ca.wiki.guifi.net/wiki/Gestio_de_antenes_ubnt_a_trav%C3%A9s_de_VLAN_de_gesti%C3%B3&#34;&gt;http://ca.wiki.guifi.net/wiki/Gestio_de_antenes_ubnt_a_trav%C3%A9s_de_VLAN_de_gesti%C3%B3&lt;/a&gt;
 &lt;/div&gt;
@@ -36,7 +36,7 @@
 &lt;p&gt;Se configura la antena en bridge, se le añade dos interfaces VLANs, y se configura la IP manual en la LAN0.X X = vlan ID (en nuestro caso 666)&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/UBNT_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/UBNT_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -68,17 +68,17 @@
       
       <item>
         <title>NanoStation M5 GW</title>
-        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</link>
+        <link>http://localhost:1313/es/posts/nanostationm5_cliente_qmp/</link>
         <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 04 Feb 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</guid>
+        <guid>http://localhost:1313/es/posts/nanostationm5_cliente_qmp/</guid>
         <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://player.vimeo.com/video/196173358&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -130,16 +130,16 @@
       
       <item>
         <title>NanoStation M5 gateway internet</title>
-        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_gw/</link>
+        <link>http://localhost:1313/es/posts/nanostationm5_gw/</link>
         <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 21 Jan 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_gw/</guid>
+        <guid>http://localhost:1313/es/posts/nanostationm5_gw/</guid>
         <description>&lt;p&gt;Pasos para usar una antena Ubiquiti Nano Station en una red qmp con Lan y Wan. Las configuraciones de Vlan las vamos a hacer desde el menú de administración en el apartado de switch e interfaces.&lt;/p&gt;
 &lt;p&gt;La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.1/24 user/password root/13f y nos proporciona una IP de ese rango al conectarnos. Tenemos conectado en el POE que va a la boca Main del router y viene como la Vlan1&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -187,11 +187,11 @@
       
       <item>
         <title>Buenas practicas en la realizacion de tus radioenlaces</title>
-        <link>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</link>
+        <link>http://localhost:1313/es/posts/buenas_practicas_radioenlaces/</link>
         <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 16 Jan 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/buenas_practicas_radioenlaces/</guid>
+        <guid>http://localhost:1313/es/posts/buenas_practicas_radioenlaces/</guid>
         <description>&lt;h2 id=&#34;antes-de-instalar&#34;&gt;Antes de instalar:&lt;/h2&gt;
 &lt;h3 id=&#34;llevar-los-equipos-configurados&#34;&gt;Llevar los equipos configurados.&lt;/h3&gt;
 &lt;p&gt;Si a la hora de poner en funcionamiento el enlace surgen problemas: como que el equipo no enciende, mala transferencia de datos&amp;hellip; será más fácil localizar averías en el cableado, conectores y alimentación, POE.&lt;/p&gt;
@@ -199,7 +199,7 @@
 &lt;p&gt;Si es posible hacer una primera visita para saber como planificar la instalación y saber que material puede hacer falta, cableados, herramienta que tenemos que llevar, accesos a zonas comunes bajo llave, etc&amp;hellip; tomar notas y fotos, ortofotos, línea de visión directa entre antenas, referencias para orientar las anteas.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/wave.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -243,11 +243,11 @@
       
       <item>
         <title>Guardar log de MikroTik y Ubiqiti en servidor</title>
-        <link>https://hotspotcepeda.github.io/es/posts/log_remoto_syslog-ng/</link>
+        <link>http://localhost:1313/es/posts/log_remoto_syslog-ng/</link>
         <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 01 Nov 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/log_remoto_syslog-ng/</guid>
+        <guid>http://localhost:1313/es/posts/log_remoto_syslog-ng/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;https://aacable.wordpress.com/2011/11/29/howto-save-mikrotik-logs-to-remote-syslog-server/&#34;&gt;https://aacable.wordpress.com/2011/11/29/howto-save-mikrotik-logs-to-remote-syslog-server/&lt;/a&gt;&lt;br /&gt;
 Conviene tener los trastos en hora, configure NTP en todas sus máquinas.
@@ -268,10 +268,10 @@ add action=remote topics=warning
 # registro remoto de lo que se quiera
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;cliente-ubiquiti&#34;&gt;Cliente Ubiquiti&lt;/h2&gt;
 &lt;p&gt;Con ip 10.38.15.1&lt;br /&gt;
-&lt;img alt=&#34;Configuración log remoto Ubiquiti&#34; src=&#34;https://hotspotcepeda.github.io/images/post/syslog_UBNT.png&#34;&gt;&lt;/p&gt;</description>
+&lt;img alt=&#34;Configuración log remoto Ubiquiti&#34; src=&#34;http://localhost:1313/images/post/syslog_UBNT.png&#34;&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -315,11 +315,11 @@ add action=remote topics=warning
       
       <item>
         <title>NanoStation M5 qMp</title>
-        <link>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</link>
+        <link>http://localhost:1313/es/posts/qmp_nanostation_m5/</link>
         <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 03 May 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</guid>
+        <guid>http://localhost:1313/es/posts/qmp_nanostation_m5/</guid>
         <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;strong&gt;¿Que qué es qMp?&lt;/strong&gt; Visite &lt;a href=&#34;http://qmp.cat/Inicio&#34;&gt;http://qmp.cat/Inicio&lt;/a&gt; para conocerlo.&lt;br /&gt;
 Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/projects/qmp&#34;&gt;https://dev.qmp.cat/projects/qmp&lt;/a&gt;  &lt;strong&gt;🙌&lt;/strong&gt;
@@ -327,10 +327,10 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
 &lt;div class=&#34;notices warning&#34; data-title=&#34;Warning&#34;&gt;
   27/03/2021 &lt;strong&gt;Ojo con las nuevas remesas de de equipamiento Ubiquiti&lt;/strong&gt;, las nuevas revisiones 2000K y superiores de NanoStation Loco M5 no funcionan ni con OpenWRT ar71xx ni con OpenWRT ath79, ni tan siquiera probando OpenWRT ath79 para Bullet M XW que sí funciona en las Rocket M XW. Al parecer hay dos arquitecturas distintas que sirven para distintas revisiones de hardware de Ubiquiti .La ar71xx es la de siempre, antes funcionaba, la ath79 es la nueva. No sé sabe todavía la manera de flashearlas.
 &lt;/div&gt;&lt;br /&gt;
-&lt;img alt=&#34;NanoStation M5&#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/NSM5-p.png&#34;&gt;&lt;/p&gt;</description>
+&lt;img alt=&#34;NanoStation M5&#34; src=&#34;http://localhost:1313/gallery/red/NSM5-p.png&#34;&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -382,16 +382,16 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
       
       <item>
         <title>Hotspot</title>
-        <link>https://hotspotcepeda.github.io/es/posts/hotspot/</link>
+        <link>http://localhost:1313/es/posts/hotspot/</link>
         <pubDate>Sun, 05 Jan 2014 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 05 Jan 2014 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/hotspot/</guid>
+        <guid>http://localhost:1313/es/posts/hotspot/</guid>
         <description>&lt;p&gt;Y se puso en producción el hotspot, un hotspot en wifi es un dispositivo con capacidades de enrutamiento que gestiona conexiones de otros dispositivos (punto caliente) y les da salida a internet, una especie de pasarela o gateway pero en este caso con capacidades de gestión del trafico.&lt;br /&gt;
 La salida a internet para toda la red comunitaria la dona el excelentísimo Ayto de Cepeda la Mora, es un router 4G de 10 Mb dedicado.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/hotspot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

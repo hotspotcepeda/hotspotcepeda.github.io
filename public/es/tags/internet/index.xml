@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Internet on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/internet/</link>
+    <link>http://localhost:1313/es/tags/internet/</link>
     <description>Recent content in Internet on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Tue, 03 May 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/internet/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>NanoStation M5 qMp</title>
-        <link>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</link>
+        <link>http://localhost:1313/es/posts/qmp_nanostation_m5/</link>
         <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 03 May 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</guid>
+        <guid>http://localhost:1313/es/posts/qmp_nanostation_m5/</guid>
         <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;strong&gt;¿Que qué es qMp?&lt;/strong&gt; Visite &lt;a href=&#34;http://qmp.cat/Inicio&#34;&gt;http://qmp.cat/Inicio&lt;/a&gt; para conocerlo.&lt;br /&gt;
 Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/projects/qmp&#34;&gt;https://dev.qmp.cat/projects/qmp&lt;/a&gt;  &lt;strong&gt;🙌&lt;/strong&gt;
@@ -34,10 +34,10 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
 &lt;div class=&#34;notices warning&#34; data-title=&#34;Warning&#34;&gt;
   27/03/2021 &lt;strong&gt;Ojo con las nuevas remesas de de equipamiento Ubiquiti&lt;/strong&gt;, las nuevas revisiones 2000K y superiores de NanoStation Loco M5 no funcionan ni con OpenWRT ar71xx ni con OpenWRT ath79, ni tan siquiera probando OpenWRT ath79 para Bullet M XW que sí funciona en las Rocket M XW. Al parecer hay dos arquitecturas distintas que sirven para distintas revisiones de hardware de Ubiquiti .La ar71xx es la de siempre, antes funcionaba, la ath79 es la nueva. No sé sabe todavía la manera de flashearlas.
 &lt;/div&gt;&lt;br /&gt;
-&lt;img alt=&#34;NanoStation M5&#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/NSM5-p.png&#34;&gt;&lt;/p&gt;</description>
+&lt;img alt=&#34;NanoStation M5&#34; src=&#34;http://localhost:1313/gallery/red/NSM5-p.png&#34;&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Seguridad on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/seguridad/</link>
+    <link>http://localhost:1313/es/tags/seguridad/</link>
     <description>Recent content in Seguridad on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/seguridad/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/seguridad/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Wazuh: Tu Centro de Seguridad Open Source (Guía Completa)</title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_wazuh/</link>
+        <link>http://localhost:1313/es/posts/proxmox_wazuh/</link>
         <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 06 Dec 2024 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_wazuh/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_wazuh/</guid>
         <description>&lt;h2 id=&#34;-qué-es-wazuh&#34;&gt;🌐 ¿Qué es Wazuh?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Wazuh&lt;/strong&gt; es una plataforma de seguridad de código abierto, gratuita y universalmente reconocida. Funciona como una solución &lt;strong&gt;XDR&lt;/strong&gt; (Detección y Respuesta Extendidas) y &lt;strong&gt;SIEM&lt;/strong&gt; (Gestión de Eventos e Información de Seguridad) todo en uno.&lt;/p&gt;
 &lt;p&gt;Wazuh centraliza, analiza y responde a eventos de seguridad de toda tu infraestructura, desde servidores y PCs hasta dispositivos móviles.&lt;/p&gt;
@@ -43,7 +43,7 @@
 &lt;p&gt;Vamos a instalar la pila completa de Wazuh (Indexer, Server y Dashboard) en un único contenedor LXC, una opción eficiente y potente para un homelab.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/wazuh.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/wazuh.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

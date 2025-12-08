@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Mesh on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/mesh/</link>
+    <link>http://localhost:1313/es/tags/mesh/</link>
     <description>Recent content in Mesh on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,21 +16,21 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/mesh/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/mesh/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Autoprovisión</title>
-        <link>https://hotspotcepeda.github.io/es/posts/autoprovision_nodo_qmp/</link>
+        <link>http://localhost:1313/es/posts/autoprovision_nodo_qmp/</link>
         <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Wed, 21 Apr 2021 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/autoprovision_nodo_qmp/</guid>
+        <guid>http://localhost:1313/es/posts/autoprovision_nodo_qmp/</guid>
         <description>&lt;p&gt;Por si alguien se lo quiere montar por su cuenta.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -78,16 +78,16 @@
       
       <item>
         <title>Topología</title>
-        <link>https://hotspotcepeda.github.io/es/posts/topologia/</link>
+        <link>http://localhost:1313/es/posts/topologia/</link>
         <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 17 Apr 2021 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/topologia/</guid>
+        <guid>http://localhost:1313/es/posts/topologia/</guid>
         <description>&lt;p&gt;Voy a intentar explicar como funciona la red en Cepeda, en resumidas cuentas es fácil, solo hay que asignar a los nodos ó antenas, las ips de la web guifi.net para que darle un poco de orden y la frecuencia de trabajo para que se entiendan, el canal y el país en el que está trabajando la red comunitaria.&lt;br /&gt;
 Los enlaces los negocia el qMp en base a lo que tenga al alcance. Es una red con vida propia.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/flowchart.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -131,17 +131,17 @@ Los enlaces los negocia el qMp en base a lo que tenga al alcance. Es una red con
       
       <item>
         <title>NanoStation M5 GW</title>
-        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</link>
+        <link>http://localhost:1313/es/posts/nanostationm5_cliente_qmp/</link>
         <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 04 Feb 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</guid>
+        <guid>http://localhost:1313/es/posts/nanostationm5_cliente_qmp/</guid>
         <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://player.vimeo.com/video/196173358&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -193,11 +193,11 @@ Los enlaces los negocia el qMp en base a lo que tenga al alcance. Es una red con
       
       <item>
         <title>Modos de trabajo qMp</title>
-        <link>https://hotspotcepeda.github.io/es/posts/modos_de_trabajo_qmp/</link>
+        <link>http://localhost:1313/es/posts/modos_de_trabajo_qmp/</link>
         <pubDate>Tue, 27 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 27 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/modos_de_trabajo_qmp/</guid>
+        <guid>http://localhost:1313/es/posts/modos_de_trabajo_qmp/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;strong&gt;¿Que qué es qMp?&lt;/strong&gt; Visite &lt;a href=&#34;http://qmp.cat/Inicio&#34;&gt;http://qmp.cat/Inicio&lt;/a&gt; para conocerlo.&lt;br /&gt;
 Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/projects/qmp&#34;&gt;https://dev.qmp.cat/projects/qmp&lt;/a&gt;  &lt;strong&gt;🙌&lt;/strong&gt;
@@ -205,24 +205,24 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
 &lt;h4 id=&#34;modos-de-trabajo-de-la-radio-con-qmp-321&#34;&gt;Modos de trabajo de la radio con qMp 3.2.1&lt;/h4&gt;
 &lt;p&gt;Estos son los modos de trabajo en modo community, opciones de Wireless interface wlan0.&lt;/p&gt;
 &lt;h5 id=&#34;ad_hoc_mesh__access_point_lan&#34;&gt;Ad_hoc_(mesh)_+&lt;em&gt;access_point&lt;/em&gt;(Lan)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;Ad_hoc_(mesh)_+&lt;em&gt;access_point&lt;/em&gt;(Lan)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/Ad_hoc_mesh_-_access_point_Lan.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Ad_hoc_(mesh)_+&lt;em&gt;access_point&lt;/em&gt;(Lan)&#34; src=&#34;http://localhost:1313/images/qmp/Ad_hoc_mesh_-_access_point_Lan.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;ad_hoc_mesh&#34;&gt;Ad_hoc_(mesh)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;Ad_hoc_(mesh)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/Ad_hoc_mesh.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Ad_hoc_(mesh)&#34; src=&#34;http://localhost:1313/images/qmp/Ad_hoc_mesh.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;access_point_mesh&#34;&gt;Access_point_(mesh)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;Access_point_(mesh)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/access_point_mesh.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Access_point_(mesh)&#34; src=&#34;http://localhost:1313/images/qmp/access_point_mesh.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;access_point_lan&#34;&gt;Access_point_(Lan)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;Access_point_(Lan)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/Access_point_Lan.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Access_point_(Lan)&#34; src=&#34;http://localhost:1313/images/qmp/Access_point_Lan.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;client_wan&#34;&gt;Client_(WAN)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;Client_(WAN)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/Client_WAN.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Client_(WAN)&#34; src=&#34;http://localhost:1313/images/qmp/Client_WAN.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;experimental_80211s_mesh&#34;&gt;EXPERIMENTAL_802.11s_(mesh)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;EXPERIMENTAL_802.11s_(mesh)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/EXPERIMENTAL_802.11s_mesh.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;EXPERIMENTAL_802.11s_(mesh)&#34; src=&#34;http://localhost:1313/images/qmp/EXPERIMENTAL_802.11s_mesh.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;experimental_80211s_meshaccess_point_lan&#34;&gt;EXPERIMENTAL_802.11s_(mesh)+Access_point_(Lan)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;EXPERIMENTAL_802.11s_(mesh)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/EXPERIMENTAL_802.11s_mesh-Access_point_Lan.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;EXPERIMENTAL_802.11s_(mesh)&#34; src=&#34;http://localhost:1313/images/qmp/EXPERIMENTAL_802.11s_mesh-Access_point_Lan.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;disabled-la-opción-desaparece&#34;&gt;Disabled la opción desaparece&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;Disabled&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/Disabled.png&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;Disabled&#34; src=&#34;http://localhost:1313/images/qmp/Disabled.png&#34;&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -262,11 +262,11 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
       
       <item>
         <title>UCI qMp archivo de configuración</title>
-        <link>https://hotspotcepeda.github.io/es/posts/uci_qmp_configuration_file/</link>
+        <link>http://localhost:1313/es/posts/uci_qmp_configuration_file/</link>
         <pubDate>Mon, 26 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 26 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/uci_qmp_configuration_file/</guid>
+        <guid>http://localhost:1313/es/posts/uci_qmp_configuration_file/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;strong&gt;¿Que qué es qMp?&lt;/strong&gt; Visite &lt;a href=&#34;http://qmp.cat/Inicio&#34;&gt;http://qmp.cat/Inicio&lt;/a&gt; para conocerlo.&lt;br /&gt;
 Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/projects/qmp&#34;&gt;https://dev.qmp.cat/projects/qmp&lt;/a&gt;  &lt;strong&gt;🙌&lt;/strong&gt;
@@ -459,7 +459,7 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
 &lt;/div&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Hugo on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/showcase/hugo/</link>
+    <link>http://localhost:1313/es/showcase/hugo/</link>
     <description>Recent content in Hugo on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 19 Jan 2020 21:04:11 +0900</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/showcase/hugo/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/showcase/hugo/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Hugo Zzo Theme</title>
-        <link>https://hotspotcepeda.github.io/es/showcase/hugo/hugo-theme-zzo/</link>
+        <link>http://localhost:1313/es/showcase/hugo/hugo-theme-zzo/</link>
         <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/showcase/hugo/hugo-theme-zzo/</guid>
+        <guid>http://localhost:1313/es/showcase/hugo/hugo-theme-zzo/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -40,11 +40,11 @@
       
       <item>
         <title>Hugo zDoc Theme</title>
-        <link>https://hotspotcepeda.github.io/es/showcase/hugo/hugo-theme-zdoc/</link>
+        <link>http://localhost:1313/es/showcase/hugo/hugo-theme-zdoc/</link>
         <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/showcase/hugo/hugo-theme-zdoc/</guid>
+        <guid>http://localhost:1313/es/showcase/hugo/hugo-theme-zdoc/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>

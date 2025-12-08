@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Docker on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/docker/</link>
+    <link>http://localhost:1313/es/tags/docker/</link>
     <description>Recent content in Docker on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Fri, 17 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Librenms Docker install</title>
-        <link>https://hotspotcepeda.github.io/es/posts/librenms_docker_install/</link>
+        <link>http://localhost:1313/es/posts/librenms_docker_install/</link>
         <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 17 Nov 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/librenms_docker_install/</guid>
+        <guid>http://localhost:1313/es/posts/librenms_docker_install/</guid>
         <description>&lt;p&gt;BBDD&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -82,7 +82,7 @@
 &lt;/div&gt;&lt;p&gt;Al navegador http://ipserver:888/install.php&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -106,11 +106,11 @@
       
       <item>
         <title>Ralph en Docker</title>
-        <link>https://hotspotcepeda.github.io/es/posts/ralph/</link>
+        <link>http://localhost:1313/es/posts/ralph/</link>
         <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 17 Jul 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/ralph/</guid>
+        <guid>http://localhost:1313/es/posts/ralph/</guid>
         <description>&lt;p&gt;&lt;a href=&#34;https://ralph-ng.readthedocs.io/&#34;&gt;https://ralph-ng.readthedocs.io/&lt;/a&gt;&lt;br /&gt;
 Ralph es un sistema de gestión de activos, DCIM y CMDB simple pero potente para centros de datos y back office.&lt;/p&gt;
 &lt;p&gt;Características:&lt;/p&gt;
@@ -143,7 +143,7 @@ Build&lt;br /&gt;
 Then build ralph:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/ralph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/ralph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -175,12 +175,12 @@ Then build ralph:&lt;/p&gt;</description>
       
       <item>
         <title>NEXTCLOUD DEBIAN SERVER AND CLIENT</title>
-        <link>https://hotspotcepeda.github.io/es/posts/nextcloud_debian/</link>
+        <link>http://localhost:1313/es/posts/nextcloud_debian/</link>
         <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 24 Jun 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/nextcloud_debian/</guid>
-        <description>&lt;p&gt;&lt;img alt=&#34;Nextcloud custom login server&#34; src=&#34;https://hotspotcepeda.github.io/images/post/nextcloud_custom.png&#34;&gt;&lt;/p&gt;
+        <guid>http://localhost:1313/es/posts/nextcloud_debian/</guid>
+        <description>&lt;p&gt;&lt;img alt=&#34;Nextcloud custom login server&#34; src=&#34;http://localhost:1313/images/post/nextcloud_custom.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;ADD NEXTCLOUD REPOSITORY&lt;br /&gt;
 Add the Nextcloud repository in the /etc/apt/sources.d/nextcloud.list&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -224,7 +224,7 @@ INSTALL POSTGRESQL AND SETUP NEW USER &amp;amp; DATABASE&lt;br /&gt;
 Install PostgreSQL with:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -252,11 +252,11 @@ Install PostgreSQL with:&lt;/p&gt;</description>
       
       <item>
         <title>Docker</title>
-        <link>https://hotspotcepeda.github.io/es/posts/docker/</link>
+        <link>http://localhost:1313/es/posts/docker/</link>
         <pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 30 May 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/docker/</guid>
+        <guid>http://localhost:1313/es/posts/docker/</guid>
         <description>&lt;p&gt;Listar imagenes&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#docker images
 REPOSITORY TAG IMAGE ID CREATED SIZE
@@ -279,7 +279,7 @@ REPOSITORY TAG IMAGE ID CREATED SIZE
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Cada vez que se lanza una imagen con docker run -t -i debian /bin/bash se crea un contenedor asociado, ver con:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/docker_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/docker_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

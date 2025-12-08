@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Ubuntu on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/ubuntu/</link>
+    <link>http://localhost:1313/es/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,22 +16,22 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Librenms VM</title>
-        <link>https://hotspotcepeda.github.io/es/posts/librenms-vm/</link>
+        <link>http://localhost:1313/es/posts/librenms-vm/</link>
         <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 15 Sep 2022 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/librenms-vm/</guid>
+        <guid>http://localhost:1313/es/posts/librenms-vm/</guid>
         <description>&lt;p&gt;Como al actulizar me he cargado la maquina virtual de servidor de SNNMP Librenms al volver a instalar de 0 me ha costado un poco por que no me acordaba de nada.&lt;br /&gt;
 Voy a instalar la misma que tenia, la 18.04 y voy a ir actualizando para ver si le cojo el punto a Ubuntu, nunca me habia cargado nada actualizando Debian.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

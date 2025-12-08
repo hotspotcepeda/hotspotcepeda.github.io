@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Proxmox on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/proxmox/</link>
+    <link>http://localhost:1313/es/tags/proxmox/</link>
     <description>Recent content in Proxmox on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Orquestación de Arranque PVE</title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_pve_boot_order/</link>
+        <link>http://localhost:1313/es/posts/proxmox_pve_boot_order/</link>
         <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 08 Dec 2025 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_pve_boot_order/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_pve_boot_order/</guid>
         <description>&lt;hr /&gt;
 &lt;h1 id=&#34;optimización-y-orquestación-del-orden-de-arranque-en-proxmox-ve&#34;&gt;Optimización y Orquestación del Orden de Arranque en Proxmox VE&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Fecha:&lt;/strong&gt; 08 de Diciembre de 2025&lt;br /&gt;
@@ -37,7 +37,7 @@
 &lt;p&gt;Tras un corte de energía o un mantenimiento, si todos los contenedores (LXC) y máquinas virtuales (VM) intentan arrancar simultáneamente, ocurren dos problemas:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -79,18 +79,18 @@
       
       <item>
         <title>Nube Privada Familiar con Nextcloud: Un Viaje hacia la Autogobernanza Digital</title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_nextcloud/</link>
+        <link>http://localhost:1313/es/posts/proxmox_nextcloud/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 04 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_nextcloud/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_nextcloud/</guid>
         <description>&lt;h1 id=&#34;nube-pivada-con-nextcloud-viaje-hacia-la-atogobernanza-dgital&#34;&gt;Nube pivada con Nextcloud: Viaje hacia la atogobernanza dgital&lt;/h1&gt;
 &lt;p&gt;Después de un proceso de investigación y configuración, ¡finalmente he puesto en producción mi propia nube privada familiar basada en Nextcloud! Este proyecto no solo ha sido un viaje entretenido a nivel técnico, sino también un paso consciente hacia una mayor privacidad y control sobre nuestros datos digitales.&lt;/p&gt;
 &lt;h2 id=&#34;por-qué-una-nube-privada&#34;&gt;¿Por qué una Nube Privada?&lt;/h2&gt;
 &lt;p&gt;En la era digital actual, la mayoría de nuestras fotos y documentos importantes residen en servicios en la nube de terceros. Si bien estos servicios ofrecen comodidad, también plantean preguntas sobre la privacidad, la seguridad y la propiedad de nuestros datos. Mi objetivo principal era tener una solución de almacenamiento:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -136,15 +136,15 @@
       
       <item>
         <title>Copy / paste en la consola de la VM quemu </title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_copy-paste_consola_vm/</link>
+        <link>http://localhost:1313/es/posts/proxmox_copy-paste_consola_vm/</link>
         <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 15 Jun 2025 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_copy-paste_consola_vm/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_copy-paste_consola_vm/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -196,11 +196,11 @@
       
       <item>
         <title>LXC en Proxmox</title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_lxc/</link>
+        <link>http://localhost:1313/es/posts/proxmox_lxc/</link>
         <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 06 Dec 2024 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_lxc/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_lxc/</guid>
         <description>&lt;h2 id=&#34;-qué-es-lxc-&#34;&gt;🔍 ¿Qué es LXC ?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;LXC&lt;/strong&gt; (Linux Containers) es una tecnología de virtualización a nivel de sistema operativo que permite ejecutar múltiples sistemas Linux aislados, conocidos como contenedores (CTs), en un único host. A diferencia de las Máquinas Virtuales (VMs) tradicionales que emulan hardware completo, los contenedores LXC comparten el kernel del host.&lt;/p&gt;
 &lt;p&gt;Esto se traduce en eficiencia :&lt;/p&gt;
@@ -221,7 +221,7 @@
 &lt;p&gt;Olvídate de &lt;code&gt;lxc-*&lt;/code&gt;. En Proxmox, el comando &lt;code&gt;pct&lt;/code&gt; (Proxmox Container Toolkit) manda. Comandos esenciales .&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/lxc.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/lxc.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -263,11 +263,11 @@
       
       <item>
         <title>Wazuh: Tu Centro de Seguridad Open Source (Guía Completa)</title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_wazuh/</link>
+        <link>http://localhost:1313/es/posts/proxmox_wazuh/</link>
         <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 06 Dec 2024 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_wazuh/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_wazuh/</guid>
         <description>&lt;h2 id=&#34;-qué-es-wazuh&#34;&gt;🌐 ¿Qué es Wazuh?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Wazuh&lt;/strong&gt; es una plataforma de seguridad de código abierto, gratuita y universalmente reconocida. Funciona como una solución &lt;strong&gt;XDR&lt;/strong&gt; (Detección y Respuesta Extendidas) y &lt;strong&gt;SIEM&lt;/strong&gt; (Gestión de Eventos e Información de Seguridad) todo en uno.&lt;/p&gt;
 &lt;p&gt;Wazuh centraliza, analiza y responde a eventos de seguridad de toda tu infraestructura, desde servidores y PCs hasta dispositivos móviles.&lt;/p&gt;
@@ -284,7 +284,7 @@
 &lt;p&gt;Vamos a instalar la pila completa de Wazuh (Indexer, Server y Dashboard) en un único contenedor LXC, una opción eficiente y potente para un homelab.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/wazuh.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/wazuh.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -330,11 +330,11 @@
       
       <item>
         <title>PBS recuperacion</title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_pbs_recuperacion/</link>
+        <link>http://localhost:1313/es/posts/proxmox_pbs_recuperacion/</link>
         <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 15 Nov 2024 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_pbs_recuperacion/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_pbs_recuperacion/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
@@ -576,7 +576,7 @@
 &lt;/div&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -618,18 +618,18 @@
       
       <item>
         <title>Backup en Proxmox</title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_backup_a_hdd/</link>
+        <link>http://localhost:1313/es/posts/proxmox_backup_a_hdd/</link>
         <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 10 Nov 2024 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_backup_a_hdd/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_backup_a_hdd/</guid>
         <description>&lt;h1 id=&#34;backup-y-restauración-de-máquinas-virtuales-proxmox-ve-guía-avanzada&#34;&gt;Backup y Restauración de Máquinas Virtuales Proxmox VE (Guía Avanzada)&lt;/h1&gt;
 &lt;p&gt;Este post detalla el proceso para realizar un backup completo de una Máquina Virtual (VM) en Proxmox VE a un disco externo o directorio no gestionado por Proxmox, y cómo restaurarla, manteniendo la distribución original de los discos en diferentes almacenamientos. Se asume un entorno Proxmox VE con ZFS pools (&lt;code&gt;local-zfs&lt;/code&gt;, &lt;code&gt;dual-mirror-8_TB&lt;/code&gt;) y un disco externo (&lt;code&gt;/dev/sda&lt;/code&gt;) montado.&lt;/p&gt;
 &lt;h2 id=&#34;escenario-de-la-vm-a-respaldar-id-100&#34;&gt;Escenario de la VM a Respaldar (ID 100)&lt;/h2&gt;
 &lt;p&gt;La VM con ID &lt;code&gt;100&lt;/code&gt; (&lt;code&gt;NEXT&lt;/code&gt;) tiene la siguiente configuración de discos:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -671,16 +671,16 @@
       
       <item>
         <title>Librenms VM</title>
-        <link>https://hotspotcepeda.github.io/es/posts/librenms-vm/</link>
+        <link>http://localhost:1313/es/posts/librenms-vm/</link>
         <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 15 Sep 2022 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/librenms-vm/</guid>
+        <guid>http://localhost:1313/es/posts/librenms-vm/</guid>
         <description>&lt;p&gt;Como al actulizar me he cargado la maquina virtual de servidor de SNNMP Librenms al volver a instalar de 0 me ha costado un poco por que no me acordaba de nada.&lt;br /&gt;
 Voy a instalar la misma que tenia, la 18.04 y voy a ir actualizando para ver si le cojo el punto a Ubuntu, nunca me habia cargado nada actualizando Debian.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

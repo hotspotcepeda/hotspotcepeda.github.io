@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Fotos on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/fotos/</link>
+    <link>http://localhost:1313/es/tags/fotos/</link>
     <description>Recent content in Fotos on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Mon, 03 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/fotos/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/fotos/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Instalación de Java en Linux Debian</title>
-        <link>https://hotspotcepeda.github.io/es/posts/instalar_java_linux_debian/</link>
+        <link>http://localhost:1313/es/posts/instalar_java_linux_debian/</link>
         <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 03 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/instalar_java_linux_debian/</guid>
+        <guid>http://localhost:1313/es/posts/instalar_java_linux_debian/</guid>
         <description>&lt;h2 id=&#34;unninstall&#34;&gt;Unninstall&lt;/h2&gt;
 &lt;p&gt;DESINSTALACION TOTAL de todo lo relacionado con Java, Sun, Oracle, OpenJDK, IcedTea plugins, GIJ&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;dpkg-query -W -f=&amp;#39;${binary:Package}\n&amp;#39; | grep -E -e &amp;#39;^(ia32-)?(sun|oracle)-java&amp;#39; -e &amp;#39;^openjdk-&amp;#39; -e &amp;#39;^icedtea&amp;#39; -e &amp;#39;^(default|gcj)-j(re|dk)&amp;#39; -e &amp;#39;^gcj-(.*)-j(re|dk)&amp;#39; -e &amp;#39;^java-common&amp;#39; | xargs sudo apt-get -y remove
@@ -38,7 +38,7 @@ sudo apt-get -y autoremove
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Remove manually installed JVMs:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -70,11 +70,11 @@ sudo apt-get -y autoremove
       
       <item>
         <title>VISTA EN MINIATURA DE ARCHIVOS DE IMAGEN NEF, RAW</title>
-        <link>https://hotspotcepeda.github.io/es/posts/imagen_raw_nef_miniatura/</link>
+        <link>http://localhost:1313/es/posts/imagen_raw_nef_miniatura/</link>
         <pubDate>Sat, 03 Dec 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 03 Dec 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/imagen_raw_nef_miniatura/</guid>
+        <guid>http://localhost:1313/es/posts/imagen_raw_nef_miniatura/</guid>
         <description>&lt;p&gt;Muy fácil, para tener la vista en miniatura de archivos de imagen NEF, RAW y demás en Nautilus primero instalamos el UFRaw, si es que no lo tenemos ya:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get update
 # apt-get install ufraw
@@ -87,7 +87,7 @@ MimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Salvar el archivo y ya está.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

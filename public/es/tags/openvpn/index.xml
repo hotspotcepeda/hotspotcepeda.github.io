@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>OpenVPN on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/openvpn/</link>
+    <link>http://localhost:1313/es/tags/openvpn/</link>
     <description>Recent content in OpenVPN on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Mon, 02 May 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>OpenVNP en OpenWRT server</title>
-        <link>https://hotspotcepeda.github.io/es/posts/openwrt_openvpn/</link>
+        <link>http://localhost:1313/es/posts/openwrt_openvpn/</link>
         <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 02 May 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/openwrt_openvpn/</guid>
+        <guid>http://localhost:1313/es/posts/openwrt_openvpn/</guid>
         <description>&lt;p&gt;Modos de trabajo,&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Client configuration for an ethernet bridge VPN tap&lt;/li&gt;
@@ -39,7 +39,7 @@
 &lt;/ul&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -71,11 +71,11 @@
       
       <item>
         <title>CERTIFICADOS OPENVNP</title>
-        <link>https://hotspotcepeda.github.io/es/posts/certificado_openvpn/</link>
+        <link>http://localhost:1313/es/posts/certificado_openvpn/</link>
         <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 16 Apr 2016 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/certificado_openvpn/</guid>
+        <guid>http://localhost:1313/es/posts/certificado_openvpn/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;https://openvpn.net/index.php/open-source/documentation/howto.html&#34;&gt;https://openvpn.net/index.php/open-source/documentation/howto.html&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;https://aula128.wordpress.com/2015/02/07/openvpn-instalacion-y-configuracion-del-servidor-en-linux-y-autentificacion-de-un-cliente-windows-7/&#34;&gt;https://aula128.wordpress.com/2015/02/07/openvpn-instalacion-y-configuracion-del-servidor-en-linux-y-autentificacion-de-un-cliente-windows-7/&lt;/a&gt;&lt;br /&gt;
@@ -101,7 +101,7 @@ apt-get install openvpn
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Editamos vars y modificamos KEY_COUNTRY, KEY_PROVINCE, KEY_CITY, KEY_ORG y KEY_MAIL… a nuestro gusto, También modificamos la ruta de salida de claves  export KEY_DIR=”/etc/openvpn/easy-rsa/keys/” y guardamos cambios.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/openVPN_LOGO.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/openVPN_LOGO.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

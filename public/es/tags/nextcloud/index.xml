@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Nextcloud on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/nextcloud/</link>
+    <link>http://localhost:1313/es/tags/nextcloud/</link>
     <description>Recent content in Nextcloud on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,24 +16,24 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/nextcloud/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/nextcloud/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Nube Privada Familiar con Nextcloud: Un Viaje hacia la Autogobernanza Digital</title>
-        <link>https://hotspotcepeda.github.io/es/posts/proxmox_nextcloud/</link>
+        <link>http://localhost:1313/es/posts/proxmox_nextcloud/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 04 Oct 2025 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_nextcloud/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_nextcloud/</guid>
         <description>&lt;h1 id=&#34;nube-pivada-con-nextcloud-viaje-hacia-la-atogobernanza-dgital&#34;&gt;Nube pivada con Nextcloud: Viaje hacia la atogobernanza dgital&lt;/h1&gt;
 &lt;p&gt;Después de un proceso de investigación y configuración, ¡finalmente he puesto en producción mi propia nube privada familiar basada en Nextcloud! Este proyecto no solo ha sido un viaje entretenido a nivel técnico, sino también un paso consciente hacia una mayor privacidad y control sobre nuestros datos digitales.&lt;/p&gt;
 &lt;h2 id=&#34;por-qué-una-nube-privada&#34;&gt;¿Por qué una Nube Privada?&lt;/h2&gt;
 &lt;p&gt;En la era digital actual, la mayoría de nuestras fotos y documentos importantes residen en servicios en la nube de terceros. Si bien estos servicios ofrecen comodidad, también plantean preguntas sobre la privacidad, la seguridad y la propiedad de nuestros datos. Mi objetivo principal era tener una solución de almacenamiento:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -79,12 +79,12 @@
       
       <item>
         <title>NEXTCLOUD DEBIAN SERVER AND CLIENT</title>
-        <link>https://hotspotcepeda.github.io/es/posts/nextcloud_debian/</link>
+        <link>http://localhost:1313/es/posts/nextcloud_debian/</link>
         <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 24 Jun 2017 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/nextcloud_debian/</guid>
-        <description>&lt;p&gt;&lt;img alt=&#34;Nextcloud custom login server&#34; src=&#34;https://hotspotcepeda.github.io/images/post/nextcloud_custom.png&#34;&gt;&lt;/p&gt;
+        <guid>http://localhost:1313/es/posts/nextcloud_debian/</guid>
+        <description>&lt;p&gt;&lt;img alt=&#34;Nextcloud custom login server&#34; src=&#34;http://localhost:1313/images/post/nextcloud_custom.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;ADD NEXTCLOUD REPOSITORY&lt;br /&gt;
 Add the Nextcloud repository in the /etc/apt/sources.d/nextcloud.list&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -128,7 +128,7 @@ INSTALL POSTGRESQL AND SETUP NEW USER &amp;amp; DATABASE&lt;br /&gt;
 Install PostgreSQL with:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="https://hotspotcepeda.github.io/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

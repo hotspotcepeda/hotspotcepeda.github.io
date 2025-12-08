@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on HotspotCepeda, La red comunitaria.</title>
-    <link>https://hotspotcepeda.github.io/es/tags/</link>
+    <link>http://localhost:1313/es/tags/</link>
     <description>Recent content in Tags on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hotspotcepeda.github.io/es/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Contenedores</title>
-        <link>https://hotspotcepeda.github.io/es/tags/contenedores/</link>
+        <link>http://localhost:1313/es/tags/contenedores/</link>
         <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/contenedores/</guid>
+        <guid>http://localhost:1313/es/tags/contenedores/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -40,11 +40,11 @@
       
       <item>
         <title>Devops</title>
-        <link>https://hotspotcepeda.github.io/es/tags/devops/</link>
+        <link>http://localhost:1313/es/tags/devops/</link>
         <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/devops/</guid>
+        <guid>http://localhost:1313/es/tags/devops/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -58,11 +58,11 @@
       
       <item>
         <title>Index</title>
-        <link>https://hotspotcepeda.github.io/es/tags/index/</link>
+        <link>http://localhost:1313/es/tags/index/</link>
         <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/index/</guid>
+        <guid>http://localhost:1313/es/tags/index/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -76,11 +76,11 @@
       
       <item>
         <title>Lxc</title>
-        <link>https://hotspotcepeda.github.io/es/tags/lxc/</link>
+        <link>http://localhost:1313/es/tags/lxc/</link>
         <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/lxc/</guid>
+        <guid>http://localhost:1313/es/tags/lxc/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -94,11 +94,11 @@
       
       <item>
         <title>Proxmox</title>
-        <link>https://hotspotcepeda.github.io/es/tags/proxmox/</link>
+        <link>http://localhost:1313/es/tags/proxmox/</link>
         <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/proxmox/</guid>
+        <guid>http://localhost:1313/es/tags/proxmox/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -112,11 +112,11 @@
       
       <item>
         <title>Virtualización</title>
-        <link>https://hotspotcepeda.github.io/es/tags/virtualizaci%C3%B3n/</link>
+        <link>http://localhost:1313/es/tags/virtualizaci%C3%B3n/</link>
         <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/virtualizaci%C3%B3n/</guid>
+        <guid>http://localhost:1313/es/tags/virtualizaci%C3%B3n/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -130,11 +130,11 @@
       
       <item>
         <title>Homelab</title>
-        <link>https://hotspotcepeda.github.io/es/tags/homelab/</link>
+        <link>http://localhost:1313/es/tags/homelab/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/homelab/</guid>
+        <guid>http://localhost:1313/es/tags/homelab/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -148,11 +148,11 @@
       
       <item>
         <title>Let&#39;s Encrypt</title>
-        <link>https://hotspotcepeda.github.io/es/tags/lets-encrypt/</link>
+        <link>http://localhost:1313/es/tags/lets-encrypt/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/lets-encrypt/</guid>
+        <guid>http://localhost:1313/es/tags/lets-encrypt/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -166,11 +166,11 @@
       
       <item>
         <title>Nextcloud</title>
-        <link>https://hotspotcepeda.github.io/es/tags/nextcloud/</link>
+        <link>http://localhost:1313/es/tags/nextcloud/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/nextcloud/</guid>
+        <guid>http://localhost:1313/es/tags/nextcloud/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -184,11 +184,11 @@
       
       <item>
         <title>NPM</title>
-        <link>https://hotspotcepeda.github.io/es/tags/npm/</link>
+        <link>http://localhost:1313/es/tags/npm/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/npm/</guid>
+        <guid>http://localhost:1313/es/tags/npm/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -202,11 +202,11 @@
       
       <item>
         <title>Privacidad</title>
-        <link>https://hotspotcepeda.github.io/es/tags/privacidad/</link>
+        <link>http://localhost:1313/es/tags/privacidad/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/privacidad/</guid>
+        <guid>http://localhost:1313/es/tags/privacidad/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -220,11 +220,11 @@
       
       <item>
         <title>Opensource</title>
-        <link>https://hotspotcepeda.github.io/es/tags/opensource/</link>
+        <link>http://localhost:1313/es/tags/opensource/</link>
         <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/opensource/</guid>
+        <guid>http://localhost:1313/es/tags/opensource/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -238,11 +238,11 @@
       
       <item>
         <title>Raid</title>
-        <link>https://hotspotcepeda.github.io/es/tags/raid/</link>
+        <link>http://localhost:1313/es/tags/raid/</link>
         <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/raid/</guid>
+        <guid>http://localhost:1313/es/tags/raid/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -256,11 +256,11 @@
       
       <item>
         <title>Selfhosting</title>
-        <link>https://hotspotcepeda.github.io/es/tags/selfhosting/</link>
+        <link>http://localhost:1313/es/tags/selfhosting/</link>
         <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/selfhosting/</guid>
+        <guid>http://localhost:1313/es/tags/selfhosting/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -274,11 +274,11 @@
       
       <item>
         <title>Zfs</title>
-        <link>https://hotspotcepeda.github.io/es/tags/zfs/</link>
+        <link>http://localhost:1313/es/tags/zfs/</link>
         <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/zfs/</guid>
+        <guid>http://localhost:1313/es/tags/zfs/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -292,11 +292,11 @@
       
       <item>
         <title>Seguridad</title>
-        <link>https://hotspotcepeda.github.io/es/tags/seguridad/</link>
+        <link>http://localhost:1313/es/tags/seguridad/</link>
         <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/seguridad/</guid>
+        <guid>http://localhost:1313/es/tags/seguridad/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -310,11 +310,11 @@
       
       <item>
         <title>Siem</title>
-        <link>https://hotspotcepeda.github.io/es/tags/siem/</link>
+        <link>http://localhost:1313/es/tags/siem/</link>
         <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/siem/</guid>
+        <guid>http://localhost:1313/es/tags/siem/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -328,11 +328,11 @@
       
       <item>
         <title>Wazuh</title>
-        <link>https://hotspotcepeda.github.io/es/tags/wazuh/</link>
+        <link>http://localhost:1313/es/tags/wazuh/</link>
         <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/wazuh/</guid>
+        <guid>http://localhost:1313/es/tags/wazuh/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -346,11 +346,11 @@
       
       <item>
         <title>Xdr</title>
-        <link>https://hotspotcepeda.github.io/es/tags/xdr/</link>
+        <link>http://localhost:1313/es/tags/xdr/</link>
         <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/xdr/</guid>
+        <guid>http://localhost:1313/es/tags/xdr/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -364,11 +364,11 @@
       
       <item>
         <title>Consola</title>
-        <link>https://hotspotcepeda.github.io/es/tags/consola/</link>
+        <link>http://localhost:1313/es/tags/consola/</link>
         <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/consola/</guid>
+        <guid>http://localhost:1313/es/tags/consola/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -382,11 +382,11 @@
       
       <item>
         <title>Librenms</title>
-        <link>https://hotspotcepeda.github.io/es/tags/librenms/</link>
+        <link>http://localhost:1313/es/tags/librenms/</link>
         <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/librenms/</guid>
+        <guid>http://localhost:1313/es/tags/librenms/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -400,11 +400,11 @@
       
       <item>
         <title>Linux</title>
-        <link>https://hotspotcepeda.github.io/es/tags/linux/</link>
+        <link>http://localhost:1313/es/tags/linux/</link>
         <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/linux/</guid>
+        <guid>http://localhost:1313/es/tags/linux/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -418,11 +418,11 @@
       
       <item>
         <title>Ubuntu</title>
-        <link>https://hotspotcepeda.github.io/es/tags/ubuntu/</link>
+        <link>http://localhost:1313/es/tags/ubuntu/</link>
         <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/ubuntu/</guid>
+        <guid>http://localhost:1313/es/tags/ubuntu/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -436,11 +436,11 @@
       
       <item>
         <title>Cepeda La Mora</title>
-        <link>https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/</link>
+        <link>http://localhost:1313/es/tags/cepeda-la-mora/</link>
         <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/cepeda-la-mora/</guid>
+        <guid>http://localhost:1313/es/tags/cepeda-la-mora/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -454,11 +454,11 @@
       
       <item>
         <title>Git</title>
-        <link>https://hotspotcepeda.github.io/es/tags/git/</link>
+        <link>http://localhost:1313/es/tags/git/</link>
         <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/git/</guid>
+        <guid>http://localhost:1313/es/tags/git/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -472,11 +472,11 @@
       
       <item>
         <title>Github</title>
-        <link>https://hotspotcepeda.github.io/es/tags/github/</link>
+        <link>http://localhost:1313/es/tags/github/</link>
         <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/github/</guid>
+        <guid>http://localhost:1313/es/tags/github/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -490,11 +490,11 @@
       
       <item>
         <title>Hotspotcepeda</title>
-        <link>https://hotspotcepeda.github.io/es/tags/hotspotcepeda/</link>
+        <link>http://localhost:1313/es/tags/hotspotcepeda/</link>
         <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/hotspotcepeda/</guid>
+        <guid>http://localhost:1313/es/tags/hotspotcepeda/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -508,11 +508,11 @@
       
       <item>
         <title>HUGO</title>
-        <link>https://hotspotcepeda.github.io/es/tags/hugo/</link>
+        <link>http://localhost:1313/es/tags/hugo/</link>
         <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/hugo/</guid>
+        <guid>http://localhost:1313/es/tags/hugo/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -526,11 +526,11 @@
       
       <item>
         <title>Markdown</title>
-        <link>https://hotspotcepeda.github.io/es/tags/markdown/</link>
+        <link>http://localhost:1313/es/tags/markdown/</link>
         <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/markdown/</guid>
+        <guid>http://localhost:1313/es/tags/markdown/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -544,11 +544,11 @@
       
       <item>
         <title>Netlify</title>
-        <link>https://hotspotcepeda.github.io/es/tags/netlify/</link>
+        <link>http://localhost:1313/es/tags/netlify/</link>
         <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/netlify/</guid>
+        <guid>http://localhost:1313/es/tags/netlify/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -562,11 +562,11 @@
       
       <item>
         <title>Visual Studio Code</title>
-        <link>https://hotspotcepeda.github.io/es/tags/visual-studio-code/</link>
+        <link>http://localhost:1313/es/tags/visual-studio-code/</link>
         <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/visual-studio-code/</guid>
+        <guid>http://localhost:1313/es/tags/visual-studio-code/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -580,11 +580,11 @@
       
       <item>
         <title>Autoprovision</title>
-        <link>https://hotspotcepeda.github.io/es/tags/autoprovision/</link>
+        <link>http://localhost:1313/es/tags/autoprovision/</link>
         <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/autoprovision/</guid>
+        <guid>http://localhost:1313/es/tags/autoprovision/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -598,11 +598,11 @@
       
       <item>
         <title>Guifi.net</title>
-        <link>https://hotspotcepeda.github.io/es/tags/guifi.net/</link>
+        <link>http://localhost:1313/es/tags/guifi.net/</link>
         <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/guifi.net/</guid>
+        <guid>http://localhost:1313/es/tags/guifi.net/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -616,11 +616,11 @@
       
       <item>
         <title>Mesh</title>
-        <link>https://hotspotcepeda.github.io/es/tags/mesh/</link>
+        <link>http://localhost:1313/es/tags/mesh/</link>
         <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/mesh/</guid>
+        <guid>http://localhost:1313/es/tags/mesh/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -634,11 +634,11 @@
       
       <item>
         <title>QMp</title>
-        <link>https://hotspotcepeda.github.io/es/tags/qmp/</link>
+        <link>http://localhost:1313/es/tags/qmp/</link>
         <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/qmp/</guid>
+        <guid>http://localhost:1313/es/tags/qmp/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -652,11 +652,11 @@
       
       <item>
         <title>Wifi</title>
-        <link>https://hotspotcepeda.github.io/es/tags/wifi/</link>
+        <link>http://localhost:1313/es/tags/wifi/</link>
         <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/wifi/</guid>
+        <guid>http://localhost:1313/es/tags/wifi/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -670,11 +670,11 @@
       
       <item>
         <title>CF-E120A</title>
-        <link>https://hotspotcepeda.github.io/es/tags/cf-e120a/</link>
+        <link>http://localhost:1313/es/tags/cf-e120a/</link>
         <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/cf-e120a/</guid>
+        <guid>http://localhost:1313/es/tags/cf-e120a/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -688,11 +688,11 @@
       
       <item>
         <title>COMFAST</title>
-        <link>https://hotspotcepeda.github.io/es/tags/comfast/</link>
+        <link>http://localhost:1313/es/tags/comfast/</link>
         <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/comfast/</guid>
+        <guid>http://localhost:1313/es/tags/comfast/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -706,11 +706,11 @@
       
       <item>
         <title>OpenWRT</title>
-        <link>https://hotspotcepeda.github.io/es/tags/openwrt/</link>
+        <link>http://localhost:1313/es/tags/openwrt/</link>
         <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/openwrt/</guid>
+        <guid>http://localhost:1313/es/tags/openwrt/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -724,11 +724,11 @@
       
       <item>
         <title>Debian</title>
-        <link>https://hotspotcepeda.github.io/es/tags/debian/</link>
+        <link>http://localhost:1313/es/tags/debian/</link>
         <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/debian/</guid>
+        <guid>http://localhost:1313/es/tags/debian/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -742,11 +742,11 @@
       
       <item>
         <title>Docker</title>
-        <link>https://hotspotcepeda.github.io/es/tags/docker/</link>
+        <link>http://localhost:1313/es/tags/docker/</link>
         <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/docker/</guid>
+        <guid>http://localhost:1313/es/tags/docker/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -760,11 +760,11 @@
       
       <item>
         <title>Cdp</title>
-        <link>https://hotspotcepeda.github.io/es/tags/cdp/</link>
+        <link>http://localhost:1313/es/tags/cdp/</link>
         <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/cdp/</guid>
+        <guid>http://localhost:1313/es/tags/cdp/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -778,11 +778,11 @@
       
       <item>
         <title>Gestion</title>
-        <link>https://hotspotcepeda.github.io/es/tags/gestion/</link>
+        <link>http://localhost:1313/es/tags/gestion/</link>
         <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/gestion/</guid>
+        <guid>http://localhost:1313/es/tags/gestion/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -796,11 +796,11 @@
       
       <item>
         <title>Isp</title>
-        <link>https://hotspotcepeda.github.io/es/tags/isp/</link>
+        <link>http://localhost:1313/es/tags/isp/</link>
         <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/isp/</guid>
+        <guid>http://localhost:1313/es/tags/isp/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -814,11 +814,11 @@
       
       <item>
         <title>Ralph</title>
-        <link>https://hotspotcepeda.github.io/es/tags/ralph/</link>
+        <link>http://localhost:1313/es/tags/ralph/</link>
         <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/ralph/</guid>
+        <guid>http://localhost:1313/es/tags/ralph/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -832,11 +832,11 @@
       
       <item>
         <title>Mikrotik</title>
-        <link>https://hotspotcepeda.github.io/es/tags/mikrotik/</link>
+        <link>http://localhost:1313/es/tags/mikrotik/</link>
         <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/mikrotik/</guid>
+        <guid>http://localhost:1313/es/tags/mikrotik/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -850,11 +850,11 @@
       
       <item>
         <title>Netflow</title>
-        <link>https://hotspotcepeda.github.io/es/tags/netflow/</link>
+        <link>http://localhost:1313/es/tags/netflow/</link>
         <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/netflow/</guid>
+        <guid>http://localhost:1313/es/tags/netflow/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -868,11 +868,11 @@
       
       <item>
         <title>Nprobe</title>
-        <link>https://hotspotcepeda.github.io/es/tags/nprobe/</link>
+        <link>http://localhost:1313/es/tags/nprobe/</link>
         <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/nprobe/</guid>
+        <guid>http://localhost:1313/es/tags/nprobe/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -886,11 +886,11 @@
       
       <item>
         <title>Ssh</title>
-        <link>https://hotspotcepeda.github.io/es/tags/ssh/</link>
+        <link>http://localhost:1313/es/tags/ssh/</link>
         <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/ssh/</guid>
+        <guid>http://localhost:1313/es/tags/ssh/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -904,11 +904,11 @@
       
       <item>
         <title>Conky</title>
-        <link>https://hotspotcepeda.github.io/es/tags/conky/</link>
+        <link>http://localhost:1313/es/tags/conky/</link>
         <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/conky/</guid>
+        <guid>http://localhost:1313/es/tags/conky/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -922,11 +922,11 @@
       
       <item>
         <title>Gestión</title>
-        <link>https://hotspotcepeda.github.io/es/tags/gesti%C3%B3n/</link>
+        <link>http://localhost:1313/es/tags/gesti%C3%B3n/</link>
         <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/gesti%C3%B3n/</guid>
+        <guid>http://localhost:1313/es/tags/gesti%C3%B3n/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -940,11 +940,11 @@
       
       <item>
         <title>Ubiquiti</title>
-        <link>https://hotspotcepeda.github.io/es/tags/ubiquiti/</link>
+        <link>http://localhost:1313/es/tags/ubiquiti/</link>
         <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/ubiquiti/</guid>
+        <guid>http://localhost:1313/es/tags/ubiquiti/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -958,11 +958,11 @@
       
       <item>
         <title>X11vnc</title>
-        <link>https://hotspotcepeda.github.io/es/tags/x11vnc/</link>
+        <link>http://localhost:1313/es/tags/x11vnc/</link>
         <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/x11vnc/</guid>
+        <guid>http://localhost:1313/es/tags/x11vnc/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -976,11 +976,11 @@
       
       <item>
         <title>Fotos</title>
-        <link>https://hotspotcepeda.github.io/es/tags/fotos/</link>
+        <link>http://localhost:1313/es/tags/fotos/</link>
         <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/fotos/</guid>
+        <guid>http://localhost:1313/es/tags/fotos/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -994,11 +994,11 @@
       
       <item>
         <title>NanoStation M5</title>
-        <link>https://hotspotcepeda.github.io/es/tags/nanostation-m5/</link>
+        <link>http://localhost:1313/es/tags/nanostation-m5/</link>
         <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/nanostation-m5/</guid>
+        <guid>http://localhost:1313/es/tags/nanostation-m5/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1012,11 +1012,11 @@
       
       <item>
         <title>Hotspot</title>
-        <link>https://hotspotcepeda.github.io/es/tags/hotspot/</link>
+        <link>http://localhost:1313/es/tags/hotspot/</link>
         <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/hotspot/</guid>
+        <guid>http://localhost:1313/es/tags/hotspot/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1030,11 +1030,11 @@
       
       <item>
         <title>Ddsns</title>
-        <link>https://hotspotcepeda.github.io/es/tags/ddsns/</link>
+        <link>http://localhost:1313/es/tags/ddsns/</link>
         <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/ddsns/</guid>
+        <guid>http://localhost:1313/es/tags/ddsns/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1048,11 +1048,11 @@
       
       <item>
         <title>Log</title>
-        <link>https://hotspotcepeda.github.io/es/tags/log/</link>
+        <link>http://localhost:1313/es/tags/log/</link>
         <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/log/</guid>
+        <guid>http://localhost:1313/es/tags/log/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1066,11 +1066,11 @@
       
       <item>
         <title>Jessie</title>
-        <link>https://hotspotcepeda.github.io/es/tags/jessie/</link>
+        <link>http://localhost:1313/es/tags/jessie/</link>
         <pubDate>Sun, 30 Oct 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/jessie/</guid>
+        <guid>http://localhost:1313/es/tags/jessie/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1084,11 +1084,11 @@
       
       <item>
         <title>SNMP</title>
-        <link>https://hotspotcepeda.github.io/es/tags/snmp/</link>
+        <link>http://localhost:1313/es/tags/snmp/</link>
         <pubDate>Sun, 30 Oct 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/snmp/</guid>
+        <guid>http://localhost:1313/es/tags/snmp/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1102,11 +1102,11 @@
       
       <item>
         <title>Internet</title>
-        <link>https://hotspotcepeda.github.io/es/tags/internet/</link>
+        <link>http://localhost:1313/es/tags/internet/</link>
         <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/internet/</guid>
+        <guid>http://localhost:1313/es/tags/internet/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1120,11 +1120,11 @@
       
       <item>
         <title>Multisystem</title>
-        <link>https://hotspotcepeda.github.io/es/tags/multisystem/</link>
+        <link>http://localhost:1313/es/tags/multisystem/</link>
         <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/multisystem/</guid>
+        <guid>http://localhost:1313/es/tags/multisystem/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1138,11 +1138,11 @@
       
       <item>
         <title>OpenVPN</title>
-        <link>https://hotspotcepeda.github.io/es/tags/openvpn/</link>
+        <link>http://localhost:1313/es/tags/openvpn/</link>
         <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/openvpn/</guid>
+        <guid>http://localhost:1313/es/tags/openvpn/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1156,11 +1156,11 @@
       
       <item>
         <title>USB</title>
-        <link>https://hotspotcepeda.github.io/es/tags/usb/</link>
+        <link>http://localhost:1313/es/tags/usb/</link>
         <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/usb/</guid>
+        <guid>http://localhost:1313/es/tags/usb/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1174,11 +1174,11 @@
       
       <item>
         <title>Router Neutro</title>
-        <link>https://hotspotcepeda.github.io/es/tags/router-neutro/</link>
+        <link>http://localhost:1313/es/tags/router-neutro/</link>
         <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/router-neutro/</guid>
+        <guid>http://localhost:1313/es/tags/router-neutro/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1192,11 +1192,11 @@
       
       <item>
         <title>RouterOS</title>
-        <link>https://hotspotcepeda.github.io/es/tags/routeros/</link>
+        <link>http://localhost:1313/es/tags/routeros/</link>
         <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/routeros/</guid>
+        <guid>http://localhost:1313/es/tags/routeros/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1210,11 +1210,11 @@
       
       <item>
         <title>VirtualBox</title>
-        <link>https://hotspotcepeda.github.io/es/tags/virtualbox/</link>
+        <link>http://localhost:1313/es/tags/virtualbox/</link>
         <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/virtualbox/</guid>
+        <guid>http://localhost:1313/es/tags/virtualbox/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1228,11 +1228,11 @@
       
       <item>
         <title>Reinicio</title>
-        <link>https://hotspotcepeda.github.io/es/tags/reinicio/</link>
+        <link>http://localhost:1313/es/tags/reinicio/</link>
         <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/reinicio/</guid>
+        <guid>http://localhost:1313/es/tags/reinicio/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1246,11 +1246,11 @@
       
       <item>
         <title>Comunidad De Vecinos</title>
-        <link>https://hotspotcepeda.github.io/es/tags/comunidad-de-vecinos/</link>
+        <link>http://localhost:1313/es/tags/comunidad-de-vecinos/</link>
         <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/comunidad-de-vecinos/</guid>
+        <guid>http://localhost:1313/es/tags/comunidad-de-vecinos/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -1264,11 +1264,11 @@
       
       <item>
         <title>Asociaciones</title>
-        <link>https://hotspotcepeda.github.io/es/tags/asociaciones/</link>
+        <link>http://localhost:1313/es/tags/asociaciones/</link>
         <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>https://hotspotcepeda.github.io/es/tags/asociaciones/</guid>
+        <guid>http://localhost:1313/es/tags/asociaciones/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
