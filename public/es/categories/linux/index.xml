@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Linux on HotspotCepeda, La red comunitaria.</title>
-    <link>http://localhost:1313/es/categories/linux/</link>
+    <link>https://hotspotcepeda.github.io/es/categories/linux/</link>
     <description>Recent content in Linux on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 30 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/es/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Ejecutar aplicación por ssh</title>
-        <link>http://localhost:1313/es/posts/ssh_remote_comand/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</link>
         <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 30 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/ssh_remote_comand/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</guid>
         <description>&lt;h2 id=&#34;servidor&#34;&gt;SERVIDOR&lt;/h2&gt;
 &lt;p&gt;Agregar en&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nano /etc/ssh/sshd_config
@@ -39,7 +39,7 @@ X11Forwarding yes
 &lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -79,15 +79,15 @@ X11Forwarding yes
       
       <item>
         <title>Instalar conky en Debian</title>
-        <link>http://localhost:1313/es/posts/debian_conky/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/debian_conky/</link>
         <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 15 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/debian_conky/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/debian_conky/</guid>
         <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;https://github.com/brndnmtthws/conky&#34;&gt;https://github.com/brndnmtthws/conky&lt;/a&gt;
 &lt;/div&gt;&lt;br /&gt;
-&lt;img alt=&#34;Configuración de monitor de sistema en escritorio&#34; src=&#34;http://localhost:1313/images/post/escritorio_conky.png&#34;&gt;&lt;/p&gt;
+&lt;img alt=&#34;Configuración de monitor de sistema en escritorio&#34; src=&#34;https://hotspotcepeda.github.io/images/post/escritorio_conky.png&#34;&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get install conky conky-all
 # apt-get install curl lm-sensors hddtemp
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Para autoarranque agregar en programas al inicio:&lt;/p&gt;
@@ -179,7 +179,7 @@ ${font Arial:style=Bold:size=12}
 &lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -215,11 +215,11 @@ ${font Arial:style=Bold:size=12}
       
       <item>
         <title>Escritorio remoto debian con x11vnc</title>
-        <link>http://localhost:1313/es/posts/debian_escritorio_remoto/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/debian_escritorio_remoto/</link>
         <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 14 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/debian_escritorio_remoto/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/debian_escritorio_remoto/</guid>
         <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;https://github.com/LibVNC/x11vnc&#34;&gt;https://github.com/LibVNC/x11vnc&lt;/a&gt;
 &lt;/div&gt;&lt;br /&gt;
@@ -245,7 +245,7 @@ Password written to: /home/USUARIO/.vnc/passwd
 Ejemplo para conectarse usando cliente vinagre, remmina, tincvnc &amp;hellip; En el servidor ejecutamos:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -281,11 +281,11 @@ Ejemplo para conectarse usando cliente vinagre, remmina, tincvnc &amp;hellip; En
       
       <item>
         <title>Instalación de Java en Linux Debian</title>
-        <link>http://localhost:1313/es/posts/instalar_java_linux_debian/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/instalar_java_linux_debian/</link>
         <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 03 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/instalar_java_linux_debian/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/instalar_java_linux_debian/</guid>
         <description>&lt;h2 id=&#34;unninstall&#34;&gt;Unninstall&lt;/h2&gt;
 &lt;p&gt;DESINSTALACION TOTAL de todo lo relacionado con Java, Sun, Oracle, OpenJDK, IcedTea plugins, GIJ&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;dpkg-query -W -f=&amp;#39;${binary:Package}\n&amp;#39; | grep -E -e &amp;#39;^(ia32-)?(sun|oracle)-java&amp;#39; -e &amp;#39;^openjdk-&amp;#39; -e &amp;#39;^icedtea&amp;#39; -e &amp;#39;^(default|gcj)-j(re|dk)&amp;#39; -e &amp;#39;^gcj-(.*)-j(re|dk)&amp;#39; -e &amp;#39;^java-common&amp;#39; | xargs sudo apt-get -y remove
@@ -297,7 +297,7 @@ sudo apt-get -y autoremove
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Remove manually installed JVMs:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -329,11 +329,11 @@ sudo apt-get -y autoremove
       
       <item>
         <title>VISTA EN MINIATURA DE ARCHIVOS DE IMAGEN NEF, RAW</title>
-        <link>http://localhost:1313/es/posts/imagen_raw_nef_miniatura/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/imagen_raw_nef_miniatura/</link>
         <pubDate>Sat, 03 Dec 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 03 Dec 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/imagen_raw_nef_miniatura/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/imagen_raw_nef_miniatura/</guid>
         <description>&lt;p&gt;Muy fácil, para tener la vista en miniatura de archivos de imagen NEF, RAW y demás en Nautilus primero instalamos el UFRaw, si es que no lo tenemos ya:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get update
 # apt-get install ufraw
@@ -346,7 +346,7 @@ MimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Salvar el archivo y ya está.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -378,18 +378,18 @@ MimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2
       
       <item>
         <title>USB MULTIBOOT MULTISYSTEM</title>
-        <link>http://localhost:1313/es/posts/multiboot_multisystem/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/multiboot_multisystem/</link>
         <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 02 May 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/multiboot_multisystem/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/multiboot_multisystem/</guid>
         <description>&lt;p&gt;Para hacer un USB boot con varios SO ya sea de diagnostico o live la mejor herramienta que he encontrado es MULTISYSTEM.&lt;/p&gt;
 &lt;p&gt;Admite trabajar en modo persistente guardando los cambios o en live.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://liveusb.info/dotclear/index.php?pages/install&#34;&gt;http://liveusb.info/dotclear/index.php?pages/install&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Es buena cosa contar con un USB con herramientas de diagnostico y lives de SO para instalar, siempre que la maquina donde lo conectemos tenga capacidad de arrancar desde USB.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/MultiSystem.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/MultiSystem.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -425,11 +425,11 @@ MimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2
       
       <item>
         <title>Rutina para después de instalar Debian</title>
-        <link>http://localhost:1313/es/posts/postinstalacion_debian/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</link>
         <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 31 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/postinstalacion_debian/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</guid>
         <description>&lt;h2 id=&#34;repositorios&#34;&gt;Repositorios:&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nano /etc/apt/sources.list 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Instalar KEYS de los repos&lt;/p&gt;
@@ -451,7 +451,7 @@ deb http://archive.raspberrypi.org/debian/ jessie main ui
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Jessie&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

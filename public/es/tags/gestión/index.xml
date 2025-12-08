@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Gestión on HotspotCepeda, La red comunitaria.</title>
-    <link>http://localhost:1313/es/tags/gesti%C3%B3n/</link>
+    <link>https://hotspotcepeda.github.io/es/tags/gesti%C3%B3n/</link>
     <description>Recent content in Gestión on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sat, 15 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/es/tags/gesti%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/gesti%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Configurar vlan de gestión en Ubiquiti</title>
-        <link>http://localhost:1313/es/posts/vlan_gestion_ubiquiti/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/vlan_gestion_ubiquiti/</link>
         <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 15 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/vlan_gestion_ubiquiti/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/vlan_gestion_ubiquiti/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;http://ca.wiki.guifi.net/wiki/Gestio_de_antenes_ubnt_a_trav%C3%A9s_de_VLAN_de_gesti%C3%B3&#34;&gt;http://ca.wiki.guifi.net/wiki/Gestio_de_antenes_ubnt_a_trav%C3%A9s_de_VLAN_de_gesti%C3%B3&lt;/a&gt;
 &lt;/div&gt;
@@ -36,7 +36,7 @@
 &lt;p&gt;Se configura la antena en bridge, se le añade dos interfaces VLANs, y se configura la IP manual en la LAN0.X X = vlan ID (en nuestro caso 666)&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/UBNT_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/UBNT_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

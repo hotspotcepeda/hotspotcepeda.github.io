@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Debian on HotspotCepeda, La red comunitaria.</title>
-    <link>http://localhost:1313/es/tags/debian/</link>
+    <link>https://hotspotcepeda.github.io/es/tags/debian/</link>
     <description>Recent content in Debian on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Fri, 17 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/es/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Librenms Docker install</title>
-        <link>http://localhost:1313/es/posts/librenms_docker_install/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/librenms_docker_install/</link>
         <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 17 Nov 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/librenms_docker_install/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/librenms_docker_install/</guid>
         <description>&lt;p&gt;BBDD&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -82,7 +82,7 @@
 &lt;/div&gt;&lt;p&gt;Al navegador http://ipserver:888/install.php&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/librenms.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -106,12 +106,12 @@
       
       <item>
         <title>NEXTCLOUD DEBIAN SERVER AND CLIENT</title>
-        <link>http://localhost:1313/es/posts/nextcloud_debian/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/nextcloud_debian/</link>
         <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 24 Jun 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/nextcloud_debian/</guid>
-        <description>&lt;p&gt;&lt;img alt=&#34;Nextcloud custom login server&#34; src=&#34;http://localhost:1313/images/post/nextcloud_custom.png&#34;&gt;&lt;/p&gt;
+        <guid>https://hotspotcepeda.github.io/es/posts/nextcloud_debian/</guid>
+        <description>&lt;p&gt;&lt;img alt=&#34;Nextcloud custom login server&#34; src=&#34;https://hotspotcepeda.github.io/images/post/nextcloud_custom.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;ADD NEXTCLOUD REPOSITORY&lt;br /&gt;
 Add the Nextcloud repository in the /etc/apt/sources.d/nextcloud.list&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -155,7 +155,7 @@ INSTALL POSTGRESQL AND SETUP NEW USER &amp;amp; DATABASE&lt;br /&gt;
 Install PostgreSQL with:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -183,11 +183,11 @@ Install PostgreSQL with:&lt;/p&gt;</description>
       
       <item>
         <title>Docker</title>
-        <link>http://localhost:1313/es/posts/docker/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/docker/</link>
         <pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 30 May 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/docker/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/docker/</guid>
         <description>&lt;p&gt;Listar imagenes&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#docker images
 REPOSITORY TAG IMAGE ID CREATED SIZE
@@ -210,7 +210,7 @@ REPOSITORY TAG IMAGE ID CREATED SIZE
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Cada vez que se lanza una imagen con docker run -t -i debian /bin/bash se crea un contenedor asociado, ver con:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/docker_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/docker_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -230,13 +230,13 @@ REPOSITORY TAG IMAGE ID CREATED SIZE
       
       <item>
         <title>MikroTik netflow</title>
-        <link>http://localhost:1313/es/posts/mikrotik_netflow/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/mikrotik_netflow/</link>
         <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 16 May 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/mikrotik_netflow/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/mikrotik_netflow/</guid>
         <description>&lt;h2 id=&#34;configuración-en-mikrotik&#34;&gt;Configuración en MikroTik&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&#34;Configuración netflow MikroTik&#34; src=&#34;http://localhost:1313/images/post/netflow_mikrotik.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Configuración netflow MikroTik&#34; src=&#34;https://hotspotcepeda.github.io/images/post/netflow_mikrotik.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;configuración-en-servidor-debian-jessie&#34;&gt;Configuración en servidor debian jessie:&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get update &amp;amp;&amp;amp; apt-get upgrade
 wget http://apt-stable.ntop.org/14.04/all/apt-ntop-stable.deb
@@ -272,7 +272,7 @@ reboot
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt; &lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -312,11 +312,11 @@ reboot
       
       <item>
         <title>Ejecutar aplicación por ssh</title>
-        <link>http://localhost:1313/es/posts/ssh_remote_comand/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</link>
         <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 30 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/ssh_remote_comand/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</guid>
         <description>&lt;h2 id=&#34;servidor&#34;&gt;SERVIDOR&lt;/h2&gt;
 &lt;p&gt;Agregar en&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nano /etc/ssh/sshd_config
@@ -329,7 +329,7 @@ X11Forwarding yes
 &lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -369,15 +369,15 @@ X11Forwarding yes
       
       <item>
         <title>Instalar conky en Debian</title>
-        <link>http://localhost:1313/es/posts/debian_conky/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/debian_conky/</link>
         <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 15 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/debian_conky/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/debian_conky/</guid>
         <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;https://github.com/brndnmtthws/conky&#34;&gt;https://github.com/brndnmtthws/conky&lt;/a&gt;
 &lt;/div&gt;&lt;br /&gt;
-&lt;img alt=&#34;Configuración de monitor de sistema en escritorio&#34; src=&#34;http://localhost:1313/images/post/escritorio_conky.png&#34;&gt;&lt;/p&gt;
+&lt;img alt=&#34;Configuración de monitor de sistema en escritorio&#34; src=&#34;https://hotspotcepeda.github.io/images/post/escritorio_conky.png&#34;&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get install conky conky-all
 # apt-get install curl lm-sensors hddtemp
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Para autoarranque agregar en programas al inicio:&lt;/p&gt;
@@ -469,7 +469,7 @@ ${font Arial:style=Bold:size=12}
 &lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -505,11 +505,11 @@ ${font Arial:style=Bold:size=12}
       
       <item>
         <title>Escritorio remoto debian con x11vnc</title>
-        <link>http://localhost:1313/es/posts/debian_escritorio_remoto/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/debian_escritorio_remoto/</link>
         <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 14 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/debian_escritorio_remoto/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/debian_escritorio_remoto/</guid>
         <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;https://github.com/LibVNC/x11vnc&#34;&gt;https://github.com/LibVNC/x11vnc&lt;/a&gt;
 &lt;/div&gt;&lt;br /&gt;
@@ -535,7 +535,7 @@ Password written to: /home/USUARIO/.vnc/passwd
 Ejemplo para conectarse usando cliente vinagre, remmina, tincvnc &amp;hellip; En el servidor ejecutamos:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -571,11 +571,11 @@ Ejemplo para conectarse usando cliente vinagre, remmina, tincvnc &amp;hellip; En
       
       <item>
         <title>Instalación de Java en Linux Debian</title>
-        <link>http://localhost:1313/es/posts/instalar_java_linux_debian/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/instalar_java_linux_debian/</link>
         <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 03 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/instalar_java_linux_debian/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/instalar_java_linux_debian/</guid>
         <description>&lt;h2 id=&#34;unninstall&#34;&gt;Unninstall&lt;/h2&gt;
 &lt;p&gt;DESINSTALACION TOTAL de todo lo relacionado con Java, Sun, Oracle, OpenJDK, IcedTea plugins, GIJ&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;dpkg-query -W -f=&amp;#39;${binary:Package}\n&amp;#39; | grep -E -e &amp;#39;^(ia32-)?(sun|oracle)-java&amp;#39; -e &amp;#39;^openjdk-&amp;#39; -e &amp;#39;^icedtea&amp;#39; -e &amp;#39;^(default|gcj)-j(re|dk)&amp;#39; -e &amp;#39;^gcj-(.*)-j(re|dk)&amp;#39; -e &amp;#39;^java-common&amp;#39; | xargs sudo apt-get -y remove
@@ -587,7 +587,7 @@ sudo apt-get -y autoremove
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Remove manually installed JVMs:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -619,11 +619,11 @@ sudo apt-get -y autoremove
       
       <item>
         <title>VISTA EN MINIATURA DE ARCHIVOS DE IMAGEN NEF, RAW</title>
-        <link>http://localhost:1313/es/posts/imagen_raw_nef_miniatura/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/imagen_raw_nef_miniatura/</link>
         <pubDate>Sat, 03 Dec 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 03 Dec 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/imagen_raw_nef_miniatura/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/imagen_raw_nef_miniatura/</guid>
         <description>&lt;p&gt;Muy fácil, para tener la vista en miniatura de archivos de imagen NEF, RAW y demás en Nautilus primero instalamos el UFRaw, si es que no lo tenemos ya:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get update
 # apt-get install ufraw
@@ -636,7 +636,7 @@ MimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Salvar el archivo y ya está.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -668,11 +668,11 @@ MimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2
       
       <item>
         <title>DDNS Change IP MikroTik script</title>
-        <link>http://localhost:1313/es/posts/ddns_change_ip_script_mikrotik/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/ddns_change_ip_script_mikrotik/</link>
         <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 13 Nov 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/ddns_change_ip_script_mikrotik/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/ddns_change_ip_script_mikrotik/</guid>
         <description>&lt;h2 id=&#34;script&#34;&gt;Script&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/system/script new and paste:
 &lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Written by Sam Norris, ChangeIP.com
@@ -749,7 +749,7 @@ MimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2
 &lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -785,11 +785,11 @@ MimeType=image/x-3fr;image/x-adobe-dng;image/x-arw;image/x-bay;image/x-canon-cr2
       
       <item>
         <title>Guardar log de MikroTik y Ubiqiti en servidor</title>
-        <link>http://localhost:1313/es/posts/log_remoto_syslog-ng/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/log_remoto_syslog-ng/</link>
         <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 01 Nov 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/log_remoto_syslog-ng/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/log_remoto_syslog-ng/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;https://aacable.wordpress.com/2011/11/29/howto-save-mikrotik-logs-to-remote-syslog-server/&#34;&gt;https://aacable.wordpress.com/2011/11/29/howto-save-mikrotik-logs-to-remote-syslog-server/&lt;/a&gt;&lt;br /&gt;
 Conviene tener los trastos en hora, configure NTP en todas sus máquinas.
@@ -810,10 +810,10 @@ add action=remote topics=warning
 # registro remoto de lo que se quiera
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;cliente-ubiquiti&#34;&gt;Cliente Ubiquiti&lt;/h2&gt;
 &lt;p&gt;Con ip 10.38.15.1&lt;br /&gt;
-&lt;img alt=&#34;Configuración log remoto Ubiquiti&#34; src=&#34;http://localhost:1313/images/post/syslog_UBNT.png&#34;&gt;&lt;/p&gt;</description>
+&lt;img alt=&#34;Configuración log remoto Ubiquiti&#34; src=&#34;https://hotspotcepeda.github.io/images/post/syslog_UBNT.png&#34;&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -857,11 +857,11 @@ add action=remote topics=warning
       
       <item>
         <title>Cliente SNMP linux</title>
-        <link>http://localhost:1313/es/posts/cliente_snmp_linux/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/cliente_snmp_linux/</link>
         <pubDate>Sun, 30 Oct 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 30 Oct 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/cliente_snmp_linux/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/cliente_snmp_linux/</guid>
         <description>&lt;h2 id=&#34;instalación&#34;&gt;Instalación&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get install snmp snmpd snmp-mibs-downloader
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;configuracón&#34;&gt;Configuracón&lt;/h2&gt;
@@ -884,7 +884,7 @@ rocommunity public
 &lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -924,18 +924,18 @@ rocommunity public
       
       <item>
         <title>USB MULTIBOOT MULTISYSTEM</title>
-        <link>http://localhost:1313/es/posts/multiboot_multisystem/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/multiboot_multisystem/</link>
         <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 02 May 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/multiboot_multisystem/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/multiboot_multisystem/</guid>
         <description>&lt;p&gt;Para hacer un USB boot con varios SO ya sea de diagnostico o live la mejor herramienta que he encontrado es MULTISYSTEM.&lt;/p&gt;
 &lt;p&gt;Admite trabajar en modo persistente guardando los cambios o en live.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://liveusb.info/dotclear/index.php?pages/install&#34;&gt;http://liveusb.info/dotclear/index.php?pages/install&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Es buena cosa contar con un USB con herramientas de diagnostico y lives de SO para instalar, siempre que la maquina donde lo conectemos tenga capacidad de arrancar desde USB.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/MultiSystem.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/MultiSystem.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -971,11 +971,11 @@ rocommunity public
       
       <item>
         <title>CERTIFICADOS OPENVNP</title>
-        <link>http://localhost:1313/es/posts/certificado_openvpn/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/certificado_openvpn/</link>
         <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 16 Apr 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/certificado_openvpn/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/certificado_openvpn/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;https://openvpn.net/index.php/open-source/documentation/howto.html&#34;&gt;https://openvpn.net/index.php/open-source/documentation/howto.html&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;https://aula128.wordpress.com/2015/02/07/openvpn-instalacion-y-configuracion-del-servidor-en-linux-y-autentificacion-de-un-cliente-windows-7/&#34;&gt;https://aula128.wordpress.com/2015/02/07/openvpn-instalacion-y-configuracion-del-servidor-en-linux-y-autentificacion-de-un-cliente-windows-7/&lt;/a&gt;&lt;br /&gt;
@@ -1001,7 +1001,7 @@ apt-get install openvpn
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Editamos vars y modificamos KEY_COUNTRY, KEY_PROVINCE, KEY_CITY, KEY_ORG y KEY_MAIL… a nuestro gusto, También modificamos la ruta de salida de claves  export KEY_DIR=”/etc/openvpn/easy-rsa/keys/” y guardamos cambios.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/openVPN_LOGO.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openVPN_LOGO.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -1037,11 +1037,11 @@ apt-get install openvpn
       
       <item>
         <title>Rutina para después de instalar Debian</title>
-        <link>http://localhost:1313/es/posts/postinstalacion_debian/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</link>
         <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 31 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/postinstalacion_debian/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/postinstalacion_debian/</guid>
         <description>&lt;h2 id=&#34;repositorios&#34;&gt;Repositorios:&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nano /etc/apt/sources.list 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Instalar KEYS de los repos&lt;/p&gt;
@@ -1063,7 +1063,7 @@ deb http://archive.raspberrypi.org/debian/ jessie main ui
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Jessie&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -1099,11 +1099,11 @@ deb http://archive.raspberrypi.org/debian/ jessie main ui
       
       <item>
         <title>Banner ssh</title>
-        <link>http://localhost:1313/es/posts/banner_ssh/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/banner_ssh/</link>
         <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 03 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/banner_ssh/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/banner_ssh/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;p&gt;Este banner bash requiere de:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get install uprecords hddtemp lm-sensors
@@ -1276,10 +1276,10 @@ deb http://archive.raspberrypi.org/debian/ jessie main ui
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Queda cosa así:&lt;br /&gt;
-&lt;img alt=&#34;Banner ssh debian&#34; src=&#34;http://localhost:1313/gallery/red/mega_banner.png&#34;&gt;&lt;/p&gt;</description>
+&lt;img alt=&#34;Banner ssh debian&#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/mega_banner.png&#34;&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

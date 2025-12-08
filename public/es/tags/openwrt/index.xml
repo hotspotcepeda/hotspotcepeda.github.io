@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>OpenWRT on HotspotCepeda, La red comunitaria.</title>
-    <link>http://localhost:1313/es/tags/openwrt/</link>
+    <link>https://hotspotcepeda.github.io/es/tags/openwrt/</link>
     <description>Recent content in OpenWRT on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/es/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>COMFAST CF-E120A v3 Bootloader</title>
-        <link>http://localhost:1313/es/posts/comfast_cf-e120a_v3_bootloader/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/comfast_cf-e120a_v3_bootloader/</link>
         <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 02 Jan 2021 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/comfast_cf-e120a_v3_bootloader/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/comfast_cf-e120a_v3_bootloader/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;strong&gt;¿Que qué es qMp?&lt;/strong&gt; Visite &lt;a href=&#34;http://qmp.cat/Inicio&#34;&gt;http://qmp.cat/Inicio&lt;/a&gt; para conocerlo.&lt;br /&gt;
 Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/projects/qmp&#34;&gt;https://dev.qmp.cat/projects/qmp&lt;/a&gt;  &lt;strong&gt;🙌&lt;/strong&gt;
@@ -37,7 +37,7 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
 &lt;p&gt;&lt;a href=&#34;https://openwrt.org/toh/comfast/cf-e120a&#34;&gt;https://openwrt.org/toh/comfast/cf-e120a&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;qmp&#34;&gt;qMp&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://fw.qmp.cat/experimental/qMp_trunk-Kalimotxo_Comfast_CF-E120A-v3_sysupgrade_20210325-2110.bin&#34;&gt;http://fw.qmp.cat/experimental/qMp_trunk-Kalimotxo_Comfast_CF-E120A-v3_sysupgrade_20210325-2110.bin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;COMFAST CF-E120A v3&#34; src=&#34;http://localhost:1313/gallery/red/comfast_cf-120a.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;COMFAST CF-E120A v3&#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/comfast_cf-120a.png&#34;&gt;&lt;/p&gt;
 
 
     
@@ -47,7 +47,7 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
     &lt;/div&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/comfast_LOGO.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/comfast_LOGO.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -91,11 +91,11 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
       
       <item>
         <title>Gestión OpenWRT</title>
-        <link>http://localhost:1313/es/posts/gestion_openwrt/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/gestion_openwrt/</link>
         <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 20 May 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/gestion_openwrt/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/gestion_openwrt/</guid>
         <description>&lt;h2 id=&#34;gráficas-luci-app-vnstat&#34;&gt;Gráficas luci-app-vnstat&lt;/h2&gt;
 &lt;p&gt;A parte de las gráficas en tiempo real que vienen de serie &amp;ldquo;Realtime Traffic&amp;rdquo; he puesto el &amp;ldquo;VnStat Graphs&amp;rdquo; que almacena en el router gráficas de trafico en las interfaces.&lt;/p&gt;
 &lt;h2 id=&#34;mas-gráficas-cpu-memoria-temperatura-luci-app-statistics&#34;&gt;Mas gráficas, CPU, memoria, temperatura&amp;hellip; luci-app-statistics&lt;/h2&gt;
@@ -105,7 +105,7 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
 Se configura por luci , sirve para limitar el trafico de las interfaces, se instala con varios script de gestión de trafico, en este caso se usa para limitar el caudal de salida a internet se puede usar por ejemplo, para reservar un caudal máximo en la wifi y otro en las interfaces físicas. O para asignar un caudal fijo a las conexiones de la LAN.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -133,17 +133,17 @@ Se configura por luci , sirve para limitar el trafico de las interfaces, se inst
       
       <item>
         <title>NanoStation M5 GW</title>
-        <link>http://localhost:1313/es/posts/nanostationm5_cliente_qmp/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</link>
         <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 04 Feb 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/nanostationm5_cliente_qmp/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_cliente_qmp/</guid>
         <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://player.vimeo.com/video/196173358&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -195,16 +195,16 @@ Se configura por luci , sirve para limitar el trafico de las interfaces, se inst
       
       <item>
         <title>NanoStation M5 gateway internet</title>
-        <link>http://localhost:1313/es/posts/nanostationm5_gw/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/nanostationm5_gw/</link>
         <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 21 Jan 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/nanostationm5_gw/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/nanostationm5_gw/</guid>
         <description>&lt;p&gt;Pasos para usar una antena Ubiquiti Nano Station en una red qmp con Lan y Wan. Las configuraciones de Vlan las vamos a hacer desde el menú de administración en el apartado de switch e interfaces.&lt;/p&gt;
 &lt;p&gt;La Lan es servidor de dhcp, con la configuración inicial tiene la ip 172.30.22.1/24 user/password root/13f y nos proporciona una IP de ese rango al conectarnos. Tenemos conectado en el POE que va a la boca Main del router y viene como la Vlan1&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -252,11 +252,11 @@ Se configura por luci , sirve para limitar el trafico de las interfaces, se inst
       
       <item>
         <title>NanoStation M5 qMp</title>
-        <link>http://localhost:1313/es/posts/qmp_nanostation_m5/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</link>
         <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 03 May 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/qmp_nanostation_m5/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/qmp_nanostation_m5/</guid>
         <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;strong&gt;¿Que qué es qMp?&lt;/strong&gt; Visite &lt;a href=&#34;http://qmp.cat/Inicio&#34;&gt;http://qmp.cat/Inicio&lt;/a&gt; para conocerlo.&lt;br /&gt;
 Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/projects/qmp&#34;&gt;https://dev.qmp.cat/projects/qmp&lt;/a&gt;  &lt;strong&gt;🙌&lt;/strong&gt;
@@ -264,10 +264,10 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
 &lt;div class=&#34;notices warning&#34; data-title=&#34;Warning&#34;&gt;
   27/03/2021 &lt;strong&gt;Ojo con las nuevas remesas de de equipamiento Ubiquiti&lt;/strong&gt;, las nuevas revisiones 2000K y superiores de NanoStation Loco M5 no funcionan ni con OpenWRT ar71xx ni con OpenWRT ath79, ni tan siquiera probando OpenWRT ath79 para Bullet M XW que sí funciona en las Rocket M XW. Al parecer hay dos arquitecturas distintas que sirven para distintas revisiones de hardware de Ubiquiti .La ar71xx es la de siempre, antes funcionaba, la ath79 es la nueva. No sé sabe todavía la manera de flashearlas.
 &lt;/div&gt;&lt;br /&gt;
-&lt;img alt=&#34;NanoStation M5&#34; src=&#34;http://localhost:1313/gallery/red/NSM5-p.png&#34;&gt;&lt;/p&gt;</description>
+&lt;img alt=&#34;NanoStation M5&#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/NSM5-p.png&#34;&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -319,11 +319,11 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
       
       <item>
         <title>OpenVNP en OpenWRT server</title>
-        <link>http://localhost:1313/es/posts/openwrt_openvpn/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt_openvpn/</link>
         <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 02 May 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/openwrt_openvpn/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt_openvpn/</guid>
         <description>&lt;p&gt;Modos de trabajo,&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Client configuration for an ethernet bridge VPN tap&lt;/li&gt;
@@ -336,7 +336,7 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
 &lt;/ul&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -368,18 +368,18 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
       
       <item>
         <title>OPENWRT EN HUAWEI ECHOLIFE HG556A</title>
-        <link>http://localhost:1313/es/posts/openwrt-huawei_echolife_hg556a/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-huawei_echolife_hg556a/</link>
         <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 08 Apr 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/openwrt-huawei_echolife_hg556a/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-huawei_echolife_hg556a/</guid>
         <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones.&lt;br /&gt;
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router que tiene USB es fácil y va genial.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;HUAWEI ECHOLIFE HG556A&#34; src=&#34;http://localhost:1313/gallery/red/hg556a.png&#34;&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img alt=&#34;HUAWEI ECHOLIFE HG556A&#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/hg556a.png&#34;&gt;&lt;br /&gt;
 &lt;a href=&#34;https://wiki.openwrt.org/toh/huawei/hg556a&#34;&gt;https://wiki.openwrt.org/toh/huawei/hg556a&lt;/a&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -415,18 +415,18 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
       
       <item>
         <title>Programar reinicio en OpenWRT</title>
-        <link>http://localhost:1313/es/posts/programar_reinicio_openwrt/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/programar_reinicio_openwrt/</link>
         <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 03 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/programar_reinicio_openwrt/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/programar_reinicio_openwrt/</guid>
         <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;https://wiki.openwrt.org/doc/howto/cron&#34;&gt;https://wiki.openwrt.org/doc/howto/cron&lt;/a&gt;
 &lt;/div&gt;&lt;br /&gt;
 Me están dando guerra una serie de router. El usuario se queja de que de vez en cuando el router pierde la salida a internet, una de las veces que estaba teniendo el problema me conecté y era como que perdía la ip WAN del cliente dhcp, la red local seguía funcionando y la wifi también,la parte lan estaba ok y he pensado que programando un reinicio diario de madrugada se podía arreglar el problema. (No será la mejor solución pero se arregló el problema)&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -462,15 +462,15 @@ Me están dando guerra una serie de router. El usuario se queja de que de vez en
       
       <item>
         <title>Compartir salida a internet con guifi.net</title>
-        <link>http://localhost:1313/es/posts/compartir-internet/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/compartir-internet/</link>
         <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Wed, 06 Jan 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/compartir-internet/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/compartir-internet/</guid>
         <description>&lt;p&gt;Se trata de interconectar a tres vecinos, el escenario es una comunidad de vecinos de pisos donde se van compartir los gastos en infraestructura común de telecomunicaciones y conexión a internet. Como los tres vecinos están en el mismo edificio, se conectan con cable de red, se instala un router central junto al router de proveedor 300/30 Mb y un router de cliente para cada  nodo se está usando firmware openWRT en los equipos.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/guifi_net.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/guifi_net.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -510,11 +510,11 @@ Me están dando guerra una serie de router. El usuario se queja de que de vez en
       
       <item>
         <title>Modos de trabajo qMp</title>
-        <link>http://localhost:1313/es/posts/modos_de_trabajo_qmp/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/modos_de_trabajo_qmp/</link>
         <pubDate>Tue, 27 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 27 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/modos_de_trabajo_qmp/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/modos_de_trabajo_qmp/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;strong&gt;¿Que qué es qMp?&lt;/strong&gt; Visite &lt;a href=&#34;http://qmp.cat/Inicio&#34;&gt;http://qmp.cat/Inicio&lt;/a&gt; para conocerlo.&lt;br /&gt;
 Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/projects/qmp&#34;&gt;https://dev.qmp.cat/projects/qmp&lt;/a&gt;  &lt;strong&gt;🙌&lt;/strong&gt;
@@ -522,24 +522,24 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
 &lt;h4 id=&#34;modos-de-trabajo-de-la-radio-con-qmp-321&#34;&gt;Modos de trabajo de la radio con qMp 3.2.1&lt;/h4&gt;
 &lt;p&gt;Estos son los modos de trabajo en modo community, opciones de Wireless interface wlan0.&lt;/p&gt;
 &lt;h5 id=&#34;ad_hoc_mesh__access_point_lan&#34;&gt;Ad_hoc_(mesh)_+&lt;em&gt;access_point&lt;/em&gt;(Lan)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;Ad_hoc_(mesh)_+&lt;em&gt;access_point&lt;/em&gt;(Lan)&#34; src=&#34;http://localhost:1313/images/qmp/Ad_hoc_mesh_-_access_point_Lan.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Ad_hoc_(mesh)_+&lt;em&gt;access_point&lt;/em&gt;(Lan)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/Ad_hoc_mesh_-_access_point_Lan.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;ad_hoc_mesh&#34;&gt;Ad_hoc_(mesh)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;Ad_hoc_(mesh)&#34; src=&#34;http://localhost:1313/images/qmp/Ad_hoc_mesh.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Ad_hoc_(mesh)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/Ad_hoc_mesh.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;access_point_mesh&#34;&gt;Access_point_(mesh)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;Access_point_(mesh)&#34; src=&#34;http://localhost:1313/images/qmp/access_point_mesh.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Access_point_(mesh)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/access_point_mesh.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;access_point_lan&#34;&gt;Access_point_(Lan)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;Access_point_(Lan)&#34; src=&#34;http://localhost:1313/images/qmp/Access_point_Lan.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Access_point_(Lan)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/Access_point_Lan.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;client_wan&#34;&gt;Client_(WAN)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;Client_(WAN)&#34; src=&#34;http://localhost:1313/images/qmp/Client_WAN.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Client_(WAN)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/Client_WAN.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;experimental_80211s_mesh&#34;&gt;EXPERIMENTAL_802.11s_(mesh)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;EXPERIMENTAL_802.11s_(mesh)&#34; src=&#34;http://localhost:1313/images/qmp/EXPERIMENTAL_802.11s_mesh.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;EXPERIMENTAL_802.11s_(mesh)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/EXPERIMENTAL_802.11s_mesh.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;experimental_80211s_meshaccess_point_lan&#34;&gt;EXPERIMENTAL_802.11s_(mesh)+Access_point_(Lan)&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;EXPERIMENTAL_802.11s_(mesh)&#34; src=&#34;http://localhost:1313/images/qmp/EXPERIMENTAL_802.11s_mesh-Access_point_Lan.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;EXPERIMENTAL_802.11s_(mesh)&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/EXPERIMENTAL_802.11s_mesh-Access_point_Lan.png&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;disabled-la-opción-desaparece&#34;&gt;Disabled la opción desaparece&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&#34;Disabled&#34; src=&#34;http://localhost:1313/images/qmp/Disabled.png&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;Disabled&#34; src=&#34;https://hotspotcepeda.github.io/images/qmp/Disabled.png&#34;&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -579,11 +579,11 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
       
       <item>
         <title>UCI qMp archivo de configuración</title>
-        <link>http://localhost:1313/es/posts/uci_qmp_configuration_file/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/uci_qmp_configuration_file/</link>
         <pubDate>Mon, 26 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Mon, 26 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/uci_qmp_configuration_file/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/uci_qmp_configuration_file/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;strong&gt;¿Que qué es qMp?&lt;/strong&gt; Visite &lt;a href=&#34;http://qmp.cat/Inicio&#34;&gt;http://qmp.cat/Inicio&lt;/a&gt; para conocerlo.&lt;br /&gt;
 Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/projects/qmp&#34;&gt;https://dev.qmp.cat/projects/qmp&lt;/a&gt;  &lt;strong&gt;🙌&lt;/strong&gt;
@@ -776,7 +776,7 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
 &lt;/div&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/qmp_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -820,18 +820,18 @@ Esta es la página de desarrollo proyecto &lt;a href=&#34;https://dev.qmp.cat/pr
       
       <item>
         <title>OpenWRT COMTREND CT-5365</title>
-        <link>http://localhost:1313/es/posts/openwrt-comtrend_ct-5365/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5365/</link>
         <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 25 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/openwrt-comtrend_ct-5365/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5365/</guid>
         <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones.&lt;br /&gt;
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router no es fácil y va corto de memoria pero se puede.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Comtrend_CT-5365&#34; src=&#34;http://localhost:1313/gallery/red/CT-5365.png&#34;&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img alt=&#34;Comtrend_CT-5365&#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/CT-5365.png&#34;&gt;&lt;br /&gt;
 &lt;a href=&#34;https://openwrt.org/toh/comtrend/ct5365&#34;&gt;https://openwrt.org/toh/comtrend/ct5365&lt;/a&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -867,18 +867,18 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
       
       <item>
         <title>OpenWRT en Comtrend CT-5361</title>
-        <link>http://localhost:1313/es/posts/openwrt-comtrend_ct-5361/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5361/</link>
         <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 24 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/openwrt-comtrend_ct-5361/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5361/</guid>
         <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones.&lt;br /&gt;
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router no es fácil y va corto de memoria pero se puede.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Comtrend_CT-5361&#34; src=&#34;http://localhost:1313/gallery/red/CT-5361.png&#34;&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img alt=&#34;Comtrend_CT-5361&#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/CT-5361.png&#34;&gt;&lt;br /&gt;
 &lt;a href=&#34;https://openwrt.org/toh/comtrend/ct5361&#34;&gt;https://openwrt.org/toh/comtrend/ct5361&lt;/a&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

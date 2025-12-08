@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>RouterOS on HotspotCepeda, La red comunitaria.</title>
-    <link>http://localhost:1313/es/tags/routeros/</link>
+    <link>https://hotspotcepeda.github.io/es/tags/routeros/</link>
     <description>Recent content in RouterOS on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Tue, 15 Mar 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/es/tags/routeros/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/routeros/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Virtualizar hotspot MikroTik</title>
-        <link>http://localhost:1313/es/posts/virtualizar_hotspot_mikrotik/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</link>
         <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Tue, 15 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/virtualizar_hotspot_mikrotik/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/virtualizar_hotspot_mikrotik/</guid>
         <description>&lt;h2 id=&#34;virtualbox&#34;&gt;VirtualBox&lt;/h2&gt;
 &lt;p&gt;Vamos a virtualizar RouterOS en una vieja maquina para convertirlo en hotspot MikroTik.&lt;br /&gt;
 Necesitamos una maquina que tenga más de una interfaz de red, un router con una sola interfaz no tiene mucho sentido.&lt;br /&gt;
@@ -36,7 +36,7 @@ También vamos a decirle al servidor que arranque automáticamente nuestro route
 Para ver si nuestra maquina Linux cumple con los requisitos para virtualizar podemos ejecutar unos comandos desde la consola:&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/mikrotik.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

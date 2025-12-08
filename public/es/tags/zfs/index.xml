@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Zfs on HotspotCepeda, La red comunitaria.</title>
-    <link>http://localhost:1313/es/tags/zfs/</link>
+    <link>https://hotspotcepeda.github.io/es/tags/zfs/</link>
     <description>Recent content in Zfs on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,21 +16,21 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/es/tags/zfs/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/zfs/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Copy / paste en la consola de la VM quemu </title>
-        <link>http://localhost:1313/es/posts/proxmox_copy-paste_consola_vm/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/proxmox_copy-paste_consola_vm/</link>
         <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 15 Jun 2025 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/proxmox_copy-paste_consola_vm/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_copy-paste_consola_vm/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -82,18 +82,18 @@
       
       <item>
         <title>Disco ZFS Fallando: Detección y Reemplazo</title>
-        <link>http://localhost:1313/es/posts/proxmox_fallo_disco_zfs/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/proxmox_fallo_disco_zfs/</link>
         <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 15 Jun 2025 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/proxmox_fallo_disco_zfs/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_fallo_disco_zfs/</guid>
         <description>&lt;p&gt;ZFS, es un sistema de archivos robusto diseñado precisamente para estas situaciones. Recientemente, mi servidor comenzó a reportar errores en uno de los discos de mi pool.&lt;/p&gt;
 &lt;p&gt;Compartiré el proceso exacto que seguí para detectar el problema, identificar el disco físico culpable y reemplazarlo de forma segura, todo sin perder un solo byte de datos.&lt;/p&gt;
 &lt;h2 id=&#34;paso-1-detección-del-problema-con-zpool-status&#34;&gt;Paso 1: Detección del Problema con &lt;code&gt;zpool status&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;El primer indicio de un problema suele venir del comando &lt;code&gt;zpool status&lt;/code&gt;. Al ejecutarlo, recibí una salida que, aunque preocupante, me dio toda la información necesaria para empezar.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature2/nascrash.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/nascrash.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -141,11 +141,11 @@
       
       <item>
         <title>Gestión de backups </title>
-        <link>http://localhost:1313/es/posts/proxmox_gestion_backups/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/proxmox_gestion_backups/</link>
         <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 15 Jun 2025 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/proxmox_gestion_backups/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_gestion_backups/</guid>
         <description>&lt;p&gt;intro&lt;/p&gt;
 &lt;h2 id=&#34;eliminar-todos-los-backups-de-un-id-lxc&#34;&gt;Eliminar todos los backups de un ID LXC&lt;/h2&gt;
 &lt;h3 id=&#34;importante-dónde-guardas-tus-backups&#34;&gt;&lt;strong&gt;Importante:&lt;/strong&gt; ¿Dónde guardas tus backups?&lt;/h3&gt;
@@ -153,7 +153,7 @@
 &lt;p&gt;&lt;strong&gt;¡Atención!&lt;/strong&gt; Si estás usando &lt;strong&gt;Proxmox Backup Server (PBS)&lt;/strong&gt;, este método &lt;strong&gt;NO&lt;/strong&gt; funcionará y no debes intentarlo. Los backups en PBS se gestionan a través de su propia interfaz o con el comando &lt;code&gt;proxmox-backup-client&lt;/code&gt;. El método que te describo a continuación es para los backups tradicionales de Proxmox (archivos &lt;code&gt;.vma.zst&lt;/code&gt;, &lt;code&gt;.tar.gz&lt;/code&gt;, etc.).&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

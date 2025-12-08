@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Ssh on HotspotCepeda, La red comunitaria.</title>
-    <link>http://localhost:1313/es/tags/ssh/</link>
+    <link>https://hotspotcepeda.github.io/es/tags/ssh/</link>
     <description>Recent content in Ssh on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Sun, 30 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/es/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Ejecutar aplicación por ssh</title>
-        <link>http://localhost:1313/es/posts/ssh_remote_comand/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</link>
         <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 30 Apr 2017 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/ssh_remote_comand/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/ssh_remote_comand/</guid>
         <description>&lt;h2 id=&#34;servidor&#34;&gt;SERVIDOR&lt;/h2&gt;
 &lt;p&gt;Agregar en&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nano /etc/ssh/sshd_config
@@ -39,7 +39,7 @@ X11Forwarding yes
 &lt;/code&gt;&lt;/pre&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -79,11 +79,11 @@ X11Forwarding yes
       
       <item>
         <title>Banner ssh</title>
-        <link>http://localhost:1313/es/posts/banner_ssh/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/banner_ssh/</link>
         <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 03 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/banner_ssh/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/banner_ssh/</guid>
         <description>&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;p&gt;Este banner bash requiere de:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# apt-get install uprecords hddtemp lm-sensors
@@ -256,10 +256,10 @@ X11Forwarding yes
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Queda cosa así:&lt;br /&gt;
-&lt;img alt=&#34;Banner ssh debian&#34; src=&#34;http://localhost:1313/gallery/red/mega_banner.png&#34;&gt;&lt;/p&gt;</description>
+&lt;img alt=&#34;Banner ssh debian&#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/mega_banner.png&#34;&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/debian_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

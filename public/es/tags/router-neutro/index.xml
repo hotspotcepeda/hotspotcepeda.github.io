@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Router Neutro on HotspotCepeda, La red comunitaria.</title>
-    <link>http://localhost:1313/es/tags/router-neutro/</link>
+    <link>https://hotspotcepeda.github.io/es/tags/router-neutro/</link>
     <description>Recent content in Router Neutro on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,24 +16,24 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Fri, 08 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/es/tags/router-neutro/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/router-neutro/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>OPENWRT EN HUAWEI ECHOLIFE HG556A</title>
-        <link>http://localhost:1313/es/posts/openwrt-huawei_echolife_hg556a/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-huawei_echolife_hg556a/</link>
         <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 08 Apr 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/openwrt-huawei_echolife_hg556a/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-huawei_echolife_hg556a/</guid>
         <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones.&lt;br /&gt;
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router que tiene USB es fácil y va genial.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;HUAWEI ECHOLIFE HG556A&#34; src=&#34;http://localhost:1313/gallery/red/hg556a.png&#34;&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img alt=&#34;HUAWEI ECHOLIFE HG556A&#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/hg556a.png&#34;&gt;&lt;br /&gt;
 &lt;a href=&#34;https://wiki.openwrt.org/toh/huawei/hg556a&#34;&gt;https://wiki.openwrt.org/toh/huawei/hg556a&lt;/a&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -69,18 +69,18 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
       
       <item>
         <title>Programar reinicio en OpenWRT</title>
-        <link>http://localhost:1313/es/posts/programar_reinicio_openwrt/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/programar_reinicio_openwrt/</link>
         <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Thu, 03 Mar 2016 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/programar_reinicio_openwrt/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/programar_reinicio_openwrt/</guid>
         <description>&lt;p&gt;&lt;div class=&#34;notices info&#34; data-title=&#34;Info&#34;&gt;
   &lt;a href=&#34;https://wiki.openwrt.org/doc/howto/cron&#34;&gt;https://wiki.openwrt.org/doc/howto/cron&lt;/a&gt;
 &lt;/div&gt;&lt;br /&gt;
 Me están dando guerra una serie de router. El usuario se queja de que de vez en cuando el router pierde la salida a internet, una de las veces que estaba teniendo el problema me conecté y era como que perdía la ip WAN del cliente dhcp, la red local seguía funcionando y la wifi también,la parte lan estaba ok y he pensado que programando un reinicio diario de madrugada se podía arreglar el problema. (No será la mejor solución pero se arregló el problema)&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -116,18 +116,18 @@ Me están dando guerra una serie de router. El usuario se queja de que de vez en
       
       <item>
         <title>OpenWRT COMTREND CT-5365</title>
-        <link>http://localhost:1313/es/posts/openwrt-comtrend_ct-5365/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5365/</link>
         <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 25 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/openwrt-comtrend_ct-5365/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5365/</guid>
         <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones.&lt;br /&gt;
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router no es fácil y va corto de memoria pero se puede.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Comtrend_CT-5365&#34; src=&#34;http://localhost:1313/gallery/red/CT-5365.png&#34;&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img alt=&#34;Comtrend_CT-5365&#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/CT-5365.png&#34;&gt;&lt;br /&gt;
 &lt;a href=&#34;https://openwrt.org/toh/comtrend/ct5365&#34;&gt;https://openwrt.org/toh/comtrend/ct5365&lt;/a&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -163,18 +163,18 @@ Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. D
       
       <item>
         <title>OpenWRT en Comtrend CT-5361</title>
-        <link>http://localhost:1313/es/posts/openwrt-comtrend_ct-5361/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5361/</link>
         <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sat, 24 Oct 2015 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/openwrt-comtrend_ct-5361/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/openwrt-comtrend_ct-5361/</guid>
         <description>&lt;p&gt;De como reciclar un viejo router ADSL y convertirlo en un router neutro con software libre. Se pueden usar como firewall, como AP o por entretenimiento para aprender redes porque ofrecen muchas funciones.&lt;br /&gt;
 Cambiando el firmware del fabricante a OpenWRT se transforman en router Linux. Dejo un enlace de la lista de hardware compatible &lt;a href=&#34;https://openwrt.org/toh/start&#34;&gt;https://openwrt.org/toh/start&lt;/a&gt; porque seguro que tienes algún router viejo por casa y es compatible. Dependiendo del router es más o menos fácil cargar el firmware, este router no es fácil y va corto de memoria pero se puede.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Comtrend_CT-5361&#34; src=&#34;http://localhost:1313/gallery/red/CT-5361.png&#34;&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img alt=&#34;Comtrend_CT-5361&#34; src=&#34;https://hotspotcepeda.github.io/gallery/red/CT-5361.png&#34;&gt;&lt;br /&gt;
 &lt;a href=&#34;https://openwrt.org/toh/comtrend/ct5361&#34;&gt;https://openwrt.org/toh/comtrend/ct5361&lt;/a&gt;&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/openwrt.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

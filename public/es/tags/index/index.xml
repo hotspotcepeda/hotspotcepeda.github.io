@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Index on HotspotCepeda, La red comunitaria.</title>
-    <link>http://localhost:1313/es/tags/index/</link>
+    <link>https://hotspotcepeda.github.io/es/tags/index/</link>
     <description>Recent content in Index on HotspotCepeda, La red comunitaria.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
@@ -16,17 +16,17 @@
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
     <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/es/tags/index/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hotspotcepeda.github.io/es/tags/index/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Posts ES</title>
-        <link>http://localhost:1313/es/posts/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/</link>
         <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
-        <guid>http://localhost:1313/es/posts/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
