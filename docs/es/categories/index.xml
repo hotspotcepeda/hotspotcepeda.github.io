@@ -14,7 +14,7 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,7 @@
       <item>
         <title>Homelab</title>
         <link>https://hotspotcepeda.github.io/es/categories/homelab/</link>
-        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/categories/homelab/</guid>
@@ -39,27 +39,9 @@
       </item>
       
       <item>
-        <title>Seguridad</title>
-        <link>https://hotspotcepeda.github.io/es/categories/seguridad/</link>
-        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/categories/seguridad/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>Virtualización</title>
         <link>https://hotspotcepeda.github.io/es/categories/virtualizaci%C3%B3n/</link>
-        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/categories/virtualizaci%C3%B3n/</guid>
@@ -75,9 +57,27 @@
       </item>
       
       <item>
+        <title>Seguridad</title>
+        <link>https://hotspotcepeda.github.io/es/categories/seguridad/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/categories/seguridad/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Tecnología</title>
         <link>https://hotspotcepeda.github.io/es/categories/tecnolog%C3%ADa/</link>
-        <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/categories/tecnolog%C3%ADa/</guid>

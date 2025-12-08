@@ -14,19 +14,193 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Orquestación de Arranque PVE</title>
+        <link>https://hotspotcepeda.github.io/es/posts/proxmox_pve_boot_order/</link>
+        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 08 Dec 2025 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_pve_boot_order/</guid>
+        <description>&lt;hr /&gt;
+&lt;h1 id=&#34;optimización-y-orquestación-del-orden-de-arranque-en-proxmox-ve&#34;&gt;Optimización y Orquestación del Orden de Arranque en Proxmox VE&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Fecha:&lt;/strong&gt; 08 de Diciembre de 2025&lt;br /&gt;
+&lt;strong&gt;Categoría:&lt;/strong&gt; SysAdmin / Proxmox / HomeLab&lt;br /&gt;
+&lt;strong&gt;Estado:&lt;/strong&gt; Implementado&lt;/p&gt;
+&lt;h2 id=&#34;1-el-problema-la-tormenta-de-arranque&#34;&gt;1. El Problema: La &amp;ldquo;Tormenta de Arranque&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;En un entorno de virtualización donde conviven servicios críticos de infraestructura (Router, DNS, VPN) con aplicaciones de usuario (Domótica, Nube), el orden de encendido es vital.&lt;/p&gt;
+&lt;p&gt;Tras un corte de energía o un mantenimiento, si todos los contenedores (LXC) y máquinas virtuales (VM) intentan arrancar simultáneamente, ocurren dos problemas:&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>lxc</category>
+            
+          
+            
+              <category>proxmox</category>
+            
+          
+            
+              <category>contenedores</category>
+            
+          
+            
+              <category>virtualización</category>
+            
+          
+            
+              <category>devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Homelab</category>
+            
+          
+            
+              <category>Virtualización</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Nube Privada Familiar con Nextcloud: Un Viaje hacia la Autogobernanza Digital</title>
+        <link>https://hotspotcepeda.github.io/es/posts/proxmox_nextcloud/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 04 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_nextcloud/</guid>
+        <description>&lt;h1 id=&#34;nube-pivada-con-nextcloud-viaje-hacia-la-atogobernanza-dgital&#34;&gt;Nube pivada con Nextcloud: Viaje hacia la atogobernanza dgital&lt;/h1&gt;
+&lt;p&gt;Después de un proceso de investigación y configuración, ¡finalmente he puesto en producción mi propia nube privada familiar basada en Nextcloud! Este proyecto no solo ha sido un viaje entretenido a nivel técnico, sino también un paso consciente hacia una mayor privacidad y control sobre nuestros datos digitales.&lt;/p&gt;
+&lt;h2 id=&#34;por-qué-una-nube-privada&#34;&gt;¿Por qué una Nube Privada?&lt;/h2&gt;
+&lt;p&gt;En la era digital actual, la mayoría de nuestras fotos y documentos importantes residen en servicios en la nube de terceros. Si bien estos servicios ofrecen comodidad, también plantean preguntas sobre la privacidad, la seguridad y la propiedad de nuestros datos. Mi objetivo principal era tener una solución de almacenamiento:&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Let&#39;s Encrypt</category>
+            
+          
+            
+              <category>NPM</category>
+            
+          
+            
+              <category>Nextcloud</category>
+            
+          
+            
+              <category>privacidad</category>
+            
+          
+            
+              <category>proxmox</category>
+            
+          
+            
+              <category>homelab</category>
+            
+          
+        
+        
+          
+            
+              <category>Seguridad</category>
+            
+          
+            
+              <category>Homelab</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Copy / paste en la consola de la VM quemu </title>
+        <link>https://hotspotcepeda.github.io/es/posts/proxmox_copy-paste_consola_vm/</link>
+        <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 15 Jun 2025 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_copy-paste_consola_vm/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>homelab</category>
+            
+          
+            
+              <category>privacidad</category>
+            
+          
+            
+              <category>selfhosting</category>
+            
+          
+            
+              <category>opensource</category>
+            
+          
+            
+              <category>zfs</category>
+            
+          
+            
+              <category>raid</category>
+            
+          
+            
+              <category>proxmox</category>
+            
+          
+        
+        
+          
+            
+              <category>Tecnología</category>
+            
+          
+        
+        
+          
+            
+              <category>Homelab desde cero</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>LXC en Proxmox</title>
-        <link>https://hotspotcepeda.github.io/es/posts/lxc/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/proxmox_lxc/</link>
         <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 06 Dec 2024 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/lxc/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_lxc/</guid>
         <description>&lt;h2 id=&#34;-qué-es-lxc-&#34;&gt;🔍 ¿Qué es LXC ?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;LXC&lt;/strong&gt; (Linux Containers) es una tecnología de virtualización a nivel de sistema operativo que permite ejecutar múltiples sistemas Linux aislados, conocidos como contenedores (CTs), en un único host. A diferencia de las Máquinas Virtuales (VMs) tradicionales que emulan hardware completo, los contenedores LXC comparten el kernel del host.&lt;/p&gt;
 &lt;p&gt;Esto se traduce en eficiencia :&lt;/p&gt;
@@ -89,11 +263,11 @@
       
       <item>
         <title>Wazuh: Tu Centro de Seguridad Open Source (Guía Completa)</title>
-        <link>https://hotspotcepeda.github.io/es/posts/wazuh/</link>
+        <link>https://hotspotcepeda.github.io/es/posts/proxmox_wazuh/</link>
         <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 06 Dec 2024 00:00:00 +0000</atom:modified>
-        <guid>https://hotspotcepeda.github.io/es/posts/wazuh/</guid>
+        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_wazuh/</guid>
         <description>&lt;h2 id=&#34;-qué-es-wazuh&#34;&gt;🌐 ¿Qué es Wazuh?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Wazuh&lt;/strong&gt; es una plataforma de seguridad de código abierto, gratuita y universalmente reconocida. Funciona como una solución &lt;strong&gt;XDR&lt;/strong&gt; (Detección y Respuesta Extendidas) y &lt;strong&gt;SIEM&lt;/strong&gt; (Gestión de Eventos e Información de Seguridad) todo en uno.&lt;/p&gt;
 &lt;p&gt;Wazuh centraliza, analiza y responde a eventos de seguridad de toda tu infraestructura, desde servidores y PCs hasta dispositivos móviles.&lt;/p&gt;
@@ -148,6 +322,347 @@
           
             
               <category>Homelab</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>PBS recuperacion</title>
+        <link>https://hotspotcepeda.github.io/es/posts/proxmox_pbs_recuperacion/</link>
+        <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Fri, 15 Nov 2024 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_pbs_recuperacion/</guid>
+        <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 45
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 46
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 47
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 48
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 49
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 50
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 51
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 52
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 53
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 54
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 55
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 56
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 57
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 58
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 59
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 60
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 61
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 62
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 63
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 64
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 65
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 66
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 67
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 68
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 69
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 70
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 71
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 72
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 73
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 74
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 75
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 76
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 77
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 78
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 79
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 80
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 81
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 82
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 83
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 84
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 85
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 86
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 87
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 88
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 89
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 90
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 91
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 92
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 93
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 94
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 95
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 96
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 97
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 98
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 99
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;100
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;101
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;102
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;103
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;104
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;105
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;106
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;107
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;108
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;109
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;110
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;111
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;112
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;113
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;114
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;115
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;116
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Recuperación de un Datastore de Proxmox Backup Server (PBS) tras Fallo del Hardware/SO
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;En el mundo de los respaldos, la capacidad de recuperar tus datos es tan importante como la capacidad de crearlos. Proxmox Backup Server (PBS) está diseñado para la resiliencia, permitiendo que tus Datastores sean portátiles y recuperables incluso si el servidor PBS original falla por completo (ya sea por un problema de hardware o una corrupción del sistema operativo).
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Este post detalla los pasos y comandos esenciales para recuperar un Datastore de PBS montado en un disco externo USB en una máquina PBS completamente nueva.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## Escenario de Catástrofe
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Imagina la siguiente situación:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;*&lt;/span&gt;   Tu servidor PBS original (por ejemplo, un ThinkPad T430s) ha dejado de funcionar.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;*&lt;/span&gt;   El Datastore de PBS reside en un disco externo USB (ej., &lt;span class=&#34;sb&#34;&gt;`/dev/sdc`&lt;/span&gt; montado en &lt;span class=&#34;sb&#34;&gt;`/mnt/backup_hdd`&lt;/span&gt;).
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;*&lt;/span&gt;   Necesitas acceder a esos respaldos lo antes posible.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## Proceso de Recuperación Paso a Paso
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;El proceso se divide en dos fases principales: &lt;span class=&#34;gs&#34;&gt;**Preparación del Disco en el Nuevo Sistema**&lt;/span&gt; y &lt;span class=&#34;gs&#34;&gt;**Configuración del Datastore en la Nueva Instancia de PBS**&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### Fase 1: Preparación del Disco en el Nuevo Sistema
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Esta fase se realiza en la terminal de la nueva máquina que ejecutará Proxmox Backup Server. Asumimos que la nueva máquina ya tiene un sistema operativo compatible con PBS (Debian/Ubuntu Server) y que PBS está instalado.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt;  &lt;span class=&#34;gs&#34;&gt;**Conecta el Disco Externo USB**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Conecta físicamente tu disco externo USB (que contiene el Datastore de PBS) a la nueva máquina.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;2.&lt;/span&gt;  &lt;span class=&#34;gs&#34;&gt;**Identifica el Disco y la Partición**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Es crucial identificar correctamente el nuevo nombre del dispositivo para tu disco de respaldo. Puede que ya no sea &lt;span class=&#34;sb&#34;&gt;`/dev/sdc`&lt;/span&gt;. Usa &lt;span class=&#34;sb&#34;&gt;`lsblk`&lt;/span&gt; para listar todos los dispositivos de bloque:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```bash
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    lsblk
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Busca tu disco por su tamaño y particiones. Por ejemplo, si tu disco de 8TB se muestra como &lt;span class=&#34;sb&#34;&gt;`/dev/sdb`&lt;/span&gt; y la partición principal es &lt;span class=&#34;sb&#34;&gt;`/dev/sdb1`&lt;/span&gt;, ese será tu objetivo.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;3.&lt;/span&gt;  &lt;span class=&#34;gs&#34;&gt;**Crea un Punto de Montaje**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Necesitas un directorio donde montar la partición del Datastore. Es buena práctica usar un nombre descriptivo, similar a tu configuración anterior.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```bash
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    mkdir /mnt/backup_hdd
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;ge&#34;&gt;*(Ajusta `/mnt/backup_hdd` según tu preferencia o configuración original).*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;4.&lt;/span&gt;  &lt;span class=&#34;gs&#34;&gt;**Monta la Partición del Datastore**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Monta la partición identificada en el punto de montaje que acabas de crear.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```bash
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    mount /dev/sdb1 /mnt/backup_hdd
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;ge&#34;&gt;*(Reemplaza `/dev/sdb1` con el nombre de tu partición y `/mnt/backup_hdd` con tu punto de montaje).*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;5.&lt;/span&gt;  &lt;span class=&#34;gs&#34;&gt;**Verifica el Montaje**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Confirma que el disco se ha montado correctamente y es accesible.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```bash
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    df -h
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Deberías ver &lt;span class=&#34;sb&#34;&gt;`/dev/sdb1`&lt;/span&gt; (o el nombre de tu partición) listado con su tamaño y uso, montado en &lt;span class=&#34;sb&#34;&gt;`/mnt/backup_hdd`&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;6.&lt;/span&gt;  &lt;span class=&#34;gs&#34;&gt;**Configura el Montaje Automático (Persistencia)**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Para asegurar que el Datastore se monte automáticamente después de cada reinicio, añade una entrada a &lt;span class=&#34;sb&#34;&gt;`/etc/fstab`&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Primero, obtén el UUID (Universally Unique Identifier) de la partición. Esto es más robusto que usar &lt;span class=&#34;sb&#34;&gt;`/dev/sdX`&lt;/span&gt; ya que los nombres de los dispositivos pueden cambiar.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```bash
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    blkid /dev/sdb1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Copia el valor &lt;span class=&#34;sb&#34;&gt;`UUID=&amp;#34;XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&amp;#34;`&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Ahora, edita &lt;span class=&#34;sb&#34;&gt;`/etc/fstab`&lt;/span&gt; con un editor de texto como &lt;span class=&#34;sb&#34;&gt;`nano`&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```bash
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    nano /etc/fstab
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Añade la siguiente línea al final del archivo, reemplazando el &lt;span class=&#34;sb&#34;&gt;`UUID`&lt;/span&gt; con el valor que copiaste y ajustando la ruta y el tipo de sistema de archivos (`ext4` o &lt;span class=&#34;sb&#34;&gt;`zfs`&lt;/span&gt; si lo configuraste así originalmente):
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    UUID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX /mnt/backup_hdd ext4 defaults 0 2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Guarda y cierra el archivo (Ctrl+O, Enter, Ctrl+X en &lt;span class=&#34;sb&#34;&gt;`nano`&lt;/span&gt;).
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;gs&#34;&gt;**Opcional: Prueba `fstab`**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Puedes probar si la nueva entrada de &lt;span class=&#34;sb&#34;&gt;`fstab`&lt;/span&gt; es correcta sin reiniciar:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```bash
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    mount -a
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ```
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Si no hay errores, significa que la configuración es válida.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### Fase 2: Configuración del Datastore en la Nueva Instancia de PBS
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Una vez que el disco externo está montado y accesible en el sistema de archivos del nuevo servidor PBS, el último paso es informarle a Proxmox Backup Server sobre este Datastore.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt;  &lt;span class=&#34;gs&#34;&gt;**Accede a la Interfaz Web de PBS**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Abre tu navegador web y navega a la dirección IP de tu &lt;span class=&#34;gs&#34;&gt;**nueva**&lt;/span&gt; máquina PBS en el puerto 8007: &lt;span class=&#34;sb&#34;&gt;`https://[IP_DEL_NUEVO_PBS]:8007`&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;2.&lt;/span&gt;  &lt;span class=&#34;gs&#34;&gt;**Inicia Sesión**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Ingresa tus credenciales de usuario (ej., &lt;span class=&#34;sb&#34;&gt;`root`&lt;/span&gt; y tu contraseña).
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;3.&lt;/span&gt;  &lt;span class=&#34;gs&#34;&gt;**Navega a la Sección &amp;#34;Datastores&amp;#34;**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    En el menú de navegación de la izquierda, haz clic en &lt;span class=&#34;gs&#34;&gt;**Datastores**&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;4.&lt;/span&gt;  &lt;span class=&#34;gs&#34;&gt;**Añade el Datastore Existente**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Haz clic en el botón &lt;span class=&#34;gs&#34;&gt;**Add Datastore**&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;*&lt;/span&gt;   &lt;span class=&#34;gs&#34;&gt;**Name:**&lt;/span&gt; &lt;span class=&#34;ge&#34;&gt;**&lt;/span&gt;¡MUY IMPORTANTE!** Debes introducir el &lt;span class=&#34;gs&#34;&gt;**mismo nombre**&lt;/span&gt; que tenía tu Datastore en el servidor PBS original. Si no recuerdas el nombre, puedes listarlos haciendo &lt;span class=&#34;sb&#34;&gt;`ls /mnt/backup_hdd/`&lt;/span&gt; en la terminal, y verás un directorio con el nombre del Datastore.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;*&lt;/span&gt;   &lt;span class=&#34;gs&#34;&gt;**Path:**&lt;/span&gt; Introduce la ruta de montaje que configuraste en el paso 3 de la Fase 1, ej., &lt;span class=&#34;sb&#34;&gt;`/mnt/backup_hdd`&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;*&lt;/span&gt;   &lt;span class=&#34;gs&#34;&gt;**Owner:**&lt;/span&gt; Generalmente, &lt;span class=&#34;sb&#34;&gt;`root@pam`&lt;/span&gt; (el valor predeterminado).
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;*&lt;/span&gt;   &lt;span class=&#34;gs&#34;&gt;**Comment (opcional):**&lt;/span&gt; Añade una descripción si lo deseas.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;5.&lt;/span&gt;  &lt;span class=&#34;gs&#34;&gt;**Confirma y Añade**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Haz clic en el botón &lt;span class=&#34;gs&#34;&gt;**Add**&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### Verificación Final
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Una vez añadido, el nuevo servidor PBS escaneará automáticamente el Datastore. Deberías ver los mismos grupos de respaldo, snapshots y métricas que tenías en el servidor PBS original. Ahora puedes proceder a verificar la integridad de los respaldos y realizar restauraciones.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>lxc</category>
+            
+          
+            
+              <category>proxmox</category>
+            
+          
+            
+              <category>contenedores</category>
+            
+          
+            
+              <category>virtualización</category>
+            
+          
+            
+              <category>devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Homelab</category>
+            
+          
+            
+              <category>Virtualización</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Backup en Proxmox</title>
+        <link>https://hotspotcepeda.github.io/es/posts/proxmox_backup_a_hdd/</link>
+        <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 10 Nov 2024 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/proxmox_backup_a_hdd/</guid>
+        <description>&lt;h1 id=&#34;backup-y-restauración-de-máquinas-virtuales-proxmox-ve-guía-avanzada&#34;&gt;Backup y Restauración de Máquinas Virtuales Proxmox VE (Guía Avanzada)&lt;/h1&gt;
+&lt;p&gt;Este post detalla el proceso para realizar un backup completo de una Máquina Virtual (VM) en Proxmox VE a un disco externo o directorio no gestionado por Proxmox, y cómo restaurarla, manteniendo la distribución original de los discos en diferentes almacenamientos. Se asume un entorno Proxmox VE con ZFS pools (&lt;code&gt;local-zfs&lt;/code&gt;, &lt;code&gt;dual-mirror-8_TB&lt;/code&gt;) y un disco externo (&lt;code&gt;/dev/sda&lt;/code&gt;) montado.&lt;/p&gt;
+&lt;h2 id=&#34;escenario-de-la-vm-a-respaldar-id-100&#34;&gt;Escenario de la VM a Respaldar (ID 100)&lt;/h2&gt;
+&lt;p&gt;La VM con ID &lt;code&gt;100&lt;/code&gt; (&lt;code&gt;NEXT&lt;/code&gt;) tiene la siguiente configuración de discos:&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>lxc</category>
+            
+          
+            
+              <category>proxmox</category>
+            
+          
+            
+              <category>contenedores</category>
+            
+          
+            
+              <category>virtualización</category>
+            
+          
+            
+              <category>devops</category>
+            
+          
+        
+        
+          
+            
+              <category>Homelab</category>
+            
+          
+            
+              <category>Virtualización</category>
             
           
         
