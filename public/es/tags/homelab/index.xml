@@ -14,19 +14,322 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://localhost:1313/es/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Nube Privada Familiar con Nextcloud: Un Viaje hacia la Autogobernanza Digital</title>
+        <link>http://localhost:1313/es/posts/proxmox_nextcloud/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 04 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/es/posts/proxmox_nextcloud/</guid>
+        <description>&lt;h1 id=&#34;nube-pivada-con-nextcloud-viaje-hacia-la-atogobernanza-dgital&#34;&gt;Nube pivada con Nextcloud: Viaje hacia la atogobernanza dgital&lt;/h1&gt;
+&lt;p&gt;Después de un proceso de investigación y configuración, ¡finalmente he puesto en producción mi propia nube privada familiar basada en Nextcloud! Este proyecto no solo ha sido un viaje entretenido a nivel técnico, sino también un paso consciente hacia una mayor privacidad y control sobre nuestros datos digitales.&lt;/p&gt;
+&lt;h2 id=&#34;por-qué-una-nube-privada&#34;&gt;¿Por qué una Nube Privada?&lt;/h2&gt;
+&lt;p&gt;En la era digital actual, la mayoría de nuestras fotos y documentos importantes residen en servicios en la nube de terceros. Si bien estos servicios ofrecen comodidad, también plantean preguntas sobre la privacidad, la seguridad y la propiedad de nuestros datos. Mi objetivo principal era tener una solución de almacenamiento:&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="http://localhost:1313/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Let&#39;s Encrypt</category>
+            
+          
+            
+              <category>NPM</category>
+            
+          
+            
+              <category>Nextcloud</category>
+            
+          
+            
+              <category>privacidad</category>
+            
+          
+            
+              <category>proxmox</category>
+            
+          
+            
+              <category>homelab</category>
+            
+          
+        
+        
+          
+            
+              <category>Seguridad</category>
+            
+          
+            
+              <category>Homelab</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Copy / paste en la consola de la VM quemu </title>
+        <link>http://localhost:1313/es/posts/proxmox_copy-paste_consola_vm/</link>
+        <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 15 Jun 2025 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/es/posts/proxmox_copy-paste_consola_vm/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="http://localhost:1313/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>homelab</category>
+            
+          
+            
+              <category>privacidad</category>
+            
+          
+            
+              <category>selfhosting</category>
+            
+          
+            
+              <category>opensource</category>
+            
+          
+            
+              <category>zfs</category>
+            
+          
+            
+              <category>raid</category>
+            
+          
+            
+              <category>proxmox</category>
+            
+          
+        
+        
+          
+            
+              <category>Tecnología</category>
+            
+          
+        
+        
+          
+            
+              <category>Homelab desde cero</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Disco ZFS Fallando: Detección y Reemplazo</title>
+        <link>http://localhost:1313/es/posts/proxmox_fallo_disco_zfs/</link>
+        <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 15 Jun 2025 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/es/posts/proxmox_fallo_disco_zfs/</guid>
+        <description>&lt;p&gt;ZFS, es un sistema de archivos robusto diseñado precisamente para estas situaciones. Recientemente, mi servidor comenzó a reportar errores en uno de los discos de mi pool.&lt;/p&gt;
+&lt;p&gt;Compartiré el proceso exacto que seguí para detectar el problema, identificar el disco físico culpable y reemplazarlo de forma segura, todo sin perder un solo byte de datos.&lt;/p&gt;
+&lt;h2 id=&#34;paso-1-detección-del-problema-con-zpool-status&#34;&gt;Paso 1: Detección del Problema con &lt;code&gt;zpool status&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;El primer indicio de un problema suele venir del comando &lt;code&gt;zpool status&lt;/code&gt;. Al ejecutarlo, recibí una salida que, aunque preocupante, me dio toda la información necesaria para empezar.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="http://localhost:1313/images/feature2/nascrash.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>homelab</category>
+            
+          
+            
+              <category>privacidad</category>
+            
+          
+            
+              <category>selfhosting</category>
+            
+          
+            
+              <category>opensource</category>
+            
+          
+            
+              <category>zfs</category>
+            
+          
+            
+              <category>raid</category>
+            
+          
+        
+        
+          
+            
+              <category>Tecnología</category>
+            
+          
+        
+        
+          
+            
+              <category>Homelab desde cero</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Gestión de backups </title>
+        <link>http://localhost:1313/es/posts/proxmox_gestion_backups/</link>
+        <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 15 Jun 2025 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/es/posts/proxmox_gestion_backups/</guid>
+        <description>&lt;p&gt;intro&lt;/p&gt;
+&lt;h2 id=&#34;eliminar-todos-los-backups-de-un-id-lxc&#34;&gt;Eliminar todos los backups de un ID LXC&lt;/h2&gt;
+&lt;h3 id=&#34;importante-dónde-guardas-tus-backups&#34;&gt;&lt;strong&gt;Importante:&lt;/strong&gt; ¿Dónde guardas tus backups?&lt;/h3&gt;
+&lt;p&gt;Este método funciona para almacenamientos basados en archivos, como &lt;strong&gt;&lt;code&gt;Directory&lt;/code&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;NFS&lt;/code&gt;&lt;/strong&gt; o &lt;strong&gt;&lt;code&gt;CIFS&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¡Atención!&lt;/strong&gt; Si estás usando &lt;strong&gt;Proxmox Backup Server (PBS)&lt;/strong&gt;, este método &lt;strong&gt;NO&lt;/strong&gt; funcionará y no debes intentarlo. Los backups en PBS se gestionan a través de su propia interfaz o con el comando &lt;code&gt;proxmox-backup-client&lt;/code&gt;. El método que te describo a continuación es para los backups tradicionales de Proxmox (archivos &lt;code&gt;.vma.zst&lt;/code&gt;, &lt;code&gt;.tar.gz&lt;/code&gt;, etc.).&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="http://localhost:1313/images/feature2/proxmox2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>homelab</category>
+            
+          
+            
+              <category>privacidad</category>
+            
+          
+            
+              <category>selfhosting</category>
+            
+          
+            
+              <category>opensource</category>
+            
+          
+            
+              <category>zfs</category>
+            
+          
+            
+              <category>raid</category>
+            
+          
+        
+        
+          
+            
+              <category>Tecnología</category>
+            
+          
+        
+        
+          
+            
+              <category>Homelab desde cero</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Wazuh: Tu Centro de Seguridad Open Source (Guía Completa)</title>
+        <link>http://localhost:1313/es/posts/proxmox_wazuh/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Fri, 06 Dec 2024 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/es/posts/proxmox_wazuh/</guid>
+        <description>&lt;h2 id=&#34;-qué-es-wazuh&#34;&gt;🌐 ¿Qué es Wazuh?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Wazuh&lt;/strong&gt; es una plataforma de seguridad de código abierto, gratuita y universalmente reconocida. Funciona como una solución &lt;strong&gt;XDR&lt;/strong&gt; (Detección y Respuesta Extendidas) y &lt;strong&gt;SIEM&lt;/strong&gt; (Gestión de Eventos e Información de Seguridad) todo en uno.&lt;/p&gt;
+&lt;p&gt;Wazuh centraliza, analiza y responde a eventos de seguridad de toda tu infraestructura, desde servidores y PCs hasta dispositivos móviles.&lt;/p&gt;
+&lt;h3 id=&#34;qué-hace&#34;&gt;¿Qué Hace?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Detección de Intrusiones (HIDS):&lt;/strong&gt; Monitoriza tus sistemas en busca de actividad sospechosa, cambios no autorizados en ficheros y malware.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Análisis de Logs:&lt;/strong&gt; Recopila y analiza logs de cualquier fuente (aplicaciones, sistemas operativos, firewalls) para detectar patrones de ataque.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitorización de Integridad de Ficheros (FIM):&lt;/strong&gt; Te alerta si ficheros críticos del sistema o de tus aplicaciones son modificados.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluación de Vulnerabilidades:&lt;/strong&gt; Detecta software obsoleto o con vulnerabilidades conocidas en tus equipos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cumplimiento Normativo:&lt;/strong&gt; Ayuda a cumplir con estándares de seguridad como PCI DSS, GDPR o HIPAA mediante reglas predefinidas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Respuesta Activa:&lt;/strong&gt; Puede tomar acciones automáticas, como bloquear una dirección IP en el firewall o detener un proceso malicioso.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-instalación-del-servidor-wazuh-en-proxmox-lxc&#34;&gt;🛠️ Instalación del Servidor Wazuh en Proxmox LXC&lt;/h2&gt;
+&lt;p&gt;Vamos a instalar la pila completa de Wazuh (Indexer, Server y Dashboard) en un único contenedor LXC, una opción eficiente y potente para un homelab.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="http://localhost:1313/images/feature1/wazuh.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>wazuh</category>
+            
+          
+            
+              <category>siem</category>
+            
+          
+            
+              <category>xdr</category>
+            
+          
+            
+              <category>seguridad</category>
+            
+          
+            
+              <category>proxmox</category>
+            
+          
+            
+              <category>homelab</category>
+            
+          
+        
+        
+          
+            
+              <category>Seguridad</category>
+            
+          
+            
+              <category>Homelab</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
         <title>De NAS a Homelab: Privacidad, Aprendizaje y Rebelión Tecnológica</title>
-        <link>http://localhost:1313/es/posts/nas-proxmox/</link>
+        <link>http://localhost:1313/es/posts/proxmox_nas/</link>
         <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Sun, 24 Nov 2024 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/nas-proxmox/</guid>
+        <guid>http://localhost:1313/es/posts/proxmox_nas/</guid>
         <description>&lt;h2 id=&#34;por-qué-un-homelab-y-no-solo-un-nas&#34;&gt;¿Por qué un homelab y no solo un NAS?&lt;/h2&gt;
 &lt;p&gt;Más que un simple NAS, quiero construir un &lt;strong&gt;homelab&lt;/strong&gt;: un espacio para servicios familiares, privados y seguros. Un acto de rebeldía contra la erosión de la privacidad y una forma de recuperar el control sobre nuestros datos.&lt;/p&gt;
 &lt;h3 id=&#34;objetivos&#34;&gt;Objetivos:&lt;/h3&gt;

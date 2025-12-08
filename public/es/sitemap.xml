@@ -9,7 +9,7 @@
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/</loc>
-    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -21,39 +21,8 @@
                 href="http://localhost:1313/es/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/index/</loc>
-    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/posts/</loc>
-    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/tags/</loc>
-    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/posts/vaultwarden/</loc>
-    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/tags/ciberseguridad/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/tags/proxmox/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/posts/wazuh/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/es/categories/</loc>
-    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -66,52 +35,92 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/tags/contenedores/</loc>
-    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/tags/devops/</loc>
-    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/categories/homelab/</loc>
-    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/index/</loc>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/tags/lxc/</loc>
-    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/posts/lxc/</loc>
-    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/es/posts/proxmox_pve_boot_order/</loc>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/</loc>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/proxmox/</loc>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/</loc>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/tags/virtualizaci%C3%B3n/</loc>
-    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/categories/virtualizaci%C3%B3n/</loc>
-    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/tags/consola/</loc>
-    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/posts/terminal_custom/</loc>
-    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/posts/nas-proxmox/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/tags/homelab/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/series/homelab-desde-cero/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/es/tags/lets-encrypt/</loc>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/tags/opensource/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/es/tags/nextcloud/</loc>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/npm/</loc>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/proxmox_nextcloud/</loc>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/tags/privacidad/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/categories/seguridad/</loc>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/proxmox_copy-paste_consola_vm/</loc>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/proxmox_fallo_disco_zfs/</loc>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/proxmox_gestion_backups/</loc>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/series/homelab-desde-cero/</loc>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/opensource/</loc>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/raid/</loc>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/tags/selfhosting/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/series/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -124,7 +133,46 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/categories/tecnolog%C3%ADa/</loc>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/zfs/</loc>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/proxmox_vaultwarden/</loc>
+    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/proxmox_lxc/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/seguridad/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/siem/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/wazuh/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/proxmox_wazuh/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/xdr/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/consola/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/terminal_custom/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/proxmox_nas/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/proxmox_pbs_recuperacion/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/proxmox_backup_a_hdd/</loc>
+    <lastmod>2024-11-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/categories/ayto/</loc>
     <lastmod>2022-09-15T00:00:00+00:00</lastmod>
@@ -281,9 +329,6 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/ralph/</loc>
     <lastmod>2017-07-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/tags/nextcloud/</loc>
-    <lastmod>2017-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/nextcloud_debian/</loc>
     <lastmod>2017-06-24T00:00:00+00:00</lastmod>

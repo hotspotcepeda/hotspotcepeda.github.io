@@ -7,7 +7,7 @@ hideToc: false
 enableToc: true
 enableTocContent: false
 author: HotspotCepeda 
-authorEmoji: "🛡️"
+authorEmoji: "🗻"
 tags:
   - wazuh
   - siem
@@ -127,3 +127,51 @@ Sí, también puedes monitorizar tu dispositivo Android para detectar aplicacion
     *   Al igual que con el agente de Windows, tu dispositivo Android aparecerá en la lista de agentes del Dashboard de Wazuh pasados unos minutos.
 
 Con estos pasos, has creado un centro de mando de seguridad centralizado y potente. Ahora puedes empezar a explorar las reglas, crear alertas personalizadas y tener una visibilidad completa de lo que ocurre en tu red.  🛡️
+
+
+### Instalación del Agente en Debian
+
+1.  **Pre-instalación de Dependencias:**  `lsb-release` primero. Esto evita cualquier error con `dpkg`.
+2.  **Instalación del Agente:**  `dpkg` con las variables de entorno, incluyendo un `WAZUH_AGENT_NAME` único y descriptivo (`NOMBRE-DESCRIPTIVO`).
+3.  **Activación y Arranque del Servicio:**
+    *   `sudo systemctl enable wazuh-agent` para asegurarte de que sobreviva a los reinicios.
+    *   `sudo systemctl start wazuh-agent` para iniciarlo en el momento.
+4.  **Estado Final:** El último `systemctl status wazuh-agent` muestra claramente `Active: active (running)` y todos los sub-procesos de Wazuh iniciados correctamente.
+
+---
+
+### Comandos Aislados Debian/Ubuntu.
+
+**Paso 1: Actualizar la lista de paquetes**
+```bash
+sudo apt-get update
+```
+
+**Paso 2: Instalar la dependencia `lsb-release` (si no está presente)**
+```bash
+sudo apt-get install -y lsb-release
+```
+
+**Paso 3: Descargar e instalar el agente Wazuh**
+*(Recuerda cambiar `WAZUH_AGENT_NAME` por el nombre de la nueva máquina)*
+```bash
+wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.12.0-1_amd64.deb
+```
+```bash
+sudo WAZUH_MANAGER='192.168.88.188' WAZUH_AGENT_GROUP='center' WAZUH_AGENT_NAME='nombre-del-nuevo-agente' dpkg -i ./wazuh-agent_4.12.0-1_amd64.deb
+```
+
+**Paso 4: Habilitar el servicio para que inicie automáticamente**
+```bash
+sudo systemctl enable wazuh-agent
+```
+
+**Paso 5: Iniciar el servicio del agente**
+```bash
+sudo systemctl start wazuh-agent
+```
+
+**Paso 6: Verificar el estado del servicio**
+```bash
+systemctl status wazuh-agent
+```

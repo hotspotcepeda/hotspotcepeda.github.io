@@ -14,24 +14,80 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://localhost:1313/es/categories/seguridad/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Nube Privada Familiar con Nextcloud: Un Viaje hacia la Autogobernanza Digital</title>
+        <link>http://localhost:1313/es/posts/proxmox_nextcloud/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sat, 04 Oct 2025 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/es/posts/proxmox_nextcloud/</guid>
+        <description>&lt;h1 id=&#34;nube-pivada-con-nextcloud-viaje-hacia-la-atogobernanza-dgital&#34;&gt;Nube pivada con Nextcloud: Viaje hacia la atogobernanza dgital&lt;/h1&gt;
+&lt;p&gt;Después de un proceso de investigación y configuración, ¡finalmente he puesto en producción mi propia nube privada familiar basada en Nextcloud! Este proyecto no solo ha sido un viaje entretenido a nivel técnico, sino también un paso consciente hacia una mayor privacidad y control sobre nuestros datos digitales.&lt;/p&gt;
+&lt;h2 id=&#34;por-qué-una-nube-privada&#34;&gt;¿Por qué una Nube Privada?&lt;/h2&gt;
+&lt;p&gt;En la era digital actual, la mayoría de nuestras fotos y documentos importantes residen en servicios en la nube de terceros. Si bien estos servicios ofrecen comodidad, también plantean preguntas sobre la privacidad, la seguridad y la propiedad de nuestros datos. Mi objetivo principal era tener una solución de almacenamiento:&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="http://localhost:1313/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Let&#39;s Encrypt</category>
+            
+          
+            
+              <category>NPM</category>
+            
+          
+            
+              <category>Nextcloud</category>
+            
+          
+            
+              <category>privacidad</category>
+            
+          
+            
+              <category>proxmox</category>
+            
+          
+            
+              <category>homelab</category>
+            
+          
+        
+        
+          
+            
+              <category>Seguridad</category>
+            
+          
+            
+              <category>Homelab</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
         <title>Wazuh: Tu Centro de Seguridad Open Source (Guía Completa)</title>
-        <link>http://localhost:1313/es/posts/wazuh/</link>
+        <link>http://localhost:1313/es/posts/proxmox_wazuh/</link>
         <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         <atom:modified>Fri, 06 Dec 2024 00:00:00 +0000</atom:modified>
-        <guid>http://localhost:1313/es/posts/wazuh/</guid>
-        <description>&lt;h2 id=&#34;-qué-es-wazuh-el-guardián-de-tu-infraestructura&#34;&gt;🌐 ¿Qué es Wazuh? El Guardián de tu Infraestructura&lt;/h2&gt;
+        <guid>http://localhost:1313/es/posts/proxmox_wazuh/</guid>
+        <description>&lt;h2 id=&#34;-qué-es-wazuh&#34;&gt;🌐 ¿Qué es Wazuh?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Wazuh&lt;/strong&gt; es una plataforma de seguridad de código abierto, gratuita y universalmente reconocida. Funciona como una solución &lt;strong&gt;XDR&lt;/strong&gt; (Detección y Respuesta Extendidas) y &lt;strong&gt;SIEM&lt;/strong&gt; (Gestión de Eventos e Información de Seguridad) todo en uno.&lt;/p&gt;
-&lt;p&gt;En términos sencillos, Wazuh centraliza, analiza y responde a eventos de seguridad de toda tu infraestructura, desde servidores y PCs hasta dispositivos móviles.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Arquitectura de Wazuh&#34; src=&#34;images/feature1/wazuh-architecture.png&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;qué-hace-exactamente&#34;&gt;¿Qué Hace Exactamente?&lt;/h3&gt;
+&lt;p&gt;Wazuh centraliza, analiza y responde a eventos de seguridad de toda tu infraestructura, desde servidores y PCs hasta dispositivos móviles.&lt;/p&gt;
+&lt;h3 id=&#34;qué-hace&#34;&gt;¿Qué Hace?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Detección de Intrusiones (HIDS):&lt;/strong&gt; Monitoriza tus sistemas en busca de actividad sospechosa, cambios no autorizados en ficheros y malware.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Análisis de Logs:&lt;/strong&gt; Recopila y analiza logs de cualquier fuente (aplicaciones, sistemas operativos, firewalls) para detectar patrones de ataque.&lt;/li&gt;
@@ -44,7 +100,7 @@
 &lt;p&gt;Vamos a instalar la pila completa de Wazuh (Indexer, Server y Dashboard) en un único contenedor LXC, una opción eficiente y potente para un homelab.&lt;/p&gt;</description>
         
         <dc:creator>HotspotCepeda</dc:creator>
-        <media:content url="http://localhost:1313/images/feature1/wazuh-banner.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://localhost:1313/images/feature1/wazuh.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

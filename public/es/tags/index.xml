@@ -14,70 +14,16 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>Index</title>
-        <link>http://localhost:1313/es/tags/index/</link>
-        <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>http://localhost:1313/es/tags/index/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Ciberseguridad</title>
-        <link>http://localhost:1313/es/tags/ciberseguridad/</link>
-        <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>http://localhost:1313/es/tags/ciberseguridad/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Proxmox</title>
-        <link>http://localhost:1313/es/tags/proxmox/</link>
-        <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>http://localhost:1313/es/tags/proxmox/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>Contenedores</title>
         <link>http://localhost:1313/es/tags/contenedores/</link>
-        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>http://localhost:1313/es/tags/contenedores/</guid>
@@ -95,7 +41,7 @@
       <item>
         <title>Devops</title>
         <link>http://localhost:1313/es/tags/devops/</link>
-        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>http://localhost:1313/es/tags/devops/</guid>
@@ -111,9 +57,27 @@
       </item>
       
       <item>
+        <title>Index</title>
+        <link>http://localhost:1313/es/tags/index/</link>
+        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/index/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Lxc</title>
         <link>http://localhost:1313/es/tags/lxc/</link>
-        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>http://localhost:1313/es/tags/lxc/</guid>
@@ -129,12 +93,264 @@
       </item>
       
       <item>
+        <title>Proxmox</title>
+        <link>http://localhost:1313/es/tags/proxmox/</link>
+        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/proxmox/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Virtualización</title>
         <link>http://localhost:1313/es/tags/virtualizaci%C3%B3n/</link>
-        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>http://localhost:1313/es/tags/virtualizaci%C3%B3n/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Homelab</title>
+        <link>http://localhost:1313/es/tags/homelab/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/homelab/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Let&#39;s Encrypt</title>
+        <link>http://localhost:1313/es/tags/lets-encrypt/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/lets-encrypt/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Nextcloud</title>
+        <link>http://localhost:1313/es/tags/nextcloud/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/nextcloud/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>NPM</title>
+        <link>http://localhost:1313/es/tags/npm/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/npm/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Privacidad</title>
+        <link>http://localhost:1313/es/tags/privacidad/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/privacidad/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Opensource</title>
+        <link>http://localhost:1313/es/tags/opensource/</link>
+        <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/opensource/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Raid</title>
+        <link>http://localhost:1313/es/tags/raid/</link>
+        <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/raid/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Selfhosting</title>
+        <link>http://localhost:1313/es/tags/selfhosting/</link>
+        <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/selfhosting/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Zfs</title>
+        <link>http://localhost:1313/es/tags/zfs/</link>
+        <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/zfs/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Seguridad</title>
+        <link>http://localhost:1313/es/tags/seguridad/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/seguridad/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Siem</title>
+        <link>http://localhost:1313/es/tags/siem/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/siem/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Wazuh</title>
+        <link>http://localhost:1313/es/tags/wazuh/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/wazuh/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Xdr</title>
+        <link>http://localhost:1313/es/tags/xdr/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/tags/xdr/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -153,78 +369,6 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>http://localhost:1313/es/tags/consola/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Homelab</title>
-        <link>http://localhost:1313/es/tags/homelab/</link>
-        <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>http://localhost:1313/es/tags/homelab/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Opensource</title>
-        <link>http://localhost:1313/es/tags/opensource/</link>
-        <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>http://localhost:1313/es/tags/opensource/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Privacidad</title>
-        <link>http://localhost:1313/es/tags/privacidad/</link>
-        <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>http://localhost:1313/es/tags/privacidad/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Selfhosting</title>
-        <link>http://localhost:1313/es/tags/selfhosting/</link>
-        <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>http://localhost:1313/es/tags/selfhosting/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -675,24 +819,6 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>http://localhost:1313/es/tags/ralph/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Nextcloud</title>
-        <link>http://localhost:1313/es/tags/nextcloud/</link>
-        <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>http://localhost:1313/es/tags/nextcloud/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
