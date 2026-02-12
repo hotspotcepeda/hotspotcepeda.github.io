@@ -14,11 +14,163 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://localhost:1313/es/categories/homelab/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Wazuh en UGreen express</title>
+        <link>http://localhost:1313/es/posts/ugreen_wazuh_express/</link>
+        <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Mon, 12 Jan 2026 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/es/posts/ugreen_wazuh_express/</guid>
+        <description>&lt;h3 id=&#34;wazuh-en-ugreen-express-&#34;&gt;Wazuh en UGREEN Express 🚀&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;h4 id=&#34;paso-1-preparación-ssh&#34;&gt;Paso 1: Preparación (SSH)&lt;/h4&gt;
+&lt;p&gt;Preparar Kernel y archivos:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 1. Ajuste del Kernel (Persistente tras reinicio)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo sysctl -w vm.max_map_count&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;262144&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;vm.max_map_count=262144&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sudo tee -a /etc/sysctl.conf
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 2. Directorio de trabajo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /volume1/Docker
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 3. Clonar el repositorio oficial (v4.7.2 o la estable que corresponda)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/wazuh/wazuh-docker.git -b v4.7.2 --depth&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; wazuh-docker/single-node
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;paso-2-generación-del-stack&#34;&gt;Paso 2: Generación del Stack&lt;/h4&gt;
+&lt;p&gt;Generador automático de certificados Wazuh.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="http://localhost:1313/images/feature1/wazuh.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>wazuh</category>
+            
+          
+            
+              <category>siem</category>
+            
+          
+            
+              <category>seguridad</category>
+            
+          
+            
+              <category>docker</category>
+            
+          
+            
+              <category>homelab</category>
+            
+          
+        
+        
+          
+            
+              <category>Seguridad</category>
+            
+          
+            
+              <category>Homelab</category>
+            
+          
+            
+              <category>docker</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Wazuh en UGreen</title>
+        <link>http://localhost:1313/es/posts/ugreen_wazuh/</link>
+        <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Sun, 11 Jan 2026 00:00:00 +0000</atom:modified>
+        <guid>http://localhost:1313/es/posts/ugreen_wazuh/</guid>
+        <description>&lt;h2 id=&#34;-qué-es-wazuh&#34;&gt;🌐 ¿Qué es Wazuh?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Wazuh&lt;/strong&gt; es una plataforma de seguridad de código abierto, gratuita y universalmente reconocida. Funciona como una solución &lt;strong&gt;XDR&lt;/strong&gt; (Detección y Respuesta Extendidas) y &lt;strong&gt;SIEM&lt;/strong&gt; (Gestión de Eventos e Información de Seguridad) todo en uno.&lt;/p&gt;
+&lt;p&gt;Wazuh centraliza, analiza y responde a eventos de seguridad de toda tu infraestructura, desde servidores y PCs hasta dispositivos móviles.&lt;/p&gt;
+&lt;h3 id=&#34;qué-hace&#34;&gt;¿Qué Hace?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Detección de Intrusiones (HIDS):&lt;/strong&gt; Monitoriza tus sistemas en busca de actividad sospechosa, cambios no autorizados en ficheros y malware.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Análisis de Logs:&lt;/strong&gt; Recopila y analiza logs de cualquier fuente (aplicaciones, sistemas operativos, firewalls) para detectar patrones de ataque.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitorización de Integridad de Ficheros (FIM):&lt;/strong&gt; Te alerta si ficheros críticos del sistema o de tus aplicaciones son modificados.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluación de Vulnerabilidades:&lt;/strong&gt; Detecta software obsoleto o con vulnerabilidades conocidas en tus equipos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cumplimiento Normativo:&lt;/strong&gt; Ayuda a cumplir con estándares de seguridad como PCI DSS, GDPR o HIPAA mediante reglas predefinidas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Respuesta Activa:&lt;/strong&gt; Puede tomar acciones automáticas, como bloquear una dirección IP en el firewall o detener un proceso malicioso.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-instalación-del-servidor-wazuh-en-docker&#34;&gt;🛠️ Instalación del servidor Wazuh en Docker&lt;/h2&gt;
+&lt;p&gt;Instalar &lt;strong&gt;Wazuh&lt;/strong&gt; en un NAS UGREEN es un salto de nivel importante. No es un contenedor ligero (como Pi-hole o Home Assistant); es un SIEM (Gestión de Eventos e Información de Seguridad) completo que demanda recursos y configuraciones específicas del kernel de Linux.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="http://localhost:1313/images/feature1/wazuh.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>wazuh</category>
+            
+          
+            
+              <category>siem</category>
+            
+          
+            
+              <category>seguridad</category>
+            
+          
+            
+              <category>docker</category>
+            
+          
+            
+              <category>homelab</category>
+            
+          
+        
+        
+          
+            
+              <category>Seguridad</category>
+            
+          
+            
+              <category>Homelab</category>
+            
+          
+            
+              <category>docker</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Orquestación de Arranque PVE</title>

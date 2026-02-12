@@ -14,11 +14,101 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Thu, 15 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>NEXTCLOUD Importación Masiva CD y DVD</title>
+        <link>https://hotspotcepeda.github.io/es/posts/nextcloud_pasar_cd-dvd/</link>
+        <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Thu, 18 Dec 2025 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/nextcloud_pasar_cd-dvd/</guid>
+        <description>&lt;p&gt;&lt;img alt=&#34;Nextcloud custom login server&#34; src=&#34;https://hotspotcepeda.github.io/images/post/nextcloud_custom.png&#34;&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;rescatando-recuerdos-digitales-migración-masiva-de-cds-antiguos-a-nextcloud&#34;&gt;Rescatando recuerdos digitales: Migración masiva de CDs antiguos a Nextcloud&lt;/h1&gt;
+&lt;p&gt;Recientemente me embarqué en el proyecto de digitalizar y centralizar años de fotografías (muchas en formato RAW .NEF) almacenadas en CDs antiguos hacia un servidor casero con &lt;strong&gt;Nextcloud&lt;/strong&gt; y la aplicación &lt;strong&gt;Memories&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;1-el-escenario-base-montaje-y-copia-simple&#34;&gt;1. El escenario base: Montaje y copia simple&lt;/h2&gt;
+&lt;p&gt;Para los discos en buen estado, el proceso en Linux (Debian/Ubuntu) es directo. Identificamos la unidad y montamos.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Proxmox</category>
+            
+          
+            
+              <category>nextcloud</category>
+            
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>homelab</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>NEXTCLOUD Importación Masiva</title>
+        <link>https://hotspotcepeda.github.io/es/posts/nextcloud_subida_masiva_fotos/</link>
+        <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        <atom:modified>Thu, 11 Dec 2025 00:00:00 +0000</atom:modified>
+        <guid>https://hotspotcepeda.github.io/es/posts/nextcloud_subida_masiva_fotos/</guid>
+        <description>&lt;p&gt;&lt;img alt=&#34;Nextcloud custom login server&#34; src=&#34;https://hotspotcepeda.github.io/images/post/nextcloud_custom.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;guía-técnica-importación-masiva-de-fotos-a-nextcloud-y-configuración-de-memories&#34;&gt;Guía Técnica: Importación Masiva de Fotos a Nextcloud y Configuración de Memories&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Objetivo:&lt;/strong&gt; Transferir una gran biblioteca de imágenes desde un almacenamiento externo a un servidor Nextcloud, asegurar su indexación correcta y visualizarlas cronológicamente en la aplicación &lt;strong&gt;Memories&lt;/strong&gt;, evitando caídas del servidor por falta de recursos.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;1-transferencia-de-archivos-y-permisos&#34;&gt;1. Transferencia de Archivos y Permisos&lt;/h2&gt;
+&lt;p&gt;Lo primero es mover los datos físicos al directorio de datos de Nextcloud. No uses la interfaz web para cientos de gigabytes; usa la terminal.&lt;/p&gt;</description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        <media:content url="https://hotspotcepeda.github.io/images/feature1/nextcloud_logo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Proxmox</category>
+            
+          
+            
+              <category>nextcloud</category>
+            
+          
+            
+              <category>debian</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>homelab</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>Librenms VM</title>

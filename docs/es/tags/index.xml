@@ -14,11 +14,191 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hotspotcepeda.github.io/es/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Docker</title>
+        <link>https://hotspotcepeda.github.io/es/tags/docker/</link>
+        <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/docker/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Homelab</title>
+        <link>https://hotspotcepeda.github.io/es/tags/homelab/</link>
+        <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/homelab/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Index</title>
+        <link>https://hotspotcepeda.github.io/es/tags/index/</link>
+        <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/index/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Seguridad</title>
+        <link>https://hotspotcepeda.github.io/es/tags/seguridad/</link>
+        <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/seguridad/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Siem</title>
+        <link>https://hotspotcepeda.github.io/es/tags/siem/</link>
+        <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/siem/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Wazuh</title>
+        <link>https://hotspotcepeda.github.io/es/tags/wazuh/</link>
+        <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/wazuh/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Debian</title>
+        <link>https://hotspotcepeda.github.io/es/tags/debian/</link>
+        <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/debian/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Linux</title>
+        <link>https://hotspotcepeda.github.io/es/tags/linux/</link>
+        <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/linux/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Nextcloud</title>
+        <link>https://hotspotcepeda.github.io/es/tags/nextcloud/</link>
+        <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/nextcloud/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Proxmox</title>
+        <link>https://hotspotcepeda.github.io/es/tags/proxmox/</link>
+        <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>https://hotspotcepeda.github.io/es/tags/proxmox/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Contenedores</title>
@@ -57,48 +237,12 @@
       </item>
       
       <item>
-        <title>Index</title>
-        <link>https://hotspotcepeda.github.io/es/tags/index/</link>
-        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/index/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>Lxc</title>
         <link>https://hotspotcepeda.github.io/es/tags/lxc/</link>
         <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/lxc/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Proxmox</title>
-        <link>https://hotspotcepeda.github.io/es/tags/proxmox/</link>
-        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/proxmox/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -129,48 +273,12 @@
       </item>
       
       <item>
-        <title>Homelab</title>
-        <link>https://hotspotcepeda.github.io/es/tags/homelab/</link>
-        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/homelab/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>Let&#39;s Encrypt</title>
         <link>https://hotspotcepeda.github.io/es/tags/lets-encrypt/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/lets-encrypt/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Nextcloud</title>
-        <link>https://hotspotcepeda.github.io/es/tags/nextcloud/</link>
-        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/nextcloud/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -291,60 +399,6 @@
       </item>
       
       <item>
-        <title>Seguridad</title>
-        <link>https://hotspotcepeda.github.io/es/tags/seguridad/</link>
-        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/seguridad/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Siem</title>
-        <link>https://hotspotcepeda.github.io/es/tags/siem/</link>
-        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/siem/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Wazuh</title>
-        <link>https://hotspotcepeda.github.io/es/tags/wazuh/</link>
-        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/wazuh/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>Xdr</title>
         <link>https://hotspotcepeda.github.io/es/tags/xdr/</link>
         <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
@@ -387,24 +441,6 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/librenms/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Linux</title>
-        <link>https://hotspotcepeda.github.io/es/tags/linux/</link>
-        <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/linux/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -711,42 +747,6 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>https://hotspotcepeda.github.io/es/tags/openwrt/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Debian</title>
-        <link>https://hotspotcepeda.github.io/es/tags/debian/</link>
-        <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/debian/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Docker</title>
-        <link>https://hotspotcepeda.github.io/es/tags/docker/</link>
-        <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>https://hotspotcepeda.github.io/es/tags/docker/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>

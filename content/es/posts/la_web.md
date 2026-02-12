@@ -52,6 +52,7 @@ git pull --> Compara diferencias entre local y en repositorio
 git add . --> marca todo para subir a repositorio los cambios
 git commit -m "mensaje para control de versiones" --> sube cambios
 git push --> Sube los cambios marcados de local a repositorio
+hugo -d docs && git add . && git commit -m "Actualización" && git push --> todo en uno
 ```
 ### Google
 Una cuenta de correo google o el correo que sea va ha hacer falta, para logarse en github, para hacer indexation, posicionamiento, de contacto del sitio, etc...
@@ -102,3 +103,5 @@ https://youtu.be/OomyaFBGlyU
 {{< notice info >}}
 La página también tiene indexation en google y microsoft, Google Analytics...
 {{< /notice >}}
+
+

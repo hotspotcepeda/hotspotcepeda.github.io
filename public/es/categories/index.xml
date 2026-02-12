@@ -14,19 +14,55 @@
     <managingEditor>hotspotcepeda@gmail.com (HotspotCepeda)</managingEditor>
     <webMaster>hotspotcepeda@gmail.com (HotspotCepeda)</webMaster>
     <copyright>&amp;copy;{year}, [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</copyright>
-    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://localhost:1313/es/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Docker</title>
+        <link>http://localhost:1313/es/categories/docker/</link>
+        <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/categories/docker/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Homelab</title>
         <link>http://localhost:1313/es/categories/homelab/</link>
-        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>http://localhost:1313/es/categories/homelab/</guid>
+        <description></description>
+        
+        <dc:creator>HotspotCepeda</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Seguridad</title>
+        <link>http://localhost:1313/es/categories/seguridad/</link>
+        <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
+        
+        <guid>http://localhost:1313/es/categories/seguridad/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
@@ -45,24 +81,6 @@
         <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
         
         <guid>http://localhost:1313/es/categories/virtualizaci%C3%B3n/</guid>
-        <description></description>
-        
-        <dc:creator>HotspotCepeda</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Seguridad</title>
-        <link>http://localhost:1313/es/categories/seguridad/</link>
-        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-        <author>hotspotcepeda@gmail.com (HotspotCepeda)</author>
-        
-        <guid>http://localhost:1313/es/categories/seguridad/</guid>
         <description></description>
         
         <dc:creator>HotspotCepeda</dc:creator>
